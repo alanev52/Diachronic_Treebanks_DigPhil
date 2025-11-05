@@ -1,0 +1,153 @@
+# sent_id = 17_split1
+# text = Du vet at jag icke , sedan min barndom , sett denna faster hvars närmste arfvinge jag var ;
+1	Du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+2	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	at	at	SCONJ	SN	_	11	mark	_	_
+4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	_
+5	icke	icke	PART	AB	Polarity=Neg	11	advmod	_	_
+6	,	,	PUNCT	MID	_	11	punct	_	_
+7	sedan	sedan	SCONJ	SN	_	11	mark	_	_
+8	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	barndom	barndom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nsubj	_	_
+10	,	,	PUNCT	MID	_	11	punct	_	_
+11	sett	se	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	ccomp	_	_
+12	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	13	det	_	_
+13	faster	fast	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	_
+14	hvars	hvars	PRON	HS|DEF	Definite=Def|Poss=Yes|PronType=Rel	0	nmod:poss	_	_
+15	närmste	nära	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	_	_
+16	arfvinge	arfvinge	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	_
+17	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	0	nsubj	_	_
+18	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+19	;	;	PUNCT	MID	_	2	punct	_	_
+
+# sent_id = 17_split2
+# text = mine vänners omsorg för min befordran hade altidnekat mig , att , efter hennes åstundan , tilbringa någon sommar på landet , och jag ägde sjelt icke styrka att bryta den kedja som qvarhöll mig i hufvudstaden .
+1	mine	miten	ADJ	JJ	Degree=Pos|Foreign=Yes	2	amod	_	_
+2	vänners	vänne	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	3	nmod:poss	_	_
+3	omsorg	omsorg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nsubj	_	_
+4	för	för	ADP	PP	_	6	case	_	_
+5	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	befordran	befordran	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+7	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
+8	altidnekat	altidneka	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	_	_	_	_
+9	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	iobj	_	_
+10	,	,	PUNCT	MID	_	8	punct	_	_
+11	att	att	SCONJ	SN	_	17	mark	_	_
+12	,	,	PUNCT	MID	_	15	punct	_	_
+13	efter	efter	ADP	PP	_	15	case	_	_
+14	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	åstundan	åstunda	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	_
+16	,	,	PUNCT	MID	_	17	punct	_	_
+17	tilbringa	tilbringa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	conj	_	_
+18	någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	19	det	_	_
+19	sommar	sommar	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obj	_	_
+20	på	på	ADP	PP	_	21	case	_	_
+21	landet	land	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	_
+22	,	,	PUNCT	MID	_	25	punct	_	_
+23	och	och	CCONJ	KN	_	25	cc	_	_
+24	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	nsubj	_	_
+25	ägde	äga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	_	_	_	_
+26	sjelt	sjelt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
+27	icke	icke	PART	AB	Polarity=Neg	25	advmod	_	_
+28	styrka	styrka	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	obj	_	_
+29	att	att	PART	IE	_	30	mark	_	_
+30	bryta	bryta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	acl	_	_
+31	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	32	det	_	_
+32	kedja	kedja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obj	_	_
+33	som	som	PRON	HP|-|-|-	PronType=Rel	34	nsubj	_	_
+34	qvarhöll	avarhölla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
+35	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	34	obj	_	_
+36	i	i	ADP	PP	_	37	case	_	_
+37	hufvudstaden	hufvudstad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	obl	_	_
+38	.	.	PUNCT	MAD	_	_	_	_	_
+
+# sent_id = 18
+# text = Änteligen sjuknade hon, och, til straff för min försummelse, hann jag endast fram att få emottaga hennes siste suckar.
+1	Änteligen	änteligen	ADV	AB	_	2	advmod	_	_
+2	sjuknade	sjukna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+4	,	,	PUNCT	MID	_	13	punct	_	_
+5	och	och	CCONJ	KN	_	13	cc	_	_
+6	,	,	PUNCT	MID	_	8	punct	_	_
+7	til	til	ADP	PP	_	8	case	_	_
+8	straff	straff	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	_
+9	för	för	ADP	PP	_	11	case	_	_
+10	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	försummelse	försummelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	MID	_	13	punct	_	_
+13	hann	hann	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	_
+15	endast	endast	ADV	AB	_	13	advmod	_	_
+16	fram	fram	ADV	PL	_	13	compound:prt	_	_
+17	att	att	PART	IE	_	19	mark	_	_
+18	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	19	aux	_	_
+19	emottaga	emottaga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	csubj	_	_
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	siste	siste	ADJ	JJ|SUV|MAS|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup|Gender=Com	22	obj	_	_
+22	suckar	sucka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	19	xcomp	_	_
+23	.	.	PUNCT	MAD	_	13	punct	_	_
+
+# sent_id = 19_split1
+# text = Ack min Vän ! huru lifligt jag känner detta fel , som mindre härflutit af kallsinnighet , än ett obetänksamt hopp att hon icke så snart skulle sluta sine dagar ;
+1	Ack	ack	ADP	PP	_	3	case	_	_
+2	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	Vän	vän	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	obl	_	_
+4	!	!	PUNCT	MID	_	3	punct	_	_
+5	huru	huru	ADV	HA	_	8	advmod	_	_
+6	lifligt	liflig	ADV	AB|POS	Degree=Pos	8	advmod	_	_
+7	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
+8	känner	känna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+9	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	8	obj	_	_
+10	fel	fel	ADV	AB	_	8	advmod	_	_
+11	,	,	PUNCT	MID	_	14	punct	_	_
+12	som	som	SCONJ	KN	_	13	mark	_	_
+13	mindre	lite	ADV	AB|KOM	Degree=Cmp	14	advcl	_	_
+14	härflutit	härfluta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	8	conj	_	_
+15	af	af	ADP	PP	_	16	case	_	_
+16	kallsinnighet	kallsinnighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	_
+17	,	,	PUNCT	MID	_	21	punct	_	_
+18	än	än	SCONJ	KN	_	21	mark	_	_
+19	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	21	det	_	_
+20	obetänksamt	obetänksam	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	hopp	hopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	_
+22	att	att	SCONJ	SN	_	28	mark	_	_
+23	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	28	nsubj	_	_
+24	icke	icke	PART	AB	Polarity=Neg	28	advmod	_	_
+25	så	så	ADV	AB	_	26	advmod	_	_
+26	snart	snart	ADV	AB|POS	Degree=Pos	28	advmod	_	_
+27	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	aux	_	_
+28	sluta	sluta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	acl	_	_
+29	sine	siga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	dagar	dag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	obj	_	_
+31	;	;	PUNCT	MID	_	0	punct	_	_
+
+# sent_id = 19_split2
+# text = huru ifrigt har jag icke önskat att återkalla henne till lifvet , för att afbörda en skuld , som Naturen fordrade innan tacksamhetens röst ännu hördes !
+1	huru	huru	ADV	HA	_	2	advmod	_	_
+2	ifrigt	ifrig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	advmod	_	_
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	_
+5	icke	icke	PART	AB	Polarity=Neg	6	advmod	_	_
+6	önskat	önska	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+7	att	att	PART	IE	_	8	mark	_	_
+8	återkalla	återkalla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	advcl	_	_
+9	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	_
+10	till	till	ADP	PP	_	11	case	_	_
+11	lifvet	lifv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	8	obl	_	_
+12	,	,	PUNCT	MID	_	8	punct	_	_
+13	för	för	ADP	PP	_	15	mark	_	_
+14	att	att	PART	IE	_	15	mark	_	_
+15	afbörda	afbörda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	advcl	_	_
+16	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	17	det	_	_
+17	skuld	skuld	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	obj	_	_
+18	,	,	PUNCT	MID	_	17	punct	_	_
+19	som	som	PRON	HP|-|-|-	PronType=Rel	26	obl	_	_
+20	Naturen	natur	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	nsubj	_	_
+21	fordrade	fordra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+22	innan	innan	SCONJ	SN	_	26	mark	_	_
+23	tacksamhetens	tacksamhet	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	24	nmod:poss	_	_
+24	röst	röst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	nsubj:pass	_	_
+25	ännu	ännu	ADV	AB	_	26	advmod	_	_
+26	hördes	höra	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	21	advcl	_	_
+27	!	!	PUNCT	MAD	_	6	punct	_	_
+

@@ -1,0 +1,142 @@
+# sent_id = 1
+# text = Anna var vid godt mod, då hon kom ut ur sitt rum och lord Grey såg ut som den personifierade flegman.
+1	Anna	Anna	PROPN	PM|NOM	Case=Nom	5	nsubj	_	_
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+3	vid	vid	ADP	PP	_	5	case	_	_
+4	godt	god	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	mod	mod	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+6	,	,	PUNCT	MID	_	5	punct	_	_
+7	då	då	SCONJ	HA	_	9	mark	_	_
+8	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	_
+9	kom	komma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	advcl	_	_
+10	ut	ut	ADV	AB	_	9	advmod	_	_
+11	ur	ur	ADP	PP	_	13	case	_	_
+12	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	rum	rum	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	obl	_	_
+14	och	och	CCONJ	KN	_	17	cc	_	_
+15	lord	lord	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	_
+16	Grey	Grey	PROPN	PM|NOM	Case=Nom	17	nsubj	_	_
+17	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	ut	ut	ADV	PL	_	17	compound:prt	_	_
+19	som	som	ADP	KN	_	22	mark	_	_
+20	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	22	det	_	_
+21	personifierade	personifierad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	22	amod	_	_
+22	flegman	flegman	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	xcomp	_	_
+23	.	.	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 2
+# text = Jag skickades då som elev till ett offentligt läroverk och kunde genast intagas i tredje klassen.
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj:pass	_	_
+2	skickades	skicka	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	då	då	ADV	AB	_	2	advmod	_	_
+4	som	som	SCONJ	KN	_	5	mark	_	_
+5	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	xcomp	_	_
+6	till	till	ADP	PP	_	9	case	_	_
+7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	_
+8	offentligt	offentlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	läroverk	läroverk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	_
+10	och	och	CCONJ	KN	_	13	cc	_	_
+11	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	_
+12	genast	genast	ADV	AB	_	13	advmod	_	_
+13	intagas	intaga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	2	conj	_	_
+14	i	i	ADP	PP	_	16	case	_	_
+15	tredje	tredje	ADJ	RO|NOM	Case=Nom|NumType=Ord	16	amod	_	_
+16	klassen	klass	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obl	_	_
+17	.	.	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 3
+# text = Rosenlund, Fredr., grosshandlare, antagligen med kontoret på fickan, åldern oviss, ölkinder och isterhaka, göd-typ, af där slaget, som passar för medelålders änkor.
+1	Rosenlund	Rosenlund	PROPN	PM|NOM	Case=Nom	0	root	_	_
+2	,	,	PUNCT	MID	_	1	punct	_	_
+3	Fredr.	Fredr.	PROPN	PM|NOM	Case=Nom	1	appos	_	_
+4	,	,	PUNCT	MID	_	5	punct	_	_
+5	grosshandlare	grosshandlare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	appos	_	_
+6	,	,	PUNCT	MID	_	1	punct	_	_
+7	antagligen	antagligen	ADV	AB	_	9	advmod	_	_
+8	med	med	ADP	PP	_	9	case	_	_
+9	kontoret	kontor	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	1	appos	_	_
+10	på	på	ADP	PP	_	11	case	_	_
+11	fickan	ficka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	MID	_	14	punct	_	_
+13	åldern	ålder	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	_	_
+14	oviss	oviss	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	conj	_	_
+15	,	,	PUNCT	MID	_	16	punct	_	_
+16	ölkinder	ölkind	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	conj	_	_
+17	och	och	CCONJ	KN	_	18	cc	_	_
+18	isterhaka	isterhak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	conj	_	_
+19	,	,	PUNCT	MID	_	20	punct	_	_
+20	göd-typ	göd-typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	_
+21	,	,	PUNCT	MID	_	20	punct	_	_
+22	af	af	ADV	AB|AN	Abbr=Yes	24	advmod	_	_
+23	där	där	ADV	HA	_	27	advmod	_	_
+24	slaget	slag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	appos	_	_
+25	,	,	PUNCT	MID	_	24	punct	_	_
+26	som	som	PRON	HP|-|-|-	PronType=Rel	27	nsubj	_	_
+27	passar	passa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+28	för	för	ADP	PP	_	30	case	_	_
+29	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	30	nmod:poss	_	_
+30	änkor	änka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	27	obl	_	_
+31	.	.	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 9
+# text = Liksom för att särskildt affischera hvad han hade för sig, höll han bladet fullständigt uppslaget, så att publikationens namn syntes lång väg.
+1	Liksom	liksom	ADV	AB	_	5	mark	_	_
+2	för	för	ADP	PP	_	5	mark	_	_
+3	att	att	PART	IE	_	5	mark	_	_
+4	särskildt	särskildt	ADV	AB|POS	Degree=Pos	5	advmod	_	_
+5	affischera	affischera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	advcl	_	_
+6	hvad	hvad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	obj	_	_
+7	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	_
+8	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+9	för	för	ADP	PP	_	10	case	_	_
+10	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	8	obl	_	_
+11	,	,	PUNCT	MID	_	12	punct	_	_
+12	höll	hålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
+14	bladet	blad	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	_
+15	fullständigt	fullständig	ADV	AB|POS	Degree=Pos	12	advmod	_	_
+16	uppslaget	uppslagen	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	_
+17	,	,	PUNCT	MID	_	12	punct	_	_
+18	så	så	ADV	AB	_	22	mark	_	_
+19	att	att	SCONJ	SN	_	22	mark	_	_
+20	publikationens	publikation	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	21	nmod:poss	_	_
+21	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	nsubj:pass	_	_
+22	syntes	synas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	12	advcl	_	_
+23	lång	lång	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	24	amod	_	_
+24	väg	väg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obj	_	_
+25	.	.	PUNCT	MAD	_	12	punct	_	_
+
+# sent_id = 10
+# text = Det första, som mötte hans blick, var Vadstena slott, som trotsigt lyfte sina krönta spiror högt mot de tunga skyarne, ur hvilka rägnet icke längre nedströmmade.
+1	Det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	_
+2	första	första	ADJ	RO|NOM	Case=Nom|NumType=Ord	11	nsubj	_	_
+3	,	,	PUNCT	MID	_	2	punct	_	_
+4	som	som	PRON	HP|-|-|-	PronType=Rel	5	nsubj	_	_
+5	mötte	möta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	blick	blick	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
+8	,	,	PUNCT	MID	_	2	punct	_	_
+9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	Vadstena	Vadstena	PROPN	PM|GEN	Case=Gen	11	nmod:poss	_	_
+11	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+12	,	,	PUNCT	MID	_	11	punct	_	_
+13	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	_	_
+14	trotsigt	trotsig	ADV	AB|POS	Degree=Pos	15	advmod	_	_
+15	lyfte	lyfa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	krönta	krönt	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	18	amod	_	_
+18	spiror	spira	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obj	_	_
+19	högt	hög	ADV	AB|POS	Degree=Pos	15	advmod	_	_
+20	mot	mot	ADP	PP	_	23	case	_	_
+21	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	23	det	_	_
+22	tunga	tung	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	_
+23	skyarne	skyarne	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	obl	_	_
+24	,	,	PUNCT	MID	_	30	punct	_	_
+25	ur	ur	ADP	PP	_	27	case	_	_
+26	hvilka	hvilk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	27	amod	_	_
+27	rägnet	rägn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	30	obl	_	_
+28	icke	icke	PART	AB	Polarity=Neg	30	advmod	_	_
+29	längre	länge	ADV	AB|KOM	Degree=Cmp	30	advmod	_	_
+30	nedströmmade	nedströmmad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	23	acl	_	_
+31	.	.	PUNCT	MAD	_	11	punct	_	_
+

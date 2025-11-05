@@ -1,0 +1,6 @@
+# sent_id = 2
+# text = Den bevågenhet hvarmed
+1	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	2	det	_	_
+2	bevågenhet	bevågenhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	_
+3	hvarmed	hvarmed	ADV	AB	_	2	advmod	_	_
+
