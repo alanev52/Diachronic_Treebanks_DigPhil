@@ -1,0 +1,60 @@
+# sent_id = 224
+# text = Jag tror, att Tante skulle taga emot, om någon kom på visit denna afton, det vill säga någon gammal herre; unga tycker hon icke om.
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+2	tror	tro	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	MID	_	2	punct	_	_
+4	att	att	SCONJ	SN	_	7	mark	_	_
+5	Tante	Tante	PROPN	PM|NOM	Case=Nom	7	nsubj	_	_
+6	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	aux	_	_
+7	taga	taga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
+8	emot	emot	ADV	PL	_	7	compound:prt	_	_
+9	,	,	PUNCT	MID	_	12	punct	_	_
+10	om	om	SCONJ	SN	_	12	mark	_	_
+11	någon	någon	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	12	nsubj	_	_
+12	kom	komma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+13	på	på	ADP	PP	_	14	case	_	_
+14	visit	visit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
+15	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	16	det	_	_
+16	afton	afton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obl	_	_
+17	,	,	PUNCT	MID	_	2	punct	_	_
+18	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	20	nsubj	_	_
+19	vill	vilja	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	säga	säga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	parataxis	_	_
+21	någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
+22	gammal	gammal	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
+23	herre	herre	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj	_	_
+24	;	;	PUNCT	MID	_	2	punct	_	_
+25	unga	ung	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	26	obl	_	_
+26	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+27	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	_
+28	icke	icke	PART	AB	Polarity=Neg	26	advmod	_	_
+29	om	om	ADP	PP	_	25	case	_	_
+30	.	.	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 225
+# text = Jag tycker likväl, att en ung, som smyger sig in bakom en gammals rygg, ej skulle göra någon elak effect.
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+2	tycker	tycka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	likväl	likväl	ADV	AB	_	2	advmod	_	_
+4	,	,	PUNCT	MID	_	20	punct	_	_
+5	att	att	SCONJ	SN	_	20	mark	_	_
+6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
+7	ung	ung	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	20	nsubj	_	_
+8	,	,	PUNCT	MID	_	10	punct	_	_
+9	som	som	PRON	HP|-|-|-	PronType=Rel	10	nsubj	_	_
+10	smyger	smyga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+11	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	10	obj	_	_
+12	in	in	ADV	AB	_	10	advmod	_	_
+13	bakom	bakom	ADP	PP	_	16	case	_	_
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	_	_
+15	gammals	gammal	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	16	nmod:poss	_	_
+16	rygg	rygg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	_
+17	,	,	PUNCT	MID	_	7	punct	_	_
+18	ej	ej	PART	AB	Polarity=Neg	20	advmod	_	_
+19	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	20	aux	_	_
+20	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	_
+21	någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	23	det	_	_
+22	elak	elak	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	_
+23	effect	effect	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obj	_	_
+24	.	.	PUNCT	MAD	_	2	punct	_	_
+

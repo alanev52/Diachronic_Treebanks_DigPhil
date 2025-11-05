@@ -1,0 +1,65 @@
+# sent_id = 50
+# text = Kan skie den geten som mäst bräker hon målckar minst.
+1	Kan	kunna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	skie	skie	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nsubj	_	_
+3	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
+4	geten	get	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj	_	_
+5	som	som	PRON	HP|-|-|-	PronType=Rel	7	nsubj	_	_
+6	mäst	må	ADV	AB|SUV	Degree=Sup	7	advmod	_	_
+7	bräker	bräka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+8	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	obj	_	_
+9	målckar	målcka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	xcomp	_	_
+10	minst	lite	ADV	AB|SUV	Degree=Sup	9	advmod	_	_
+11	.	.	PUNCT	MAD	_	1	punct	_	_
+
+# sent_id = 51
+# text = Och den som har mycket af munnen har lite af vllen/ sa hin som klipte Soon.
+1	Och	och	CCONJ	KN	_	12	cc	_	_
+2	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	_
+3	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj	_	_
+4	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+5	mycket	mycket	ADV	AB|POS	Degree=Pos	4	advmod	_	_
+6	af	af	ADP	PP	_	7	case	_	_
+7	munnen	mun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	_
+8	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+9	lite	lite	ADV	AB|POS	Degree=Pos	8	advmod	_	_
+10	af	af	ADP	PP	_	11	case	_	_
+11	vllen/	vll	NOUN	NN|UTR|-|-|-	Gender=Com	8	obl	_	_
+12	sa	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+13	hin	hin	PROPN	PM|NOM	Case=Nom	12	nsubj	_	_
+14	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	_	_
+15	klipte	kli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+16	Soon	Soon	PROPN	PM|NOM	Case=Nom	15	obj	_	_
+17	.	.	PUNCT	MAD	_	12	punct	_	_
+
+# sent_id = 52
+# text = Lyckan giör många narrar.
+1	Lyckan	lycka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	_
+2	giör	giöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	4	amod	_	_
+4	narrar	narr	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	_
+5	.	.	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 53
+# text = Wäxer min råg/ så wäxer min håg.
+1	Wäxer	wäxer	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	_
+2	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	råg/	råg/	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	dislocated	_	_
+4	så	så	ADV	AB	_	5	advcl	_	_
+5	wäxer	wäxa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	håg	håg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
+8	.	.	PUNCT	MAD	_	5	punct	_	_
+
+# sent_id = 54
+# text = Han tör slå stora spikar af lite jern.
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+2	tör	töra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	slå	slå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	stora	stor	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	_
+5	spikar	spik	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	_
+6	af	af	ADP	PP	_	8	case	_	_
+7	lite	lite	ADV	AB|POS	Degree=Pos	8	advmod	_	_
+8	jern	jern	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	_	_
+9	.	.	PUNCT	MAD	_	2	punct	_	_
+

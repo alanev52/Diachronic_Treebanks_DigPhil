@@ -1,0 +1,157 @@
+# sent_id = 87
+# text = Det är i folkets och folklighetens namn som man numer bär ved till kättarbålen och begår de grymmaste oförrätterna mot individens andliga frihet.
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	7	expl	_	_
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	i	i	ADP	PP	_	7	case	_	_
+4	folkets	folk	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	7	nmod:poss	_	_
+5	och	och	CCONJ	KN	_	6	cc	_	_
+6	folklighetens	folklighet	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	4	conj	_	_
+7	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	_
+8	som	som	PRON	HP|-|-|-	PronType=Rel	11	obj	_	_
+9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	numer	numer	ADV	AB	_	11	advmod	_	_
+11	bär	bära	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:cleft	_	_
+12	ved	ved	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	_
+13	till	till	ADP	PP	_	14	case	_	_
+14	kättarbålen	kättarbål	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
+15	och	och	CCONJ	KN	_	16	cc	_	_
+16	begår	begå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
+18	grymmaste	grymm	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	19	amod	_	_
+19	oförrätterna	oförrätt	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	obj	_	_
+20	mot	mot	ADP	PP	_	23	case	_	_
+21	individens	individ	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	23	nmod:poss	_	_
+22	andliga	andlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	_
+23	frihet	frihet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	_
+24	.	.	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 88
+# text = Folket har i våra dagar sina hovtjänare, hovpoeter och hovsmickrare alldeles som despoterna på sin tid.
+1	Folket	folk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	i	i	ADP	PP	_	5	case	_	_
+4	våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	dagar	dag	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	_
+6	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	hovtjänare	hovtjänare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	_
+8	,	,	PUNCT	MID	_	9	punct	_	_
+9	hovpoeter	hovpoet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	conj	_	_
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	hovsmickrare	hovsmickrare	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	conj	_	_
+12	alldeles	alldeles	ADV	AB	_	14	advmod	_	_
+13	som	som	ADP	KN	_	14	mark	_	_
+14	despoterna	despot	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	xcomp	_	_
+15	på	på	ADP	PP	_	17	case	_	_
+16	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	tid	tid	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 89
+# text = De bilda ett slags folkets akademi, där man skall hänga folket om halsen under lov och pris, liksom man i de forna akademierna uppläste äreminnen över excellenserna.
+1	De	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	_
+2	bilda	bilda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
+3	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	4	det	_	_
+4	slags	slag	NOUN	NN|NEU|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	5	nmod:poss	_	_
+5	folkets	folk	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	6	nmod:poss	_	_
+6	akademi	akademi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	_
+7	,	,	PUNCT	MID	_	6	punct	_	_
+8	där	där	ADV	HA	_	11	advmod	_	_
+9	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	11	nsubj	_	_
+10	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+11	hänga	hänga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	acl:relcl	_	_
+12	folket	folk	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obj	_	_
+13	om	om	ADP	PP	_	14	case	_	_
+14	halsen	hals	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	_
+15	under	under	ADP	PP	_	16	case	_	_
+16	lov	lov	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	_
+17	och	och	CCONJ	KN	_	18	cc	_	_
+18	pris	pris	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	_
+19	,	,	PUNCT	MID	_	26	punct	_	_
+20	liksom	liksom	SCONJ	SN	_	26	mark	_	_
+21	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	26	nsubj	_	_
+22	i	i	ADP	PP	_	25	case	_	_
+23	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
+24	forna	forna	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	25	amod	_	_
+25	akademierna	akademi	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	obl	_	_
+26	uppläste	uppläsga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+27	äreminnen	äreminn	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obj	_	_
+28	över	över	ADP	PP	_	29	case	_	_
+29	excellenserna	excellens	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	26	obl	_	_
+30	.	.	PUNCT	MAD	_	2	punct	_	_
+
+# sent_id = 90
+# text = I händerna på dessa våra moderna perukstockar bli också litteraturen och kritiken rätt och slätt litteraturpolitik med generalorder från högkvarteret och agitation som kring en valurna.
+1	I	i	ADP	PP	_	2	case	_	_
+2	händerna	hand	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	8	obl	_	_
+3	på	på	ADP	PP	_	7	case	_	_
+4	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	7	det	_	_
+5	våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+6	moderna	modern	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	7	amod	_	_
+7	perukstockar	perukstock	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	nmod	_	_
+8	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	_
+9	också	också	ADV	AB	_	8	advmod	_	_
+10	litteraturen	litteratur	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nsubj	_	_
+11	och	och	CCONJ	KN	_	12	cc	_	_
+12	kritiken	kritik	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	conj	_	_
+13	rätt	rätt	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	16	amod	_	_
+14	och	och	CCONJ	KN	_	15	cc	_	_
+15	slätt	slätt	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	conj	_	_
+16	litteraturpolitik	litteraturpolitik	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	xcomp	_	_
+17	med	med	ADP	PP	_	18	case	_	_
+18	generalorder	generalord	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nmod	_	_
+19	från	från	ADP	PP	_	20	case	_	_
+20	högkvarteret	högkvarter	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	nmod	_	_
+21	och	och	CCONJ	KN	_	22	cc	_	_
+22	agitation	agitation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	conj	_	_
+23	som	som	SCONJ	KN	_	26	mark	_	_
+24	kring	kring	ADP	PP	_	26	case	_	_
+25	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	26	det	_	_
+26	valurna	vala	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	acl	_	_
+27	.	.	PUNCT	MAD	_	8	punct	_	_
+
+# sent_id = 91
+# text = Från i somras berättas en rolig historia om, hur de erbjudit en kritiker att framdeles uppställa honom som socialistisk riksdagsmannakandidat, bara han ville hjälpa dem att ordentligt slå upp en viss behaglig författare och varsamt sätta skynken för de misshagliga.
+1	Från	från	ADP	PP	_	3	case	_	_
+2	i	i	ADP	PP	_	3	case	_	_
+3	somras	somras	NOUN	NN|-|-|-|-	_	4	obl	_	_
+4	berättas	berätta	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	7	det	_	_
+6	rolig	rolig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	amod	_	_
+7	historia	historia	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj:pass	_	_
+8	om	om	ADP	PP	_	12	mark	_	_
+9	,	,	PUNCT	MID	_	4	punct	_	_
+10	hur	hur	ADV	HA	_	12	advmod	_	_
+11	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	12	nsubj	_	_
+12	erbjudit	erbjuda	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	advcl	_	_
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	_
+14	kritiker	kritiker	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	_
+15	att	att	PART	IE	_	17	mark	_	_
+16	framdeles	framdeles	ADV	AB	_	17	advmod	_	_
+17	uppställa	uppställa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	acl	_	_
+18	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	obj	_	_
+19	som	som	SCONJ	KN	_	21	mark	_	_
+20	socialistisk	socialistisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	amod	_	_
+21	riksdagsmannakandidat	riksdagsmannakandidat	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	xcomp	_	_
+22	,	,	PUNCT	MID	_	26	punct	_	_
+23	bara	bara	ADV	AB	_	26	advmod	_	_
+24	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	_
+25	ville	vilja	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	_
+26	hjälpa	hjälpa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	parataxis	_	_
+27	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	26	obj	_	_
+28	att	att	PART	IE	_	30	mark	_	_
+29	ordentligt	ordentlig	ADV	AB|POS	Degree=Pos	30	advmod	_	_
+30	slå	slå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	26	advcl	_	_
+31	upp	upp	ADV	PL	_	30	compound:prt	_	_
+32	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	35	det	_	_
+33	viss	viss	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	35	amod	_	_
+34	behaglig	behaglig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	35	amod	_	_
+35	författare	författare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obj	_	_
+36	och	och	CCONJ	KN	_	38	cc	_	_
+37	varsamt	varsamt	ADV	AB|POS	Degree=Pos	38	advmod	_	_
+38	sätta	sätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	30	conj	_	_
+39	skynken	skynk	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	obj	_	_
+40	för	för	ADP	PP	_	42	case	_	_
+41	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	42	det	_	_
+42	misshagliga	misshaglig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	38	advmod	_	_
+43	.	.	PUNCT	MAD	_	4	punct	_	_
+

@@ -1,0 +1,90 @@
+# sent_id = 21
+# text = Glädjen hos denna lilla Famille war obeskriflig , och deras sällhet tusenfalt större än den Fru von Agio i sitt Palats , med all sin öfwerdådiga yppighet , åtnjöt Julafton 1799 .
+1	Glädjen	glädje	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	_
+2	hos	hos	ADP	PP	_	5	case	_	_
+3	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	5	det	_	_
+4	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	_
+5	Famille	Famille	PROPN	PM|NOM	Case=Nom	1	nmod	_	_
+6	war	wa	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+7	obeskriflig	obeskriflig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	_
+8	,	,	PUNCT	MID	_	13	punct	_	_
+9	och	och	CCONJ	KN	_	13	cc	_	_
+10	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	sällhet	sällhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	_
+12	tusenfalt	tusenfal	ADV	AB	_	13	advmod	_	_
+13	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	7	conj	_	_
+14	än	än	ADP	KN	_	15	case	_	_
+15	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	13	obl	_	_
+16	Fru	Fru	PROPN	PM|NOM	Case=Nom	17	nmod	_	_
+17	von	von	PROPN	PM|NOM	Case=Nom	29	nsubj	_	_
+18	Agio	Agio	PROPN	PM|NOM	Case=Nom	17	flat:name	_	_
+19	i	i	ADP	PP	_	21	case	_	_
+20	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	Palats	palats	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	_
+22	,	,	PUNCT	MID	_	29	punct	_	_
+23	med	med	ADP	PP	_	27	case	_	_
+24	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	27	det	_	_
+25	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	öfwerdådiga	öfwerdådig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	27	amod	_	_
+27	yppighet	yppighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	obl	_	_
+28	,	,	PUNCT	MID	_	29	punct	_	_
+29	åtnjöt	åtnjöta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+30	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	29	advmod	_	_
+31	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	30	amod	_	_
+32	.	.	PUNCT	MAD	_	7	punct	_	_
+
+# sent_id = 22
+# text = Fru von Agio hade nyss upstigit från sit kräsliga middagsbord , och Clara fick tilstånd at komma in i hennes yttersta förmak .
+1	Fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	_
+2	von	von	PROPN	PM|NOM	Case=Nom	6	nsubj	_	_
+3	Agio	Agio	PROPN	PM|NOM	Case=Nom	2	flat:name	_	_
+4	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
+5	nyss	nyss	ADV	AB	_	6	advmod	_	_
+6	upstigit	upstiga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	_
+7	från	från	ADP	PP	_	10	case	_	_
+8	sit	sit	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+9	kräsliga	kräslig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	_
+10	middagsbord	middagsbord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	_
+11	,	,	PUNCT	MID	_	14	punct	_	_
+12	och	och	CCONJ	KN	_	14	cc	_	_
+13	Clara	Clara	PROPN	PM|NOM	Case=Nom	14	nsubj	_	_
+14	fick	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+15	tilstånd	tilstånd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	obj	_	_
+16	at	at	PART	IE	_	17	mark	_	_
+17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	acl	_	_
+18	in	in	ADV	PL	_	17	compound:prt	_	_
+19	i	i	ADP	PP	_	22	case	_	_
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	yttersta	yttersta	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	22	amod	_	_
+22	förmak	förmak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	_
+23	.	.	PUNCT	MAD	_	6	punct	_	_
+
+# sent_id = 24
+# text = Hon såg i fönstret lilla Calle , som flåsat isen ifrån en ruta och med längtande ögon och klappande händer gladde sig öfwer hennes ankomst .
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	_
+2	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	i	i	ADP	PP	_	4	case	_	_
+4	fönstret	fönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	_
+5	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	_
+6	Calle	Calle	PROPN	PM|NOM	Case=Nom	2	obj	_	_
+7	,	,	PUNCT	MID	_	6	punct	_	_
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	_
+9	flåsat	flåsa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	6	acl:relcl	_	_
+10	isen	is	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obj	_	_
+11	ifrån	ifrån	ADP	PP	_	13	case	_	_
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	_
+13	ruta	ruta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	_
+14	och	och	CCONJ	KN	_	21	cc	_	_
+15	med	med	ADP	PP	_	17	case	_	_
+16	längtande	längta	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	17	amod	_	_
+17	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	21	obl	_	_
+18	och	och	CCONJ	KN	_	20	cc	_	_
+19	klappande	klappande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	20	amod	_	_
+20	händer	hand	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	conj	_	_
+21	gladde	gla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+22	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	21	expl:pv	_	_
+23	öfwer	öfwer	ADP	PP	_	25	case	_	_
+24	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	_
+26	.	.	PUNCT	MAD	_	2	punct	_	_
+
