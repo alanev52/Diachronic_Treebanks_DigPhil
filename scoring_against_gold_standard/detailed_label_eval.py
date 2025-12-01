@@ -87,7 +87,7 @@ sample_nsents = defaultdict()
 # Placeholder for scores of 5 time periods - 3 score types (prec, rec, f1) x number of metrics 
 # Number of metrics is assigned manually so far!!! TODO: Figure out how to automize the numbers.
 u_score_arrays = [np.zeros((3, 18)) for _ in range(5)]
-d_score_arrays = [np.zeros((3, 31)) for _ in range(5)]
+d_score_arrays = [np.zeros((3, 38)) for _ in range(5)]
 
 arrays = [u_score_arrays, d_score_arrays]
 
