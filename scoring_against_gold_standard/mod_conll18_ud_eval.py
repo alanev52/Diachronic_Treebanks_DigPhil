@@ -107,10 +107,11 @@ ID, FORM, LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC = range(10)
 
 # Content and functional relations
 CONTENT_DEPRELS = {
-    "nsubj", "obj", "iobj", "csubj", "ccomp", "xcomp", "obl", "vocative",
-    "expl", "dislocated", "advcl", "advmod", "discourse", "nmod", "appos",
-    "nummod", "acl", "amod", "conj", "fixed", "flat", "compound", "list",
-    "parataxis", "orphan", "goeswith", "reparandum", "root", "dep"
+    "acl", "advcl", "advmod", "amod", "appos", "aux", "case", "cc", "ccomp",
+    "clf", "compound", "conj", "cop", "csubj", "dep", "det", "discourse",
+    "dislocated", "expl", "fixed", "flat", "goeswith", "iobj", "list", "mark",
+    "nmod", "nsubj", "nummod", "obj", "obl", "orphan", "parataxis", "punct",
+    "reparandum", "root", "vocative", "xcomp"
 }
 # Add for detailed scores
 UPOS_TAGS = {
