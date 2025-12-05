@@ -1,0 +1,18 @@
+Pattern                                            	p_occs 	 p_q_occs 	 Decision	   Coef	 coverage	 precision	 cramers_phi
+------------------------------------------------------------------------------------------------------------------------
+node:X:own:rel_shallow=advcl,node:X:child:rel_shallow=obj	      6	        2	 yes     	  0.017	 100.000	  33.33	   0.86
+node:CLH:own:VerbForm=Inf,node:X:child:rel_shallow=obj	      6	        2	 yes     	  0.011	 100.000	  33.33	   0.86
+node:X:own:VerbForm=Fin,node:X:child:rel_shallow=obj	      6	        2	 yes     	  0.012	 100.000	  33.33	   0.86
+node:X:child:rel_shallow=obj,node:X:own:Mood=Ind  	      6	        2	 yes     	  0.339	 100.000	  33.33	   0.86
+node:X:own:Voice=Act,node:X:child:rel_shallow=obj 	      8	        2	 yes     	  0.024	 100.000	  25.00	   0.65
+node:CLH:own:VerbForm=Inf,node:X:own:Voice=Act    	     13	        2	 yes     	  0.028	 100.000	  15.38	   0.36
+node:X:own:Voice=Act,node:X:own:Mood=Ind          	     14	        2	 yes     	  0.004	 100.000	  14.29	   0.33
+node:X:child:Definite=Ind,node:X:child:upos=SCONJ 	     12	        0	 no      	 -0.080	 34.286	 100.00	   0.33
+node:X:child:Definite=Ind,node:X:child:rel_shallow=mark	     12	        0	 no      	 -0.016	 34.286	 100.00	   0.33
+node:X:own:Voice=Act,node:X:own:VerbForm=Fin      	     14	        2	 yes     	  0.024	 100.000	  14.29	   0.33
+node:X:child:Definite=Def,node:X:own:Tense=Pres   	     10	        0	 no      	 -0.047	 28.571	 100.00	   0.33
+node:X:own:rel_shallow=advcl,node:X:own:VerbForm=Fin	     13	        2	 yes     	  0.025	 100.000	  15.38	   0.36
+node:X:own:rel_shallow=advcl,node:X:own:Mood=Ind  	     13	        2	 yes     	  0.011	 100.000	  15.38	   0.36
+node:X:child:upos=NOUN,node:X:child:rel_shallow=mark	     11	        0	 no      	 -0.147	 31.429	 100.00	   0.33
+node:X:child:Definite=Def,node:X:child:upos=NOUN  	      7	        0	 no      	 -0.225	 20.000	 100.00	   0.33
+node:CLH:own:Voice=Act,node:X:child:rel_shallow=obj	      8	        2	 yes     	  0.213	 100.000	  25.00	   0.65
