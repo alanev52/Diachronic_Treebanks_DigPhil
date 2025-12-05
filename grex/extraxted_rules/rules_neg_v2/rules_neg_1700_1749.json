@@ -1,0 +1,1562 @@
+{
+   "scope": "pattern { CLH-[csubj|ccomp|xcomp|advcl|acl]->X; X[upos=VERB|ADJ]; Y[upos=PART, Polarity=Neg]; X -[advmod]-> Y }",
+   "conclusion": "X << Y",
+   "s_occs": 157,
+   "q_occs": 19,
+   "intercepts": [
+      [
+         0.1,
+         -1.982813674234226
+      ],
+      [
+         0.099,
+         -1.9828136742342324
+      ],
+      [
+         0.098,
+         -1.9828136742342268
+      ],
+      [
+         0.097,
+         -1.9828136742342262
+      ],
+      [
+         0.096,
+         -1.9828136742342273
+      ],
+      [
+         0.095,
+         -1.9828136742342262
+      ],
+      [
+         0.094,
+         -1.9828136742342326
+      ],
+      [
+         0.093,
+         -1.9828136742342264
+      ],
+      [
+         0.092,
+         -1.982813674234226
+      ],
+      [
+         0.091,
+         -1.982813674234226
+      ],
+      [
+         0.09000000000000001,
+         -1.982813674234233
+      ],
+      [
+         0.08900000000000001,
+         -1.9828136742342328
+      ],
+      [
+         0.08800000000000001,
+         -1.9828136742342328
+      ],
+      [
+         0.08700000000000001,
+         -1.9828136742342333
+      ],
+      [
+         0.08600000000000001,
+         -1.9828136742342264
+      ],
+      [
+         0.085,
+         -1.9828136742342328
+      ],
+      [
+         0.084,
+         -1.9828136742342326
+      ],
+      [
+         0.083,
+         -1.9828136742342326
+      ],
+      [
+         0.082,
+         -1.9828136742342326
+      ],
+      [
+         0.081,
+         -1.9828136742342257
+      ],
+      [
+         0.08,
+         -1.9828136742342324
+      ],
+      [
+         0.079,
+         -1.9828136742342326
+      ],
+      [
+         0.07800000000000001,
+         -1.9828136742342328
+      ],
+      [
+         0.07700000000000001,
+         -1.9828136742342266
+      ],
+      [
+         0.07600000000000001,
+         -1.9828136742342328
+      ],
+      [
+         0.07500000000000001,
+         -1.9828136742342268
+      ],
+      [
+         0.07400000000000001,
+         -1.9828136742342264
+      ],
+      [
+         0.07300000000000001,
+         -1.9828136742342262
+      ],
+      [
+         0.07200000000000001,
+         -1.9828136742342262
+      ],
+      [
+         0.07100000000000001,
+         -1.9828136742342264
+      ],
+      [
+         0.07,
+         -1.9828136742342262
+      ],
+      [
+         0.069,
+         -1.9828136742342264
+      ],
+      [
+         0.068,
+         -1.9828136742342326
+      ],
+      [
+         0.067,
+         -1.9828136742342328
+      ],
+      [
+         0.066,
+         -1.982813674234226
+      ],
+      [
+         0.065,
+         -1.9828136742342264
+      ],
+      [
+         0.064,
+         -1.9828136742342268
+      ],
+      [
+         0.063,
+         -1.9828136742342266
+      ],
+      [
+         0.062000000000000006,
+         -1.9828136742342326
+      ],
+      [
+         0.061000000000000006,
+         -1.9828136742342326
+      ],
+      [
+         0.060000000000000005,
+         -1.9828136742342324
+      ],
+      [
+         0.059000000000000004,
+         -1.9828136742342324
+      ],
+      [
+         0.058,
+         -1.9828136742342268
+      ],
+      [
+         0.057,
+         -1.9828136742342264
+      ],
+      [
+         0.05600000000000001,
+         -1.9828136742342262
+      ],
+      [
+         0.05500000000000001,
+         -1.9828136742342255
+      ],
+      [
+         0.054000000000000006,
+         -1.9828136742342262
+      ],
+      [
+         0.053000000000000005,
+         -1.9828136742342317
+      ],
+      [
+         0.052000000000000005,
+         -1.9828136742342253
+      ],
+      [
+         0.051000000000000004,
+         -1.9828136742342317
+      ],
+      [
+         0.05,
+         -1.9828136742342257
+      ],
+      [
+         0.049,
+         -1.9828136742342262
+      ],
+      [
+         0.048,
+         -1.9828136742342255
+      ],
+      [
+         0.04700000000000001,
+         -1.9828136742342255
+      ],
+      [
+         0.046000000000000006,
+         -1.9828136742342324
+      ],
+      [
+         0.045000000000000005,
+         -1.9828136742342264
+      ],
+      [
+         0.044000000000000004,
+         -1.982813674234231
+      ],
+      [
+         0.043000000000000003,
+         -1.9828136742342317
+      ],
+      [
+         0.042,
+         -1.9828136742342317
+      ],
+      [
+         0.041,
+         -1.982813674234226
+      ],
+      [
+         0.04000000000000001,
+         -1.9828136742342262
+      ],
+      [
+         0.03900000000000001,
+         -1.982813674234226
+      ],
+      [
+         0.038000000000000006,
+         -1.988679627757753
+      ],
+      [
+         0.037000000000000005,
+         -2.000230215403292
+      ],
+      [
+         0.036000000000000004,
+         -2.019791917278971
+      ],
+      [
+         0.035,
+         -2.0449926193204555
+      ],
+      [
+         0.034,
+         -2.0698549536596733
+      ],
+      [
+         0.033,
+         -2.0948452322676827
+      ],
+      [
+         0.032,
+         -2.113613636163535
+      ],
+      [
+         0.031,
+         -2.117830141817738
+      ],
+      [
+         0.03,
+         -2.115716215909357
+      ],
+      [
+         0.028999999999999998,
+         -2.1172502473013926
+      ],
+      [
+         0.027999999999999997,
+         -2.1249798081636917
+      ],
+      [
+         0.02700000000000001,
+         -2.1419167910532306
+      ],
+      [
+         0.02600000000000001,
+         -2.15599536801409
+      ],
+      [
+         0.02500000000000001,
+         -2.1709440355633514
+      ],
+      [
+         0.024000000000000007,
+         -2.1868885030904828
+      ],
+      [
+         0.023000000000000007,
+         -2.216291385722148
+      ],
+      [
+         0.022000000000000006,
+         -2.2446678796325554
+      ],
+      [
+         0.021000000000000005,
+         -2.271854717299964
+      ],
+      [
+         0.020000000000000004,
+         -2.2893057377896326
+      ],
+      [
+         0.019000000000000003,
+         -2.3109450146557897
+      ],
+      [
+         0.018000000000000002,
+         -2.3367515939266945
+      ],
+      [
+         0.017,
+         -2.345649619983616
+      ],
+      [
+         0.016,
+         -2.3595656264069085
+      ],
+      [
+         0.015,
+         -2.3736971107572002
+      ],
+      [
+         0.013999999999999999,
+         -2.3905132992672677
+      ],
+      [
+         0.012999999999999998,
+         -2.4049737927752597
+      ],
+      [
+         0.01200000000000001,
+         -2.4391385669202115
+      ],
+      [
+         0.01100000000000001,
+         -2.500150445236841
+      ],
+      [
+         0.010000000000000009,
+         -2.5850822133771305
+      ],
+      [
+         0.009000000000000008,
+         -2.6625267861980246
+      ],
+      [
+         0.008000000000000007,
+         -2.741146639058241
+      ],
+      [
+         0.007000000000000006,
+         -2.8217688380819297
+      ],
+      [
+         0.006000000000000005,
+         -2.9362884607015913
+      ],
+      [
+         0.0050000000000000044,
+         -3.058390401858219
+      ],
+      [
+         0.0040000000000000036,
+         -3.24079243326672
+      ],
+      [
+         0.0030000000000000027,
+         -3.517635313264
+      ],
+      [
+         0.0020000000000000018,
+         -3.900740366292814
+      ],
+      [
+         0.001,
+         -4.82712214161186
+      ]
+   ],
+   "rules": [
+      {
+         "pattern": "node:X:child:Gender=Neut,node:X:child:rel_shallow=obj",
+         "p_occs": 41,
+         "p_q_occs": 11,
+         "p_notq_occs": 30,
+         "decision": "yes",
+         "lambda": 0.038000000000000006,
+         "coef": 0.022320856222455054,
+         "coverage": 57.89473684210527,
+         "coverage_q_in_p": 0.2682926829268293,
+         "coverage_not_q_in_p": 0.7317073170731707,
+         "precision": 26.82926829268293,
+         "ratio": 0.3666666666666667,
+         "delta": 6.038216560509555,
+         "g-statistic": 6.511906819007515,
+         "p-value": 0.010715454410703429,
+         "cramers_phi": 0.3985310472040405
+      },
+      {
+         "pattern": "node:X:child:Number=Sing,node:X:own:Tense=Pres",
+         "p_occs": 27,
+         "p_q_occs": 9,
+         "p_notq_occs": 18,
+         "decision": "yes",
+         "lambda": 0.036000000000000004,
+         "coef": 0.03175563212961113,
+         "coverage": 47.368421052631575,
+         "coverage_q_in_p": 0.3333333333333333,
+         "coverage_not_q_in_p": 0.6666666666666666,
+         "precision": 33.33333333333333,
+         "ratio": 0.5,
+         "delta": 5.732484076433121,
+         "g-statistic": 8.284474110233443,
+         "p-value": 0.003998548331236584,
+         "cramers_phi": 0.5539245205378531
+      },
+      {
+         "pattern": "node:X:child:upos=ADV,node:X:child:rel_shallow=mark",
+         "p_occs": 52,
+         "p_q_occs": 1,
+         "p_notq_occs": 51,
+         "decision": "no",
+         "lambda": 0.032,
+         "coef": -0.01733526380658923,
+         "coverage": 36.95652173913043,
+         "coverage_q_in_p": 0.019230769230769232,
+         "coverage_not_q_in_p": 0.9807692307692307,
+         "precision": 98.07692307692307,
+         "ratio": 50.99999999999999,
+         "delta": -5.292993630573249,
+         "g-statistic": 7.497677717269056,
+         "p-value": 0.006177860474299135,
+         "cramers_phi": 0.379718461425675
+      },
+      {
+         "pattern": "node:X:child:PronType=Prs,node:X:child:upos=SCONJ",
+         "p_occs": 82,
+         "p_q_occs": 5,
+         "p_notq_occs": 77,
+         "decision": "no",
+         "lambda": 0.031,
+         "coef": -0.024810700107520622,
+         "coverage": 55.79710144927537,
+         "coverage_q_in_p": 0.06097560975609756,
+         "coverage_not_q_in_p": 0.9390243902439024,
+         "precision": 93.90243902439023,
+         "ratio": 15.399999999999999,
+         "delta": -4.923566878980891,
+         "g-statistic": 3.3213123097193886,
+         "p-value": 0.0683872201783472,
+         "cramers_phi": 0.2012555804322317
+      },
+      {
+         "pattern": "node:X:child:Definite=Def,node:X:child:Gender=Neut",
+         "p_occs": 46,
+         "p_q_occs": 11,
+         "p_notq_occs": 35,
+         "decision": "yes",
+         "lambda": 0.027999999999999997,
+         "coef": 0.01960475889498367,
+         "coverage": 57.89473684210527,
+         "coverage_q_in_p": 0.2391304347826087,
+         "coverage_not_q_in_p": 0.7608695652173914,
+         "precision": 23.91304347826087,
+         "ratio": 0.3142857142857143,
+         "delta": 5.43312101910828,
+         "g-statistic": 4.882250418204696,
+         "p-value": 0.027134220208202664,
+         "cramers_phi": 0.32578501907949026
+      },
+      {
+         "pattern": "node:CLH:own:Voice=Act,node:X:child:rel_shallow=obj",
+         "p_occs": 78,
+         "p_q_occs": 15,
+         "p_notq_occs": 63,
+         "decision": "yes",
+         "lambda": 0.027999999999999997,
+         "coef": 0.01557425481091057,
+         "coverage": 78.94736842105263,
+         "coverage_q_in_p": 0.19230769230769232,
+         "coverage_not_q_in_p": 0.8076923076923077,
+         "precision": 19.230769230769234,
+         "ratio": 0.2380952380952381,
+         "delta": 5.560509554140127,
+         "g-statistic": 3.2371165243581546,
+         "p-value": 0.07198723031758358,
+         "cramers_phi": 0.20371915447995464
+      },
+      {
+         "pattern": "node:X:child:upos=NOUN,node:CLH:own:Mood=Ind",
+         "p_occs": 49,
+         "p_q_occs": 11,
+         "p_notq_occs": 38,
+         "decision": "yes",
+         "lambda": 0.027999999999999997,
+         "coef": 0.007034847209125422,
+         "coverage": 57.89473684210527,
+         "coverage_q_in_p": 0.22448979591836735,
+         "coverage_not_q_in_p": 0.7755102040816326,
+         "precision": 22.448979591836736,
+         "ratio": 0.2894736842105263,
+         "delta": 5.070063694267516,
+         "g-statistic": 4.075006236453,
+         "p-value": 0.04352210540361556,
+         "cramers_phi": 0.2883806383595707
+      },
+      {
+         "pattern": "node:X:child:Gender=Neut,node:X:own:Mood=Ind",
+         "p_occs": 22,
+         "p_q_occs": 8,
+         "p_notq_occs": 14,
+         "decision": "yes",
+         "lambda": 0.02600000000000001,
+         "coef": 0.022762478685874,
+         "coverage": 42.10526315789473,
+         "coverage_q_in_p": 0.36363636363636365,
+         "coverage_not_q_in_p": 0.6363636363636364,
+         "precision": 36.36363636363637,
+         "ratio": 0.5714285714285715,
+         "delta": 5.337579617834395,
+         "g-statistic": 8.55949053259949,
+         "p-value": 0.00343725598197564,
+         "cramers_phi": 0.6237529570926258
+      },
+      {
+         "pattern": "node:X:child:Gender=Neut,node:X:own:VerbForm=Fin",
+         "p_occs": 22,
+         "p_q_occs": 8,
+         "p_notq_occs": 14,
+         "decision": "yes",
+         "lambda": 0.02600000000000001,
+         "coef": 0.006341557097005568,
+         "coverage": 42.10526315789473,
+         "coverage_q_in_p": 0.36363636363636365,
+         "coverage_not_q_in_p": 0.6363636363636364,
+         "precision": 36.36363636363637,
+         "ratio": 0.5714285714285715,
+         "delta": 5.337579617834395,
+         "g-statistic": 8.55949053259949,
+         "p-value": 0.00343725598197564,
+         "cramers_phi": 0.6237529570926258
+      },
+      {
+         "pattern": "node:CLH:own:Voice=Act,node:X:child:rel_shallow=xcomp",
+         "p_occs": 23,
+         "p_q_occs": 7,
+         "p_notq_occs": 16,
+         "decision": "yes",
+         "lambda": 0.024000000000000007,
+         "coef": 0.007339050320673224,
+         "coverage": 36.84210526315789,
+         "coverage_q_in_p": 0.30434782608695654,
+         "coverage_not_q_in_p": 0.6956521739130435,
+         "precision": 30.434782608695656,
+         "ratio": 0.43750000000000006,
+         "delta": 4.2165605095541405,
+         "g-statistic": 5.425890678367954,
+         "p-value": 0.019840312787370085,
+         "cramers_phi": 0.4857039122385407
+      },
+      {
+         "pattern": "node:X:child:Definite=Ind,node:X:child:rel_shallow=mark",
+         "p_occs": 76,
+         "p_q_occs": 6,
+         "p_notq_occs": 70,
+         "decision": "no",
+         "lambda": 0.021000000000000005,
+         "coef": -0.020166840728011004,
+         "coverage": 50.72463768115942,
+         "coverage_q_in_p": 0.07894736842105263,
+         "coverage_not_q_in_p": 0.9210526315789473,
+         "precision": 92.10526315789474,
+         "ratio": 11.666666666666668,
+         "delta": -3.1974522292993637,
+         "g-statistic": 1.4195585350614652,
+         "p-value": 0.2334760796943237,
+         "cramers_phi": 0.136668949572039
+      },
+      {
+         "pattern": "node:CLH:own:Mood=Ind,node:X:child:rel_shallow=punct",
+         "p_occs": 9,
+         "p_q_occs": 5,
+         "p_notq_occs": 4,
+         "decision": "yes",
+         "lambda": 0.020000000000000004,
+         "coef": 0.061886466514362415,
+         "coverage": 26.31578947368421,
+         "coverage_q_in_p": 0.5555555555555556,
+         "coverage_not_q_in_p": 0.4444444444444444,
+         "precision": 55.55555555555556,
+         "ratio": 1.2500000000000002,
+         "delta": 3.910828025477707,
+         "g-statistic": 9.784696844595683,
+         "p-value": 0.0017597023918130006,
+         "cramers_phi": 1.0426833355762473
+      },
+      {
+         "pattern": "node:X:child:rel_shallow=punct,node:CLH:own:VerbForm=Fin",
+         "p_occs": 9,
+         "p_q_occs": 5,
+         "p_notq_occs": 4,
+         "decision": "yes",
+         "lambda": 0.020000000000000004,
+         "coef": 0.042399935136331474,
+         "coverage": 26.31578947368421,
+         "coverage_q_in_p": 0.5555555555555556,
+         "coverage_not_q_in_p": 0.4444444444444444,
+         "precision": 55.55555555555556,
+         "ratio": 1.2500000000000002,
+         "delta": 3.910828025477707,
+         "g-statistic": 9.784696844595683,
+         "p-value": 0.0017597023918130006,
+         "cramers_phi": 1.0426833355762473
+      },
+      {
+         "pattern": "node:X:child:rel_shallow=aux,node:X:own:VerbForm=Inf",
+         "p_occs": 48,
+         "p_q_occs": 2,
+         "p_notq_occs": 46,
+         "decision": "no",
+         "lambda": 0.018000000000000002,
+         "coef": -0.0029324531925241093,
+         "coverage": 33.33333333333333,
+         "coverage_q_in_p": 0.041666666666666664,
+         "coverage_not_q_in_p": 0.9583333333333334,
+         "precision": 95.83333333333334,
+         "ratio": 23.000000000000004,
+         "delta": -3.808917197452229,
+         "g-statistic": 3.686802514387974,
+         "p-value": 0.05484466077594563,
+         "cramers_phi": 0.27714325847188875
+      },
+      {
+         "pattern": "node:X:child:upos=AUX,node:X:own:VerbForm=Inf",
+         "p_occs": 48,
+         "p_q_occs": 2,
+         "p_notq_occs": 46,
+         "decision": "no",
+         "lambda": 0.017,
+         "coef": -0.0016046654726451504,
+         "coverage": 33.33333333333333,
+         "coverage_q_in_p": 0.041666666666666664,
+         "coverage_not_q_in_p": 0.9583333333333334,
+         "precision": 95.83333333333334,
+         "ratio": 23.000000000000004,
+         "delta": -3.808917197452229,
+         "g-statistic": 3.686802514387974,
+         "p-value": 0.05484466077594563,
+         "cramers_phi": 0.27714325847188875
+      },
+      {
+         "pattern": "node:X:child:Tense=Past,node:X:own:VerbForm=Inf",
+         "p_occs": 32,
+         "p_q_occs": 0,
+         "p_notq_occs": 32,
+         "decision": "no",
+         "lambda": 0.015,
+         "coef": -0.011169402630413883,
+         "coverage": 23.18840579710145,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -3.872611464968153,
+         "g-statistic": 8.255495692230614,
+         "p-value": 0.0040628811914587,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:own:VerbForm=Inf",
+         "p_occs": 35,
+         "p_q_occs": 1,
+         "p_notq_occs": 34,
+         "decision": "no",
+         "lambda": 0.013999999999999999,
+         "coef": -0.06130043554888143,
+         "coverage": 24.637681159420293,
+         "coverage_q_in_p": 0.02857142857142857,
+         "coverage_not_q_in_p": 0.9714285714285714,
+         "precision": 97.14285714285714,
+         "ratio": 34.0,
+         "delta": -3.2356687898089174,
+         "g-statistic": 3.913229194998779,
+         "p-value": 0.047907461155611286,
+         "cramers_phi": 0.334374862136101
+      },
+      {
+         "pattern": "node:X:child:upos=NOUN,node:CLH:own:Voice=Act",
+         "p_occs": 83,
+         "p_q_occs": 15,
+         "p_notq_occs": 68,
+         "decision": "yes",
+         "lambda": 0.013999999999999999,
+         "coef": 0.02419535060677122,
+         "coverage": 78.94736842105263,
+         "coverage_q_in_p": 0.18072289156626506,
+         "coverage_not_q_in_p": 0.8192771084337349,
+         "precision": 18.072289156626507,
+         "ratio": 0.22058823529411764,
+         "delta": 4.955414012738853,
+         "g-statistic": 2.4641461742276416,
+         "p-value": 0.11647097761696323,
+         "cramers_phi": 0.17230353485411898
+      },
+      {
+         "pattern": "node:X:child:upos=ADV,node:X:child:Voice=Act",
+         "p_occs": 46,
+         "p_q_occs": 1,
+         "p_notq_occs": 45,
+         "decision": "no",
+         "lambda": 0.012999999999999998,
+         "coef": -0.01760869669944054,
+         "coverage": 32.608695652173914,
+         "coverage_q_in_p": 0.021739130434782608,
+         "coverage_not_q_in_p": 0.9782608695652174,
+         "precision": 97.82608695652173,
+         "ratio": 45.0,
+         "delta": -4.56687898089172,
+         "g-statistic": 6.1975200718950765,
+         "p-value": 0.012792943656899092,
+         "cramers_phi": 0.36705407941488727
+      },
+      {
+         "pattern": "node:X:child:Voice=Act,node:X:child:rel_shallow=mark",
+         "p_occs": 82,
+         "p_q_occs": 9,
+         "p_notq_occs": 73,
+         "decision": "no",
+         "lambda": 0.01200000000000001,
+         "coef": 0.049385245420797474,
+         "coverage": 52.89855072463768,
+         "coverage_q_in_p": 0.10975609756097561,
+         "coverage_not_q_in_p": 0.8902439024390244,
+         "precision": 89.02439024390245,
+         "ratio": 8.11111111111111,
+         "delta": -0.9235668789808908,
+         "g-statistic": 0.10053666755424817,
+         "p-value": 0.751186560076404,
+         "cramers_phi": 0.03501509562164968
+      },
+      {
+         "pattern": "node:CLH:own:Mood=Ind,node:X:child:rel_shallow=xcomp",
+         "p_occs": 13,
+         "p_q_occs": 5,
+         "p_notq_occs": 8,
+         "decision": "yes",
+         "lambda": 0.01200000000000001,
+         "coef": 0.024227199276645184,
+         "coverage": 26.31578947368421,
+         "coverage_q_in_p": 0.38461538461538464,
+         "coverage_not_q_in_p": 0.6153846153846154,
+         "precision": 38.46153846153847,
+         "ratio": 0.625,
+         "delta": 3.4267515923566876,
+         "g-statistic": 5.8587026820947505,
+         "p-value": 0.015500214630774445,
+         "cramers_phi": 0.6713191767588734
+      },
+      {
+         "pattern": "node:X:child:Gender=Neut,node:X:own:Tense=Pres",
+         "p_occs": 9,
+         "p_q_occs": 6,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.01200000000000001,
+         "coef": 0.0027482250636032823,
+         "coverage": 31.57894736842105,
+         "coverage_q_in_p": 0.6666666666666666,
+         "coverage_not_q_in_p": 0.3333333333333333,
+         "precision": 66.66666666666666,
+         "ratio": 2.0,
+         "delta": 4.9108280254777075,
+         "g-statistic": 14.658379606022397,
+         "p-value": 0.00012886047969884462,
+         "cramers_phi": 1.276208778027169
+      },
+      {
+         "pattern": "node:X:child:PronType=Prs,node:X:child:rel_shallow=conj",
+         "p_occs": 22,
+         "p_q_occs": 4,
+         "p_notq_occs": 18,
+         "decision": "yes",
+         "lambda": 0.01100000000000001,
+         "coef": 0.02434538560258892,
+         "coverage": 21.052631578947366,
+         "coverage_q_in_p": 0.18181818181818182,
+         "coverage_not_q_in_p": 0.8181818181818182,
+         "precision": 18.181818181818183,
+         "ratio": 0.2222222222222222,
+         "delta": 1.337579617834395,
+         "g-statistic": 0.6760411617898114,
+         "p-value": 0.4109532782067812,
+         "cramers_phi": 0.17529730094248086
+      },
+      {
+         "pattern": "node:X:child:VerbForm=Inf,node:X:child:Definite=Def",
+         "p_occs": 32,
+         "p_q_occs": 5,
+         "p_notq_occs": 27,
+         "decision": "yes",
+         "lambda": 0.01100000000000001,
+         "coef": 0.0459223364973923,
+         "coverage": 26.31578947368421,
+         "coverage_q_in_p": 0.15625,
+         "coverage_not_q_in_p": 0.84375,
+         "precision": 15.625,
+         "ratio": 0.18518518518518517,
+         "delta": 1.127388535031847,
+         "g-statistic": 0.34611486153052873,
+         "p-value": 0.5563206953430542,
+         "cramers_phi": 0.10400042991655863
+      },
+      {
+         "pattern": "node:CLH:own:Voice=Act,node:X:child:Gender=Com",
+         "p_occs": 107,
+         "p_q_occs": 17,
+         "p_notq_occs": 90,
+         "decision": "yes",
+         "lambda": 0.01100000000000001,
+         "coef": 0.011794696826962742,
+         "coverage": 89.47368421052632,
+         "coverage_q_in_p": 0.1588785046728972,
+         "coverage_not_q_in_p": 0.8411214953271028,
+         "precision": 15.887850467289718,
+         "ratio": 0.18888888888888888,
+         "delta": 4.050955414012739,
+         "g-statistic": 1.329637507093241,
+         "p-value": 0.24886971587804474,
+         "cramers_phi": 0.11147429640002558
+      },
+      {
+         "pattern": "node:X:child:Definite=Ind,node:X:child:rel_shallow=aux",
+         "p_occs": 39,
+         "p_q_occs": 2,
+         "p_notq_occs": 37,
+         "decision": "no",
+         "lambda": 0.01100000000000001,
+         "coef": -0.014909444260245541,
+         "coverage": 26.811594202898554,
+         "coverage_q_in_p": 0.05128205128205128,
+         "coverage_not_q_in_p": 0.9487179487179487,
+         "precision": 94.87179487179486,
+         "ratio": 18.5,
+         "delta": -2.7197452229299364,
+         "g-statistic": 2.215350058669082,
+         "p-value": 0.13664406436586574,
+         "cramers_phi": 0.2383355778271083
+      },
+      {
+         "pattern": "node:X:child:upos=PRON,node:X:child:Case=Nom",
+         "p_occs": 105,
+         "p_q_occs": 10,
+         "p_notq_occs": 95,
+         "decision": "no",
+         "lambda": 0.010000000000000009,
+         "coef": -0.008901445013105136,
+         "coverage": 68.84057971014492,
+         "coverage_q_in_p": 0.09523809523809523,
+         "coverage_not_q_in_p": 0.9047619047619048,
+         "precision": 90.47619047619048,
+         "ratio": 9.5,
+         "delta": -2.707006369426752,
+         "g-statistic": 0.7012770908507554,
+         "p-value": 0.40235490568369114,
+         "cramers_phi": 0.0817241056033889
+      },
+      {
+         "pattern": "node:X:child:upos=SCONJ,node:CLH:own:VerbForm=Inf",
+         "p_occs": 22,
+         "p_q_occs": 0,
+         "p_notq_occs": 22,
+         "decision": "no",
+         "lambda": 0.010000000000000009,
+         "coef": -0.06721094777001047,
+         "coverage": 15.942028985507244,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -2.662420382165605,
+         "g-statistic": 5.675653288408547,
+         "p-value": 0.017201933072524822,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:child:upos=PRON,node:X:child:rel_shallow=conj",
+         "p_occs": 22,
+         "p_q_occs": 4,
+         "p_notq_occs": 18,
+         "decision": "yes",
+         "lambda": 0.009000000000000008,
+         "coef": 0.20345438423051204,
+         "coverage": 21.052631578947366,
+         "coverage_q_in_p": 0.18181818181818182,
+         "coverage_not_q_in_p": 0.8181818181818182,
+         "precision": 18.181818181818183,
+         "ratio": 0.2222222222222222,
+         "delta": 1.337579617834395,
+         "g-statistic": 0.6760411617898114,
+         "p-value": 0.4109532782067812,
+         "cramers_phi": 0.17529730094248086
+      },
+      {
+         "pattern": "node:X:child:Definite=Ind,node:X:child:Voice=Act",
+         "p_occs": 63,
+         "p_q_occs": 7,
+         "p_notq_occs": 56,
+         "decision": "no",
+         "lambda": 0.009000000000000008,
+         "coef": -0.01158452198422056,
+         "coverage": 40.57971014492754,
+         "coverage_q_in_p": 0.1111111111111111,
+         "coverage_not_q_in_p": 0.8888888888888888,
+         "precision": 88.88888888888889,
+         "ratio": 8.0,
+         "delta": -0.6242038216560513,
+         "g-statistic": 0.05956895172769236,
+         "p-value": 0.8071785313567938,
+         "cramers_phi": 0.030749616523016627
+      },
+      {
+         "pattern": "node:X:child:Definite=Ind,node:X:child:upos=AUX",
+         "p_occs": 39,
+         "p_q_occs": 2,
+         "p_notq_occs": 37,
+         "decision": "no",
+         "lambda": 0.009000000000000008,
+         "coef": -0.019708626740644955,
+         "coverage": 26.811594202898554,
+         "coverage_q_in_p": 0.05128205128205128,
+         "coverage_not_q_in_p": 0.9487179487179487,
+         "precision": 94.87179487179486,
+         "ratio": 18.5,
+         "delta": -2.7197452229299364,
+         "g-statistic": 2.215350058669082,
+         "p-value": 0.13664406436586574,
+         "cramers_phi": 0.2383355778271083
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:child:Number=Sing",
+         "p_occs": 72,
+         "p_q_occs": 10,
+         "p_notq_occs": 62,
+         "decision": "yes",
+         "lambda": 0.008000000000000007,
+         "coef": 0.06660649750591457,
+         "coverage": 52.63157894736842,
+         "coverage_q_in_p": 0.1388888888888889,
+         "coverage_not_q_in_p": 0.8611111111111112,
+         "precision": 13.88888888888889,
+         "ratio": 0.16129032258064516,
+         "delta": 1.2866242038216562,
+         "g-statistic": 0.20760389449447003,
+         "p-value": 0.6486519642524646,
+         "cramers_phi": 0.053697182640566034
+      },
+      {
+         "pattern": "node:X:child:rel_shallow=iobj,node:CLH:own:VerbForm=Inf",
+         "p_occs": 5,
+         "p_q_occs": 2,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.008000000000000007,
+         "coef": 0.040493139323739324,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.4,
+         "coverage_not_q_in_p": 0.6,
+         "precision": 40.0,
+         "ratio": 0.6666666666666667,
+         "delta": 1.394904458598726,
+         "g-statistic": 2.491063355781526,
+         "p-value": 0.11449434424932525,
+         "cramers_phi": 0.7058418173757526
+      },
+      {
+         "pattern": "node:X:child:upos=VERB,node:CLH:own:Mood=Ind",
+         "p_occs": 43,
+         "p_q_occs": 5,
+         "p_notq_occs": 38,
+         "decision": "no",
+         "lambda": 0.008000000000000007,
+         "coef": -0.0013189260500977018,
+         "coverage": 27.536231884057973,
+         "coverage_q_in_p": 0.11627906976744186,
+         "coverage_not_q_in_p": 0.8837209302325582,
+         "precision": 88.37209302325581,
+         "ratio": 7.6000000000000005,
+         "delta": -0.20382165605095537,
+         "g-statistic": 0.009186710242481855,
+         "p-value": 0.9236418282280296,
+         "cramers_phi": 0.014616580456583
+      },
+      {
+         "pattern": "node:X:child:upos=VERB,node:CLH:own:VerbForm=Fin",
+         "p_occs": 43,
+         "p_q_occs": 5,
+         "p_notq_occs": 38,
+         "decision": "no",
+         "lambda": 0.008000000000000007,
+         "coef": -0.06536863507857454,
+         "coverage": 27.536231884057973,
+         "coverage_q_in_p": 0.11627906976744186,
+         "coverage_not_q_in_p": 0.8837209302325582,
+         "precision": 88.37209302325581,
+         "ratio": 7.6000000000000005,
+         "delta": -0.20382165605095537,
+         "g-statistic": 0.009186710242481855,
+         "p-value": 0.9236418282280296,
+         "cramers_phi": 0.014616580456583
+      },
+      {
+         "pattern": "node:X:child:Tense=Pres,node:CLH:own:Tense=Pres",
+         "p_occs": 14,
+         "p_q_occs": 1,
+         "p_notq_occs": 13,
+         "decision": "no",
+         "lambda": 0.008000000000000007,
+         "coef": -0.12136492981737912,
+         "coverage": 9.420289855072465,
+         "coverage_q_in_p": 0.07142857142857142,
+         "coverage_not_q_in_p": 0.9285714285714286,
+         "precision": 92.85714285714286,
+         "ratio": 13.000000000000002,
+         "delta": -0.694267515923567,
+         "g-statistic": 0.37248684210513594,
+         "p-value": 0.5416518368869758,
+         "cramers_phi": 0.16311407973412262
+      },
+      {
+         "pattern": "node:CLH:own:Tense=Past,node:X:own:Tense=Past",
+         "p_occs": 20,
+         "p_q_occs": 0,
+         "p_notq_occs": 20,
+         "decision": "no",
+         "lambda": 0.008000000000000007,
+         "coef": -0.0582686205130829,
+         "coverage": 14.492753623188406,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -2.4203821656050954,
+         "g-statistic": 5.159684807644133,
+         "p-value": 0.023117092232884495,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:child:rel_shallow=conj",
+         "p_occs": 13,
+         "p_q_occs": 3,
+         "p_notq_occs": 10,
+         "decision": "yes",
+         "lambda": 0.007000000000000006,
+         "coef": 0.025671713761130754,
+         "coverage": 15.789473684210526,
+         "coverage_q_in_p": 0.23076923076923078,
+         "coverage_not_q_in_p": 0.7692307692307693,
+         "precision": 23.076923076923077,
+         "ratio": 0.3,
+         "delta": 1.4267515923566878,
+         "g-statistic": 1.2053756588028879,
+         "p-value": 0.27224989846395253,
+         "cramers_phi": 0.30450156735770517
+      },
+      {
+         "pattern": "node:X:child:upos=PRON,node:X:child:rel_shallow=mark",
+         "p_occs": 93,
+         "p_q_occs": 7,
+         "p_notq_occs": 86,
+         "decision": "no",
+         "lambda": 0.007000000000000006,
+         "coef": -0.01276628273645894,
+         "coverage": 62.31884057971014,
+         "coverage_q_in_p": 0.07526881720430108,
+         "coverage_not_q_in_p": 0.9247311827956989,
+         "precision": 92.47311827956989,
+         "ratio": 12.285714285714285,
+         "delta": -4.254777070063694,
+         "g-statistic": 2.0789115552880224,
+         "p-value": 0.14934663804620008,
+         "cramers_phi": 0.14951216569653808
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:child:rel_shallow=obl",
+         "p_occs": 27,
+         "p_q_occs": 1,
+         "p_notq_occs": 26,
+         "decision": "no",
+         "lambda": 0.007000000000000006,
+         "coef": -0.03275317520816068,
+         "coverage": 18.84057971014493,
+         "coverage_q_in_p": 0.037037037037037035,
+         "coverage_not_q_in_p": 0.9629629629629629,
+         "precision": 96.29629629629629,
+         "ratio": 26.0,
+         "delta": -2.267515923566879,
+         "g-statistic": 2.3770331151844086,
+         "p-value": 0.123131198899607,
+         "cramers_phi": 0.29671242563355593
+      },
+      {
+         "pattern": "node:X:child:upos=SCONJ,node:X:child:Voice=Act",
+         "p_occs": 73,
+         "p_q_occs": 8,
+         "p_notq_occs": 65,
+         "decision": "no",
+         "lambda": 0.007000000000000006,
+         "coef": 0.1785190843771874,
+         "coverage": 47.10144927536232,
+         "coverage_q_in_p": 0.1095890410958904,
+         "coverage_not_q_in_p": 0.8904109589041096,
+         "precision": 89.04109589041096,
+         "ratio": 8.125,
+         "delta": -0.8343949044585983,
+         "g-statistic": 0.09221618939840823,
+         "p-value": 0.7613784119416671,
+         "cramers_phi": 0.03554202401680399
+      },
+      {
+         "pattern": "node:X:child:rel_shallow=advmod,node:X:child:Degree=Pos",
+         "p_occs": 15,
+         "p_q_occs": 0,
+         "p_notq_occs": 15,
+         "decision": "no",
+         "lambda": 0.007000000000000006,
+         "coef": -0.0441156933357012,
+         "coverage": 10.869565217391305,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -1.8152866242038217,
+         "g-statistic": 3.8697636057331004,
+         "p-value": 0.04916344556073282,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:child:PronType=Prs,node:X:child:upos=VERB",
+         "p_occs": 49,
+         "p_q_occs": 7,
+         "p_notq_occs": 42,
+         "decision": "yes",
+         "lambda": 0.006000000000000005,
+         "coef": 0.042993275942998066,
+         "coverage": 36.84210526315789,
+         "coverage_q_in_p": 0.14285714285714285,
+         "coverage_not_q_in_p": 0.8571428571428571,
+         "precision": 14.285714285714285,
+         "ratio": 0.16666666666666666,
+         "delta": 1.0700636942675157,
+         "g-statistic": 0.20923447033474638,
+         "p-value": 0.6473680810027973,
+         "cramers_phi": 0.06534593507878937
+      },
+      {
+         "pattern": "node:X:child:upos=PART,node:X:child:rel_shallow=nsubj",
+         "p_occs": 5,
+         "p_q_occs": 2,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.006000000000000005,
+         "coef": 0.36242231648156165,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.4,
+         "coverage_not_q_in_p": 0.6,
+         "precision": 40.0,
+         "ratio": 0.6666666666666667,
+         "delta": 1.394904458598726,
+         "g-statistic": 2.491063355781526,
+         "p-value": 0.11449434424932525,
+         "cramers_phi": 0.7058418173757526
+      },
+      {
+         "pattern": "node:X:child:Definite=Ind,node:X:child:rel_shallow=xcomp",
+         "p_occs": 17,
+         "p_q_occs": 6,
+         "p_notq_occs": 11,
+         "decision": "yes",
+         "lambda": 0.006000000000000005,
+         "coef": 0.09607786954429864,
+         "coverage": 31.57894736842105,
+         "coverage_q_in_p": 0.35294117647058826,
+         "coverage_not_q_in_p": 0.6470588235294118,
+         "precision": 35.294117647058826,
+         "ratio": 0.5454545454545454,
+         "delta": 3.9426751592356686,
+         "g-statistic": 6.105064492776148,
+         "p-value": 0.01347950313765145,
+         "cramers_phi": 0.5992674200651477
+      },
+      {
+         "pattern": "node:X:child:VerbForm=Inf,node:X:child:rel_shallow=mark",
+         "p_occs": 36,
+         "p_q_occs": 5,
+         "p_notq_occs": 31,
+         "decision": "yes",
+         "lambda": 0.0050000000000000044,
+         "coef": 0.026495521713191306,
+         "coverage": 26.31578947368421,
+         "coverage_q_in_p": 0.1388888888888889,
+         "coverage_not_q_in_p": 0.8611111111111112,
+         "precision": 13.88888888888889,
+         "ratio": 0.16129032258064516,
+         "delta": 0.6433121019108281,
+         "g-statistic": 0.10380194724723502,
+         "p-value": 0.747313989856102,
+         "cramers_phi": 0.053697182640566034
+      },
+      {
+         "pattern": "node:X:child:PronType=Ind,node:X:child:rel_shallow=obj",
+         "p_occs": 12,
+         "p_q_occs": 3,
+         "p_notq_occs": 9,
+         "decision": "yes",
+         "lambda": 0.0050000000000000044,
+         "coef": 0.02921333153265726,
+         "coverage": 15.789473684210526,
+         "coverage_q_in_p": 0.25,
+         "coverage_not_q_in_p": 0.75,
+         "precision": 25.0,
+         "ratio": 0.3333333333333333,
+         "delta": 1.5477707006369428,
+         "g-statistic": 1.4966556496796652,
+         "p-value": 0.22118666274686272,
+         "cramers_phi": 0.3531590351951541
+      },
+      {
+         "pattern": "node:X:child:upos=SCONJ,node:X:child:rel_shallow=nsubj",
+         "p_occs": 101,
+         "p_q_occs": 8,
+         "p_notq_occs": 93,
+         "decision": "no",
+         "lambda": 0.0050000000000000044,
+         "coef": -0.014500834858988954,
+         "coverage": 67.3913043478261,
+         "coverage_q_in_p": 0.07920792079207921,
+         "coverage_not_q_in_p": 0.9207920792079208,
+         "precision": 92.07920792079209,
+         "ratio": 11.625,
+         "delta": -4.222929936305732,
+         "g-statistic": 1.86166956590368,
+         "p-value": 0.1724322320398215,
+         "cramers_phi": 0.13576587177800023
+      },
+      {
+         "pattern": "node:X:child:upos=VERB,node:CLH:own:Tense=Past",
+         "p_occs": 21,
+         "p_q_occs": 0,
+         "p_notq_occs": 21,
+         "decision": "no",
+         "lambda": 0.0050000000000000044,
+         "coef": -0.050577422064039146,
+         "coverage": 15.217391304347828,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -2.5414012738853504,
+         "g-statistic": 5.41766904802634,
+         "p-value": 0.01993395528387132,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:child:upos=INTJ",
+         "p_occs": 5,
+         "p_q_occs": 2,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.0040000000000000036,
+         "coef": 0.03200836963351361,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.4,
+         "coverage_not_q_in_p": 0.6,
+         "precision": 40.0,
+         "ratio": 0.6666666666666667,
+         "delta": 1.394904458598726,
+         "g-statistic": 2.491063355781526,
+         "p-value": 0.11449434424932525,
+         "cramers_phi": 0.7058418173757526
+      },
+      {
+         "pattern": "node:X:own:Voice=Act,node:X:child:rel_shallow=xcomp",
+         "p_occs": 24,
+         "p_q_occs": 7,
+         "p_notq_occs": 17,
+         "decision": "yes",
+         "lambda": 0.0040000000000000036,
+         "coef": 0.1746356290876458,
+         "coverage": 36.84210526315789,
+         "coverage_q_in_p": 0.2916666666666667,
+         "coverage_not_q_in_p": 0.7083333333333334,
+         "precision": 29.166666666666668,
+         "ratio": 0.4117647058823529,
+         "delta": 4.095541401273886,
+         "g-statistic": 4.976439581027998,
+         "p-value": 0.02569481158148501,
+         "cramers_phi": 0.45535881369476083
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=xcomp,node:X:child:rel_shallow=advmod",
+         "p_occs": 6,
+         "p_q_occs": 0,
+         "p_notq_occs": 6,
+         "decision": "no",
+         "lambda": 0.0040000000000000036,
+         "coef": -0.05090393037990926,
+         "coverage": 4.3478260869565215,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -0.7261146496815286,
+         "g-statistic": 1.5479054422932401,
+         "p-value": 0.21344492086486055,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:child:Definite=Def,node:X:parent:position=before",
+         "p_occs": 97,
+         "p_q_occs": 12,
+         "p_notq_occs": 85,
+         "decision": "yes",
+         "lambda": 0.0030000000000000027,
+         "coef": 0.020787759015437265,
+         "coverage": 63.1578947368421,
+         "coverage_q_in_p": 0.12371134020618557,
+         "coverage_not_q_in_p": 0.8762886597938144,
+         "precision": 12.371134020618557,
+         "ratio": 0.1411764705882353,
+         "delta": 0.2611464968152859,
+         "g-statistic": 0.006567629461922131,
+         "p-value": 0.9354094162004369,
+         "cramers_phi": 0.00822845794945817
+      },
+      {
+         "pattern": "node:X:child:Voice=Act,node:X:own:VerbForm=Inf",
+         "p_occs": 55,
+         "p_q_occs": 3,
+         "p_notq_occs": 52,
+         "decision": "no",
+         "lambda": 0.0030000000000000027,
+         "coef": -0.10566650510975345,
+         "coverage": 37.68115942028986,
+         "coverage_q_in_p": 0.05454545454545454,
+         "coverage_not_q_in_p": 0.9454545454545454,
+         "precision": 94.54545454545455,
+         "ratio": 17.333333333333332,
+         "delta": -3.6560509554140124,
+         "g-statistic": 2.800391545871253,
+         "p-value": 0.09424129010544335,
+         "cramers_phi": 0.22564620520835682
+      },
+      {
+         "pattern": "node:X:child:upos=NOUN,node:X:child:rel_shallow=nsubj",
+         "p_occs": 81,
+         "p_q_occs": 12,
+         "p_notq_occs": 69,
+         "decision": "yes",
+         "lambda": 0.0030000000000000027,
+         "coef": 0.01350826368590105,
+         "coverage": 63.1578947368421,
+         "coverage_q_in_p": 0.14814814814814814,
+         "coverage_not_q_in_p": 0.8518518518518519,
+         "precision": 14.814814814814813,
+         "ratio": 0.17391304347826086,
+         "delta": 2.1974522292993637,
+         "g-statistic": 0.5279705871358028,
+         "p-value": 0.46746131856021556,
+         "cramers_phi": 0.08073509396005127
+      },
+      {
+         "pattern": "node:CLH:own:Tense=Pres,node:X:child:rel_shallow=conj",
+         "p_occs": 7,
+         "p_q_occs": 1,
+         "p_notq_occs": 6,
+         "decision": "yes",
+         "lambda": 0.0030000000000000027,
+         "coef": -0.06970895515127884,
+         "coverage": 5.263157894736842,
+         "coverage_q_in_p": 0.14285714285714285,
+         "coverage_not_q_in_p": 0.8571428571428571,
+         "precision": 14.285714285714285,
+         "ratio": 0.16666666666666666,
+         "delta": 0.15286624203821653,
+         "g-statistic": 0.029890638619249482,
+         "p-value": 0.8627386047570603,
+         "cramers_phi": 0.06534593507878937
+      },
+      {
+         "pattern": "node:CLH:own:Tense=Past,node:X:own:Voice=Act",
+         "p_occs": 42,
+         "p_q_occs": 3,
+         "p_notq_occs": 39,
+         "decision": "no",
+         "lambda": 0.0030000000000000027,
+         "coef": -0.0313742826494352,
+         "coverage": 28.26086956521739,
+         "coverage_q_in_p": 0.07142857142857142,
+         "coverage_not_q_in_p": 0.9285714285714286,
+         "precision": 92.85714285714286,
+         "ratio": 13.000000000000002,
+         "delta": -2.082802547770701,
+         "g-statistic": 1.1174605263154078,
+         "p-value": 0.29046592611674216,
+         "cramers_phi": 0.16311407973412262
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:child:rel_shallow=advmod",
+         "p_occs": 35,
+         "p_q_occs": 4,
+         "p_notq_occs": 31,
+         "decision": "no",
+         "lambda": 0.0030000000000000027,
+         "coef": 0.16532888656455236,
+         "coverage": 22.463768115942027,
+         "coverage_q_in_p": 0.11428571428571428,
+         "coverage_not_q_in_p": 0.8857142857142857,
+         "precision": 88.57142857142857,
+         "ratio": 7.75,
+         "delta": -0.23566878980891737,
+         "g-statistic": 0.015163324082577007,
+         "p-value": 0.9019966726061435,
+         "cramers_phi": 0.020814365974748585
+      },
+      {
+         "pattern": "node:Y:own:Polarity=Neg,node:X:child:upos=INTJ",
+         "p_occs": 5,
+         "p_q_occs": 2,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.0030000000000000027,
+         "coef": 0.012633793164930962,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.4,
+         "coverage_not_q_in_p": 0.6,
+         "precision": 40.0,
+         "ratio": 0.6666666666666667,
+         "delta": 1.394904458598726,
+         "g-statistic": 2.491063355781526,
+         "p-value": 0.11449434424932525,
+         "cramers_phi": 0.7058418173757526
+      },
+      {
+         "pattern": "node:X:child:VerbForm=Inf,node:X:child:upos=SCONJ",
+         "p_occs": 28,
+         "p_q_occs": 4,
+         "p_notq_occs": 24,
+         "decision": "yes",
+         "lambda": 0.0020000000000000018,
+         "coef": 2.5704621874678146e-05,
+         "coverage": 21.052631578947366,
+         "coverage_q_in_p": 0.14285714285714285,
+         "coverage_not_q_in_p": 0.8571428571428571,
+         "precision": 14.285714285714285,
+         "ratio": 0.16666666666666666,
+         "delta": 0.6114649681528661,
+         "g-statistic": 0.11956255447699793,
+         "p-value": 0.7295094195289176,
+         "cramers_phi": 0.06534593507878937
+      },
+      {
+         "pattern": "node:X:child:upos=INTJ,node:Y:own:has_child=No",
+         "p_occs": 5,
+         "p_q_occs": 2,
+         "p_notq_occs": 3,
+         "decision": "yes",
+         "lambda": 0.0020000000000000018,
+         "coef": 0.0007819525435295294,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.4,
+         "coverage_not_q_in_p": 0.6,
+         "precision": 40.0,
+         "ratio": 0.6666666666666667,
+         "delta": 1.394904458598726,
+         "g-statistic": 2.491063355781526,
+         "p-value": 0.11449434424932525,
+         "cramers_phi": 0.7058418173757526
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=ccomp,node:X:child:rel_shallow=advcl",
+         "p_occs": 10,
+         "p_q_occs": 2,
+         "p_notq_occs": 8,
+         "decision": "yes",
+         "lambda": 0.0020000000000000018,
+         "coef": 0.014030102409230416,
+         "coverage": 10.526315789473683,
+         "coverage_q_in_p": 0.2,
+         "coverage_not_q_in_p": 0.8,
+         "precision": 20.0,
+         "ratio": 0.25,
+         "delta": 0.7898089171974523,
+         "g-statistic": 0.5030527570213666,
+         "p-value": 0.47816182964344245,
+         "cramers_phi": 0.2242883762082571
+      },
+      {
+         "pattern": "node:X:own:rel_shallow=advcl,node:X:child:Number=Plur",
+         "p_occs": 15,
+         "p_q_occs": 0,
+         "p_notq_occs": 15,
+         "decision": "no",
+         "lambda": 0.0020000000000000018,
+         "coef": -0.0053229673925907495,
+         "coverage": 10.869565217391305,
+         "coverage_q_in_p": 0.0,
+         "coverage_not_q_in_p": 1.0,
+         "precision": 100.0,
+         "ratio": 0,
+         "delta": -1.8152866242038217,
+         "g-statistic": 3.8697636057331004,
+         "p-value": 0.04916344556073282,
+         "cramers_phi": 0.5079214903724854
+      },
+      {
+         "pattern": "node:X:child:Gender=Neut,node:X:child:rel_shallow=obl",
+         "p_occs": 26,
+         "p_q_occs": 4,
+         "p_notq_occs": 22,
+         "decision": "yes",
+         "lambda": 0.001,
+         "coef": 0.5267631721795824,
+         "coverage": 21.052631578947366,
+         "coverage_q_in_p": 0.15384615384615385,
+         "coverage_not_q_in_p": 0.8461538461538461,
+         "precision": 15.384615384615385,
+         "ratio": 0.18181818181818182,
+         "delta": 0.8535031847133756,
+         "g-statistic": 0.2453107574714431,
+         "p-value": 0.620396445207033,
+         "cramers_phi": 0.09713407812666491
+      }
+   ]
+}
