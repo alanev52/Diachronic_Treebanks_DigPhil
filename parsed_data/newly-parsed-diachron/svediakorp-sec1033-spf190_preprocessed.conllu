@@ -1,0 +1,142 @@
+# text = Anna var vid godt mod, då hon kom ut ur sitt rum och lord Grey såg ut som den personifierade flegman.
+# sent_id = 0
+1	Anna	Anna	PROPN	PM|NOM	Case=Nom	5	nsubj	_	start_char=0|end_char=4
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	start_char=5|end_char=8
+3	vid	vid	ADP	PP	_	5	case	_	start_char=9|end_char=12
+4	godt	god	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	start_char=13|end_char=17
+5	mod	mod	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=18|end_char=21
+6	,	,	PUNCT	MID	_	9	punct	_	start_char=21|end_char=22
+7	då	då	SCONJ	HA	_	9	mark	_	start_char=23|end_char=25
+8	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	start_char=26|end_char=29
+9	kom	komma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=30|end_char=33
+10	ut	ut	ADV	AB	_	9	advmod	_	start_char=34|end_char=36
+11	ur	ur	ADP	PP	_	13	case	_	start_char=37|end_char=39
+12	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	13	nmod:poss	_	start_char=40|end_char=44
+13	rum	rum	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	obl	_	start_char=45|end_char=48
+14	och	och	CCONJ	KN	_	15	cc	_	start_char=49|end_char=52
+15	lord	lord	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	start_char=53|end_char=57
+16	Grey	Grey	PROPN	PM|NOM	Case=Nom	17	obj	_	start_char=58|end_char=62
+17	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	start_char=63|end_char=66
+18	ut	ut	ADV	PL	_	17	compound:prt	_	start_char=67|end_char=69
+19	som	som	ADP	KN	_	17	case	_	start_char=70|end_char=73
+20	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	22	det	_	start_char=74|end_char=77
+21	personifierade	personifierad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	22	amod	_	start_char=78|end_char=92
+22	flegman	flegman	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=93|end_char=100
+23	.	.	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=100|end_char=101
+
+# text = Jag skickades då som elev till ett offentligt läroverk och kunde genast intagas i tredje klassen.
+# sent_id = 1
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	skickades	skicka	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=4|end_char=13
+3	då	då	ADV	AB	_	2	advmod	_	start_char=14|end_char=16
+4	som	som	SCONJ	KN	_	2	mark	_	start_char=17|end_char=20
+5	elev	elev	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=21|end_char=25
+6	till	till	ADP	PP	_	9	case	_	start_char=26|end_char=30
+7	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	9	det	_	start_char=31|end_char=34
+8	offentligt	offentlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	start_char=35|end_char=45
+9	läroverk	läroverk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	start_char=46|end_char=54
+10	och	och	CCONJ	KN	_	13	cc	_	start_char=55|end_char=58
+11	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	aux	_	start_char=59|end_char=64
+12	genast	genast	ADV	AB	_	13	advmod	_	start_char=65|end_char=71
+13	intagas	intaga	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	9	acl:relcl	_	start_char=72|end_char=79
+14	i	i	ADP	PP	_	16	case	_	start_char=80|end_char=81
+15	tredje	tredje	ADJ	RO|NOM	Case=Nom|NumType=Ord	16	amod	_	start_char=82|end_char=88
+16	klassen	klass	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obl	_	SpaceAfter=No|start_char=89|end_char=96
+17	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=96|end_char=97
+
+# text = Rosenlund, Fredr., grosshandlare, antagligen med kontoret på fickan, åldern oviss, ölkinder och isterhaka, göd-typ, af där slaget, som passar för medelålders änkor.
+# sent_id = 2
+1	Rosenlund	Rosenlund	PROPN	PM|NOM	Case=Nom	0	root	_	SpaceAfter=No|start_char=0|end_char=9
+2	,	,	PUNCT	MID	_	1	punct	_	start_char=9|end_char=10
+3	Fredr.	Fredr.	PROPN	PM|NOM	Case=Nom	1	conj	_	SpaceAfter=No|start_char=11|end_char=17
+4	,	,	PUNCT	MID	_	1	punct	_	start_char=17|end_char=18
+5	grosshandlare	grosshandlare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No|start_char=19|end_char=32
+6	,	,	PUNCT	MID	_	1	punct	_	start_char=32|end_char=33
+7	antagligen	antagligen	ADV	AB	_	1	advmod	_	start_char=34|end_char=44
+8	med	med	ADP	PP	_	9	case	_	start_char=45|end_char=48
+9	kontoret	kontor	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	start_char=49|end_char=57
+10	på	på	ADP	PP	_	11	case	_	start_char=58|end_char=60
+11	fickan	ficka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=61|end_char=67
+12	,	,	PUNCT	MID	_	14	punct	_	start_char=67|end_char=68
+13	åldern	ålder	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obj	_	start_char=69|end_char=75
+14	oviss	oviss	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	conj	_	SpaceAfter=No|start_char=76|end_char=81
+15	,	,	PUNCT	MID	_	16	punct	_	start_char=81|end_char=82
+16	ölkinder	ölkind	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	_	start_char=83|end_char=91
+17	och	och	CCONJ	KN	_	18	cc	_	start_char=92|end_char=95
+18	isterhaka	isterhak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nmod	_	SpaceAfter=No|start_char=96|end_char=105
+19	,	,	PUNCT	MID	_	20	punct	_	start_char=105|end_char=106
+20	göd-typ	göd-typ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	conj	_	SpaceAfter=No|start_char=107|end_char=114
+21	,	,	PUNCT	MID	_	27	punct	_	start_char=114|end_char=115
+22	af	af	ADV	AB|AN	Abbr=Yes	24	advmod	_	start_char=116|end_char=118
+23	där	där	ADV	HA	_	24	advmod	_	start_char=119|end_char=122
+24	slaget	slag	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=123|end_char=129
+25	,	,	PUNCT	MID	_	27	punct	_	start_char=129|end_char=130
+26	som	som	PRON	HP|-|-|-	PronType=Rel	27	nsubj	_	start_char=131|end_char=134
+27	passar	passa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	start_char=135|end_char=141
+28	för	för	ADP	PP	_	30	case	_	start_char=142|end_char=145
+29	medelålders	medelålder	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	30	nmod:poss	_	start_char=146|end_char=157
+30	änkor	änka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	27	obl	_	SpaceAfter=No|start_char=158|end_char=163
+31	.	.	PUNCT	MAD	_	27	punct	_	SpaceAfter=No|start_char=163|end_char=164
+
+# text = Liksom för att särskildt affischera hvad han hade för sig, höll han bladet fullständigt uppslaget, så att publikationens namn syntes lång väg.
+# sent_id = 3
+1	Liksom	liksom	ADV	AB	_	5	advmod	_	start_char=0|end_char=6
+2	för	för	ADP	PP	_	5	case	_	start_char=7|end_char=10
+3	att	att	PART	IE	_	5	mark	_	start_char=11|end_char=14
+4	särskildt	särskildt	ADV	AB|POS	Degree=Pos	5	advmod	_	start_char=15|end_char=24
+5	affischera	affischera	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=25|end_char=35
+6	hvad	hvad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	8	nsubj	_	start_char=36|end_char=40
+7	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=41|end_char=44
+8	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=45|end_char=49
+9	för	för	ADP	PP	_	12	case	_	start_char=50|end_char=53
+10	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	8	obl	_	SpaceAfter=No|start_char=54|end_char=57
+11	,	,	PUNCT	MID	_	12	punct	_	start_char=57|end_char=58
+12	höll	hålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=59|end_char=63
+13	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	start_char=64|end_char=67
+14	bladet	blad	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	start_char=68|end_char=74
+15	fullständigt	fullständig	ADV	AB|POS	Degree=Pos	16	advmod	_	start_char=75|end_char=87
+16	uppslaget	uppslagen	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No|start_char=88|end_char=97
+17	,	,	PUNCT	MID	_	22	punct	_	start_char=97|end_char=98
+18	så	så	ADV	AB	_	22	advmod	_	start_char=99|end_char=101
+19	att	att	SCONJ	SN	_	22	mark	_	start_char=102|end_char=105
+20	publikationens	publikation	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	21	nmod:poss	_	start_char=106|end_char=120
+21	namn	namn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	obl	_	start_char=121|end_char=125
+22	syntes	synas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	start_char=126|end_char=132
+23	lång	lång	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	24	amod	_	start_char=133|end_char=137
+24	väg	väg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obj	_	SpaceAfter=No|start_char=138|end_char=141
+25	.	.	PUNCT	MAD	_	22	punct	_	SpaceAfter=No|start_char=141|end_char=142
+
+# text = Det första, som mötte hans blick, var Vadstena slott, som trotsigt lyfte sina krönta spiror högt mot de tunga skyarne, ur hvilka rägnet icke längre nedströmmade.
+# sent_id = 4
+1	Det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=3
+2	första	första	ADJ	RO|NOM	Case=Nom|NumType=Ord	5	nsubj	_	SpaceAfter=No|start_char=4|end_char=10
+3	,	,	PUNCT	MID	_	5	punct	_	start_char=10|end_char=11
+4	som	som	PRON	HP|-|-|-	PronType=Rel	5	nsubj	_	start_char=12|end_char=15
+5	mötte	möta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=16|end_char=21
+6	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=22|end_char=26
+7	blick	blick	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	SpaceAfter=No|start_char=27|end_char=32
+8	,	,	PUNCT	MID	_	5	punct	_	start_char=32|end_char=33
+9	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	start_char=34|end_char=37
+10	Vadstena	Vadstena	PROPN	PM|GEN	Case=Gen	11	nmod:poss	_	start_char=38|end_char=46
+11	slott	slott	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	obj	_	SpaceAfter=No|start_char=47|end_char=52
+12	,	,	PUNCT	MID	_	15	punct	_	start_char=52|end_char=53
+13	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	_	start_char=54|end_char=57
+14	trotsigt	trotsig	ADV	AB|POS	Degree=Pos	15	advmod	_	start_char=58|end_char=66
+15	lyfte	lyfa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	start_char=67|end_char=72
+16	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=73|end_char=77
+17	krönta	krönt	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	18	amod	_	start_char=78|end_char=84
+18	spiror	spira	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obj	_	start_char=85|end_char=91
+19	högt	hög	ADV	AB|POS	Degree=Pos	18	advmod	_	start_char=92|end_char=96
+20	mot	mot	ADP	PP	_	23	case	_	start_char=97|end_char=100
+21	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	23	det	_	start_char=101|end_char=103
+22	tunga	tung	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	start_char=104|end_char=109
+23	skyarne	skyarne	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	15	obl	_	SpaceAfter=No|start_char=110|end_char=117
+24	,	,	PUNCT	MID	_	30	punct	_	start_char=117|end_char=118
+25	ur	ur	ADP	PP	_	27	case	_	start_char=119|end_char=121
+26	hvilka	hvilk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	27	amod	_	start_char=122|end_char=128
+27	rägnet	rägn	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	30	obl	_	start_char=129|end_char=135
+28	icke	icke	PART	AB	Polarity=Neg	30	advmod	_	start_char=136|end_char=140
+29	längre	länge	ADV	AB|KOM	Degree=Cmp	30	advmod	_	start_char=141|end_char=147
+30	nedströmmade	nedströmmad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	23	acl:relcl	_	SpaceAfter=No|start_char=148|end_char=160
+31	.	.	PUNCT	MAD	_	30	punct	_	SpaceAfter=No|start_char=160|end_char=161
+

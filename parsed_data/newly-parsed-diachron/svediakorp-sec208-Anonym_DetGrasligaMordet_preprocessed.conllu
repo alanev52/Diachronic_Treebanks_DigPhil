@@ -1,0 +1,105 @@
+# text = Af alla dessa personer , inemot femtio stycken , har dock icke kunnat erhållas någon upplysning till ledning för brottslingens upptäckande .
+# sent_id = 0
+1	Af	af	ADP	PP	_	4	case	_	start_char=0|end_char=2
+2	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	4	det	_	start_char=3|end_char=7
+3	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	4	det	_	start_char=8|end_char=13
+4	personer	person	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	start_char=14|end_char=22
+5	,	,	PUNCT	MID	_	4	punct	_	start_char=23|end_char=24
+6	inemot	inemot	ADV	AB	_	4	advmod	_	start_char=25|end_char=31
+7	femtio	femtio	NUM	RG|NOM	Case=Nom|NumType=Card	8	case	_	start_char=32|end_char=38
+8	stycken	styck	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	start_char=39|end_char=46
+9	,	,	PUNCT	MID	_	14	punct	_	start_char=47|end_char=48
+10	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	start_char=49|end_char=52
+11	dock	dock	ADV	AB	_	14	advmod	_	start_char=53|end_char=57
+12	icke	icke	PART	AB	Polarity=Neg	14	advmod	_	start_char=58|end_char=62
+13	kunnat	kunna	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	14	aux	_	start_char=63|end_char=69
+14	erhållas	erhålla	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	8	acl:relcl	_	start_char=70|end_char=78
+15	någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	16	det	_	start_char=79|end_char=84
+16	upplysning	upplysning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	start_char=85|end_char=95
+17	till	till	ADP	PP	_	18	case	_	start_char=96|end_char=100
+18	ledning	ledning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	start_char=101|end_char=108
+19	för	för	ADP	PP	_	21	case	_	start_char=109|end_char=112
+20	brottslingens	brottsling	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	21	nmod:poss	_	start_char=113|end_char=126
+21	upptäckande	upptäckande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	start_char=127|end_char=138
+22	.	.	PUNCT	MAD	_	14	punct	_	SpaceAfter=No|start_char=139|end_char=140
+
+# text = Att Dahlberg blifvit mördad under sömnen synes framgå deraf, att hon låg afklädd i sängen med ett tretvinnadt segelgarnssnöre hårdt tillknutet om halsen samt med ett sår efter ett våldsamt, sannolikt med en yxa eller hammare tillfogadt slag vid ena tinningen, utan att något spår till försvar från hennes sida syntes.
+# sent_id = 1
+1	Att	att	SCONJ	SN	_	4	mark	_	start_char=0|end_char=3
+2	Dahlberg	Dahlberg	PROPN	PM|NOM	Case=Nom	4	nsubj	_	start_char=4|end_char=12
+3	blifvit	bli	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	cop	_	start_char=13|end_char=20
+4	mördad	mördad	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	start_char=21|end_char=27
+5	under	under	ADP	PP	_	7	case	_	start_char=28|end_char=33
+6	sömnen	söm	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	start_char=34|end_char=40
+7	synes	synas	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	start_char=41|end_char=46
+8	framgå	framgå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	_	start_char=47|end_char=53
+9	deraf	deraf	ADV	AB	_	8	advmod	_	SpaceAfter=No|start_char=54|end_char=59
+10	,	,	PUNCT	MID	_	13	punct	_	start_char=59|end_char=60
+11	att	att	SCONJ	SN	_	13	mark	_	start_char=61|end_char=64
+12	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	start_char=65|end_char=68
+13	låg	ligga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=69|end_char=72
+14	afklädd	afklädd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	13	conj	_	start_char=73|end_char=80
+15	i	i	ADP	PP	_	16	case	_	start_char=81|end_char=82
+16	sängen	säng	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obl	_	start_char=83|end_char=89
+17	med	med	ADP	PP	_	20	case	_	start_char=90|end_char=93
+18	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	start_char=94|end_char=97
+19	tretvinnadt	tretvinnad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=98|end_char=109
+20	segelgarnssnöre	segelgarnssnöre	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	start_char=110|end_char=125
+21	hårdt	hård	ADV	AB|POS	Degree=Pos	22	advmod	_	start_char=126|end_char=131
+22	tillknutet	tillknuten	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	20	acl:relcl	_	start_char=132|end_char=142
+23	om	om	ADP	PP	_	24	case	_	start_char=143|end_char=145
+24	halsen	hals	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	obl	_	start_char=146|end_char=152
+25	samt	samt	CCONJ	KN	_	28	cc	_	start_char=153|end_char=157
+26	med	med	ADP	PP	_	28	case	_	start_char=158|end_char=161
+27	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	28	det	_	start_char=162|end_char=165
+28	sår	sår	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	obl	_	start_char=166|end_char=169
+29	efter	efter	ADP	PP	_	31	case	_	start_char=170|end_char=175
+30	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	31	det	_	start_char=176|end_char=179
+31	våldsamt	våldsam	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	28	conj	_	SpaceAfter=No|start_char=180|end_char=188
+32	,	,	PUNCT	MID	_	33	punct	_	start_char=188|end_char=189
+33	sannolikt	sannolik	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	31	conj	_	start_char=190|end_char=199
+34	med	med	ADP	PP	_	36	case	_	start_char=200|end_char=203
+35	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	36	det	_	start_char=204|end_char=206
+36	yxa	yxa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	obl	_	start_char=207|end_char=210
+37	eller	eller	CCONJ	KN	_	38	cc	_	start_char=211|end_char=216
+38	hammare	hammare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	nmod	_	start_char=217|end_char=224
+39	tillfogadt	tillfogad	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	40	amod	_	start_char=225|end_char=235
+40	slag	slag	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	nmod	_	start_char=236|end_char=240
+41	vid	vid	ADP	PP	_	43	case	_	start_char=241|end_char=244
+42	ena	ena	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	43	amod	_	start_char=245|end_char=248
+43	tinningen	tinning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	40	nmod	_	SpaceAfter=No|start_char=249|end_char=258
+44	,	,	PUNCT	MID	_	54	punct	_	start_char=258|end_char=259
+45	utan	utan	ADP	PP	_	48	case	_	start_char=260|end_char=264
+46	att	att	SCONJ	SN	_	48	mark	_	start_char=265|end_char=268
+47	något	någon	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	48	det	_	start_char=269|end_char=274
+48	spår	spår	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	43	nmod	_	start_char=275|end_char=279
+49	till	till	ADP	PP	_	50	case	_	start_char=280|end_char=284
+50	försvar	försvar	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	54	obl	_	start_char=285|end_char=292
+51	från	från	ADP	PP	_	53	case	_	start_char=293|end_char=297
+52	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	53	nmod:poss	_	start_char=298|end_char=304
+53	sida	sida	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	54	obl	_	start_char=305|end_char=309
+54	syntes	synas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	48	acl:relcl	_	SpaceAfter=No|start_char=310|end_char=316
+55	.	.	PUNCT	MAD	_	54	punct	_	SpaceAfter=No|start_char=316|end_char=317
+
+# text = Af hennes tillhörigheter saknades intet, hvadan brottet synes icke kafva skett i uppsåt att åtkomma hennes egendom.
+# sent_id = 2
+1	Af	af	ADP	PP	_	3	case	_	start_char=0|end_char=2
+2	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=3|end_char=9
+3	tillhörigheter	tillhörighet	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	_	start_char=10|end_char=24
+4	saknades	sakna	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=25|end_char=33
+5	intet	inden	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	obj	_	SpaceAfter=No|start_char=34|end_char=39
+6	,	,	PUNCT	MID	_	4	punct	_	start_char=39|end_char=40
+7	hvadan	hvadan	SCONJ	SN	_	4	mark	_	start_char=41|end_char=47
+8	brottet	brott	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	4	nsubj	_	start_char=48|end_char=55
+9	synes	synes	AUX	VB|KON|PRT|AKT	Mood=Sub|Tense=Past|VerbForm=Fin|Voice=Act	12	amod	_	start_char=56|end_char=61
+10	icke	icke	PART	AB	Polarity=Neg	12	advmod	_	start_char=62|end_char=66
+11	kafva	kafva	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	start_char=67|end_char=72
+12	skett	ske	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	4	conj	_	start_char=73|end_char=78
+13	i	i	ADP	PP	_	14	case	_	start_char=79|end_char=80
+14	uppsåt	uppsåt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	start_char=81|end_char=87
+15	att	att	PART	IE	_	16	mark	_	start_char=88|end_char=91
+16	åtkomma	åtkomma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	conj	_	start_char=92|end_char=99
+17	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	18	nmod:poss	_	start_char=100|end_char=106
+18	egendom	egendom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No|start_char=107|end_char=114
+19	.	.	PUNCT	MAD	_	16	punct	_	SpaceAfter=No|start_char=114|end_char=115
+

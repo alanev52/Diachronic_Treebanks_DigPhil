@@ -1,0 +1,1896 @@
+# text = 1799.
+# sent_id = 0
+1	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	0	root	_	SpaceAfter=No|start_char=0|end_char=4
+2	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=4|end_char=5
+
+# text = Härjämte följer också en ganska wacker tolamods Wisa, Ack se Farbror Adolph, skreko de små!
+# sent_id = 1
+1	Härjämte	härjämte	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	start_char=0|end_char=8
+2	följer	följa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=15
+3	också	också	ADV	AB	_	2	advmod	_	start_char=16|end_char=21
+4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=22|end_char=24
+5	ganska	ganska	ADV	AB	_	2	advmod	_	start_char=25|end_char=31
+6	wacker	wack	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=32|end_char=38
+7	tolamods	tolamods	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	8	amod	_	start_char=39|end_char=47
+8	Wisa	Wisa	PROPN	PM|NOM	Case=Nom	2	obj	_	SpaceAfter=No|start_char=48|end_char=52
+9	,	,	PUNCT	MID	_	11	punct	_	start_char=52|end_char=53
+10	Ack	Ack	PROPN	PM|NOM	Case=Nom	8	nmod	_	start_char=54|end_char=57
+11	se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=58|end_char=60
+12	Farbror	farbra	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	start_char=61|end_char=68
+13	Adolph	Adolph	PROPN	PM|NOM	Case=Nom	11	obj	_	SpaceAfter=No|start_char=69|end_char=75
+14	,	,	PUNCT	MID	_	15	punct	_	start_char=75|end_char=76
+15	skreko	skreko	VERB	VB|PRS|AKT	Mood=Ind|VerbForm=Fin|Voice=Act	11	conj	_	start_char=77|end_char=83
+16	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=84|end_char=86
+17	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	15	conj	_	SpaceAfter=No|start_char=87|end_char=90
+18	!	!	PUNCT	MAD	_	15	punct	_	SpaceAfter=No|start_char=90|end_char=91
+
+# text = Ack se Swåger Adolph!
+# sent_id = 2
+1	Ack	ack	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=3
+2	se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=4|end_char=6
+3	Swåger	Swåger	PROPN	PM|NOM	Case=Nom	2	obj	_	start_char=7|end_char=13
+4	Adolph	Adolph	PROPN	PM|NOM	Case=Nom	2	obl	_	SpaceAfter=No|start_char=14|end_char=20
+5	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=20|end_char=21
+
+# text = Hennes hjerta wille brista, då de tre oskyldiga, med hoppets och glädjens upsyn, ropade alla på en gång; Mamma kommer!
+# sent_id = 3
+1	Hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=0|end_char=6
+2	hjerta	hjerta	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	start_char=7|end_char=13
+3	wille	wå	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	start_char=14|end_char=19
+4	brista	brista	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No|start_char=20|end_char=26
+5	,	,	PUNCT	MID	_	4	punct	_	start_char=26|end_char=27
+6	då	då	SCONJ	HA	_	4	mark	_	start_char=28|end_char=30
+7	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	9	det	_	start_char=31|end_char=33
+8	tre	tre	NUM	RG|NOM	Case=Nom|NumType=Card	9	nsubj	_	start_char=34|end_char=37
+9	oskyldiga	oskyldig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	4	conj	_	SpaceAfter=No|start_char=38|end_char=47
+10	,	,	PUNCT	MID	_	4	punct	_	start_char=47|end_char=48
+11	med	med	ADP	PP	_	15	case	_	start_char=49|end_char=52
+12	hoppets	hopp	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod:poss	_	start_char=53|end_char=60
+13	och	och	CCONJ	KN	_	15	cc	_	start_char=61|end_char=64
+14	glädjens	glädje	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod:poss	_	start_char=65|end_char=73
+15	upsyn	upsyn	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=74|end_char=79
+16	,	,	PUNCT	MID	_	17	punct	_	start_char=79|end_char=80
+17	ropade	ropa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	start_char=81|end_char=87
+18	alla	all	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Tot	17	obj	_	start_char=88|end_char=92
+19	på	på	ADP	PP	_	21	case	_	start_char=93|end_char=95
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	start_char=96|end_char=98
+21	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	SpaceAfter=No|start_char=99|end_char=103
+22	;	;	PUNCT	MID	_	24	punct	_	start_char=103|end_char=104
+23	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj	_	start_char=105|end_char=110
+24	kommer	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No|start_char=111|end_char=117
+25	!	!	PUNCT	MAD	_	24	punct	_	SpaceAfter=No|start_char=117|end_char=118
+
+# text = Derför bör du intet klandra Uppå Lyckan utan säj:
+# sent_id = 4
+1	Derför	derför	ADV	AB	_	5	advmod	_	start_char=0|end_char=6
+2	bör	böra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=7|end_char=10
+3	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	start_char=11|end_char=13
+4	intet	intet	ADV	AB	Degree=Pos	5	advmod	_	start_char=14|end_char=19
+5	klandra	klandra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=20|end_char=27
+6	Uppå	uppå	ADP	PP	_	7	case	_	start_char=28|end_char=32
+7	Lyckan	lycka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	5	obl	_	start_char=33|end_char=39
+8	utan	utan	ADP	PP	_	9	case	_	start_char=40|end_char=44
+9	säj	säja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No|start_char=45|end_char=48
+10	:	:	PUNCT	MAD	_	5	punct	_	SpaceAfter=No|start_char=48|end_char=49
+
+# text = Gud är god, gör aldrig illa.
+# sent_id = 5
+1	Gud	Gud	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=0|end_char=3
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	start_char=4|end_char=6
+3	god	god	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	nsubj	_	SpaceAfter=No|start_char=7|end_char=10
+4	,	,	PUNCT	MID	_	5	punct	_	start_char=10|end_char=11
+5	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=15
+6	aldrig	aldrig	ADV	AB	Polarity=Neg	5	advmod	_	start_char=16|end_char=22
+7	illa	illa	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	3	conj	_	SpaceAfter=No|start_char=23|end_char=27
+8	.	.	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=27|end_char=28
+
+# text = Julafton hwi qwider du så hårt?
+# sent_id = 6
+1	Julafton	Julafton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	start_char=0|end_char=8
+2	hwi	hwi	INTJ	IN	_	3	advmod	_	start_char=9|end_char=12
+3	qwider	awida	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=13|end_char=19
+4	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=20|end_char=22
+5	så	så	ADV	AB	_	3	advmod	_	start_char=23|end_char=25
+6	hårt	hård	ADV	AB|POS	Degree=Pos	3	advmod	_	SpaceAfter=No|start_char=26|end_char=30
+7	?	?	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=30|end_char=31
+
+# text = hwarföre icke 50?
+# sent_id = 7
+1	hwarföre	hwarför	ADV	AB	_	3	advmod	_	start_char=0|end_char=8
+2	icke	icke	PART	AB	Polarity=Neg	3	advmod	_	start_char=9|end_char=13
+3	50	50	NUM	RG|NOM	Case=Nom|NumType=Card	0	root	_	SpaceAfter=No|start_char=14|end_char=16
+4	?	?	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=16|end_char=17
+
+# text = Godt win i flask- fodret och friska pengar i bröstfickan förbytte snart i sorgens hemwist til glädjens boning.
+# sent_id = 8
+1	Godt	god	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	win	win	NOUN	UO	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=5|end_char=8
+3	i	i	ADP	PP	_	5	case	_	start_char=9|end_char=10
+4	flask-	flask	NOUN	NN|UTR|-|-|SMS	Gender=Com	2	obl	_	start_char=11|end_char=17
+5	fodret	fodr	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	start_char=18|end_char=24
+6	och	och	CCONJ	KN	_	8	cc	_	start_char=25|end_char=28
+7	friska	frisk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	start_char=29|end_char=35
+8	pengar	pengar	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	start_char=36|end_char=42
+9	i	i	ADP	PP	_	10	case	_	start_char=43|end_char=44
+10	bröstfickan	bröstficka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	start_char=45|end_char=56
+11	förbytte	förbyta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	start_char=57|end_char=65
+12	snart	snart	ADV	AB|POS	Degree=Pos	11	advmod	_	start_char=66|end_char=71
+13	i	i	ADP	PP	_	15	case	_	start_char=72|end_char=73
+14	sorgens	sorg	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod:poss	_	start_char=74|end_char=81
+15	hemwist	hemwist	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	start_char=82|end_char=89
+16	til	til	ADP	PP	_	18	case	_	start_char=90|end_char=93
+17	glädjens	glädje	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	18	nmod:poss	_	start_char=94|end_char=102
+18	boning	boning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nmod	_	SpaceAfter=No|start_char=103|end_char=109
+19	.	.	PUNCT	MAD	_	11	punct	_	SpaceAfter=No|start_char=109|end_char=110
+
+# text = Jag afskrifwer dessa 2 Riksdaler på räkningen, och til Nyåret skall ni betala det öfriga. 3.
+# sent_id = 9
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	afskrifwer	afskrifwuma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14
+3	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	2	det	_	start_char=15|end_char=20
+4	2	2	NUM	RG|NOM	Case=Nom|NumType=Card	2	nsubj	_	start_char=21|end_char=22
+5	Riksdaler	Riksdaler	PROPN	PM|NOM	Case=Nom	2	obj	_	start_char=23|end_char=32
+6	på	på	ADP	PP	_	7	case	_	start_char=33|end_char=35
+7	räkningen	räkning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=36|end_char=45
+8	,	,	PUNCT	MID	_	2	punct	_	start_char=45|end_char=46
+9	och	och	CCONJ	KN	_	11	cc	_	start_char=47|end_char=50
+10	til	til	ADP	PP	_	11	case	_	start_char=51|end_char=54
+11	Nyåret	nyår	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	start_char=55|end_char=61
+12	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	start_char=62|end_char=67
+13	ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	start_char=68|end_char=70
+14	betala	betala	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	acl:relcl	_	start_char=71|end_char=77
+15	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	start_char=78|end_char=81
+16	öfriga	öfrig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	14	obl	_	SpaceAfter=No|start_char=82|end_char=88
+17	.	.	PUNCT	MAD	_	14	punct	_	start_char=88|end_char=89
+18	3	3	NUM	RG|NOM	Case=Nom|NumType=Card	14	obl	_	SpaceAfter=No|start_char=90|end_char=91
+19	.	.	PUNCT	MAD	_	14	punct	_	SpaceAfter=No|start_char=91|end_char=92
+
+# text = – Historier och undflygter!
+# sent_id = 10
+1	–	(	PUNCT	MID	_	2	punct	_	start_char=0|end_char=1
+2	Historier	historium	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	start_char=2|end_char=11
+3	och	och	CCONJ	KN	_	4	cc	_	start_char=12|end_char=15
+4	undflygter	undflygt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	nmod	_	SpaceAfter=No|start_char=16|end_char=26
+5	!	!	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=26|end_char=27
+
+# text = Clara betraktade sina Små. 4.
+# sent_id = 11
+1	Clara	Clara	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=5
+2	betraktade	betrakta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=16
+3	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=17|end_char=21
+4	Små.	små	NOUN	NN|AN	Abbr=Yes	2	obj	_	start_char=22|end_char=26
+5	4	4	NUM	RG|NOM	Case=Nom|NumType=Card	2	punct	_	SpaceAfter=No|start_char=27|end_char=28
+6	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Han lät bära in en koffert full med Nankins, Bomullslärfter, Silkesbukar etc. åt den goda Clara och hennes barn.
+# sent_id = 12
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	lät	låta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=7
+3	bära	bära	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=8|end_char=12
+4	in	in	ADV	PL	_	3	compound:prt	_	start_char=13|end_char=15
+5	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=16|end_char=18
+6	koffert	koffert	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=19|end_char=26
+7	full	full	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	obj	_	start_char=27|end_char=31
+8	med	med	ADP	PP	_	11	case	_	start_char=32|end_char=35
+9	Nankins	Nankin	PROPN	PM|GEN	Case=Gen	11	nmod:poss	_	SpaceAfter=No|start_char=36|end_char=43
+10	,	,	PUNCT	MID	_	2	punct	_	start_char=43|end_char=44
+11	Bomullslärfter	Bomullslärfter	PROPN	PM|NOM	Case=Nom	2	obj	_	SpaceAfter=No|start_char=45|end_char=59
+12	,	,	PUNCT	MID	_	2	punct	_	start_char=59|end_char=60
+13	Silkesbukar	Silkesbukar	PROPN	PM|NOM	Case=Nom	11	conj	_	start_char=61|end_char=72
+14	etc.	et_cetera	ADV	AB|AN	Abbr=Yes	13	advmod	_	start_char=73|end_char=77
+15	åt	åt	ADP	PP	_	18	case	_	start_char=78|end_char=80
+16	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	18	det	_	start_char=81|end_char=84
+17	goda	god	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	18	amod	_	start_char=85|end_char=89
+18	Clara	Clara	PROPN	PM|NOM	Case=Nom	13	nmod	_	start_char=90|end_char=95
+19	och	och	CCONJ	KN	_	21	cc	_	start_char=96|end_char=99
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	21	nmod:poss	_	start_char=100|end_char=106
+21	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No|start_char=107|end_char=111
+22	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=111|end_char=112
+
+# text = När Gud hulpit alla andra, Skulle Han ej hjelpa dej?
+# sent_id = 13
+1	När	när	SCONJ	HA	_	3	mark	_	start_char=0|end_char=3
+2	Gud	Gud	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=4|end_char=7
+3	hulpit	hulga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=8|end_char=14
+4	alla	all	DET	DT|UTR/NEU|PLU|IND/DEF	Number=Plur|PronType=Tot	5	det	_	start_char=15|end_char=19
+5	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	3	obj	_	SpaceAfter=No|start_char=20|end_char=25
+6	,	,	PUNCT	MID	_	3	punct	_	start_char=25|end_char=26
+7	Skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	start_char=27|end_char=33
+8	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	start_char=34|end_char=37
+9	ej	ej	PART	AB	Polarity=Neg	10	advmod	_	start_char=38|end_char=40
+10	hjelpa	hjelpa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	conj	_	start_char=41|end_char=47
+11	dej	den	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	obj	_	SpaceAfter=No|start_char=48|end_char=51
+12	?	?	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=51|end_char=52
+
+# text = Fredrica och hennes syster bjödo til at trösta henne, och gjorde mine åt Calle at ej se gråtmild ut.
+# sent_id = 14
+1	Fredrica	Fredrica	PROPN	PM|NOM	Case=Nom	5	nsubj	_	start_char=0|end_char=8
+2	och	och	CCONJ	KN	_	5	cc	_	start_char=9|end_char=12
+3	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=13|end_char=19
+4	syster	syster	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	start_char=20|end_char=26
+5	bjödo	bjödo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=32
+6	til	til	ADP	PP	_	8	case	_	start_char=33|end_char=36
+7	at	at	PART	IE	_	8	mark	_	start_char=37|end_char=39
+8	trösta	trösta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	_	start_char=40|end_char=46
+9	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	SpaceAfter=No|start_char=47|end_char=52
+10	,	,	PUNCT	MID	_	12	punct	_	start_char=52|end_char=53
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=54|end_char=57
+12	gjorde	göra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=58|end_char=64
+13	mine	mine	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	start_char=65|end_char=69
+14	åt	åt	ADP	PP	_	15	case	_	start_char=70|end_char=72
+15	Calle	Calle	PROPN	PM|NOM	Case=Nom	18	obl	_	start_char=73|end_char=78
+16	at	at	ADV	AB	_	18	advmod	_	start_char=79|end_char=81
+17	ej	ej	PART	AB	Polarity=Neg	18	advmod	_	start_char=82|end_char=84
+18	se	se	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	conj	_	start_char=85|end_char=87
+19	gråtmild	gråtmild	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	conj	_	start_char=88|end_char=96
+20	ut	ut	ADV	PL	_	18	compound:prt	_	SpaceAfter=No|start_char=97|end_char=99
+21	.	.	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=99|end_char=100
+
+# text = Derför wil jag korsset gärna
+# sent_id = 15
+1	Derför	derför	ADV	AB	_	2	advmod	_	start_char=0|end_char=6
+2	wil	wå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=10
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=11|end_char=14
+4	korsset	korsse	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	start_char=15|end_char=22
+5	gärna	gärna	ADV	AB|POS	Degree=Pos	2	advmod	_	start_char=23|end_char=28
+
+# text = Draga på min matta rygg, Wandra efter Jacobs Stjer na, Ibland törnetaggar trygg; Werldsens haf det må fritt bullra, Jag wil med min lilla båt Mellan berg och dalar kullra:
+# sent_id = 16
+1	Draga	draga	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=29|end_char=34
+2	på	på	ADP	PP	_	5	case	_	start_char=35|end_char=37
+3	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	nmod:poss	_	start_char=38|end_char=41
+4	matta	matt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	start_char=42|end_char=47
+5	rygg	rygg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No|start_char=48|end_char=52
+6	,	,	PUNCT	MID	_	1	punct	_	start_char=52|end_char=53
+7	Wandra	Wandra	PROPN	PM|NOM	Case=Nom	1	obj	_	start_char=54|end_char=60
+8	efter	efter	ADP	PP	_	10	case	_	start_char=61|end_char=66
+9	Jacobs	Jacob	PROPN	PM|GEN	Case=Nom	10	nmod:poss	_	start_char=67|end_char=73
+10	Stjer	Stjer	PROPN	PM|NOM	Case=Nom	1	obl	_	start_char=74|end_char=79
+11	na	na	INTJ	IN	_	1	punct	_	SpaceAfter=No|start_char=80|end_char=82
+12	,	,	PUNCT	MID	_	15	punct	_	start_char=82|end_char=83
+13	Ibland	ibland	ADV	AB	_	15	advmod	_	start_char=84|end_char=90
+14	törnetaggar	törnetagg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	15	obl	_	start_char=91|end_char=102
+15	trygg	trygg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	conj	_	SpaceAfter=No|start_char=103|end_char=108
+16	;	;	PUNCT	MID	_	22	punct	_	start_char=108|end_char=109
+17	Werldsens	Werldsen	PROPN	PM|GEN	Case=Gen	22	nmod:poss	_	start_char=110|end_char=119
+18	haf	haf	PUNCT	MID	_	22	punct	_	start_char=120|end_char=123
+19	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	22	nsubj	_	start_char=124|end_char=127
+20	må	må	AUX	VB|INF|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	start_char=128|end_char=130
+21	fritt	fri	ADV	AB|POS	Degree=Pos	22	advmod	_	start_char=131|end_char=136
+22	bullra	bullra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	conj	_	SpaceAfter=No|start_char=137|end_char=143
+23	,	,	PUNCT	MID	_	22	punct	_	start_char=143|end_char=144
+24	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	nsubj	_	start_char=145|end_char=148
+25	wil	wil	INTJ	IN	_	22	advmod	_	start_char=149|end_char=152
+26	med	med	ADP	PP	_	29	case	_	start_char=153|end_char=156
+27	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	29	nmod:poss	_	start_char=157|end_char=160
+28	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	29	amod	_	start_char=161|end_char=166
+29	båt	båt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	obl	_	start_char=167|end_char=170
+30	Mellan	mellan	ADP	PP	_	31	case	_	start_char=171|end_char=177
+31	berg	berg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	34	obl	_	start_char=178|end_char=182
+32	och	och	CCONJ	KN	_	33	cc	_	start_char=183|end_char=186
+33	dalar	dal	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	34	obl	_	start_char=187|end_char=192
+34	kullra	kullra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	22	conj	_	SpaceAfter=No|start_char=193|end_char=199
+35	:	:	PUNCT	MAD	_	34	punct	_	SpaceAfter=No|start_char=199|end_char=200
+
+# text = Strandar ej at jag blir wåt. war hon redan der.
+# sent_id = 17
+1	Strandar	stranda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=8
+2	ej	ej	PART	AB	Polarity=Neg	1	advmod	_	start_char=9|end_char=11
+3	at	at	SCONJ	SN	_	1	mark	_	start_char=12|end_char=14
+4	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	nsubj	_	start_char=15|end_char=18
+5	blir	bli	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=19|end_char=23
+6	wåt.	wåtent	NOUN	NN|AN	Abbr=Yes	1	obj	_	start_char=24|end_char=28
+7	war	wa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=29|end_char=32
+8	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj	_	start_char=33|end_char=36
+9	redan	redan	ADV	AB	_	7	advmod	_	start_char=37|end_char=42
+10	der	der	INTJ	IN	_	1	punct	_	SpaceAfter=No|start_char=43|end_char=46
+11	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=46|end_char=47
+
+# text = Ach! Calle och Marie stodo wid fönstret och sågo på den högblå himmeln.
+# sent_id = 18
+1	Ach	ach	INTJ	IN	_	0	root	_	SpaceAfter=No|start_char=0|end_char=3
+2	!	!	PUNCT	MID	_	6	punct	_	start_char=3|end_char=4
+3	Calle	Calle	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=5|end_char=10
+4	och	och	CCONJ	KN	_	6	cc	_	start_char=11|end_char=14
+5	Marie	Marie	PROPN	PM|NOM	Case=Nom	6	obj	_	start_char=15|end_char=20
+6	stodo	stodo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=21|end_char=26
+7	wid	wid	ADP	PP	_	8	case	_	start_char=27|end_char=30
+8	fönstret	fönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	obl	_	start_char=31|end_char=39
+9	och	och	CCONJ	KN	_	10	cc	_	start_char=40|end_char=43
+10	sågo	sågo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=44|end_char=48
+11	på	på	ADP	PP	_	14	case	_	start_char=49|end_char=51
+12	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	14	det	_	start_char=52|end_char=55
+13	högblå	högblå	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	14	amod	_	start_char=56|end_char=62
+14	himmeln	himmel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	10	obl	_	SpaceAfter=No|start_char=63|end_char=70
+15	.	.	PUNCT	MAD	_	10	punct	_	SpaceAfter=No|start_char=70|end_char=71
+
+# text = En gnista af hopp tändes i hennes hjerta, och det blef ljusare i sjelfwa mörkret omkring henne.
+# sent_id = 19
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=2
+2	gnista	gnista	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	start_char=3|end_char=9
+3	af	af	ADP	PP	_	5	case	_	start_char=10|end_char=12
+4	hopp	hopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	start_char=13|end_char=17
+5	tändes	tända	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=18|end_char=24
+6	i	i	ADP	PP	_	8	case	_	start_char=25|end_char=26
+7	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	8	nmod:poss	_	start_char=27|end_char=33
+8	hjerta	hjerta	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No|start_char=34|end_char=40
+9	,	,	PUNCT	MID	_	5	punct	_	start_char=40|end_char=41
+10	och	och	CCONJ	KN	_	13	cc	_	start_char=42|end_char=45
+11	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	obl	_	start_char=46|end_char=49
+12	blef	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	start_char=50|end_char=54
+13	ljusare	ljus	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	5	conj	_	start_char=55|end_char=62
+14	i	i	ADP	PP	_	16	case	_	start_char=63|end_char=64
+15	sjelfwa	sjelfw	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	16	amod	_	start_char=65|end_char=72
+16	mörkret	mörker	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	obl	_	start_char=73|end_char=80
+17	omkring	omkring	ADP	PP	_	18	case	_	start_char=81|end_char=88
+18	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obl	_	SpaceAfter=No|start_char=89|end_char=94
+19	.	.	PUNCT	MAD	_	13	punct	_	SpaceAfter=No|start_char=94|end_char=95
+
+# text = En tår föll från hennes ögon; men hon aftorkade den hastigt, och fortsatte sit arbete.
+# sent_id = 20
+1	En	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	2	det	_	start_char=0|end_char=2
+2	tår	tår	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	start_char=3|end_char=6
+3	föll	fölla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=11
+4	från	från	ADP	PP	_	6	case	_	start_char=12|end_char=16
+5	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=17|end_char=23
+6	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	3	obl	_	SpaceAfter=No|start_char=24|end_char=28
+7	;	;	PUNCT	MID	_	3	punct	_	start_char=28|end_char=29
+8	men	men	CCONJ	KN	_	10	cc	_	start_char=30|end_char=33
+9	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	start_char=34|end_char=37
+10	aftorkade	aftorka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=38|end_char=47
+11	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	start_char=48|end_char=51
+12	hastigt	hastig	ADV	AB|POS	Degree=Pos	15	advmod	_	SpaceAfter=No|start_char=52|end_char=59
+13	,	,	PUNCT	MID	_	15	punct	_	start_char=59|end_char=60
+14	och	och	CCONJ	KN	_	15	cc	_	start_char=61|end_char=64
+15	fortsatte	fortsätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	start_char=65|end_char=74
+16	sit	sit	ADJ	JJ|POS|UTR|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	17	amod	_	start_char=75|end_char=78
+17	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No|start_char=79|end_char=85
+18	.	.	PUNCT	MAD	_	15	punct	_	SpaceAfter=No|start_char=85|end_char=86
+
+# text = Glädjen hos denna lilla
+# sent_id = 21
+1	Glädjen	glädje	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=7
+2	hos	hos	ADP	PP	_	4	case	_	start_char=8|end_char=11
+3	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	4	det	_	start_char=12|end_char=17
+4	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	1	conj	_	start_char=18|end_char=23
+
+# text = Famille war obeskriflig, och deras fällhet tusenfalt större än den Fru von Agio i sitt Palats, med all sin öfwerdådiga yppighet, åtnjöt Julafton 1799.
+# sent_id = 22
+1	Famille	famille	NOUN	NN	_	2	advmod	_	start_char=24|end_char=31
+2	war	wa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=32|end_char=35
+3	obeskriflig	obeskriflig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No|start_char=36|end_char=47
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=47|end_char=48
+5	och	och	CCONJ	KN	_	7	cc	_	start_char=49|end_char=52
+6	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=53|end_char=58
+7	fällhet	fällhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=59|end_char=66
+8	tusenfalt	tusenfal	ADV	AB	_	9	advmod	_	start_char=67|end_char=76
+9	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	2	conj	_	start_char=77|end_char=83
+10	än	än	ADP	KN	_	12	case	_	start_char=84|end_char=86
+11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	_	start_char=87|end_char=90
+12	Fru	Fru	PROPN	PM|NOM	Case=Nom	9	obl	_	start_char=91|end_char=94
+13	von	von	PROPN	PM|NOM	Case=Nom	9	obj	_	start_char=95|end_char=98
+14	Agio	Agio	PROPN	PM|NOM	Case=Nom	12	nmod	_	start_char=99|end_char=103
+15	i	i	ADP	PP	_	17	case	_	start_char=104|end_char=105
+16	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=106|end_char=110
+17	Palats	palats	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=111|end_char=117
+18	,	,	PUNCT	MID	_	25	punct	_	start_char=117|end_char=118
+19	med	med	ADP	PP	_	23	case	_	start_char=119|end_char=122
+20	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	23	det	_	start_char=123|end_char=126
+21	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=127|end_char=130
+22	öfwerdådiga	öfwerdådig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	start_char=131|end_char=142
+23	yppighet	yppighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=143|end_char=151
+24	,	,	PUNCT	MID	_	25	punct	_	start_char=151|end_char=152
+25	åtnjöt	åtnjöta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=153|end_char=159
+26	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	25	obj	_	start_char=160|end_char=168
+27	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	25	obl	_	SpaceAfter=No|start_char=169|end_char=173
+28	.	.	PUNCT	MAD	_	25	punct	_	SpaceAfter=No|start_char=173|end_char=174
+
+# text = Fru von Agio hade nyss upstigit från sit kräsliga middagsbord, och Clara fick tilstånd at komma in i hennes yttersta förmak.
+# sent_id = 23
+1	Fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=3
+2	von	von	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=4|end_char=7
+3	Agio	Agio	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=8|end_char=12
+4	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	start_char=13|end_char=17
+5	nyss	nyss	ADV	AB	_	6	advmod	_	start_char=18|end_char=22
+6	upstigit	upstiga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	conj	_	start_char=23|end_char=31
+7	från	från	ADP	PP	_	10	case	_	start_char=32|end_char=36
+8	sit	sit	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=37|end_char=40
+9	kräsliga	kräslig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	start_char=41|end_char=49
+10	middagsbord	middagsbord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|start_char=50|end_char=61
+11	,	,	PUNCT	MID	_	17	punct	_	start_char=61|end_char=62
+12	och	och	CCONJ	KN	_	13	cc	_	start_char=63|end_char=66
+13	Clara	Clara	PROPN	PM|NOM	Case=Nom	10	nmod	_	start_char=67|end_char=72
+14	fick	få	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	start_char=73|end_char=77
+15	tilstånd	tilstånd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	start_char=78|end_char=86
+16	at	at	PART	IE	_	17	mark	_	start_char=87|end_char=89
+17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	acl:relcl	_	start_char=90|end_char=95
+18	in	in	ADV	PL	_	17	compound:prt	_	start_char=96|end_char=98
+19	i	i	ADP	PP	_	22	case	_	start_char=99|end_char=100
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=101|end_char=107
+21	yttersta	yttersta	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	22	amod	_	start_char=108|end_char=116
+22	förmak	förmak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=117|end_char=123
+23	.	.	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=123|end_char=124
+
+# text = Det började nu bli full skymning i hennes koja och full mörker i hennes själ.
+# sent_id = 24
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=11
+3	nu	nu	ADV	AB	_	2	advmod	_	start_char=12|end_char=14
+4	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=15|end_char=18
+5	full	full	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	start_char=19|end_char=23
+6	skymning	skymning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=24|end_char=32
+7	i	i	ADP	PP	_	9	case	_	start_char=33|end_char=34
+8	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=35|end_char=41
+9	koja	koja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=42|end_char=46
+10	och	och	CCONJ	KN	_	12	cc	_	start_char=47|end_char=50
+11	full	full	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	12	amod	_	start_char=51|end_char=55
+12	mörker	mörker	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	start_char=56|end_char=62
+13	i	i	ADP	PP	_	15	case	_	start_char=63|end_char=64
+14	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=65|end_char=71
+15	själ	själ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	SpaceAfter=No|start_char=72|end_char=76
+16	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=76|end_char=77
+
+# text = Hon såg i fönstret lilla Calle, som flåsat isen ifrån en ruta och med längtade ögon och klappande händer gladde sig öfwer hennes ankomst.
+# sent_id = 25
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=7
+3	i	i	ADP	PP	_	6	case	_	start_char=8|end_char=9
+4	fönstret	fönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	start_char=10|end_char=18
+5	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	start_char=19|end_char=24
+6	Calle	Calle	PROPN	PM|NOM	Case=Nom	2	obl	_	SpaceAfter=No|start_char=25|end_char=30
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=30|end_char=31
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	start_char=32|end_char=35
+9	flåsat	flåsa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	xcomp	_	start_char=36|end_char=42
+10	isen	is	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obj	_	start_char=43|end_char=47
+11	ifrån	ifrån	ADP	PP	_	13	case	_	start_char=48|end_char=53
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	start_char=54|end_char=56
+13	ruta	ruta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	start_char=57|end_char=61
+14	och	och	CCONJ	KN	_	17	cc	_	start_char=62|end_char=65
+15	med	med	ADP	PP	_	17	case	_	start_char=66|end_char=69
+16	längtade	längtad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	17	amod	_	start_char=70|end_char=78
+17	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	start_char=79|end_char=83
+18	och	och	CCONJ	KN	_	20	cc	_	start_char=84|end_char=87
+19	klappande	klappande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	20	amod	_	start_char=88|end_char=97
+20	händer	hand	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	start_char=98|end_char=104
+21	gladde	gla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=105|end_char=111
+22	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	21	obj	_	start_char=112|end_char=115
+23	öfwer	öfwer	ADP	PP	_	25	case	_	start_char=116|end_char=121
+24	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=122|end_char=128
+25	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	SpaceAfter=No|start_char=129|end_char=136
+26	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=136|end_char=137
+
+# text = Fredrica hjelpte henne at plåcka ur trådarna, och den granna Julklapp, som den rika och förnäma Fru von Agio bestält hos henne, war redan inwecklad i sit omslag.
+# sent_id = 26
+1	Fredrica	Fredrica	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=8
+2	hjelpte	hjelpda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=16
+3	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	start_char=17|end_char=22
+4	at	at	ADP	PP	_	5	case	_	start_char=23|end_char=25
+5	plåcka	plåcka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	conj	_	start_char=26|end_char=32
+6	ur	ur	ADP	PL	_	5	compound:prt	_	start_char=33|end_char=35
+7	trådarna	trådare	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	2	obj	_	SpaceAfter=No|start_char=36|end_char=44
+8	,	,	PUNCT	MID	_	2	punct	_	start_char=44|end_char=45
+9	och	och	CCONJ	KN	_	12	cc	_	start_char=46|end_char=49
+10	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	_	start_char=50|end_char=53
+11	granna	gran	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	12	amod	_	start_char=54|end_char=60
+12	Julklapp	julklapp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=61|end_char=69
+13	,	,	PUNCT	MID	_	2	punct	_	start_char=69|end_char=70
+14	som	som	PRON	HP|-|-|-	PronType=Rel	16	nsubj	_	start_char=71|end_char=74
+15	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	16	det	_	start_char=75|end_char=78
+16	rika	rik	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	2	nsubj	_	start_char=79|end_char=83
+17	och	och	CCONJ	KN	_	19	cc	_	start_char=84|end_char=87
+18	förnäma	förnäma	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	19	amod	_	start_char=88|end_char=95
+19	Fru	Fru	PROPN	PM|NOM	Case=Nom	16	obl	_	start_char=96|end_char=99
+20	von	von	PROPN	PM|NOM	Case=Nom	22	obj	_	start_char=100|end_char=103
+21	Agio	Agio	PROPN	PM|NOM	Case=Nom	22	obj	_	start_char=104|end_char=108
+22	bestält	bestälma	VERB	VB|INF|AKT	VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=109|end_char=116
+23	hos	hos	ADP	PP	_	24	case	_	start_char=117|end_char=120
+24	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	obl	_	SpaceAfter=No|start_char=121|end_char=126
+25	,	,	PUNCT	MID	_	28	punct	_	start_char=126|end_char=127
+26	war	wa	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	start_char=128|end_char=131
+27	redan	redan	ADV	AB	_	28	advmod	_	start_char=132|end_char=137
+28	inwecklad	inwecklad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	22	conj	_	start_char=138|end_char=147
+29	i	i	ADP	PP	_	31	case	_	start_char=148|end_char=149
+30	sit	sit	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=150|end_char=153
+31	omslag	omslag	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	obl	_	SpaceAfter=No|start_char=154|end_char=160
+32	.	.	PUNCT	MAD	_	28	punct	_	SpaceAfter=No|start_char=160|end_char=161
+
+# text = Se hur de glittra, syster!
+# sent_id = 27
+1	Se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=2
+2	hur	hur	ADV	HA	_	1	advmod	_	start_char=3|end_char=6
+3	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	1	nsubj	_	start_char=7|end_char=9
+4	glittra	glittra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No|start_char=10|end_char=17
+5	,	,	PUNCT	MID	_	1	punct	_	start_char=17|end_char=18
+6	syster	syster	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	SpaceAfter=No|start_char=19|end_char=25
+7	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=25|end_char=26
+
+# text = Se här 2 Riksdaler, ert arbete är wäl betalt; far wäl.
+# sent_id = 28
+1	Se	se	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=2
+2	här	här	ADV	AB	_	1	advmod	_	start_char=3|end_char=6
+3	2	2	NUM	RG|NOM	Case=Nom|NumType=Card	1	obj	_	start_char=7|end_char=8
+4	Riksdaler	Riksdaler	PROPN	PM|NOM	Case=Nom	1	obj	_	SpaceAfter=No|start_char=9|end_char=18
+5	,	,	PUNCT	MID	_	1	punct	_	start_char=18|end_char=19
+6	ert	en	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=20|end_char=23
+7	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	1	obj	_	start_char=24|end_char=30
+8	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	start_char=31|end_char=33
+9	wäl	wäl	ADV	AB	_	10	advmod	_	start_char=34|end_char=37
+10	betalt	betald	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	1	xcomp	_	SpaceAfter=No|start_char=38|end_char=44
+11	;	;	PUNCT	MID	_	1	punct	_	start_char=44|end_char=45
+12	far	far	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	obl	_	start_char=46|end_char=49
+13	wäl	wäl	PROPN	PM|NOM	Case=Nom	10	obj	_	SpaceAfter=No|start_char=50|end_char=53
+14	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=53|end_char=54
+
+# text = Klockan war redan slagen 7 på afton; men hastigt blef Ljus i huset, Hjerpar från Källaren och Saffransbullar på bordet.
+# sent_id = 29
+1	Klockan	klocka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	start_char=0|end_char=7
+2	war	wa	VERB	VB|KON|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=11
+3	redan	redan	ADV	AB	_	2	advmod	_	start_char=12|end_char=17
+4	slagen	slag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	_	start_char=18|end_char=24
+5	7	7	NUM	RG|NOM	Case=Nom|NumType=Card	2	nsubj	_	start_char=25|end_char=26
+6	på	på	ADP	PP	_	7	case	_	start_char=27|end_char=29
+7	afton	afton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=30|end_char=35
+8	;	;	PUNCT	MID	_	2	punct	_	start_char=35|end_char=36
+9	men	men	CCONJ	KN	_	11	cc	_	start_char=37|end_char=40
+10	hastigt	hastig	ADV	AB|POS	Degree=Pos	11	advmod	_	start_char=41|end_char=48
+11	blef	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=49|end_char=53
+12	Ljus	ljus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	start_char=54|end_char=58
+13	i	i	ADP	PP	_	14	case	_	start_char=59|end_char=60
+14	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	11	obl	_	SpaceAfter=No|start_char=61|end_char=66
+15	,	,	PUNCT	MID	_	2	punct	_	start_char=66|end_char=67
+16	Hjerpar	Hjerpar	PROPN	PM|NOM	Case=Nom	14	conj	_	start_char=68|end_char=75
+17	från	från	ADP	PP	_	18	case	_	start_char=76|end_char=80
+18	Källaren	Källaren	PROPN	PM|NOM	Case=Nom	16	nmod	_	start_char=81|end_char=89
+19	och	och	CCONJ	KN	_	20	cc	_	start_char=90|end_char=93
+20	Saffransbullar	saffransbulel	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	nmod	_	start_char=94|end_char=108
+21	på	på	ADP	PP	_	22	case	_	start_char=109|end_char=111
+22	bordet	bord	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	20	nmod	_	SpaceAfter=No|start_char=112|end_char=118
+23	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=118|end_char=119
+
+# text = Clara tog nu Psalmboken, och började wed hjerklig andakt:
+# sent_id = 30
+1	Clara	Clara	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=5
+2	tog	ta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=9
+3	nu	nu	ADV	AB	_	2	advmod	_	start_char=10|end_char=12
+4	Psalmboken	psalmbok	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No|start_char=13|end_char=23
+5	,	,	PUNCT	MID	_	2	punct	_	start_char=23|end_char=24
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=25|end_char=28
+7	började	börja	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=29|end_char=36
+8	wed	wed	NOUN	NN	_	7	nsubj	_	start_char=37|end_char=40
+9	hjerklig	hjerklig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	start_char=41|end_char=49
+10	andakt	andakt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	SpaceAfter=No|start_char=50|end_char=56
+11	:	:	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=56|end_char=57
+
+# text = Af himmelshöjd jag kommen är. ropte lilla Calle, det är Julafton.
+# sent_id = 31
+1	Af	af	ADP	PP	_	2	case	_	start_char=0|end_char=2
+2	himmelshöjd	himmelshöjd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	start_char=3|end_char=14
+3	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=15|end_char=18
+4	kommen	komma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=19|end_char=25
+5	är	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	SpaceAfter=No|start_char=26|end_char=28
+6	.	.	PUNCT	MAD	_	4	punct	_	start_char=28|end_char=29
+7	ropte	räpa	VERB	VB|PRS|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	4	conj	_	start_char=30|end_char=35
+8	lilla	liten	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	9	amod	_	start_char=36|end_char=41
+9	Calle	Calle	PROPN	PM|NOM	Case=Nom	7	obj	_	SpaceAfter=No|start_char=42|end_char=47
+10	,	,	PUNCT	MID	_	5	punct	_	start_char=47|end_char=48
+11	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	13	nsubj	_	start_char=49|end_char=52
+12	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	start_char=53|end_char=55
+13	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	7	obl	_	SpaceAfter=No|start_char=56|end_char=64
+14	.	.	PUNCT	MAD	_	5	punct	_	SpaceAfter=No|start_char=64|end_char=65
+
+# text = Nu.
+# sent_id = 32
+1	Nu	nu	ADV	AB	_	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=2|end_char=3
+
+# text = Wänga länga gator ifrån Claras koja war Fru von Agios palats beläget; men ifren, kölden, och bekymret skyndade hennes steg. sade Calle.
+# sent_id = 33
+1	Wänga	läng	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	start_char=0|end_char=5
+2	länga	läng	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	start_char=6|end_char=11
+3	gator	gata	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	start_char=12|end_char=17
+4	ifrån	ifrån	ADP	PP	_	6	case	_	start_char=18|end_char=23
+5	Claras	Claras	PROPN	PM|GEN	Case=Gen	6	nmod:poss	_	start_char=24|end_char=30
+6	koja	koja	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nmod	_	start_char=31|end_char=35
+7	war	wa	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=36|end_char=39
+8	Fru	Fru	PROPN	PM|NOM	Case=Nom	3	conj	_	start_char=40|end_char=43
+9	von	von	PROPN	PM|NOM	Case=Nom	12	obl	_	start_char=44|end_char=47
+10	Agios	Agios	PROPN	PM|GEN	Case=Gen	12	nmod:poss	_	start_char=48|end_char=53
+11	palats	palats	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	start_char=54|end_char=60
+12	beläget	belägen	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	SpaceAfter=No|start_char=61|end_char=68
+13	;	;	PUNCT	MID	_	12	punct	_	start_char=68|end_char=69
+14	men	men	CCONJ	KN	_	15	cc	_	start_char=70|end_char=73
+15	ifren	ifre	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	_	SpaceAfter=No|start_char=74|end_char=79
+16	,	,	PUNCT	MID	_	21	punct	_	start_char=79|end_char=80
+17	kölden	köld	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	15	nmod	_	SpaceAfter=No|start_char=81|end_char=87
+18	,	,	PUNCT	MID	_	21	punct	_	start_char=87|end_char=88
+19	och	och	CCONJ	KN	_	20	cc	_	start_char=89|end_char=92
+20	bekymret	bekymme	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	24	obl	_	start_char=93|end_char=101
+21	skyndade	skynda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=102|end_char=110
+22	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=111|end_char=117
+23	steg.	steg	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	obj	_	start_char=118|end_char=123
+24	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	21	conj	_	start_char=124|end_char=128
+25	Calle	Calle	PROPN	PM|NOM	Case=Nom	24	obj	_	SpaceAfter=No|start_char=129|end_char=134
+26	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=134|end_char=135
+
+# text = Kors, hwad ni är långsam!
+# sent_id = 34
+1	Kors	kors	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No|start_char=0|end_char=4
+2	,	,	PUNCT	MID	_	1	punct	_	start_char=4|end_char=5
+3	hwad	hwad	ADV	HA	_	6	advmod	_	start_char=6|end_char=10
+4	ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=11|end_char=13
+5	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=14|end_char=16
+6	långsam	långsam	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	conj	_	SpaceAfter=No|start_char=17|end_char=24
+7	!	!	PUNCT	MAD	_	6	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Ger Mamma oss sötgröt i qwäll?
+# sent_id = 35
+1	Ger	ge	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=3
+2	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=4|end_char=9
+3	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	1	obj	_	start_char=10|end_char=13
+4	sötgröt	sötgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=14|end_char=21
+5	i	i	ADP	PP	_	6	case	_	start_char=22|end_char=23
+6	qwäll	qwäll	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No|start_char=24|end_char=29
+7	?	?	PUNCT	MAD	_	1	punct	_	start_char=29|end_char=30
+
+# text = begabberi är tungt för den fattiga, jag har ej förtjent det; hwad jag begärt, är ej obilligt, jag har haft mycket arbete, jag har tilsatt nätterna, och denna arbetslön är det enda jag har at lefwa af med mina tre barn öfwer Helgen – Ni predikar starkt.
+# sent_id = 36
+1	begabberi	begabberi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=31|end_char=40
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	start_char=41|end_char=43
+3	tungt	tung	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	1	conj	_	start_char=44|end_char=49
+4	för	för	ADP	PP	_	6	case	_	start_char=50|end_char=53
+5	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	6	det	_	start_char=54|end_char=57
+6	fattiga	fattig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	obl	_	SpaceAfter=No|start_char=58|end_char=65
+7	,	,	PUNCT	MID	_	9	punct	_	start_char=65|end_char=66
+8	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	start_char=67|end_char=70
+9	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=71|end_char=74
+10	ej	ej	PART	AB	Polarity=Neg	11	advmod	_	start_char=75|end_char=77
+11	förtjent	förtjenna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	conj	_	start_char=78|end_char=86
+12	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	nsubj	_	SpaceAfter=No|start_char=87|end_char=90
+13	;	;	PUNCT	MID	_	16	punct	_	start_char=90|end_char=91
+14	hwad	hwad	ADV	HA	_	16	advmod	_	start_char=92|end_char=96
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	start_char=97|end_char=100
+16	begärt	begära	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	conj	_	SpaceAfter=No|start_char=101|end_char=107
+17	,	,	PUNCT	MID	_	20	punct	_	start_char=107|end_char=108
+18	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	start_char=109|end_char=111
+19	ej	ej	PART	AB	Polarity=Neg	20	advmod	_	start_char=112|end_char=114
+20	obilligt	obillig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|start_char=115|end_char=123
+21	,	,	PUNCT	MID	_	24	punct	_	start_char=123|end_char=124
+22	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	nsubj	_	start_char=125|end_char=128
+23	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	24	aux	_	start_char=129|end_char=132
+24	haft	ha	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	20	conj	_	start_char=133|end_char=137
+25	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	start_char=138|end_char=144
+26	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	obj	_	SpaceAfter=No|start_char=145|end_char=151
+27	,	,	PUNCT	MID	_	30	punct	_	start_char=151|end_char=152
+28	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	nsubj	_	start_char=153|end_char=156
+29	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	30	aux	_	start_char=157|end_char=160
+30	tilsatt	tilsatt	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	24	conj	_	start_char=161|end_char=168
+31	nätterna	natt	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	30	obj	_	SpaceAfter=No|start_char=169|end_char=177
+32	,	,	PUNCT	MID	_	30	punct	_	start_char=177|end_char=178
+33	och	och	CCONJ	KN	_	35	cc	_	start_char=179|end_char=182
+34	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	35	det	_	start_char=183|end_char=188
+35	arbetslön	arbetslön	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obl	_	start_char=189|end_char=198
+36	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	cop	_	start_char=199|end_char=201
+37	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	40	det	_	start_char=202|end_char=205
+38	enda	enda	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	40	amod	_	start_char=206|end_char=210
+39	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	40	nsubj	_	start_char=211|end_char=214
+40	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	acl:relcl	_	start_char=215|end_char=218
+41	at	ata	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	40	conj	_	start_char=219|end_char=221
+42	lefwa	lefwa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	40	conj	_	start_char=222|end_char=227
+43	af	af	INTJ	IN	_	42	advmod	_	start_char=228|end_char=230
+44	med	med	ADP	PP	_	47	case	_	start_char=231|end_char=234
+45	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	47	nmod:poss	_	start_char=235|end_char=239
+46	tre	tre	NUM	RG|NOM	Case=Nom|NumType=Card	47	amod	_	start_char=240|end_char=243
+47	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	42	obl	_	start_char=244|end_char=248
+48	öfwer	öfwer	ADP	PP	_	49	case	_	start_char=249|end_char=254
+49	Helgen	Helgen	PROPN	PM|NOM	Case=Nom	52	obl	_	start_char=255|end_char=261
+50	–	(	PUNCT	MID	_	52	punct	_	start_char=262|end_char=263
+51	Ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	52	nsubj	_	start_char=264|end_char=266
+52	predikar	predika	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	47	acl:relcl	_	start_char=267|end_char=275
+53	starkt	stark	ADV	AB|POS	Degree=Pos	52	advmod	_	SpaceAfter=No|start_char=276|end_char=282
+54	.	.	PUNCT	MAD	_	52	punct	_	SpaceAfter=No|start_char=282|end_char=283
+
+# text = Härjämte följer Wisan. jag skall bli så beskedlig, sade Fredrica; jag skall hjelpa Mamma städa.
+# sent_id = 37
+1	Härjämte	Härjämte	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=8
+2	följer	följa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=9|end_char=15
+3	Wisan	Wisan	PROPN	PM|NOM	Case=Nom	2	obj	_	SpaceAfter=No|start_char=16|end_char=21
+4	.	.	PUNCT	MAD	_	2	punct	_	start_char=21|end_char=22
+5	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=23|end_char=26
+6	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	start_char=27|end_char=32
+7	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=33|end_char=36
+8	så	så	ADV	AB	_	9	advmod	_	start_char=37|end_char=39
+9	beskedlig	beskedlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	7	conj	_	SpaceAfter=No|start_char=40|end_char=49
+10	,	,	PUNCT	MID	_	11	punct	_	start_char=49|end_char=50
+11	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=51|end_char=55
+12	Fredrica	Fredrica	PROPN	PM|NOM	Case=Nom	11	obj	_	SpaceAfter=No|start_char=56|end_char=64
+13	;	;	PUNCT	MID	_	16	punct	_	start_char=64|end_char=65
+14	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	start_char=66|end_char=69
+15	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	start_char=70|end_char=75
+16	hjelpa	hjelpa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	conj	_	start_char=76|end_char=82
+17	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obj	_	start_char=83|end_char=88
+18	städa	städa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	conj	_	SpaceAfter=No|start_char=89|end_char=94
+19	.	.	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=94|end_char=95
+
+# text = Och der uppe hos Gud bor Pappa; är det icke sant, Mamma? ropade Clara, utom sig af glädje.
+# sent_id = 38
+1	Och	och	CCONJ	KN	_	6	cc	_	start_char=0|end_char=3
+2	der	de	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=4|end_char=7
+3	uppe	uppe	ADV	AB	_	6	advmod	_	start_char=8|end_char=12
+4	hos	hos	ADP	PP	_	6	case	_	start_char=13|end_char=16
+5	Gud	Gud	PROPN	PM|NOM	Case=Nom	6	obl	_	start_char=17|end_char=20
+6	bor	bo	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=21|end_char=24
+7	Pappa	pappa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	SpaceAfter=No|start_char=25|end_char=30
+8	;	;	PUNCT	MID	_	6	punct	_	start_char=30|end_char=31
+9	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	cop	_	start_char=32|end_char=34
+10	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	12	nsubj	_	start_char=35|end_char=38
+11	icke	icke	PART	AB	Polarity=Neg	12	advmod	_	start_char=39|end_char=43
+12	sant	sand	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	6	conj	_	SpaceAfter=No|start_char=44|end_char=48
+13	,	,	PUNCT	MID	_	16	punct	_	start_char=48|end_char=49
+14	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	SpaceAfter=No|start_char=50|end_char=55
+15	?	?	PUNCT	MID	_	16	punct	_	start_char=55|end_char=56
+16	ropade	ropa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	start_char=57|end_char=63
+17	Clara	Clara	PROPN	PM|NOM	Case=Nom	16	obj	_	SpaceAfter=No|start_char=64|end_char=69
+18	,	,	PUNCT	MID	_	16	punct	_	start_char=69|end_char=70
+19	utom	utom	ADP	PP	_	22	case	_	start_char=71|end_char=75
+20	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	16	obl	_	start_char=76|end_char=79
+21	af	af	ADP	PP	_	22	case	_	start_char=80|end_char=82
+22	glädje	glädje	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	SpaceAfter=No|start_char=83|end_char=89
+23	.	.	PUNCT	MAD	_	16	punct	_	SpaceAfter=No|start_char=89|end_char=90
+
+# text = Hon stod up, gjorde en liten brasa i kakelugnen, och satte sig med sina små omkring den för at, under wäntan på tiden til en torftig och knapp aftonward, sjunga en wacker Julpsalm.
+# sent_id = 39
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	stod	stå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	up	up	ADV	PL	_	2	compound:prt	_	SpaceAfter=No|start_char=9|end_char=11
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=11|end_char=12
+5	gjorde	göra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=13|end_char=19
+6	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=20|end_char=22
+7	liten	liten	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	start_char=23|end_char=28
+8	brasa	brasa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=29|end_char=34
+9	i	i	ADP	PP	_	10	case	_	start_char=35|end_char=36
+10	kakelugnen	kakeluge	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	nmod	_	SpaceAfter=No|start_char=37|end_char=47
+11	,	,	PUNCT	MID	_	13	punct	_	start_char=47|end_char=48
+12	och	och	CCONJ	KN	_	13	cc	_	start_char=49|end_char=52
+13	satte	sätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=53|end_char=58
+14	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	13	obj	_	start_char=59|end_char=62
+15	med	med	ADP	PP	_	19	case	_	start_char=63|end_char=66
+16	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=67|end_char=71
+17	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	19	amod	_	start_char=72|end_char=75
+18	omkring	omkring	ADV	AB	_	19	advmod	_	start_char=76|end_char=83
+19	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obl	_	start_char=84|end_char=87
+20	för	för	ADP	PP	_	24	case	_	start_char=88|end_char=91
+21	at	at	ADV	AB	_	24	advmod	_	SpaceAfter=No|start_char=92|end_char=94
+22	,	,	PUNCT	MID	_	2	punct	_	start_char=94|end_char=95
+23	under	under	ADP	PP	_	24	case	_	start_char=96|end_char=101
+24	wäntan	wäntan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	13	obl	_	start_char=102|end_char=108
+25	på	på	ADP	PP	_	26	case	_	start_char=109|end_char=111
+26	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	nmod	_	start_char=112|end_char=117
+27	til	til	ADP	PP	_	29	case	_	start_char=118|end_char=121
+28	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	29	det	_	start_char=122|end_char=124
+29	torftig	torftig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	26	nmod	_	start_char=125|end_char=132
+30	och	och	CCONJ	KN	_	32	cc	_	start_char=133|end_char=136
+31	knapp	knapp	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	32	amod	_	start_char=137|end_char=142
+32	aftonward	aftonward	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	obl	_	SpaceAfter=No|start_char=143|end_char=152
+33	,	,	PUNCT	MID	_	34	punct	_	start_char=152|end_char=153
+34	sjunga	sjunga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	32	acl:relcl	_	start_char=154|end_char=160
+35	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	36	det	_	start_char=161|end_char=163
+36	wacker	wack	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	obl	_	start_char=164|end_char=170
+37	Julpsalm	Julpsalm	PROPN	PM|NOM	Case=Nom	34	obl	_	SpaceAfter=No|start_char=171|end_char=179
+38	.	.	PUNCT	MAD	_	34	punct	_	SpaceAfter=No|start_char=179|end_char=180
+
+# text = Han wet wäl hwad nyttigt är, Derför wil jag tiga stilla, Han mig då wist hjelpa lär.
+# sent_id = 40
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	wet	weta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=7
+3	wäl	wäl	ADV	AB	_	2	advmod	_	start_char=8|end_char=11
+4	hwad	hwad	ADV	AB	_	2	advmod	_	start_char=12|end_char=16
+5	nyttigt	nyttig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	2	nsubj	_	start_char=17|end_char=24
+6	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	SpaceAfter=No|start_char=25|end_char=27
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=27|end_char=28
+8	Derför	derför	CCONJ	KN	_	9	cc	_	start_char=29|end_char=35
+9	wil	wå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=36|end_char=39
+10	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	nsubj	_	start_char=40|end_char=43
+11	tiga	tiga	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	conj	_	start_char=44|end_char=48
+12	stilla	stilla	ADV	AB|POS	Degree=Pos	11	advmod	_	SpaceAfter=No|start_char=49|end_char=55
+13	,	,	PUNCT	MID	_	11	punct	_	start_char=55|end_char=56
+14	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	nsubj	_	start_char=57|end_char=60
+15	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	obj	_	start_char=61|end_char=64
+16	då	då	ADV	AB	_	19	advmod	_	start_char=65|end_char=67
+17	wist	wist	NOUN	UO	_	18	case	_	start_char=68|end_char=72
+18	hjelpa	hjelpa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obj	_	start_char=73|end_char=79
+19	lär	lära	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	SpaceAfter=No|start_char=80|end_char=83
+20	.	.	PUNCT	MAD	_	19	punct	_	SpaceAfter=No|start_char=83|end_char=84
+
+# text = Hon förestälde honom, med nödens bewekande röst, omöjligheten at nu kunna godtgöra hans fordran, och berättade at den lilla sedel hon fått war alt hwad hon ägde.
+# sent_id = 41
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	förestälde	förestälda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=14
+3	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=15|end_char=20
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=20|end_char=21
+5	med	med	ADP	PP	_	8	case	_	start_char=22|end_char=25
+6	nödens	nöden	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	8	nmod:poss	_	start_char=26|end_char=32
+7	bewekande	bewekande	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	_	start_char=33|end_char=42
+8	röst	röst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=43|end_char=47
+9	,	,	PUNCT	MID	_	2	punct	_	start_char=47|end_char=48
+10	omöjligheten	omöjlighet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	_	start_char=49|end_char=61
+11	at	at	PART	IE	_	14	mark	_	start_char=62|end_char=64
+12	nu	nu	ADV	AB	_	14	advmod	_	start_char=65|end_char=67
+13	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	aux	_	start_char=68|end_char=73
+14	godtgöra	godtgöra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	acl:relcl	_	start_char=74|end_char=82
+15	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	16	nmod:poss	_	start_char=83|end_char=87
+16	fordran	fordran	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obj	_	SpaceAfter=No|start_char=88|end_char=95
+17	,	,	PUNCT	MID	_	19	punct	_	start_char=95|end_char=96
+18	och	och	CCONJ	KN	_	19	cc	_	start_char=97|end_char=100
+19	berättade	berätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	conj	_	start_char=101|end_char=110
+20	at	at	ADP	PP	_	23	case	_	start_char=111|end_char=113
+21	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	23	det	_	start_char=114|end_char=117
+22	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	23	amod	_	start_char=118|end_char=123
+23	sedel	sedel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	19	obl	_	start_char=124|end_char=129
+24	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	25	nsubj	_	start_char=130|end_char=133
+25	fått	få	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	23	acl:relcl	_	start_char=134|end_char=138
+26	war	war	ADP	PP	_	30	case	_	start_char=139|end_char=142
+27	alt	alt	CCONJ	KN	_	25	cc	_	start_char=143|end_char=146
+28	hwad	hwad	SCONJ	HA	_	30	mark	_	start_char=147|end_char=151
+29	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	30	nsubj	_	start_char=152|end_char=155
+30	ägde	äga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	SpaceAfter=No|start_char=156|end_char=160
+31	.	.	PUNCT	MAD	_	30	punct	_	SpaceAfter=No|start_char=160|end_char=161
+
+# text = Då fick
+# sent_id = 42
+1	Då	då	ADV	AB	_	2	advmod	_	start_char=0|end_char=2
+2	fick	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=7
+
+# text = Mamma så många Julklappar, ock systrarne och jag så wackra kläder – och jag så många leksaker och så mycket nam-nam, sade Calle.
+# sent_id = 43
+1	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=8|end_char=13
+2	så	så	ADV	AB	_	4	advmod	_	start_char=14|end_char=16
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	4	amod	_	start_char=17|end_char=22
+4	Julklappar	julklapep	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	nmod	_	SpaceAfter=No|start_char=23|end_char=33
+5	,	,	PUNCT	MID	_	4	punct	_	start_char=33|end_char=34
+6	ock	ock	ADV	AB	_	7	advmod	_	start_char=35|end_char=38
+7	systrarne	systrarne	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nmod	_	start_char=39|end_char=48
+8	och	och	CCONJ	KN	_	12	cc	_	start_char=49|end_char=52
+9	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	nsubj	_	start_char=53|end_char=56
+10	så	så	ADV	AB	_	12	advmod	_	start_char=57|end_char=59
+11	wackra	wacker	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	12	amod	_	start_char=60|end_char=66
+12	kläder	kläder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nmod	_	start_char=67|end_char=73
+13	–	(	PUNCT	MID	_	12	punct	_	start_char=74|end_char=75
+14	och	och	CCONJ	KN	_	18	cc	_	start_char=76|end_char=79
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	start_char=80|end_char=83
+16	så	så	ADV	AB	_	18	advmod	_	start_char=84|end_char=86
+17	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	18	amod	_	start_char=87|end_char=92
+18	leksaker	leksak	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	12	nmod	_	start_char=93|end_char=101
+19	och	och	CCONJ	KN	_	22	cc	_	start_char=102|end_char=105
+20	så	så	ADV	AB	_	22	advmod	_	start_char=106|end_char=108
+21	mycket	mycket	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=109|end_char=115
+22	nam-nam	nam-nam	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obj	_	SpaceAfter=No|start_char=116|end_char=123
+23	,	,	PUNCT	MID	_	24	punct	_	start_char=123|end_char=124
+24	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	acl:relcl	_	start_char=125|end_char=129
+25	Calle	Calle	PROPN	PM|NOM	Case=Nom	24	obj	_	SpaceAfter=No|start_char=130|end_char=135
+26	.	.	PUNCT	MAD	_	24	punct	_	SpaceAfter=No|start_char=135|end_char=136
+
+# text = – Nådig Fru!
+# sent_id = 44
+1	–	(	PUNCT	MID	_	3	punct	_	start_char=0|end_char=1
+2	Nådig	Nådig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	start_char=2|end_char=7
+3	Fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No|start_char=8|end_char=11
+4	!	!	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=11|end_char=12
+
+# text = Ni är altför modeste!
+# sent_id = 45
+1	Ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=0|end_char=2
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	start_char=3|end_char=5
+3	altför	altför	ADV	AB	_	4	advmod	_	start_char=6|end_char=12
+4	modeste	modest	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	0	root	_	SpaceAfter=No|start_char=13|end_char=20
+5	!	!	PUNCT	MAD	_	4	punct	_	SpaceAfter=No|start_char=20|end_char=21
+
+# text = Det blef ingen Julgröt af, men än 6.
+# sent_id = 46
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	blef	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	4	det	_	start_char=9|end_char=14
+4	Julgröt	Julgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=15|end_char=22
+5	af	af	ADV	AB	_	2	advmod	_	SpaceAfter=No|start_char=23|end_char=25
+6	,	,	PUNCT	MID	_	2	punct	_	start_char=25|end_char=26
+7	men	men	CCONJ	KN	_	4	cc	_	start_char=27|end_char=30
+8	än	än	SCONJ	KN	_	9	mark	_	start_char=31|end_char=33
+9	6	6	NUM	RG|NOM	Case=Nom|NumType=Card	2	punct	_	SpaceAfter=No|start_char=34|end_char=35
+10	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=35|end_char=36
+
+# text = När han så dit tålmod pröfwat, Fun nit dig städs wara nögd, Med alt det han på dig öfwat, Skänker han dig lust och frögd:
+# sent_id = 47
+1	När	när	SCONJ	HA	_	6	mark	_	start_char=0|end_char=3
+2	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=4|end_char=7
+3	så	så	ADV	AB	_	6	advmod	_	start_char=8|end_char=10
+4	dit	dit	ADV	AB	_	6	advmod	_	start_char=11|end_char=14
+5	tålmod	tålmod	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	start_char=15|end_char=21
+6	pröfwat	pröfwa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|start_char=22|end_char=29
+7	,	,	PUNCT	MID	_	6	punct	_	start_char=29|end_char=30
+8	Fun	Fun	PROPN	PM|NOM	Case=Nom	9	case	_	start_char=31|end_char=34
+9	nit	nit	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obj	_	start_char=35|end_char=38
+10	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nmod	_	start_char=39|end_char=42
+11	städs	städ	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	13	nmod:poss	_	start_char=43|end_char=48
+12	wara	wara	AUX	VB|INF|AKT	VerbForm=Fin|Voice=Act	13	cop	_	start_char=49|end_char=53
+13	nögd	nögd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	9	acl:relcl	_	SpaceAfter=No|start_char=54|end_char=58
+14	,	,	PUNCT	MID	_	13	punct	_	start_char=58|end_char=59
+15	Med	med	ADP	PP	_	16	case	_	start_char=60|end_char=63
+16	alt	alt	INTJ	IN	_	13	advmod	_	start_char=64|end_char=67
+17	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	23	nsubj	_	start_char=68|end_char=71
+18	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	start_char=72|end_char=75
+19	på	på	ADP	PP	_	21	case	_	start_char=76|end_char=78
+20	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	obl	_	start_char=79|end_char=82
+21	öfwat	öfwat	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obl	_	SpaceAfter=No|start_char=83|end_char=88
+22	,	,	PUNCT	MID	_	23	punct	_	start_char=88|end_char=89
+23	Skänker	skänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	20	acl:relcl	_	start_char=90|end_char=97
+24	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	start_char=98|end_char=101
+25	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	obj	_	start_char=102|end_char=105
+26	lust	lust	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	obj	_	start_char=106|end_char=110
+27	och	och	CCONJ	KN	_	28	cc	_	start_char=111|end_char=114
+28	frögd	frögd	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	conj	_	SpaceAfter=No|start_char=115|end_char=120
+29	:	:	PUNCT	MAD	_	23	punct	_	SpaceAfter=No|start_char=120|end_char=121
+
+# text = I sann tro derföre frukta HERran och Guds Heliga Lag, När han dig med kors wil tuckta, HERre, säg:
+# sent_id = 48
+1	I	i	ADP	PP	_	3	case	_	start_char=0|end_char=1
+2	sann	sann	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	amod	_	start_char=2|end_char=6
+3	tro	tro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	start_char=7|end_char=10
+4	derföre	derföra	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	start_char=11|end_char=18
+5	frukta	frukta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=19|end_char=25
+6	HERran	HERran	PROPN	PM|NOM	Case=Nom	5	obj	_	start_char=26|end_char=32
+7	och	och	CCONJ	KN	_	10	cc	_	start_char=33|end_char=36
+8	Guds	Gud	PROPN	PM|GEN	Case=Gen	10	nmod:poss	_	start_char=37|end_char=41
+9	Heliga	helig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	start_char=42|end_char=48
+10	Lag	lag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	SpaceAfter=No|start_char=49|end_char=52
+11	,	,	PUNCT	MID	_	5	punct	_	start_char=52|end_char=53
+12	När	när	SCONJ	HA	_	5	mark	_	start_char=54|end_char=57
+13	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	start_char=58|end_char=61
+14	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	conj	_	start_char=62|end_char=65
+15	med	med	ADP	PP	_	16	case	_	start_char=66|end_char=69
+16	kors	kors	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	start_char=70|end_char=74
+17	wil	wil	CCONJ	KN	_	18	cc	_	start_char=75|end_char=78
+18	tuckta	tuckta	INTJ	IN	_	16	conj	_	SpaceAfter=No|start_char=79|end_char=85
+19	,	,	PUNCT	MID	_	22	punct	_	start_char=85|end_char=86
+20	HERre	HERre	PROPN	PM|NOM	Case=Nom	22	obl	_	SpaceAfter=No|start_char=87|end_char=92
+21	,	,	PUNCT	MID	_	22	punct	_	start_char=92|end_char=93
+22	säg	säga	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	18	conj	_	SpaceAfter=No|start_char=94|end_char=97
+23	:	:	PUNCT	MAD	_	22	punct	_	SpaceAfter=No|start_char=97|end_char=98
+
+# text = Si här är jag. du har ju sjelf sagt oss det?
+# sent_id = 49
+1	Si	si	INTJ	IN	_	0	root	_	start_char=0|end_char=2
+2	här	här	ADV	AB	_	1	advmod	_	start_char=3|end_char=6
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	start_char=7|end_char=9
+4	jag.	jag	PUNCT	MID	_	9	advmod	_	start_char=10|end_char=14
+5	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	nsubj	_	start_char=15|end_char=17
+6	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	start_char=18|end_char=21
+7	ju	ju	ADV	AB	_	9	advmod	_	start_char=22|end_char=24
+8	sjelf	sjelf	ADV	AB	_	9	advmod	_	start_char=25|end_char=30
+9	sagt	säga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	xcomp	_	start_char=31|end_char=35
+10	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	9	obj	_	start_char=36|end_char=39
+11	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj	_	SpaceAfter=No|start_char=40|end_char=43
+12	?	?	PUNCT	MAD	_	9	punct	_	SpaceAfter=No|start_char=43|end_char=44
+
+# text = då en glad Julafton 1799.
+# sent_id = 50
+1	då	då	ADV	AB	_	4	advmod	_	start_char=0|end_char=2
+2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	start_char=3|end_char=5
+3	glad	glad	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	start_char=6|end_char=10
+4	Julafton	Julafton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=11|end_char=19
+5	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	4	conj	_	SpaceAfter=No|start_char=20|end_char=24
+6	.	.	PUNCT	MAD	_	5	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Hwem har bedt er sy om nätterna; hwem rår för at ni har tre barnungar?
+# sent_id = 51
+1	Hwem	Hwem	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=0|end_char=4
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=5|end_char=8
+3	bedt	beda	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=9|end_char=13
+4	er	ni	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	3	nsubj	_	start_char=14|end_char=16
+5	sy	sy	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	3	conj	_	start_char=17|end_char=19
+6	om	om	ADP	PL	_	5	compound:prt	_	start_char=20|end_char=22
+7	nätterna	natt	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	5	obj	_	SpaceAfter=No|start_char=23|end_char=31
+8	;	;	PUNCT	MID	_	3	punct	_	start_char=31|end_char=32
+9	hwem	hwem	INTJ	IN	_	10	advmod	_	start_char=33|end_char=37
+10	rår	rå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=38|end_char=41
+11	för	för	ADP	PP	_	14	case	_	start_char=42|end_char=45
+12	at	at	SCONJ	SN	_	14	mark	_	start_char=46|end_char=48
+13	ni	ni	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	start_char=49|end_char=51
+14	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	start_char=52|end_char=55
+15	tre	tre	NUM	RG|NOM	Case=Nom|NumType=Card	16	amod	_	start_char=56|end_char=59
+16	barnungar	barnung	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	14	obl	_	SpaceAfter=No|start_char=60|end_char=69
+17	?	?	PUNCT	MAD	_	14	punct	_	SpaceAfter=No|start_char=69|end_char=70
+
+# text = Clara framräckte i ödmjukhet sit arbete, och Fru von Agio betraktade hastigt den broderade Slöjan som skulle utgöra en af de 18 surpriser, ämnade åt älsta dottren i huset.
+# sent_id = 52
+1	Clara	Clara	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=5
+2	framräckte	framräcka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=16
+3	i	i	ADP	PP	_	6	case	_	start_char=17|end_char=18
+4	ödmjukhet	ödmjukhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=19|end_char=28
+5	sit	sit	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	start_char=29|end_char=32
+6	arbete	arbete	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No|start_char=33|end_char=39
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=39|end_char=40
+8	och	och	CCONJ	KN	_	9	cc	_	start_char=41|end_char=44
+9	Fru	Fru	PROPN	PM|NOM	Case=Nom	2	obl	_	start_char=45|end_char=48
+10	von	von	PROPN	PM|NOM	Case=Nom	12	nsubj	_	start_char=49|end_char=52
+11	Agio	Agio	PROPN	PM|NOM	Case=Nom	12	obj	_	start_char=53|end_char=57
+12	betraktade	betrakta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=58|end_char=68
+13	hastigt	hastig	ADV	AB|POS	Degree=Pos	12	advmod	_	start_char=69|end_char=76
+14	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	16	det	_	start_char=77|end_char=80
+15	broderade	broderad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	16	amod	_	start_char=81|end_char=90
+16	Slöjan	slöja	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	obl	_	start_char=91|end_char=97
+17	som	som	PRON	HP|-|-|-	PronType=Rel	19	nsubj	_	start_char=98|end_char=101
+18	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	aux	_	start_char=102|end_char=108
+19	utgöra	utgöra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	acl:relcl	_	start_char=109|end_char=115
+20	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	19	obj	_	start_char=116|end_char=118
+21	af	af	ADP	PP	_	24	case	_	start_char=119|end_char=121
+22	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	24	det	_	start_char=122|end_char=124
+23	18	18	NUM	RG|NOM	Case=Nom|NumType=Card	24	amod	_	start_char=125|end_char=127
+24	surpriser	surpris	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	19	obl	_	SpaceAfter=No|start_char=128|end_char=137
+25	,	,	PUNCT	MID	_	26	punct	_	start_char=137|end_char=138
+26	ämnade	ämna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	start_char=139|end_char=145
+27	åt	åt	ADP	PP	_	29	case	_	start_char=146|end_char=148
+28	älsta	gammal	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	29	amod	_	start_char=149|end_char=154
+29	dottren	dotter	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	start_char=155|end_char=162
+30	i	i	ADP	PP	_	31	case	_	start_char=163|end_char=164
+31	huset	hus	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	26	obl	_	SpaceAfter=No|start_char=165|end_char=170
+32	.	.	PUNCT	MAD	_	26	punct	_	SpaceAfter=No|start_char=170|end_char=171
+
+# text = Mina barn, sade hon, jag skyndar mig at få färdig min söm; jag slutar den strax, och för betalningen skall jag skaffa er sötgröt.
+# sent_id = 53
+1	Mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	2	nmod:poss	_	start_char=0|end_char=4
+2	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	SpaceAfter=No|start_char=5|end_char=9
+3	,	,	PUNCT	MID	_	4	punct	_	start_char=9|end_char=10
+4	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=15
+5	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	SpaceAfter=No|start_char=16|end_char=19
+6	,	,	PUNCT	MID	_	8	punct	_	start_char=19|end_char=20
+7	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=21|end_char=24
+8	skyndar	skynda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=25|end_char=32
+9	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	start_char=33|end_char=36
+10	at	at	PART	IE	_	11	mark	_	start_char=37|end_char=39
+11	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	conj	_	start_char=40|end_char=42
+12	färdig	färdig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	start_char=43|end_char=49
+13	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=50|end_char=53
+14	söm	söm	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	SpaceAfter=No|start_char=54|end_char=57
+15	;	;	PUNCT	MID	_	17	punct	_	start_char=57|end_char=58
+16	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	start_char=59|end_char=62
+17	slutar	sluta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	start_char=63|end_char=69
+18	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	start_char=70|end_char=73
+19	strax	strax	ADV	AB	_	17	advmod	_	SpaceAfter=No|start_char=74|end_char=79
+20	,	,	PUNCT	MID	_	17	punct	_	start_char=79|end_char=80
+21	och	och	CCONJ	KN	_	23	cc	_	start_char=81|end_char=84
+22	för	för	ADP	PP	_	23	case	_	start_char=85|end_char=88
+23	betalningen	betalning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	26	obl	_	start_char=89|end_char=100
+24	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	aux	_	start_char=101|end_char=106
+25	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	start_char=107|end_char=110
+26	skaffa	skaffa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	17	conj	_	start_char=111|end_char=117
+27	er	ni	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	26	obj	_	start_char=118|end_char=120
+28	sötgröt	sötgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	26	obj	_	SpaceAfter=No|start_char=121|end_char=128
+29	.	.	PUNCT	MAD	_	26	punct	_	SpaceAfter=No|start_char=128|end_char=129
+
+# text = Stor sak, sade Marie, stor sak söta Mamma, wi ha ju likwäl något at äta.
+# sent_id = 54
+1	Stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	start_char=0|end_char=4
+2	sak	sak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	SpaceAfter=No|start_char=5|end_char=8
+3	,	,	PUNCT	MID	_	4	punct	_	start_char=8|end_char=9
+4	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=14
+5	Marie	Marie	PROPN	PM|NOM	Case=Nom	4	obj	_	SpaceAfter=No|start_char=15|end_char=20
+6	,	,	PUNCT	MID	_	4	punct	_	start_char=20|end_char=21
+7	stor	stor	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	start_char=22|end_char=26
+8	sak	sak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	start_char=27|end_char=30
+9	söta	söta	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	start_char=31|end_char=35
+10	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	conj	_	SpaceAfter=No|start_char=36|end_char=41
+11	,	,	PUNCT	MID	_	13	punct	_	start_char=41|end_char=42
+12	wi	wi	INTJ	IN	_	13	advmod	_	start_char=43|end_char=45
+13	ha	ha	VERB	VB|IMP|AKT	VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=46|end_char=48
+14	ju	ju	ADV	AB	_	13	advmod	_	start_char=49|end_char=51
+15	likwäl	likwäl	ADV	AB	_	18	advmod	_	start_char=52|end_char=58
+16	något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	obj	_	start_char=59|end_char=64
+17	at	at	PART	IE	_	18	mark	_	start_char=65|end_char=67
+18	äta	äta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	conj	_	SpaceAfter=No|start_char=68|end_char=71
+19	.	.	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=71|end_char=72
+
+# text = Nu sprättade hon fort broderiet ur bågen.
+# sent_id = 55
+1	Nu	nu	ADV	AB	_	2	advmod	_	start_char=0|end_char=2
+2	sprättade	sprätta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=3|end_char=12
+3	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=13|end_char=16
+4	fort	fort	ADV	AB|POS	Degree=Pos	2	advmod	_	start_char=17|end_char=21
+5	broderiet	broderium	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obj	_	start_char=22|end_char=31
+6	ur	ur	ADP	PP	_	7	case	_	start_char=32|end_char=34
+7	bågen	båg	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=35|end_char=40
+8	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=40|end_char=41
+
+# text = Si!
+# sent_id = 56
+1	Si	si	INTJ	IN	_	0	root	_	SpaceAfter=No|start_char=0|end_char=2
+2	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=2|end_char=3
+
+# text = Wara tolig och sig nöja, fordrar Gud i motgång mäst.
+# sent_id = 57
+1	Wara	Wara	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	tolig	tolig	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=5|end_char=10
+3	och	och	CCONJ	KN	_	5	cc	_	start_char=11|end_char=14
+4	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	1	obj	_	start_char=15|end_char=18
+5	nöja	nöja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	xcomp	_	SpaceAfter=No|start_char=19|end_char=23
+6	,	,	PUNCT	MID	_	1	punct	_	start_char=23|end_char=24
+7	fordrar	fordra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=25|end_char=32
+8	Gud	Gud	PROPN	PM|NOM	Case=Nom	7	obj	_	start_char=33|end_char=36
+9	i	i	ADP	PP	_	10	case	_	start_char=37|end_char=38
+10	motgång	motgång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	start_char=39|end_char=46
+11	mäst	må	ADV	AB|SUV	Degree=Sup	1	advmod	_	SpaceAfter=No|start_char=47|end_char=51
+12	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=51|end_char=52
+
+# text = Julgröt kunde ej fås; men den saknades icke.
+# sent_id = 58
+1	Julgröt	Julgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	start_char=0|end_char=7
+2	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	aux	_	start_char=8|end_char=13
+3	ej	ej	PART	AB	Polarity=Neg	4	advmod	_	start_char=14|end_char=16
+4	fås	få	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	0	root	_	SpaceAfter=No|start_char=17|end_char=20
+5	;	;	PUNCT	MID	_	4	punct	_	start_char=20|end_char=21
+6	men	men	CCONJ	KN	_	8	cc	_	start_char=22|end_char=25
+7	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=26|end_char=29
+8	saknades	sakna	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	4	conj	_	start_char=30|end_char=38
+9	icke	icke	PART	AB	Polarity=Neg	8	advmod	_	SpaceAfter=No|start_char=39|end_char=43
+10	.	.	PUNCT	MAD	_	4	punct	_	SpaceAfter=No|start_char=43|end_char=44
+
+# text = – Jag har ingen ting kunnat skaffat er, mina små, sade hon, och brast i en häftig gråt.
+# sent_id = 59
+1	–	(	PUNCT	MID	_	7	punct	_	start_char=0|end_char=1
+2	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj	_	start_char=2|end_char=5
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	start_char=6|end_char=9
+4	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	5	det	_	start_char=10|end_char=15
+5	ting	ting	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nsubj	_	start_char=16|end_char=20
+6	kunnat	kunna	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	aux	_	start_char=21|end_char=27
+7	skaffat	skaffa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=28|end_char=35
+8	er	ni	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	obj	_	SpaceAfter=No|start_char=36|end_char=38
+9	,	,	PUNCT	MID	_	7	punct	_	start_char=38|end_char=39
+10	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=40|end_char=44
+11	små	liten	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	13	advmod	_	SpaceAfter=No|start_char=45|end_char=48
+12	,	,	PUNCT	MID	_	13	punct	_	start_char=48|end_char=49
+13	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=50|end_char=54
+14	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	SpaceAfter=No|start_char=55|end_char=58
+15	,	,	PUNCT	MID	_	17	punct	_	start_char=58|end_char=59
+16	och	och	CCONJ	KN	_	17	cc	_	start_char=60|end_char=63
+17	brast	brast	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	start_char=64|end_char=69
+18	i	i	ADP	PP	_	21	case	_	start_char=70|end_char=71
+19	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	start_char=72|end_char=74
+20	häftig	häftig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	amod	_	start_char=75|end_char=81
+21	gråt	gråt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=82|end_char=86
+22	.	.	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=86|end_char=87
+
+# text = Clara följde honom, för at undwika de förbigåendes upmärksamhet och i hopp at kunna beweka honom til tålamod.
+# sent_id = 60
+1	Clara	Clara	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=5
+2	följde	följa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=12
+3	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	SpaceAfter=No|start_char=13|end_char=18
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=18|end_char=19
+5	för	för	ADP	PP	_	7	case	_	start_char=20|end_char=23
+6	at	at	PART	IE	_	7	mark	_	start_char=24|end_char=26
+7	undwika	undwika	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=27|end_char=34
+8	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	10	det	_	start_char=35|end_char=37
+9	förbigåendes	förbigående	NOUN	NN|UTR|PLU|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Plur	10	nmod:poss	_	start_char=38|end_char=50
+10	upmärksamhet	upmärksamhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	start_char=51|end_char=63
+11	och	och	CCONJ	KN	_	13	cc	_	start_char=64|end_char=67
+12	i	i	ADP	PP	_	13	case	_	start_char=68|end_char=69
+13	hopp	hopp	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	10	nmod	_	start_char=70|end_char=74
+14	at	at	PART	IE	_	16	mark	_	start_char=75|end_char=77
+15	kunna	kunna	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	aux	_	start_char=78|end_char=83
+16	beweka	beweka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl:relcl	_	start_char=84|end_char=90
+17	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	obj	_	start_char=91|end_char=96
+18	til	til	ADP	PP	_	19	case	_	start_char=97|end_char=100
+19	tålamod	tålamod	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|start_char=101|end_char=108
+20	.	.	PUNCT	MAD	_	16	punct	_	SpaceAfter=No|start_char=108|end_char=109
+
+# text = skrek han, och ryckte sedeln ur hennes hand.
+# sent_id = 61
+1	skrek	skrika	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	nsubj	_	SpaceAfter=No|start_char=6|end_char=9
+3	,	,	PUNCT	MID	_	1	punct	_	start_char=9|end_char=10
+4	och	och	CCONJ	KN	_	5	cc	_	start_char=11|end_char=14
+5	ryckte	rycka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=15|end_char=21
+6	sedeln	sedel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj	_	start_char=22|end_char=28
+7	ur	ur	ADP	PL	_	5	compound:prt	_	start_char=29|end_char=31
+8	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=32|end_char=38
+9	hand	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	SpaceAfter=No|start_char=39|end_char=43
+10	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=43|end_char=44
+
+# text = Tagit ur Stockholms-Posten för den 15 Janniaraii 1800 – 5 Riksdaler, swarade Clara.
+# sent_id = 62
+1	Tagit	ta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=0|end_char=5
+2	ur	ur	ADP	PL	_	1	compound:prt	_	start_char=6|end_char=8
+3	Stockholms-Posten	stockholms-Post	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj	_	start_char=9|end_char=26
+4	för	för	ADP	PP	_	7	case	_	start_char=27|end_char=30
+5	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	7	det	_	start_char=31|end_char=34
+6	15	15	NUM	RG|NOM	Case=Nom|NumType=Card	7	case	_	start_char=35|end_char=37
+7	Janniaraii	Janniaraii	PROPN	PM|NOM	Case=Nom	1	obj	_	start_char=38|end_char=48
+8	1800	1800	NUM	RG|NOM	Case=Nom|NumType=Card	1	punct	_	start_char=49|end_char=53
+9	–	–	SYM	MID	_	11	case	_	start_char=54|end_char=55
+10	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	11	case	_	start_char=56|end_char=57
+11	Riksdaler	Riksdaler	PROPN	PM|NOM	Case=Nom	13	obl	_	SpaceAfter=No|start_char=58|end_char=67
+12	,	,	PUNCT	MID	_	13	punct	_	start_char=67|end_char=68
+13	swarade	swara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=69|end_char=76
+14	Clara	Clara	PROPN	PM|NOM	Case=Nom	13	obl	_	SpaceAfter=No|start_char=77|end_char=82
+15	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=82|end_char=83
+
+# text = Men ändå en Glad Gefle, tryckt hos Ernst Peter Sundqvist 1800.
+# sent_id = 63
+1	Men	men	CCONJ	KN	_	5	cc	_	start_char=0|end_char=3
+2	ändå	ändå	ADV	AB	_	5	advmod	_	start_char=4|end_char=8
+3	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	start_char=9|end_char=11
+4	Glad	glad	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	start_char=12|end_char=16
+5	Gefle	Gefle	PROPN	PM|NOM	Case=Nom	7	nsubj	_	SpaceAfter=No|start_char=17|end_char=22
+6	,	,	PUNCT	MID	_	7	punct	_	start_char=22|end_char=23
+7	tryckt	tryckt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	start_char=24|end_char=30
+8	hos	hos	ADP	PP	_	9	case	_	start_char=31|end_char=34
+9	Ernst	Ernst	PROPN	PM|NOM	Case=Nom	7	obl	_	start_char=35|end_char=40
+10	Peter	Peter	PROPN	PM|NOM	Case=Nom	7	obl	_	start_char=41|end_char=46
+11	Sundqvist	Sundqvist	PROPN	PM|NOM	Case=Nom	7	obl	_	start_char=47|end_char=56
+12	1800	1800	NUM	RG|NOM	Case=Nom|NumType=Card	7	obl	_	SpaceAfter=No|start_char=57|end_char=61
+13	.	.	PUNCT	MAD	_	7	punct	_	SpaceAfter=No|start_char=61|end_char=62
+
+# text = Få wi sötgröt i afton, Mamma?
+# sent_id = 64
+1	Få	få	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=2
+2	wi	wi	ADP	PP	_	3	case	_	start_char=3|end_char=5
+3	sötgröt	sötgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	start_char=6|end_char=13
+4	i	i	ADP	PP	_	5	case	_	start_char=14|end_char=15
+5	afton	afton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No|start_char=16|end_char=21
+6	,	,	PUNCT	MID	_	1	punct	_	start_char=21|end_char=22
+7	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	SpaceAfter=No|start_char=23|end_char=28
+8	?	?	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=28|end_char=29
+
+# text = Clara tog sin gamla tunna päls, kyste sina barn, och gick.
+# sent_id = 65
+1	Clara	Clara	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=5
+2	tog	ta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=9
+3	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=10|end_char=13
+4	gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	6	amod	_	start_char=14|end_char=19
+5	tunna	tun	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	6	amod	_	start_char=20|end_char=25
+6	päls	päls	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No|start_char=26|end_char=30
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=30|end_char=31
+8	kyste	kysa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=32|end_char=37
+9	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=38|end_char=42
+10	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	obj	_	SpaceAfter=No|start_char=43|end_char=47
+11	,	,	PUNCT	MID	_	8	punct	_	start_char=47|end_char=48
+12	och	och	CCONJ	KN	_	13	cc	_	start_char=49|end_char=52
+13	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	SpaceAfter=No|start_char=53|end_char=57
+14	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=57|end_char=58
+
+# text = Wara tolig och sig nöja Fodrar Gud i mot gång mäst, Sinnet efter Lyckan böja, är ju utan twifwel bäst; Tro min Själ Gud för til ända Hwad som synes för dig swårt;
+# sent_id = 66
+1	Wara	Wara	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	tolig	tolig	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=5|end_char=10
+3	och	och	CCONJ	KN	_	5	cc	_	start_char=11|end_char=14
+4	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	1	obj	_	start_char=15|end_char=18
+5	nöja	nöja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	xcomp	_	start_char=19|end_char=23
+6	Fodrar	fodra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=24|end_char=30
+7	Gud	Gud	PROPN	PM|NOM	Case=Nom	6	obj	_	start_char=31|end_char=34
+8	i	i	ADP	PP	_	10	case	_	start_char=35|end_char=36
+9	mot	mot	ADP	PP	_	10	case	_	start_char=37|end_char=40
+10	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	start_char=41|end_char=45
+11	mäst	må	ADV	AB|SUV	Degree=Sup	13	advmod	_	SpaceAfter=No|start_char=46|end_char=50
+12	,	,	PUNCT	MID	_	16	punct	_	start_char=50|end_char=51
+13	Sinnet	sinne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	10	nmod	_	start_char=52|end_char=58
+14	efter	efter	ADP	PP	_	16	case	_	start_char=59|end_char=64
+15	Lyckan	lycka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	_	start_char=65|end_char=71
+16	böja	böja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl:relcl	_	SpaceAfter=No|start_char=72|end_char=76
+17	,	,	PUNCT	MID	_	16	punct	_	start_char=76|end_char=77
+18	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	start_char=78|end_char=80
+19	ju	ju	ADV	AB	_	21	advmod	_	start_char=81|end_char=83
+20	utan	utan	ADP	PP	_	21	case	_	start_char=84|end_char=88
+21	twifwel	twifwel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	start_char=89|end_char=96
+22	bäst	bra	ADV	AB|SUV	Degree=Sup	24	advmod	_	SpaceAfter=No|start_char=97|end_char=101
+23	;	;	PUNCT	MID	_	24	punct	_	start_char=101|end_char=102
+24	Tro	tro	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	21	acl:relcl	_	start_char=103|end_char=106
+25	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	26	nmod:poss	_	start_char=107|end_char=110
+26	Själ	själ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	start_char=111|end_char=115
+27	Gud	Gud	PROPN	PM|NOM	Case=Nom	24	obl	_	start_char=116|end_char=119
+28	för	för	ADP	PP	_	31	case	_	start_char=120|end_char=123
+29	til	til	ADP	PP	_	31	case	_	start_char=124|end_char=127
+30	ända	ända	ADV	AB	_	33	advmod	_	start_char=128|end_char=132
+31	Hwad	Hwad	PROPN	PM|NOM	Case=Nom	33	obl	_	start_char=133|end_char=137
+32	som	som	PRON	HP|-|-|-	PronType=Rel	33	nsubj	_	start_char=138|end_char=141
+33	synes	synas	VERB	VB|KON|PRT|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin	24	conj	_	start_char=142|end_char=147
+34	för	för	ADP	PP	_	36	case	_	start_char=148|end_char=151
+35	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	33	obl	_	start_char=152|end_char=155
+36	swårt	swår	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	33	conj	_	SpaceAfter=No|start_char=156|end_char=161
+37	;	;	PUNCT	MID	_	33	punct	_	SpaceAfter=No|start_char=161|end_char=162
+
+# text = Han kan sorg i glädje wända, O! 5.
+# sent_id = 67
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=0|end_char=3
+2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=4|end_char=7
+3	sorg	sorg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	start_char=8|end_char=12
+4	i	i	ADP	PP	_	5	case	_	start_char=13|end_char=14
+5	glädje	glädje	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	start_char=15|end_char=21
+6	wända	wända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No|start_char=22|end_char=27
+7	,	,	PUNCT	MID	_	6	punct	_	start_char=27|end_char=28
+8	O!	o!	PUNCT	MID	_	6	punct	_	start_char=29|end_char=31
+9	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	6	obl	_	SpaceAfter=No|start_char=32|end_char=33
+10	.	.	PUNCT	MAD	_	6	punct	_	SpaceAfter=No|start_char=33|end_char=34
+
+# text = Wi ha ännu bröd qwar, och om Mamma bara intet wil gråta, så skall jag äta så litet, så litet at det skall räcka ända til öfwermorgon.
+# sent_id = 68
+1	Wi	Wi	PROPN	PM|NOM	Case=Nom	2	nsubj	_	start_char=0|end_char=2
+2	ha	ha	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=3|end_char=5
+3	ännu	ännu	ADV	AB	_	2	advmod	_	start_char=6|end_char=10
+4	bröd	bröd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	start_char=11|end_char=15
+5	qwar	awa	NOUN	UO	_	2	nsubj	_	SpaceAfter=No|start_char=16|end_char=20
+6	,	,	PUNCT	MID	_	2	punct	_	start_char=20|end_char=21
+7	och	och	CCONJ	KN	_	9	cc	_	start_char=22|end_char=25
+8	om	om	SCONJ	SN	_	9	mark	_	start_char=26|end_char=28
+9	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=29|end_char=34
+10	bara	bara	ADV	AB	_	13	advmod	_	start_char=35|end_char=39
+11	intet	inten	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	13	det	_	start_char=40|end_char=45
+12	wil	wil	INTJ	IN	_	13	advmod	_	start_char=46|end_char=49
+13	gråta	gråta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	acl:relcl	_	SpaceAfter=No|start_char=50|end_char=55
+14	,	,	PUNCT	MID	_	18	punct	_	start_char=55|end_char=56
+15	så	så	ADV	AB	_	18	advmod	_	start_char=57|end_char=59
+16	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=60|end_char=65
+17	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	start_char=66|end_char=69
+18	äta	äta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	conj	_	start_char=70|end_char=73
+19	så	så	ADV	AB	_	18	advmod	_	start_char=74|end_char=76
+20	litet	litet	ADV	AB|POS	Degree=Pos	18	advmod	_	SpaceAfter=No|start_char=77|end_char=82
+21	,	,	PUNCT	MID	_	18	punct	_	start_char=82|end_char=83
+22	så	så	ADV	AB	_	27	advmod	_	start_char=84|end_char=86
+23	litet	litet	ADV	AB|POS	Degree=Pos	27	advmod	_	start_char=87|end_char=92
+24	at	at	SCONJ	SN	_	27	mark	_	start_char=93|end_char=95
+25	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	27	nsubj	_	start_char=96|end_char=99
+26	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	27	aux	_	start_char=100|end_char=105
+27	räcka	räcka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	conj	_	start_char=106|end_char=111
+28	ända	ända	ADV	AB	_	27	advmod	_	start_char=112|end_char=116
+29	til	til	ADP	PP	_	30	case	_	start_char=117|end_char=120
+30	öfwermorgon	öfwermorgon	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	obl	_	SpaceAfter=No|start_char=121|end_char=132
+31	.	.	PUNCT	MAD	_	27	punct	_	SpaceAfter=No|start_char=132|end_char=133
+
+# text = Ack hur många präktiga stjernor!
+# sent_id = 69
+1	Ack	ack	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=3
+2	hur	hur	ADV	HA	_	1	advmod	_	start_char=4|end_char=7
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	5	amod	_	start_char=8|end_char=13
+4	präktiga	präktig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	start_char=14|end_char=22
+5	stjernor	stjerna	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	1	obl	_	SpaceAfter=No|start_char=23|end_char=31
+6	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=31|end_char=32
+
+# text = – Med en djup suck och en bitter hemsk känsla öfwer sit hårda öde, wände den stackars Clara aldeles tomhändt hem til sin boning.
+# sent_id = 70
+1	–	(	PUNCT	MID	_	5	punct	_	start_char=0|end_char=1
+2	Med	med	ADP	PP	_	5	case	_	start_char=2|end_char=5
+3	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	start_char=6|end_char=8
+4	djup	djup	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	amod	_	start_char=9|end_char=13
+5	suck	suck	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=14|end_char=18
+6	och	och	CCONJ	KN	_	10	cc	_	start_char=19|end_char=22
+7	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	start_char=23|end_char=25
+8	bitter	bitter	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	start_char=26|end_char=32
+9	hemsk	hemsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	start_char=33|end_char=38
+10	känsla	känsla	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nmod	_	start_char=39|end_char=45
+11	öfwer	öfwer	ADP	PP	_	14	case	_	start_char=46|end_char=51
+12	sit	sit	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	14	nmod:poss	_	start_char=52|end_char=55
+13	hårda	hård	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	14	amod	_	start_char=56|end_char=61
+14	öde	öde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	SpaceAfter=No|start_char=62|end_char=65
+15	,	,	PUNCT	MID	_	16	punct	_	start_char=65|end_char=66
+16	wände	wända	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	start_char=67|end_char=72
+17	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	19	det	_	start_char=73|end_char=76
+18	stackars	stackars	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	19	amod	_	start_char=77|end_char=85
+19	Clara	Clara	PROPN	PM|NOM	Case=Nom	16	obl	_	start_char=86|end_char=91
+20	aldeles	aldeles	ADV	AB	_	21	advmod	_	start_char=92|end_char=99
+21	tomhändt	tomhändt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	19	nmod	_	start_char=100|end_char=108
+22	hem	hem	ADV	AB	_	21	advmod	_	start_char=109|end_char=112
+23	til	til	ADP	PP	_	25	case	_	start_char=113|end_char=116
+24	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=117|end_char=120
+25	boning	boning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	nmod	_	SpaceAfter=No|start_char=121|end_char=127
+26	.	.	PUNCT	MAD	_	16	punct	_	SpaceAfter=No|start_char=127|end_char=128
+
+# text = Ack!
+# sent_id = 71
+1	Ack	ack	INTJ	IN	_	0	root	_	SpaceAfter=No|start_char=0|end_char=3
+2	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=3|end_char=4
+
+# text = Det blef ingen när Pappa lefde, sade Fredrica, då war det altid så roligt om Julafton.
+# sent_id = 72
+1	Det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	blef	bli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	ingen	ingen	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	2	obj	_	start_char=9|end_char=14
+4	när	när	SCONJ	HA	_	2	mark	_	start_char=15|end_char=18
+5	Pappa	pappa	PROPN	PM|NOM	Case=Nom	2	obj	_	start_char=19|end_char=24
+6	lefde	lefa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	SpaceAfter=No|start_char=25|end_char=30
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=30|end_char=31
+8	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=32|end_char=36
+9	Fredrica	Fredrica	PROPN	PM|NOM	Case=Nom	8	obj	_	SpaceAfter=No|start_char=37|end_char=45
+10	,	,	PUNCT	MID	_	12	punct	_	start_char=45|end_char=46
+11	då	då	ADV	AB	_	12	advmod	_	start_char=47|end_char=49
+12	war	wa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=50|end_char=53
+13	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	nsubj	_	start_char=54|end_char=57
+14	altid	altid	ADV	AB	_	16	advmod	_	start_char=58|end_char=63
+15	så	så	ADV	AB	_	16	advmod	_	start_char=64|end_char=66
+16	roligt	rolig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	conj	_	start_char=67|end_char=73
+17	om	om	ADP	PP	_	18	case	_	start_char=74|end_char=76
+18	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	16	obl	_	SpaceAfter=No|start_char=77|end_char=85
+19	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=85|end_char=86
+
+# text = Och der tänker
+# sent_id = 73
+1	Och	och	CCONJ	KN	_	3	cc	_	start_char=0|end_char=3
+2	der	de	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=4|end_char=7
+3	tänker	tänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=14
+
+# text = Pappa ännu på oss, och ber Gud för oss, sade Marie.
+# sent_id = 74
+1	Pappa	pappa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=15|end_char=20
+2	ännu	ännu	ADV	AB	_	1	advmod	_	start_char=21|end_char=25
+3	på	på	ADP	PP	_	7	case	_	start_char=26|end_char=28
+4	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	1	nmod	_	SpaceAfter=No|start_char=29|end_char=32
+5	,	,	PUNCT	MID	_	7	punct	_	start_char=32|end_char=33
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=34|end_char=37
+7	ber	be	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	start_char=38|end_char=41
+8	Gud	Gud	PROPN	PM|NOM	Case=Nom	7	obj	_	start_char=42|end_char=45
+9	för	för	ADP	PP	_	10	case	_	start_char=46|end_char=49
+10	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	7	obl	_	SpaceAfter=No|start_char=50|end_char=53
+11	,	,	PUNCT	MID	_	12	punct	_	start_char=53|end_char=54
+12	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=55|end_char=59
+13	Marie	Marie	PROPN	PM|NOM	Case=Nom	12	obl	_	SpaceAfter=No|start_char=60|end_char=65
+14	.	.	PUNCT	MAD	_	12	punct	_	SpaceAfter=No|start_char=65|end_char=66
+
+# text = Tanken på de förflutna gladare tider gjorde hennes närwarande belägenhet än swårare, och hon war djupt förtryckt under känslan af den häftigaste sinnes smärta.
+# sent_id = 75
+1	Tanken	tank	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=6
+2	på	på	ADP	PP	_	4	case	_	start_char=7|end_char=9
+3	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	4	det	_	start_char=10|end_char=12
+4	förflutna	förflutna	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	7	obl	_	start_char=13|end_char=22
+5	gladare	glad	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	6	amod	_	start_char=23|end_char=30
+6	tider	tid	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	start_char=31|end_char=36
+7	gjorde	göra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	start_char=37|end_char=43
+8	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=44|end_char=50
+9	närwarande	närwarande	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	10	amod	_	start_char=51|end_char=61
+10	belägenhet	belägenhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	nmod	_	start_char=62|end_char=72
+11	än	än	SCONJ	KN	_	12	mark	_	start_char=73|end_char=75
+12	swårare	swårare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obl	_	SpaceAfter=No|start_char=76|end_char=83
+13	,	,	PUNCT	MID	_	18	punct	_	start_char=83|end_char=84
+14	och	och	CCONJ	KN	_	18	cc	_	start_char=85|end_char=88
+15	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	start_char=89|end_char=92
+16	war	wa	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	start_char=93|end_char=96
+17	djupt	djup	ADV	AB|POS	Degree=Pos	18	advmod	_	start_char=97|end_char=102
+18	förtryckt	förtrycka	VERB	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|VerbForm=Part|Voice=Pass	12	acl:relcl	_	start_char=103|end_char=112
+19	under	under	ADP	PP	_	20	case	_	start_char=113|end_char=118
+20	känslan	känslan	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	18	obl	_	start_char=119|end_char=126
+21	af	af	ADP	PP	_	25	case	_	start_char=127|end_char=129
+22	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	25	det	_	start_char=130|end_char=133
+23	häftigaste	häftig	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	25	amod	_	start_char=134|end_char=144
+24	sinnes	sinnes	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	25	nmod:poss	_	start_char=145|end_char=151
+25	smärta	smärta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	SpaceAfter=No|start_char=152|end_char=158
+26	.	.	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=158|end_char=159
+
+# text = Nu jag tålig då wil bida, Wänta på min Faders nåd, Aldrig för olyckan qwida, Ty jag wet at Gud, är god:
+# sent_id = 76
+1	Nu	nu	ADV	AB	_	6	advmod	_	start_char=0|end_char=2
+2	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=3|end_char=6
+3	tålig	tålig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	nsubj	_	start_char=7|end_char=12
+4	då	då	ADV	AB	_	6	advmod	_	start_char=13|end_char=15
+5	wil	wil	PUNCT	MID	_	6	punct	_	start_char=16|end_char=19
+6	bida	bida	VERB	VB|INF|AKT	VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|start_char=20|end_char=24
+7	,	,	PUNCT	MID	_	3	punct	_	start_char=24|end_char=25
+8	Wänta	Wänta	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=26|end_char=31
+9	på	på	ADP	PP	_	12	case	_	start_char=32|end_char=34
+10	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	12	nmod:poss	_	start_char=35|end_char=38
+11	Faders	far	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	12	nmod:poss	_	start_char=39|end_char=45
+12	nåd	nåd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No|start_char=46|end_char=49
+13	,	,	PUNCT	MID	_	21	punct	_	start_char=49|end_char=50
+14	Aldrig	aldrig	ADV	AB	Polarity=Neg	16	advmod	_	start_char=51|end_char=57
+15	för	för	ADP	PP	_	17	case	_	start_char=58|end_char=61
+16	olyckan	olycka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	21	obl	_	start_char=62|end_char=69
+17	qwida	qwida	PROPN	PM|NOM	Case=Nom	12	nmod	_	SpaceAfter=No|start_char=70|end_char=75
+18	,	,	PUNCT	MID	_	21	punct	_	start_char=75|end_char=76
+19	Ty	ty	CCONJ	KN	_	21	cc	_	start_char=77|end_char=79
+20	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	start_char=80|end_char=83
+21	wet	weta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=84|end_char=87
+22	at	at	ADP	PP	_	23	case	_	start_char=88|end_char=90
+23	Gud	Gud	PROPN	PM|NOM	Case=Nom	21	obl	_	SpaceAfter=No|start_char=91|end_char=94
+24	,	,	PUNCT	MID	_	21	punct	_	start_char=94|end_char=95
+25	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	26	cop	_	start_char=96|end_char=98
+26	god	god	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	conj	_	SpaceAfter=No|start_char=99|end_char=102
+27	:	:	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=102|end_char=103
+
+# text = När han mig såleds har risat, Skänker han mig lust och frögd, Ty skal detta bli min Wisa:
+# sent_id = 77
+1	När	när	SCONJ	HA	_	6	mark	_	start_char=0|end_char=3
+2	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=4|end_char=7
+3	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=8|end_char=11
+4	såleds	såleds	ADV	AB	_	6	advmod	_	start_char=12|end_char=18
+5	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	start_char=19|end_char=22
+6	risat	risa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	SpaceAfter=No|start_char=23|end_char=28
+7	,	,	PUNCT	MID	_	8	punct	_	start_char=28|end_char=29
+8	Skänker	skänka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	start_char=30|end_char=37
+9	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	start_char=38|end_char=41
+10	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	start_char=42|end_char=45
+11	lust	lust	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	start_char=46|end_char=50
+12	och	och	CCONJ	KN	_	13	cc	_	start_char=51|end_char=54
+13	frögd	frögd	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	8	conj	_	SpaceAfter=No|start_char=55|end_char=60
+14	,	,	PUNCT	MID	_	18	punct	_	start_char=60|end_char=61
+15	Ty	ty	CCONJ	KN	_	18	cc	_	start_char=62|end_char=64
+16	skal	skal	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=65|end_char=69
+17	detta	denna	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	18	nsubj	_	start_char=70|end_char=75
+18	bli	bli	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	conj	_	start_char=76|end_char=79
+19	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=80|end_char=83
+20	Wisa	Wisa	PROPN	PM|NOM	Case=Nom	18	obl	_	SpaceAfter=No|start_char=84|end_char=88
+21	:	:	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=88|end_char=89
+
+# text = Jag är med min Gud förnögd.
+# sent_id = 78
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	6	nsubj	_	start_char=0|end_char=3
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	start_char=4|end_char=6
+3	med	med	ADP	PP	_	6	case	_	start_char=7|end_char=10
+4	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=11|end_char=14
+5	Gud	Gud	PROPN	PM|NOM	Case=Nom	6	obl	_	start_char=15|end_char=18
+6	förnögd	förnögd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	SpaceAfter=No|start_char=19|end_char=26
+7	.	.	PUNCT	MAD	_	6	punct	_	start_char=26|end_char=27
+
+# text = Gud har ju i sin händer; Mackt at göra hwad han wil, Den som knorrar, Gud ej sänder, Någon hjelp, derför tig still.
+# sent_id = 79
+1	Gud	Gud	PROPN	PM|NOM	Case=Nom	0	root	_	start_char=28|end_char=31
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=32|end_char=35
+3	ju	ju	ADV	AB	_	6	advmod	_	start_char=36|end_char=38
+4	i	i	ADP	PP	_	6	case	_	start_char=39|end_char=40
+5	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=41|end_char=44
+6	händer	hand	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	SpaceAfter=No|start_char=45|end_char=51
+7	;	;	PUNCT	MID	_	10	punct	_	start_char=51|end_char=52
+8	Mackt	Mackt	PROPN	PM|NOM	Case=Nom	10	obl	_	start_char=53|end_char=58
+9	at	at	ADP	PP	_	10	case	_	start_char=59|end_char=61
+10	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	acl:relcl	_	start_char=62|end_char=66
+11	hwad	hwad	PRON	HP|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Int	10	obj	_	start_char=67|end_char=71
+12	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	start_char=72|end_char=75
+13	wil	wil	INTJ	IN	_	10	advmod	_	SpaceAfter=No|start_char=76|end_char=79
+14	,	,	PUNCT	MID	_	17	punct	_	start_char=79|end_char=80
+15	Den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	obj	_	start_char=81|end_char=84
+16	som	som	PRON	HP|-|-|-	PronType=Rel	17	nsubj	_	start_char=85|end_char=88
+17	knorrar	knorra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|start_char=89|end_char=96
+18	,	,	PUNCT	MID	_	21	punct	_	start_char=96|end_char=97
+19	Gud	Gud	PROPN	PM|NOM	Case=Nom	17	obj	_	start_char=98|end_char=101
+20	ej	ej	PART	AB	Polarity=Neg	21	advmod	_	start_char=102|end_char=104
+21	sänder	sända	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	SpaceAfter=No|start_char=105|end_char=111
+22	,	,	PUNCT	MID	_	21	punct	_	start_char=111|end_char=112
+23	Någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	24	det	_	start_char=113|end_char=118
+24	hjelp	hjelp	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	SpaceAfter=No|start_char=119|end_char=124
+25	,	,	PUNCT	MID	_	21	punct	_	start_char=124|end_char=125
+26	derför	derför	ADV	AB	_	28	advmod	_	start_char=126|end_char=132
+27	tig	tig	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obj	_	start_char=133|end_char=136
+28	still	still	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	conj	_	SpaceAfter=No|start_char=137|end_char=142
+29	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=142|end_char=143
+
+# text = Hon gick, i sorgeliga tankar öfwer sin motgång, och öfwerlade hur hon bäst skulle anwända denna otilräckliga penning i sina många behof, då hastigt en Man hejdade hennes gång och påminte henne om en gammal räkning, som han genast fordrade betald.
+# sent_id = 80
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|start_char=4|end_char=8
+3	,	,	PUNCT	MID	_	2	punct	_	start_char=8|end_char=9
+4	i	i	ADP	PP	_	6	case	_	start_char=10|end_char=11
+5	sorgeliga	sorgelig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	start_char=12|end_char=21
+6	tankar	tanka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	start_char=22|end_char=28
+7	öfwer	öfwer	ADP	PP	_	9	case	_	start_char=29|end_char=34
+8	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	9	nmod:poss	_	start_char=35|end_char=38
+9	motgång	motgång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=39|end_char=46
+10	,	,	PUNCT	MID	_	12	punct	_	start_char=46|end_char=47
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=48|end_char=51
+12	öfwerlade	öfwerla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	start_char=52|end_char=61
+13	hur	hur	ADV	HA	_	12	advmod	_	start_char=62|end_char=65
+14	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	start_char=66|end_char=69
+15	bäst	bra	ADV	AB|SUV	Degree=Sup	17	advmod	_	start_char=70|end_char=74
+16	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	start_char=75|end_char=81
+17	anwända	anwända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	conj	_	start_char=82|end_char=89
+18	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	20	det	_	start_char=90|end_char=95
+19	otilräckliga	otilräcklig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	20	amod	_	start_char=96|end_char=108
+20	penning	penning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	start_char=109|end_char=116
+21	i	i	ADP	PP	_	24	case	_	start_char=117|end_char=118
+22	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=119|end_char=123
+23	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	24	amod	_	start_char=124|end_char=129
+24	behof	behof	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	20	nmod	_	SpaceAfter=No|start_char=130|end_char=135
+25	,	,	PUNCT	MID	_	30	punct	_	start_char=135|end_char=136
+26	då	då	SCONJ	HA	_	30	mark	_	start_char=137|end_char=139
+27	hastigt	hastig	ADV	AB|POS	Degree=Pos	30	advmod	_	start_char=140|end_char=147
+28	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	30	det	_	start_char=148|end_char=150
+29	Man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	30	nsubj	_	start_char=151|end_char=154
+30	hejdade	hejda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	acl:relcl	_	start_char=155|end_char=162
+31	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	32	nmod:poss	_	start_char=163|end_char=169
+32	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	obl	_	start_char=170|end_char=174
+33	och	och	CCONJ	KN	_	34	cc	_	start_char=175|end_char=178
+34	påminte	påminta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	start_char=179|end_char=186
+35	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	34	obj	_	start_char=187|end_char=192
+36	om	om	ADP	PP	_	39	case	_	start_char=193|end_char=195
+37	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	39	det	_	start_char=196|end_char=198
+38	gammal	gammal	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	39	amod	_	start_char=199|end_char=205
+39	räkning	räkning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	obl	_	SpaceAfter=No|start_char=206|end_char=213
+40	,	,	PUNCT	MID	_	44	punct	_	start_char=213|end_char=214
+41	som	som	PRON	HP|-|-|-	PronType=Rel	44	nsubj	_	start_char=215|end_char=218
+42	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	44	nsubj	_	start_char=219|end_char=222
+43	genast	genast	ADV	AB	_	44	advmod	_	start_char=223|end_char=229
+44	fordrade	fordra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	39	acl:relcl	_	start_char=230|end_char=238
+45	betald	betald	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	44	conj	_	SpaceAfter=No|start_char=239|end_char=245
+46	.	.	PUNCT	MAD	_	44	punct	_	SpaceAfter=No|start_char=245|end_char=246
+
+# text = Detta barnfliga jollrandet ömsom sönderslet och fägnade den bedröfwade Modren; men de menlösas förtröstan wäckte ändteligen hennes egen.
+# sent_id = 81
+1	Detta	denna	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	det	_	start_char=0|end_char=5
+2	barnfliga	barnflig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	_	start_char=6|end_char=15
+3	jollrandet	jollrande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	0	root	_	start_char=16|end_char=26
+4	ömsom	ömsom	CCONJ	KN	_	5	cc	_	start_char=27|end_char=32
+5	sönderslet	söndersle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	7	obl	_	start_char=33|end_char=43
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=44|end_char=47
+7	fägnade	fägna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	start_char=48|end_char=55
+8	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	10	det	_	start_char=56|end_char=59
+9	bedröfwade	bedröfwad	ADJ	PC|PRF|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	10	amod	_	start_char=60|end_char=70
+10	Modren	Modren	PROPN	PM|NOM	Case=Nom	7	obl	_	SpaceAfter=No|start_char=71|end_char=77
+11	;	;	PUNCT	MID	_	16	punct	_	start_char=77|end_char=78
+12	men	men	CCONJ	KN	_	15	cc	_	start_char=79|end_char=82
+13	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	15	det	_	start_char=83|end_char=85
+14	menlösas	menlösa	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|GEN	Case=Gen|Definite=Def|Degree=Pos|Tense=Past|VerbForm=Part	15	amod	_	start_char=86|end_char=94
+15	förtröstan	förtröstan	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	start_char=95|end_char=105
+16	wäckte	wäcka	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	start_char=106|end_char=112
+17	ändteligen	ändtelig	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obj	_	start_char=113|end_char=123
+18	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	19	nmod:poss	_	start_char=124|end_char=130
+19	egen	egen	ADJ	JJ|POS|UTR|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	conj	_	SpaceAfter=No|start_char=131|end_char=135
+20	.	.	PUNCT	MAD	_	16	punct	_	SpaceAfter=No|start_char=135|end_char=136
+
+# text = – Den hederliga Adolph hade warit lycklig på sin Ost-Indiska resa, och kom nu directe från Götheborg at söka up sin beskedliga Swägerska, hwars Enkestånd och fattigdom han, wid sin hemkomst, fått höra.
+# sent_id = 82
+1	–	(	PUNCT	MID	_	6	punct	_	start_char=0|end_char=1
+2	Den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	start_char=2|end_char=5
+3	hederliga	hederlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	4	amod	_	start_char=6|end_char=15
+4	Adolph	Adolph	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=16|end_char=22
+5	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	start_char=23|end_char=27
+6	warit	wa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	start_char=28|end_char=33
+7	lycklig	lycklig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	6	conj	_	start_char=34|end_char=41
+8	på	på	ADP	PP	_	11	case	_	start_char=42|end_char=44
+9	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss	_	start_char=45|end_char=48
+10	Ost-Indiska	ost-Indisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	11	amod	_	start_char=49|end_char=60
+11	resa	resa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	SpaceAfter=No|start_char=61|end_char=65
+12	,	,	PUNCT	MID	_	14	punct	_	start_char=65|end_char=66
+13	och	och	CCONJ	KN	_	14	cc	_	start_char=67|end_char=70
+14	kom	komma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	start_char=71|end_char=74
+15	nu	nu	ADV	AB	_	14	advmod	_	start_char=75|end_char=77
+16	directe	directe	ADV	AB	_	14	advmod	_	start_char=78|end_char=85
+17	från	från	ADP	PP	_	18	case	_	start_char=86|end_char=90
+18	Götheborg	Götheborg	PROPN	PM|NOM	Case=Nom	14	obl	_	start_char=91|end_char=100
+19	at	at	PART	IE	_	20	mark	_	start_char=101|end_char=103
+20	söka	söka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	acl:relcl	_	start_char=104|end_char=108
+21	up	up	ADV	PL	_	20	compound:prt	_	start_char=109|end_char=111
+22	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	24	nmod:poss	_	start_char=112|end_char=115
+23	beskedliga	beskedlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	24	amod	_	start_char=116|end_char=126
+24	Swägerska	swägersk	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	obl	_	SpaceAfter=No|start_char=127|end_char=136
+25	,	,	PUNCT	MID	_	27	punct	_	start_char=136|end_char=137
+26	hwars	hwa	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	27	nmod:poss	_	start_char=138|end_char=143
+27	Enkestånd	enkestånd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	nmod	_	start_char=144|end_char=153
+28	och	och	CCONJ	KN	_	29	cc	_	start_char=154|end_char=157
+29	fattigdom	fattigdom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	27	nmod	_	start_char=158|end_char=167
+30	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj	_	SpaceAfter=No|start_char=168|end_char=171
+31	,	,	PUNCT	MID	_	37	punct	_	start_char=171|end_char=172
+32	wid	wid	ADP	PP	_	34	case	_	start_char=173|end_char=176
+33	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	34	nmod:poss	_	start_char=177|end_char=180
+34	hemkomst	hemkomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	obl	_	SpaceAfter=No|start_char=181|end_char=189
+35	,	,	PUNCT	MID	_	37	punct	_	start_char=189|end_char=190
+36	fått	få	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	37	aux	_	start_char=191|end_char=195
+37	höra	höra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	29	acl:relcl	_	SpaceAfter=No|start_char=196|end_char=200
+38	.	.	PUNCT	MAD	_	37	punct	_	SpaceAfter=No|start_char=200|end_char=201
+
+# text = Ja, om wi äro goda barn, så glömmer Gud aldrig bort oss. – Godt bodskap jag til eder bär, swarade en Man i reskläder, som hastigt slog up dörren och flög den förwånade Clara i famnen.
+# sent_id = 83
+1	Ja	ja	INTJ	IN	_	5	advmod	_	SpaceAfter=No|start_char=0|end_char=2
+2	,	,	PUNCT	MID	_	5	punct	_	start_char=2|end_char=3
+3	om	om	SCONJ	SN	_	5	mark	_	start_char=4|end_char=6
+4	wi	wi	PROPN	PM|NOM	Case=Nom	5	nsubj	_	start_char=7|end_char=9
+5	äro	vara	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=13
+6	goda	god	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	7	amod	_	start_char=14|end_char=18
+7	barn	barn	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	10	obj	_	SpaceAfter=No|start_char=19|end_char=23
+8	,	,	PUNCT	MID	_	10	punct	_	start_char=23|end_char=24
+9	så	så	ADV	AB	_	10	advmod	_	start_char=25|end_char=27
+10	glömmer	glömma	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	start_char=28|end_char=35
+11	Gud	Gud	PROPN	PM|NOM	Case=Nom	10	obj	_	start_char=36|end_char=39
+12	aldrig	aldrig	ADV	AB	Polarity=Neg	10	advmod	_	start_char=40|end_char=46
+13	bort	bort	ADV	PL	_	10	compound:prt	_	start_char=47|end_char=51
+14	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	10	obj	_	SpaceAfter=No|start_char=52|end_char=55
+15	.	.	PUNCT	MAD	_	10	punct	_	start_char=55|end_char=56
+16	–	(	PUNCT	MID	_	22	punct	_	start_char=57|end_char=58
+17	Godt	god	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	start_char=59|end_char=63
+18	bodskap	bodskap	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	22	obj	_	start_char=64|end_char=71
+19	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	22	nsubj	_	start_char=72|end_char=75
+20	til	til	ADP	PP	_	22	case	_	start_char=76|end_char=79
+21	eder	ni	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	18	nmod	_	start_char=80|end_char=84
+22	bär	bära	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No|start_char=85|end_char=88
+23	,	,	PUNCT	MID	_	24	punct	_	start_char=88|end_char=89
+24	swarade	swara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	conj	_	start_char=90|end_char=97
+25	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	26	det	_	start_char=98|end_char=100
+26	Man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	start_char=101|end_char=104
+27	i	i	ADP	PP	_	28	case	_	start_char=105|end_char=106
+28	reskläder	reskläder	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	24	obl	_	SpaceAfter=No|start_char=107|end_char=116
+29	,	,	PUNCT	MID	_	32	punct	_	start_char=116|end_char=117
+30	som	som	PRON	HP|-|-|-	PronType=Rel	32	nsubj	_	start_char=118|end_char=121
+31	hastigt	hastig	ADV	AB|POS	Degree=Pos	32	advmod	_	start_char=122|end_char=129
+32	slog	slå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	acl:relcl	_	start_char=130|end_char=134
+33	up	up	ADV	PL	_	32	compound:prt	_	start_char=135|end_char=137
+34	dörren	dörr	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	32	obj	_	start_char=138|end_char=144
+35	och	och	CCONJ	KN	_	36	cc	_	start_char=145|end_char=148
+36	flög	fliga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	start_char=149|end_char=153
+37	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	38	nsubj	_	start_char=154|end_char=157
+38	förwånade	förwåna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	36	conj	_	start_char=158|end_char=167
+39	Clara	Clara	PROPN	PM|NOM	Case=Nom	38	obj	_	start_char=168|end_char=173
+40	i	i	ADP	PP	_	41	case	_	start_char=174|end_char=175
+41	famnen	fam	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	38	obl	_	SpaceAfter=No|start_char=176|end_char=182
+42	.	.	PUNCT	MAD	_	38	punct	_	SpaceAfter=No|start_char=182|end_char=183
+
+# text = Exemplaret kostar 9. runst. utbrast
+# sent_id = 84
+1	Exemplaret	exempelare	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	start_char=0|end_char=10
+2	kostar	kosta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=11|end_char=17
+3	9.	9.	NUM	RG|NOM	Case=Nom|NumType=Card	5	nsubj	_	start_char=18|end_char=20
+4	runst.	runsta.	NOUN	NN|AN	Abbr=Yes	5	obj	_	start_char=21|end_char=27
+5	utbrast	utbra	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	start_char=28|end_char=35
+
+# text = Fru von Agio; Hwad är er arbetslön?
+# sent_id = 85
+1	Fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=36|end_char=39
+2	von	von	PROPN	PM|NOM	Case=Nom	1	punct	_	start_char=40|end_char=43
+3	Agio	Agio	PROPN	PM|NOM	Case=Nom	2	nmod	_	SpaceAfter=No|start_char=44|end_char=48
+4	;	;	PUNCT	MID	_	2	punct	_	start_char=48|end_char=49
+5	Hwad	Hwad	PROPN	PM|NOM	Case=Nom	2	conj	_	start_char=50|end_char=54
+6	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	start_char=55|end_char=57
+7	er	ni	PRON	PS|UTR|SIN|DEF	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nmod:poss	_	start_char=58|end_char=60
+8	arbetslön	arbetslön	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	SpaceAfter=No|start_char=61|end_char=70
+9	?	?	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=70|end_char=71
+
+# text = Kom här in i min bod, sade han, och betala mig de lumpna 5 säg fort, jag har brottom.
+# sent_id = 86
+1	Kom	komma	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=3
+2	här	här	ADV	AB	_	1	advmod	_	start_char=4|end_char=7
+3	in	in	ADV	PL	_	1	compound:prt	_	start_char=8|end_char=10
+4	i	i	ADP	PP	_	6	case	_	start_char=11|end_char=12
+5	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	start_char=13|end_char=16
+6	bod	bod	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	SpaceAfter=No|start_char=17|end_char=20
+7	,	,	PUNCT	MID	_	1	punct	_	start_char=20|end_char=21
+8	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=22|end_char=26
+9	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	SpaceAfter=No|start_char=27|end_char=30
+10	,	,	PUNCT	MID	_	12	punct	_	start_char=30|end_char=31
+11	och	och	CCONJ	KN	_	12	cc	_	start_char=32|end_char=35
+12	betala	betala	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	conj	_	start_char=36|end_char=42
+13	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	obj	_	start_char=43|end_char=46
+14	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	17	det	_	start_char=47|end_char=49
+15	lumpna	lumpen	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	17	amod	_	start_char=50|end_char=56
+16	5	5	NUM	RG|NOM	Case=Nom|NumType=Card	17	nsubj	_	start_char=57|end_char=58
+17	säg	säga	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	start_char=59|end_char=62
+18	fort	fort	ADV	AB|POS	Degree=Pos	17	advmod	_	SpaceAfter=No|start_char=63|end_char=67
+19	,	,	PUNCT	MID	_	21	punct	_	start_char=67|end_char=68
+20	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	nsubj	_	start_char=69|end_char=72
+21	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	conj	_	start_char=73|end_char=76
+22	brottom	brottom	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obj	_	SpaceAfter=No|start_char=77|end_char=84
+23	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=84|end_char=85
+
+# text = Jag skall hjelpa
+# sent_id = 87
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=0|end_char=3
+2	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	start_char=4|end_char=9
+3	hjelpa	hjelpa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=10|end_char=16
+
+# text = Mamma fålla, sade Marie, och jag, sade den lilla Calle, jag skall läsa så flitigt min lilla bön:
+# sent_id = 88
+1	Mamma	mamma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nsubj	_	start_char=17|end_char=22
+2	fålla	fålla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	SpaceAfter=No|start_char=23|end_char=28
+3	,	,	PUNCT	MID	_	2	punct	_	start_char=28|end_char=29
+4	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=30|end_char=34
+5	Marie	Marie	PROPN	PM|NOM	Case=Nom	2	obj	_	SpaceAfter=No|start_char=35|end_char=40
+6	,	,	PUNCT	MID	_	2	punct	_	start_char=40|end_char=41
+7	och	och	CCONJ	KN	_	10	cc	_	start_char=42|end_char=45
+8	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	SpaceAfter=No|start_char=46|end_char=49
+9	,	,	PUNCT	MID	_	10	punct	_	start_char=49|end_char=50
+10	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	start_char=51|end_char=55
+11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	13	det	_	start_char=56|end_char=59
+12	lilla	liten	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	13	amod	_	start_char=60|end_char=65
+13	Calle	Calle	PROPN	PM|NOM	Case=Nom	10	obj	_	SpaceAfter=No|start_char=66|end_char=71
+14	,	,	PUNCT	MID	_	17	punct	_	start_char=71|end_char=72
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	nsubj	_	start_char=73|end_char=76
+16	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	17	aux	_	start_char=77|end_char=82
+17	läsa	läsa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	acl:relcl	_	start_char=83|end_char=87
+18	så	så	ADV	AB	_	17	advmod	_	start_char=88|end_char=90
+19	flitigt	flitig	ADV	AB|POS	Degree=Pos	17	advmod	_	start_char=91|end_char=98
+20	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=99|end_char=102
+21	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	22	amod	_	start_char=103|end_char=108
+22	bön	bön	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=109|end_char=112
+23	:	:	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=112|end_char=113
+
+# text = Gud som hafwer barnen kär!
+# sent_id = 89
+1	Gud	Gud	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=0|end_char=3
+2	som	som	PRON	HP|-|-|-	PronType=Rel	3	nsubj	_	start_char=4|end_char=7
+3	hafwer	hafw	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=8|end_char=14
+4	barnen	barn	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	3	obj	_	start_char=15|end_char=21
+5	kär	kär	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	conj	_	SpaceAfter=No|start_char=22|end_char=25
+6	!	!	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=25|end_char=26
+
+# text = – Nu förswann hon i den långa sträckan af sidenklädda rum, och Clara stum och bestört, med sedeln i handen och bedröfwelsen i hjertat, skyndade sig ifrån denna obarmhertiga.
+# sent_id = 90
+1	–	(	PUNCT	MID	_	3	punct	_	start_char=0|end_char=1
+2	Nu	nu	ADV	AB	_	3	advmod	_	start_char=2|end_char=4
+3	förswann	förswana	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=5|end_char=13
+4	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=14|end_char=17
+5	i	i	ADP	PP	_	8	case	_	start_char=18|end_char=19
+6	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	8	det	_	start_char=20|end_char=23
+7	långa	lång	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	8	amod	_	start_char=24|end_char=29
+8	sträckan	sträcka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	3	obl	_	start_char=30|end_char=38
+9	af	af	ADP	PP	_	11	case	_	start_char=39|end_char=41
+10	sidenklädda	sidenklädd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	11	amod	_	start_char=42|end_char=53
+11	rum	rum	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No|start_char=54|end_char=57
+12	,	,	PUNCT	MID	_	15	punct	_	start_char=57|end_char=58
+13	och	och	CCONJ	KN	_	15	cc	_	start_char=59|end_char=62
+14	Clara	Clara	PROPN	PM|NOM	Case=Nom	17	obl	_	start_char=63|end_char=68
+15	stum	stum	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	conj	_	start_char=69|end_char=73
+16	och	och	CCONJ	KN	_	17	cc	_	start_char=74|end_char=77
+17	bestört	bestörd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	15	conj	_	SpaceAfter=No|start_char=78|end_char=85
+18	,	,	PUNCT	MID	_	17	punct	_	start_char=85|end_char=86
+19	med	med	ADP	PP	_	20	case	_	start_char=87|end_char=90
+20	sedeln	sedel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	17	obl	_	start_char=91|end_char=97
+21	i	i	ADP	PP	_	22	case	_	start_char=98|end_char=99
+22	handen	hand	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nmod	_	start_char=100|end_char=106
+23	och	och	CCONJ	KN	_	24	cc	_	start_char=107|end_char=110
+24	bedröfwelsen	bedröfwelse	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	nmod	_	start_char=111|end_char=123
+25	i	i	ADP	PP	_	26	case	_	start_char=124|end_char=125
+26	hjertat	hjertat	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|start_char=126|end_char=133
+27	,	,	PUNCT	MID	_	28	punct	_	start_char=133|end_char=134
+28	skyndade	skynda	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	acl:relcl	_	start_char=135|end_char=143
+29	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	28	obj	_	start_char=144|end_char=147
+30	ifrån	ifrån	ADP	PP	_	32	case	_	start_char=148|end_char=153
+31	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	32	det	_	start_char=154|end_char=159
+32	obarmhertiga	obarmhertig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	28	conj	_	SpaceAfter=No|start_char=160|end_char=172
+33	.	.	PUNCT	MAD	_	28	punct	_	SpaceAfter=No|start_char=172|end_char=173
+
+# text = sade den lilla
+# sent_id = 91
+1	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=4
+2	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	3	det	_	start_char=5|end_char=8
+3	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	1	obl	_	start_char=9|end_char=14
+
+# text = Marie til sin goda Mor, den fattiga Clara.
+# sent_id = 92
+1	Marie	Marie	PROPN	PM|NOM	Case=Nom	0	root	_	start_char=15|end_char=20
+2	til	til	ADP	PP	_	5	case	_	start_char=21|end_char=24
+3	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=25|end_char=28
+4	goda	god	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	5	amod	_	start_char=29|end_char=33
+5	Mor	mor	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	SpaceAfter=No|start_char=34|end_char=37
+6	,	,	PUNCT	MID	_	1	punct	_	start_char=37|end_char=38
+7	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=39|end_char=42
+8	fattiga	fattig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	start_char=43|end_char=50
+9	Clara	Clara	PROPN	PM|NOM	Case=Nom	1	obl	_	SpaceAfter=No|start_char=51|end_char=56
+10	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=56|end_char=57
+
+# text = Julgröt än sjelfwa nöden.
+# sent_id = 93
+1	Julgröt	Julgröt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	nsubj	_	start_char=0|end_char=7
+2	än	än	SCONJ	KN	_	4	mark	_	start_char=8|end_char=10
+3	sjelfwa	sjelfw	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	4	amod	_	start_char=11|end_char=18
+4	nöden	nöden	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No|start_char=19|end_char=24
+5	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Hon hade inga wänner, de hade förswunnit med wälmågan, ingen tilflygt, ingen mat, ganska litet wed, och på sjelfwa Julafton intet ljus.
+# sent_id = 94
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	inga	ingen	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Neg	4	det	_	start_char=9|end_char=13
+4	wänner	wann	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	SpaceAfter=No|start_char=14|end_char=20
+5	,	,	PUNCT	MID	_	2	punct	_	start_char=20|end_char=21
+6	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	2	nsubj	_	start_char=22|end_char=24
+7	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	start_char=25|end_char=29
+8	förswunnit	förswunna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	xcomp	_	start_char=30|end_char=40
+9	med	med	ADP	PP	_	10	case	_	start_char=41|end_char=44
+10	wälmågan	wälmåga	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	8	obl	_	SpaceAfter=No|start_char=45|end_char=53
+11	,	,	PUNCT	MID	_	2	punct	_	start_char=53|end_char=54
+12	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	13	det	_	start_char=55|end_char=60
+13	tilflygt	tilflyg	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	conj	_	SpaceAfter=No|start_char=61|end_char=69
+14	,	,	PUNCT	MID	_	2	punct	_	start_char=69|end_char=70
+15	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	16	det	_	start_char=71|end_char=76
+16	mat	mat	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	obl	_	SpaceAfter=No|start_char=77|end_char=80
+17	,	,	PUNCT	MID	_	20	punct	_	start_char=80|end_char=81
+18	ganska	ganska	ADV	AB	_	20	advmod	_	start_char=82|end_char=88
+19	litet	liten	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	start_char=89|end_char=94
+20	wed	wed	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	conj	_	SpaceAfter=No|start_char=95|end_char=98
+21	,	,	PUNCT	MID	_	2	punct	_	start_char=98|end_char=99
+22	och	och	CCONJ	KN	_	24	cc	_	start_char=100|end_char=103
+23	på	på	ADP	PP	_	24	case	_	start_char=104|end_char=106
+24	sjelfwa	sjelfwa	PROPN	PM|NOM	Case=Nom	20	nmod	_	start_char=107|end_char=114
+25	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	27	nmod	_	start_char=115|end_char=123
+26	intet	inten	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	27	det	_	start_char=124|end_char=129
+27	ljus	ljus	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No|start_char=130|end_char=134
+28	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=134|end_char=135
+
