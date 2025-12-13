@@ -1,0 +1,65 @@
+# text = Kan skie den geten som mäst bräker hon målckar minst.
+# sent_id = 0
+1	Kan	kunna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=3
+2	skie	skie	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obj	_	start_char=4|end_char=8
+3	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	4	det	_	start_char=9|end_char=12
+4	geten	get	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	1	obj	_	start_char=13|end_char=18
+5	som	som	PRON	HP|-|-|-	PronType=Rel	1	nsubj	_	start_char=19|end_char=22
+6	mäst	må	ADV	AB|SUV	Degree=Sup	7	advmod	_	start_char=23|end_char=27
+7	bräker	bräka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=28|end_char=34
+8	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	nsubj	_	start_char=35|end_char=38
+9	målckar	målcka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	xcomp	_	start_char=39|end_char=46
+10	minst	lite	ADV	AB|SUV	Degree=Sup	1	advmod	_	SpaceAfter=No|start_char=47|end_char=52
+11	.	.	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = Och den som har mycket af munnen har lite af vllen/ sa hin som klipte Soon.
+# sent_id = 1
+1	Och	och	CCONJ	KN	_	4	cc	_	start_char=0|end_char=3
+2	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=4|end_char=7
+3	som	som	PRON	HP|-|-|-	PronType=Rel	4	nsubj	_	start_char=8|end_char=11
+4	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=15
+5	mycket	mycket	ADV	AB|POS	Degree=Pos	4	advmod	_	start_char=16|end_char=22
+6	af	af	ADP	PP	_	8	case	_	start_char=23|end_char=25
+7	munnen	mun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	start_char=26|end_char=32
+8	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=33|end_char=36
+9	lite	lite	ADV	AB|POS	Degree=Pos	8	advmod	_	start_char=37|end_char=41
+10	af	af	ADP	PP	_	11	case	_	start_char=42|end_char=44
+11	vllen/	vll	NOUN	NN|UTR|-|-|-	Gender=Com	8	obl	_	start_char=45|end_char=51
+12	sa	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=52|end_char=54
+13	hin	hin	PROPN	PM|NOM	Case=Nom	12	obl	_	start_char=55|end_char=58
+14	som	som	PRON	HP|-|-|-	PronType=Rel	15	nsubj	_	start_char=59|end_char=62
+15	klipte	kli	VERB	VB|PRT|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	start_char=63|end_char=69
+16	Soon	Soon	PROPN	PM|NOM	Case=Nom	15	obj	_	SpaceAfter=No|start_char=70|end_char=74
+17	.	.	PUNCT	MAD	_	12	punct	_	SpaceAfter=No|start_char=74|end_char=75
+
+# text = Lyckan giör många narrar.
+# sent_id = 2
+1	Lyckan	lycka	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	start_char=0|end_char=6
+2	giör	giöra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=7|end_char=11
+3	många	många	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	4	amod	_	start_char=12|end_char=17
+4	narrar	narr	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obj	_	SpaceAfter=No|start_char=18|end_char=24
+5	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=24|end_char=25
+
+# text = Wäxer min råg/ så wäxer min håg.
+# sent_id = 3
+1	Wäxer	wäxer	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	start_char=0|end_char=5
+2	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=6|end_char=9
+3	råg/	råg/	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	start_char=10|end_char=14
+4	så	så	ADV	AB	_	5	advmod	_	start_char=15|end_char=17
+5	wäxer	wäxa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=23
+6	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=24|end_char=27
+7	håg	håg	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	SpaceAfter=No|start_char=28|end_char=31
+8	.	.	PUNCT	MAD	_	5	punct	_	SpaceAfter=No|start_char=31|end_char=32
+
+# text = Han tör slå stora spikar af lite jern.
+# sent_id = 4
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	tör	töra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=7
+3	slå	slå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	conj	_	start_char=8|end_char=11
+4	stora	stor	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	5	amod	_	start_char=12|end_char=17
+5	spikar	spik	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	obj	_	start_char=18|end_char=24
+6	af	af	ADP	PP	_	8	case	_	start_char=25|end_char=27
+7	lite	lite	ADV	AB|POS	Degree=Pos	8	advmod	_	start_char=28|end_char=32
+8	jern	jern	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obl	_	SpaceAfter=No|start_char=33|end_char=37
+9	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=37|end_char=38
+

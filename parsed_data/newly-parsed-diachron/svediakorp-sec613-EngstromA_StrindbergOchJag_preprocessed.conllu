@@ -1,0 +1,152 @@
+# text = I Ästetiska föreningen i Uppsala talades något av åren 1890 eller 1891 man och man emellan om utgivandet av en publikation där föreningens skrivkunniga skulle få tillfälle att visa sina framfötter.
+# sent_id = 0
+1	I	i	ADP	PP	_	3	case	_	start_char=0|end_char=1
+2	Ästetiska	lstetisk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	3	amod	_	start_char=2|end_char=11
+3	föreningen	förening	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	obl	_	start_char=12|end_char=22
+4	i	i	ADP	PP	_	6	case	_	start_char=23|end_char=24
+5	Uppsala	Uppsala	PROPN	PM|NOM	Case=Nom	6	obl	_	start_char=25|end_char=32
+6	talades	tala	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	start_char=33|end_char=40
+7	något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	6	obj	_	start_char=41|end_char=46
+8	av	av	ADP	PP	_	9	case	_	start_char=47|end_char=49
+9	åren	år	NOUN	NN|NEU|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Plur	6	obl	_	start_char=50|end_char=54
+10	1890	1890	NUM	RG|NOM	Case=Nom|NumType=Card	13	case	_	start_char=55|end_char=59
+11	eller	eller	CCONJ	KN	_	13	cc	_	start_char=60|end_char=65
+12	1891	1891	NUM	RG|NOM	Case=Nom|NumType=Card	13	amod	_	start_char=66|end_char=70
+13	man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	start_char=71|end_char=74
+14	och	och	CCONJ	KN	_	18	cc	_	start_char=75|end_char=78
+15	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	18	nmod	_	start_char=79|end_char=82
+16	emellan	emellan	ADP	PL	_	13	case	_	start_char=83|end_char=90
+17	om	om	ADP	PP	_	18	case	_	start_char=91|end_char=93
+18	utgivandet	utgivande	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	13	nmod	_	start_char=94|end_char=104
+19	av	av	ADP	PP	_	21	case	_	start_char=105|end_char=107
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	21	det	_	start_char=108|end_char=110
+21	publikation	publikation	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	start_char=111|end_char=122
+22	där	där	ADV	HA	_	26	advmod	_	start_char=123|end_char=126
+23	föreningens	förening	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	27	nmod:poss	_	start_char=127|end_char=138
+24	skrivkunniga	skrivkunnig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	26	amod	_	start_char=139|end_char=151
+25	skulle	skola	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	aux	_	start_char=152|end_char=158
+26	få	få	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	21	acl:relcl	_	start_char=159|end_char=161
+27	tillfälle	tillfälle	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obj	_	start_char=162|end_char=171
+28	att	att	PART	IE	_	29	mark	_	start_char=172|end_char=175
+29	visa	visa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	26	conj	_	start_char=176|end_char=180
+30	sina	sig	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	31	nmod:poss	_	start_char=181|end_char=185
+31	framfötter	framfött	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	29	obl	_	SpaceAfter=No|start_char=186|end_char=196
+32	.	.	PUNCT	MAD	_	29	punct	_	SpaceAfter=No|start_char=196|end_char=197
+
+# text = Men skalderna voro tunnsådda i Uppsala på den tiden och skrevo efter recept – claris exemplis – och ästeterna för övrigt lågo väl i tentamen, vadan det såg mörkt ut vid tanken på den eventuella skriftens tjocklek.
+# sent_id = 1
+1	Men	men	CCONJ	KN	_	4	cc	_	start_char=0|end_char=3
+2	skalderna	skald	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	0	root	_	start_char=4|end_char=13
+3	voro	voro	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	start_char=14|end_char=18
+4	tunnsådda	tunnsådd	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	conj	_	start_char=19|end_char=28
+5	i	i	ADP	PP	_	6	case	_	start_char=29|end_char=30
+6	Uppsala	Uppsala	PROPN	PM|NOM	Case=Nom	4	obl	_	start_char=31|end_char=38
+7	på	på	ADP	PP	_	9	case	_	start_char=39|end_char=41
+8	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	9	det	_	start_char=42|end_char=45
+9	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	obl	_	start_char=46|end_char=51
+10	och	och	CCONJ	KN	_	11	cc	_	start_char=52|end_char=55
+11	skrevo	skrevo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=56|end_char=62
+12	efter	efter	ADP	PP	_	13	case	_	start_char=63|end_char=68
+13	recept	recept	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obl	_	start_char=69|end_char=75
+14	–	(	PUNCT	MID	_	11	punct	_	start_char=76|end_char=77
+15	claris	claris	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	start_char=78|end_char=84
+16	exemplis	exemplis	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	start_char=85|end_char=93
+17	–	(	PUNCT	MID	_	22	punct	_	start_char=94|end_char=95
+18	och	och	CCONJ	KN	_	19	cc	_	start_char=96|end_char=99
+19	ästeterna	ästet	NOUN	NN|UTR|PLU|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Plur	16	nmod	_	start_char=100|end_char=109
+20	för	för	ADP	PP	_	22	case	_	start_char=110|end_char=113
+21	övrigt	övrig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	start_char=114|end_char=120
+22	lågo	lågo	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	19	acl:relcl	_	start_char=121|end_char=125
+23	väl	väl	ADV	AB|POS	Degree=Pos	22	advmod	_	start_char=126|end_char=129
+24	i	i	ADP	PP	_	25	case	_	start_char=130|end_char=131
+25	tentamen	tentam	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	22	obl	_	SpaceAfter=No|start_char=132|end_char=140
+26	,	,	PUNCT	MID	_	29	punct	_	start_char=140|end_char=141
+27	vadan	vadan	SCONJ	SN	_	29	mark	_	start_char=142|end_char=147
+28	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	29	nsubj	_	start_char=148|end_char=151
+29	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	25	acl:relcl	_	start_char=152|end_char=155
+30	mörkt	mörk	ADV	AB|POS	Degree=Pos	29	advmod	_	start_char=156|end_char=161
+31	ut	ut	ADV	PL	_	29	compound:prt	_	start_char=162|end_char=164
+32	vid	vid	ADP	PP	_	33	case	_	start_char=165|end_char=168
+33	tanken	tanke	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	29	obl	_	start_char=169|end_char=175
+34	på	på	ADP	PP	_	38	case	_	start_char=176|end_char=178
+35	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	38	det	_	start_char=179|end_char=182
+36	eventuella	eventuell	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	38	amod	_	start_char=183|end_char=193
+37	skriftens	skrift	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	38	nmod:poss	_	start_char=194|end_char=203
+38	tjocklek	tjocklek	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	33	nmod	_	SpaceAfter=No|start_char=204|end_char=212
+39	.	.	PUNCT	MAD	_	29	punct	_	SpaceAfter=No|start_char=212|end_char=213
+
+# text = Alltså beslöts, fortfarande man och man emellan, att skaffa bidrag av skalder, som redan lämnat universitetet.
+# sent_id = 2
+1	Alltså	alltså	ADV	AB	_	2	advmod	_	start_char=0|end_char=6
+2	beslöts	besluta	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	SpaceAfter=No|start_char=7|end_char=14
+3	,	,	PUNCT	MID	_	2	punct	_	start_char=14|end_char=15
+4	fortfarande	fortfarande	ADV	AB	_	2	advmod	_	start_char=16|end_char=27
+5	man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=28|end_char=31
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=32|end_char=35
+7	man	man	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=36|end_char=39
+8	emellan	emellan	ADP	PP	_	11	case	_	SpaceAfter=No|start_char=40|end_char=47
+9	,	,	PUNCT	MID	_	2	punct	_	start_char=47|end_char=48
+10	att	att	PART	IE	_	11	mark	_	start_char=49|end_char=52
+11	skaffa	skaffa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=53|end_char=59
+12	bidrag	bidrag	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	start_char=60|end_char=66
+13	av	av	ADP	PP	_	14	case	_	start_char=67|end_char=69
+14	skalder	skald	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	11	obl	_	SpaceAfter=No|start_char=70|end_char=77
+15	,	,	PUNCT	MID	_	18	punct	_	start_char=77|end_char=78
+16	som	som	PRON	HP|-|-|-	PronType=Rel	18	nsubj	_	start_char=79|end_char=82
+17	redan	redan	ADV	AB	_	18	advmod	_	start_char=83|end_char=88
+18	lämnat	lämna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	11	conj	_	start_char=89|end_char=95
+19	universitetet	universitet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	18	obj	_	SpaceAfter=No|start_char=96|end_char=109
+20	.	.	PUNCT	MAD	_	18	punct	_	SpaceAfter=No|start_char=109|end_char=110
+
+# text = Jag åtog mig att i detta ärende vända mig till August Strindberg, som för tillfället befann sig någonstans i Stockholms skärgård.
+# sent_id = 3
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	åtog	åta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	start_char=9|end_char=12
+4	att	att	PART	IE	_	2	mark	_	start_char=13|end_char=16
+5	i	i	ADP	PP	_	7	case	_	start_char=17|end_char=18
+6	detta	denna	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	start_char=19|end_char=24
+7	ärende	ärende	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	start_char=25|end_char=31
+8	vända	vända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	xcomp	_	start_char=32|end_char=37
+9	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	obj	_	start_char=38|end_char=41
+10	till	till	ADP	PP	_	11	case	_	start_char=42|end_char=46
+11	August	August	PROPN	PM|NOM	Case=Nom	8	obl	_	start_char=47|end_char=53
+12	Strindberg	Strindberg	PROPN	PM|NOM	Case=Nom	8	obl	_	SpaceAfter=No|start_char=54|end_char=64
+13	,	,	PUNCT	MID	_	17	punct	_	start_char=64|end_char=65
+14	som	som	PRON	HP|-|-|-	PronType=Rel	17	nsubj	_	start_char=66|end_char=69
+15	för	för	ADP	PP	_	17	case	_	start_char=70|end_char=73
+16	tillfället	tillfälle	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	17	obl	_	start_char=74|end_char=84
+17	befann	befann	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	start_char=85|end_char=91
+18	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	17	obj	_	start_char=92|end_char=95
+19	någonstans	någonstans	ADV	AB	_	17	advmod	_	start_char=96|end_char=106
+20	i	i	ADP	PP	_	22	case	_	start_char=107|end_char=108
+21	Stockholms	Stockholm	PROPN	PM|GEN	Case=Gen	22	nmod:poss	_	start_char=109|end_char=119
+22	skärgård	skärgård	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=120|end_char=128
+23	.	.	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=128|end_char=129
+
+# text = Jag fick omgående svar, åtföljt av ett rätt gammalt nummer av en fransk tidning där en artikel av honom fanns införd.
+# sent_id = 4
+1	Jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	fick	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	omgående	omgående	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	4	amod	_	start_char=9|end_char=17
+4	svar	svar	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obj	_	SpaceAfter=No|start_char=18|end_char=22
+5	,	,	PUNCT	MID	_	2	punct	_	start_char=22|end_char=23
+6	åtföljt	åtföljd	ADJ	PC|PRF|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part	2	conj	_	start_char=24|end_char=31
+7	av	av	ADP	PP	_	11	case	_	start_char=32|end_char=34
+8	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=35|end_char=38
+9	rätt	rätt	ADV	AB|POS	Degree=Pos	11	advmod	_	start_char=39|end_char=43
+10	gammalt	gammal	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	start_char=44|end_char=51
+11	nummer	nummer	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	2	obl	_	start_char=52|end_char=58
+12	av	av	ADP	PP	_	15	case	_	start_char=59|end_char=61
+13	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	15	det	_	start_char=62|end_char=64
+14	fransk	fransk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	15	amod	_	start_char=65|end_char=71
+15	tidning	tidning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	start_char=72|end_char=79
+16	där	där	ADV	HA	_	18	advmod	_	start_char=80|end_char=83
+17	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det	_	start_char=84|end_char=86
+18	artikel	artikel	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	start_char=87|end_char=94
+19	av	av	ADP	PP	_	20	case	_	start_char=95|end_char=97
+20	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	21	obl	_	start_char=98|end_char=103
+21	fanns	finnas	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin	15	acl:relcl	_	start_char=104|end_char=109
+22	införd	införd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	21	conj	_	SpaceAfter=No|start_char=110|end_char=116
+23	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=116|end_char=117
+

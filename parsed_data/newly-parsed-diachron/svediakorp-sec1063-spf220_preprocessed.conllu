@@ -1,0 +1,165 @@
+# text = Hon gjöt då sin känsla i religiösa sånger, som andas en djup öfvertygelse, en innerlig tro och en brinnande kärlek.
+# sent_id = 0
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	gjöt	göta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	då	då	ADV	AB	_	2	advmod	_	start_char=9|end_char=11
+4	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	5	nmod:poss	_	start_char=12|end_char=15
+5	känsla	känsla	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obj	_	start_char=16|end_char=22
+6	i	i	ADP	PP	_	8	case	_	start_char=23|end_char=24
+7	religiösa	religiös	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	amod	_	start_char=25|end_char=34
+8	sånger	sång	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	2	obl	_	SpaceAfter=No|start_char=35|end_char=41
+9	,	,	PUNCT	MID	_	11	punct	_	start_char=41|end_char=42
+10	som	som	PRON	HP|-|-|-	PronType=Rel	11	nsubj	_	start_char=43|end_char=46
+11	andas	anda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	8	acl:relcl	_	start_char=47|end_char=52
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	14	det	_	start_char=53|end_char=55
+13	djup	djup	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	amod	_	start_char=56|end_char=60
+14	öfvertygelse	öfvertygelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No|start_char=61|end_char=73
+15	,	,	PUNCT	MID	_	2	punct	_	start_char=73|end_char=74
+16	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det	_	start_char=75|end_char=77
+17	innerlig	innerlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	_	start_char=78|end_char=86
+18	tro	tro	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	nmod	_	start_char=87|end_char=90
+19	och	och	CCONJ	KN	_	22	cc	_	start_char=91|end_char=94
+20	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	22	det	_	start_char=95|end_char=97
+21	brinnande	brinnande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	22	amod	_	start_char=98|end_char=107
+22	kärlek	kärlek	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	SpaceAfter=No|start_char=108|end_char=114
+23	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=114|end_char=115
+
+# text = I den satt en gråhårig, äkta Sörmlandsbonde med ett dem eget godmodigt och ärligt utseende.
+# sent_id = 1
+1	I	i	ADP	PP	_	5	case	_	start_char=0|end_char=1
+2	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	start_char=2|end_char=5
+3	satt	sitta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=6|end_char=10
+4	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	5	det	_	start_char=11|end_char=13
+5	gråhårig	gråhårig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	3	nsubj	_	SpaceAfter=No|start_char=14|end_char=22
+6	,	,	PUNCT	MID	_	3	punct	_	start_char=22|end_char=23
+7	äkta	äkta	ADJ	JJ|POS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	8	amod	_	start_char=24|end_char=28
+8	Sörmlandsbonde	sörmlandsbonde	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=29|end_char=43
+9	med	med	ADP	PP	_	11	case	_	start_char=44|end_char=47
+10	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	11	det	_	start_char=48|end_char=51
+11	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	8	nmod	_	start_char=52|end_char=55
+12	eget	egen	ADJ	JJ|POS|NEU|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	start_char=56|end_char=60
+13	godmodigt	godmodig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	11	case	_	start_char=61|end_char=70
+14	och	och	CCONJ	KN	_	16	cc	_	start_char=71|end_char=74
+15	ärligt	ärlig	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	start_char=75|end_char=81
+16	utseende	utseende	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No|start_char=82|end_char=90
+17	.	.	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=90|end_char=91
+
+# text = Du tankar har På mig, för hvarje dag I dystra skogen.
+# sent_id = 2
+1	Du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	nsubj	_	start_char=0|end_char=2
+2	tankar	tanka	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	3	nsubj	_	start_char=3|end_char=9
+3	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=10|end_char=13
+4	På	på	ADP	PP	_	5	case	_	start_char=14|end_char=16
+5	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	3	obl	_	SpaceAfter=No|start_char=17|end_char=20
+6	,	,	PUNCT	MID	_	3	punct	_	start_char=20|end_char=21
+7	för	för	ADP	PP	_	9	case	_	start_char=22|end_char=25
+8	hvarje	hvarje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Tot	9	det	_	start_char=26|end_char=32
+9	dag	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	obl	_	start_char=33|end_char=36
+10	I	i	ADP	PP	_	12	case	_	start_char=37|end_char=38
+11	dystra	dyster	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	12	amod	_	start_char=39|end_char=45
+12	skogen	skog	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	nmod	_	SpaceAfter=No|start_char=46|end_char=52
+13	.	.	PUNCT	MAD	_	3	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = Sällan har väl någon författare varit så anspråkslös, som vi, då vi till och med förklara, att vi anse egentliga innehållet af denna lilla uppsats förlora allt sitt värde, om det endast anses som – författarens eget verk!
+# sent_id = 3
+1	Sällan	sällan	ADV	AB	_	5	advmod	_	start_char=0|end_char=6
+2	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	start_char=7|end_char=10
+3	väl	väl	ADV	AB	_	5	advmod	_	start_char=11|end_char=14
+4	någon	någon	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	5	det	_	start_char=15|end_char=20
+5	författare	författare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	obj	_	start_char=21|end_char=31
+6	varit	vara	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	8	cop	_	start_char=32|end_char=37
+7	så	så	ADV	AB	_	8	advmod	_	start_char=38|end_char=40
+8	anspråkslös	anspråkslös	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	SpaceAfter=No|start_char=41|end_char=52
+9	,	,	PUNCT	MID	_	8	punct	_	start_char=52|end_char=53
+10	som	som	SCONJ	KN	_	18	mark	_	start_char=54|end_char=57
+11	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	18	nsubj	_	SpaceAfter=No|start_char=58|end_char=60
+12	,	,	PUNCT	MID	_	18	punct	_	start_char=60|end_char=61
+13	då	då	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	start_char=62|end_char=64
+14	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	18	nsubj	_	start_char=65|end_char=67
+15	till	till	ADP	PP	_	18	case	_	start_char=68|end_char=72
+16	och	och	CCONJ	KN	_	18	cc	_	start_char=73|end_char=76
+17	med	med	ADV	AB	_	18	advmod	_	start_char=77|end_char=80
+18	förklara	förklara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	8	conj	_	SpaceAfter=No|start_char=81|end_char=89
+19	,	,	PUNCT	MID	_	22	punct	_	start_char=89|end_char=90
+20	att	att	SCONJ	SN	_	22	mark	_	start_char=91|end_char=94
+21	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	22	nsubj	_	start_char=95|end_char=97
+22	anse	anse	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	conj	_	start_char=98|end_char=102
+23	egentliga	egentlig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	24	amod	_	start_char=103|end_char=112
+24	innehållet	innehåll	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	obj	_	start_char=113|end_char=123
+25	af	af	ADP	PP	_	28	case	_	start_char=124|end_char=126
+26	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	28	det	_	start_char=127|end_char=132
+27	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	28	amod	_	start_char=133|end_char=138
+28	uppsats	uppsats	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	obl	_	start_char=139|end_char=146
+29	förlora	förlora	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	22	conj	_	start_char=147|end_char=154
+30	allt	all	DET	DT|NEU|SIN|IND/DEF	Gender=Neut|Number=Sing|PronType=Tot	32	det	_	start_char=155|end_char=159
+31	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	32	nmod:poss	_	start_char=160|end_char=164
+32	värde	värde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	29	obl	_	SpaceAfter=No|start_char=165|end_char=170
+33	,	,	PUNCT	MID	_	37	punct	_	start_char=170|end_char=171
+34	om	om	SCONJ	SN	_	37	mark	_	start_char=172|end_char=174
+35	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	37	nsubj	_	start_char=175|end_char=178
+36	endast	endast	ADV	AB	_	37	advmod	_	start_char=179|end_char=185
+37	anses	anse	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	32	acl:relcl	_	start_char=186|end_char=191
+38	som	som	SCONJ	KN	_	37	mark	_	start_char=192|end_char=195
+39	–	(	PUNCT	MID	_	37	punct	_	start_char=196|end_char=197
+40	författarens	författare	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	42	nmod:poss	_	start_char=198|end_char=210
+41	eget	egen	ADJ	JJ|POS|NEU|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	start_char=211|end_char=215
+42	verk	verk	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	37	obl	_	SpaceAfter=No|start_char=216|end_char=220
+43	!	!	PUNCT	MAD	_	37	punct	_	SpaceAfter=No|start_char=220|end_char=221
+
+# text = Hvad våra resande kände inom sig , det vet den läsare , som engång på samma sätt öfvergifvit sitt gamla , sköna fädernesland ; och den , som det icke gjort , förstår det icke .
+# sent_id = 4
+1	Hvad	hvad	ADV	HA	_	4	advmod	_	start_char=0|end_char=4
+2	våra	vi	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=5|end_char=9
+3	resande	resande	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	nsubj	_	start_char=10|end_char=17
+4	kände	känna	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=18|end_char=23
+5	inom	inom	ADP	PP	_	9	case	_	start_char=24|end_char=28
+6	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	4	obl	_	start_char=29|end_char=32
+7	,	,	PUNCT	MID	_	4	punct	_	start_char=33|end_char=34
+8	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	9	nsubj	_	start_char=35|end_char=38
+9	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	start_char=39|end_char=42
+10	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	11	det	_	start_char=43|end_char=46
+11	läsare	läsare	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	start_char=47|end_char=53
+12	,	,	PUNCT	MID	_	9	punct	_	start_char=54|end_char=55
+13	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	_	start_char=56|end_char=59
+14	engång	engång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obj	_	start_char=60|end_char=66
+15	på	på	ADP	PP	_	17	case	_	start_char=67|end_char=69
+16	samma	samma	ADJ	DT|UTR/NEU|SIN/PLU|IND	Case=Nom|Definite=Ind|Degree=Pos	17	amod	_	start_char=70|end_char=75
+17	sätt	sätt	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	start_char=76|end_char=80
+18	öfvergifvit	öfvergifva	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	conj	_	start_char=81|end_char=92
+19	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=93|end_char=97
+20	gamla	gammal	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	start_char=98|end_char=103
+21	,	,	PUNCT	MID	_	18	punct	_	start_char=104|end_char=105
+22	sköna	skön	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Plur	23	amod	_	start_char=106|end_char=111
+23	fädernesland	fädernesland	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obl	_	start_char=112|end_char=124
+24	;	;	PUNCT	MID	_	31	punct	_	start_char=125|end_char=126
+25	och	och	CCONJ	KN	_	26	cc	_	start_char=127|end_char=130
+26	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nmod	_	start_char=131|end_char=134
+27	,	,	PUNCT	MID	_	31	punct	_	start_char=135|end_char=136
+28	som	som	PRON	HP|-|-|-	PronType=Rel	31	nsubj	_	start_char=137|end_char=140
+29	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	31	nsubj	_	start_char=141|end_char=144
+30	icke	icke	PART	AB	Polarity=Neg	31	advmod	_	start_char=145|end_char=149
+31	gjort	göra	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	26	acl:relcl	_	start_char=150|end_char=155
+32	,	,	PUNCT	MID	_	33	punct	_	start_char=156|end_char=157
+33	förstår	förstå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	start_char=158|end_char=165
+34	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	33	nsubj	_	start_char=166|end_char=169
+35	icke	icke	PART	AB	Polarity=Neg	33	advmod	_	start_char=170|end_char=174
+36	.	.	PUNCT	MAD	_	33	punct	_	SpaceAfter=No|start_char=175|end_char=176
+
+# text = jag skall nog försörja både er och mig med att skrifva för de andra .
+# sent_id = 5
+1	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	start_char=0|end_char=3
+2	skall	skola	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	start_char=4|end_char=9
+3	nog	nog	ADV	AB	_	4	advmod	_	start_char=10|end_char=13
+4	försörja	försörja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=14|end_char=22
+5	både	både	CCONJ	KN	_	6	cc	_	start_char=23|end_char=27
+6	er	ni	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	4	obj	_	start_char=28|end_char=30
+7	och	och	CCONJ	KN	_	11	cc	_	start_char=31|end_char=34
+8	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	obl	_	start_char=35|end_char=38
+9	med	med	ADP	PP	_	11	case	_	start_char=39|end_char=42
+10	att	att	PART	IE	_	11	mark	_	start_char=43|end_char=46
+11	skrifva	skrifva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	_	start_char=47|end_char=54
+12	för	för	ADP	PP	_	14	case	_	start_char=55|end_char=58
+13	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	14	det	_	start_char=59|end_char=61
+14	andra	annan	PRON	PN|UTR/NEU|PLU|IND|SUB/OBJ	Definite=Ind|Number=Plur|PronType=Ind	11	obl	_	start_char=62|end_char=67
+15	.	.	PUNCT	MAD	_	11	punct	_	SpaceAfter=No|start_char=68|end_char=69
+
