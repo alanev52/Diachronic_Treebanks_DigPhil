@@ -1,0 +1,189 @@
+# text = Rättnu på timan gå vij till segelss uthj Jesu nampn ;
+# sent_id = 0
+1	Rättnu	rättnu	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	nsubj	_	start_char=0|end_char=6
+2	på	på	ADP	PP	_	3	case	_	start_char=7|end_char=9
+3	timan	tima	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	start_char=10|end_char=15
+4	gå	gå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	start_char=16|end_char=18
+5	vij	vij	ADV	PL	_	4	compound:prt	_	start_char=19|end_char=22
+6	till	till	ADP	PP	_	7	case	_	start_char=23|end_char=27
+7	segelss	segelss	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	10	nmod	_	start_char=28|end_char=35
+8	uthj	uthj	ADV	AB|AN	Abbr=Yes	4	advmod	_	start_char=36|end_char=40
+9	Jesu	Jesu	PROPN	PM|GEN	Case=Gen	10	nmod:poss	_	start_char=41|end_char=45
+10	nampn	nampn	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	start_char=46|end_char=51
+11	;	;	PUNCT	MID	_	4	punct	_	SpaceAfter=No|start_char=52|end_char=53
+
+# text = gudh vahre medh oss allesampetl .
+# sent_id = 1
+1	gudh	gudh	NOUN	NN|AN	_	2	nsubj	_	start_char=0|end_char=4
+2	vahre	vahre	NOUN	UO	Gender=Com	0	root	_	start_char=5|end_char=10
+3	medh	medh	ADP	PP	_	5	case	_	start_char=11|end_char=15
+4	oss	vi	PRON	PN|UTR|PLU|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	2	obl	_	start_char=16|end_char=19
+5	allesampetl	allesampetl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=20|end_char=31
+6	.	.	PUNCT	MAD	_	2	punct	_	SpaceAfter=No|start_char=32|end_char=33
+
+# text = Helsa Anderss Leionhielm och Ebba* valle!
+# sent_id = 2
+1	Helsa	helsa	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	start_char=0|end_char=5
+2	Anderss	Anderss	PROPN	PM|GEN	Case=Gen	1	nmod:poss	_	start_char=6|end_char=13
+3	Leionhielm	Leionhielm	PROPN	PM|NOM	Case=Nom	1	obj	_	start_char=14|end_char=24
+4	och	och	CCONJ	KN	_	5	cc	_	start_char=25|end_char=28
+5	Ebba*	Ebba*	PROPN	PM|NOM	Case=Nom	6	obl	_	start_char=29|end_char=34
+6	valle	vala	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	xcomp	_	SpaceAfter=No|start_char=35|end_char=40
+7	!	!	PUNCT	MAD	_	1	punct	_	SpaceAfter=No|start_char=40|end_char=41
+
+# text = d6 Jagh, effidhan så godh lägenheet medhgifvess, måste iagh effter min högsta åstundhan låtta digh min endaste vehn förnimma att iagh d. 11 Junij, som vahr 3:die dagh pingess kåm hitt till landz i staden Räfvel**, gudhj ährat, vehl öf:r siöen, som vij vohre uthj 9 dager på vattnet, och stodh iagh migh temeligen denna gången att iagh kundhe vehl badhe ätta och dricka, och kommo hästerne och vehl öf:r
+# sent_id = 3
+1	d6	deciliter	NOUN	NN|AN	Abbr=Yes	2	case	_	start_char=0|end_char=2
+2	Jagh	Jagh	PROPN	PM|NOM	Case=Nom	0	root	_	SpaceAfter=No|start_char=3|end_char=7
+3	,	,	PUNCT	MID	_	2	punct	_	start_char=7|end_char=8
+4	effidhan	effidha	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nsubj	_	start_char=9|end_char=17
+5	så	så	ADV	AB	_	2	advmod	_	start_char=18|end_char=20
+6	godh	godh	ADV	AB	_	2	advmod	_	start_char=21|end_char=25
+7	lägenheet	lägenhet	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	nsubj	_	start_char=26|end_char=35
+8	medhgifvess	medhgifvess	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	nmod	_	SpaceAfter=No|start_char=36|end_char=47
+9	,	,	PUNCT	MID	_	11	punct	_	start_char=47|end_char=48
+10	måste	måste	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	start_char=49|end_char=54
+11	iagh	iagh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	conj	_	start_char=55|end_char=59
+12	effter	effter	ADP	PP	_	15	case	_	start_char=60|end_char=66
+13	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	15	nmod:poss	_	start_char=67|end_char=70
+14	högsta	hög	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	15	amod	_	start_char=71|end_char=77
+15	åstundhan	åstundhan	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	obl	_	start_char=78|end_char=87
+16	låtta	låtta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	acl:relcl	_	start_char=88|end_char=93
+17	digh	digh	NOUN	NN|AN	_	16	obj	_	start_char=94|end_char=98
+18	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	20	nmod:poss	_	start_char=99|end_char=102
+19	endaste	endest	ADJ	JJ|POS|UTR/NEU|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	20	amod	_	start_char=103|end_char=110
+20	vehn	vehn	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	start_char=111|end_char=115
+21	förnimma	förnimma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	conj	_	start_char=116|end_char=124
+22	att	att	SCONJ	SN	_	24	mark	_	start_char=125|end_char=128
+23	iagh	iagh	PUNCT	PAD	_	21	punct	_	start_char=129|end_char=133
+24	d.	decpiter	NOUN	NN|AN	Abbr=Yes	21	nsubj	_	start_char=134|end_char=136
+25	11	11	NUM	RG|NOM	Case=Nom|NumType=Card	26	case	_	start_char=137|end_char=139
+26	Junij	Junij	PROPN	PM|NOM	Case=Nom	24	conj	_	SpaceAfter=No|start_char=140|end_char=145
+27	,	,	PUNCT	MID	_	29	punct	_	start_char=145|end_char=146
+28	som	som	SCONJ	KN	_	30	mark	_	start_char=147|end_char=150
+29	vahr	vahr	NOUN	NN|AN	Abbr=Yes	30	case	_	start_char=151|end_char=155
+30	3:die	3:die	PROPN	PM|NOM	Case=Nom	26	conj	_	start_char=156|end_char=161
+31	dagh	dagh	NOUN	NN|AN	Abbr=Yes	29	nsubj	_	start_char=162|end_char=166
+32	pingess	pingess	NOUN	NN|UTR	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	30	nsubj	_	start_char=167|end_char=174
+33	kåm	kåm	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	34	nmod	_	start_char=175|end_char=178
+34	hitt	hitt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	32	conj	_	start_char=179|end_char=183
+35	till	till	ADP	PP	_	36	case	_	start_char=184|end_char=188
+36	landz	landz	PROPN	PM|NOM	Case=Nom	34	nmod	_	start_char=189|end_char=194
+37	i	i	ADP	PP	_	38	case	_	start_char=195|end_char=196
+38	staden	stad	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	36	nmod	_	start_char=197|end_char=203
+39	Räfvel**	räfvel**	PUNCT	MAD	_	42	punct	_	SpaceAfter=No|start_char=204|end_char=212
+40	,	,	PUNCT	MID	_	42	punct	_	start_char=212|end_char=213
+41	gudhj	gudhj	NOUN	NN|AN	Abbr=Yes	42	nmod	_	start_char=214|end_char=219
+42	ährat	ähra	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	nmod	_	SpaceAfter=No|start_char=220|end_char=225
+43	,	,	PUNCT	MID	_	45	punct	_	start_char=225|end_char=226
+44	vehl	vehl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	nmod	_	start_char=227|end_char=231
+45	öf:r	öf:r	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	42	nmod	_	start_char=232|end_char=236
+46	siöen	siö	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	44	nmod	_	SpaceAfter=No|start_char=237|end_char=242
+47	,	,	PUNCT	MID	_	49	punct	_	start_char=242|end_char=243
+48	som	som	SCONJ	KN	_	49	mark	_	start_char=244|end_char=247
+49	vij	vij	PROPN	PM|NOM	Case=Nom	46	conj	_	start_char=248|end_char=251
+50	vohre	vohre	NOUN	NN|AN	Abbr=Yes	53	conj	_	start_char=252|end_char=257
+51	uthj	uthj	NOUN	NN|AN	Abbr=Yes	49	conj	_	start_char=258|end_char=262
+52	9	9	NUM	RG|NOM	Case=Nom|NumType=Card	53	amod	_	start_char=263|end_char=264
+53	dager	dag	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	51	conj	_	start_char=265|end_char=270
+54	på	på	ADP	PP	_	55	case	_	start_char=271|end_char=273
+55	vattnet	vatten	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	53	nmod	_	SpaceAfter=No|start_char=274|end_char=281
+56	,	,	PUNCT	MID	_	58	punct	_	start_char=281|end_char=282
+57	och	och	CCONJ	KN	_	58	cc	_	start_char=283|end_char=286
+58	stodh	stodh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	55	nmod	_	start_char=287|end_char=292
+59	iagh	iagh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	58	nmod	_	start_char=293|end_char=297
+60	migh	migh	NOUN	NN|AN	_	61	nmod	_	start_char=298|end_char=302
+61	temeligen	temelig	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	59	nmod	_	start_char=303|end_char=312
+62	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	63	det	_	start_char=313|end_char=318
+63	gången	gång	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	61	nmod	_	start_char=319|end_char=325
+64	att	att	PART	IE	_	65	mark	_	start_char=326|end_char=329
+65	iagh	iagh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	63	nmod	_	start_char=330|end_char=334
+66	kundhe	kundhe	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	69	obj	_	start_char=335|end_char=341
+67	vehl	vehl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	69	obj	_	start_char=342|end_char=346
+68	badhe	badhe	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	65	nmod	_	start_char=347|end_char=352
+69	ätta	ätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	65	acl:relcl	_	start_char=353|end_char=357
+70	och	och	CCONJ	KN	_	71	cc	_	start_char=358|end_char=361
+71	dricka	dricka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	69	conj	_	SpaceAfter=No|start_char=362|end_char=368
+72	,	,	PUNCT	MID	_	74	punct	_	start_char=368|end_char=369
+73	och	och	CCONJ	KN	_	74	cc	_	start_char=370|end_char=373
+74	kommo	kommo	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	71	conj	_	start_char=374|end_char=379
+75	hästerne	hästerne	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	74	obj	_	start_char=380|end_char=388
+76	och	och	CCONJ	KN	_	77	cc	_	start_char=389|end_char=392
+77	vehl	vehl	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	74	obl	_	start_char=393|end_char=397
+78	öf:r	öf:r	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	74	obl	_	start_char=398|end_char=402
+
+# text = Fast dhett stodh hårt medh dem, och miste iagh 2:ne stycken ryttarehästar, en för hälta, och för häsle?.
+# sent_id = 4
+1	Fast	fast	ADV	AB	_	3	advmod	_	start_char=403|end_char=407
+2	dhett	dhett	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	3	nsubj	_	start_char=408|end_char=413
+3	stodh	stodh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=414|end_char=419
+4	hårt	hård	ADV	AB|POS	Degree=Pos	2	advmod	_	start_char=420|end_char=424
+5	medh	medh	ADP	PP	_	6	case	_	start_char=425|end_char=429
+6	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	3	nmod	_	SpaceAfter=No|start_char=430|end_char=433
+7	,	,	PUNCT	MID	_	9	punct	_	start_char=433|end_char=434
+8	och	och	CCONJ	KN	_	9	cc	_	start_char=435|end_char=438
+9	miste	miste	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	6	acl:relcl	_	start_char=439|end_char=444
+10	iagh	iagh	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obj	_	start_char=445|end_char=449
+11	2:ne	2:ne	NUM	RG|NOM	Case=Nom|NumType=Card	12	case	_	start_char=450|end_char=454
+12	stycken	styck	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obj	_	start_char=455|end_char=462
+13	ryttarehästar	ryttarehäst	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	9	obj	_	SpaceAfter=No|start_char=463|end_char=476
+14	,	,	PUNCT	MID	_	15	punct	_	start_char=476|end_char=477
+15	en	en	NUM	RG|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|NumType=Card	17	case	_	start_char=478|end_char=480
+16	för	för	ADP	PP	_	17	case	_	start_char=481|end_char=484
+17	hälta	hälta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nmod	_	SpaceAfter=No|start_char=485|end_char=490
+18	,	,	PUNCT	MID	_	9	punct	_	start_char=490|end_char=491
+19	och	och	CCONJ	KN	_	21	cc	_	start_char=492|end_char=495
+20	för	för	ADP	PP	_	21	case	_	start_char=496|end_char=499
+21	häsle	häsle	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=500|end_char=505
+22	?	?	PUNCT	MAD	_	9	punct	_	SpaceAfter=No|start_char=505|end_char=506
+23	.	.	PUNCT	MAD	_	9	punct	_	SpaceAfter=No|start_char=506|end_char=507
+
+# text = Hanss Kongl.
+# sent_id = 5
+1	Hanss	Hanss	PROPN	PM|GEN	Case=Gen	2	nmod:poss	_	start_char=0|end_char=5
+2	Kongl	Kongl	PROPN	PM|NOM	Case=Nom	0	root	_	SpaceAfter=No|start_char=6|end_char=11
+3	.	.	PUNCT	MAD	_	2	punct	_	start_char=11|end_char=12
+
+# text = Maij:tt ähr medh armeen upbruten och vahr Gen. d7 Majoren* medh dhe 2:ne Compagnien her uthj stadhen Räfvel ener vij kåmmo hit och gick her ifrån andre dagen effter tillika medh dhe andhre 3:ne Compagnien sin mars ända ått
+# sent_id = 6
+1	Maij:tt	Maij:tt	PROPN	PM|NOM	Case=Nom	0	root	_	start_char=13|end_char=20
+2	ähr	ähr	INTJ	IN	_	3	advmod	_	start_char=21|end_char=24
+3	medh	medh	VERB	VB|AN	Abbr=Yes|Mood=Imp|Tense=Pres|VerbForm=Fin|Voice=Act	1	punct	_	start_char=25|end_char=29
+4	armeen	arm	NOUN	UO	_	1	conj	_	start_char=30|end_char=36
+5	upbruten	upbrut	NOUN	NN|UTR	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	3	nsubj	_	start_char=37|end_char=45
+6	och	och	CCONJ	KN	_	7	cc	_	start_char=46|end_char=49
+7	vahr	vahr	NOUN	NN|AN	_	3	nsubj	_	start_char=50|end_char=54
+8	Gen.	gen	NOUN	NN|AN	Abbr=Yes	1	punct	_	start_char=55|end_char=59
+9	d7	d7	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=60|end_char=62
+10	Majoren	Majoren	PROPN	PM|NOM	Case=Nom	8	nsubj	_	SpaceAfter=No|start_char=63|end_char=70
+11	*	*	PUNCT	MID	_	13	punct	_	start_char=70|end_char=71
+12	medh	medh	NOUN	NN|AN	Abbr=Yes	15	nsubj	_	start_char=72|end_char=76
+13	dhe	dhe	NOUN	NN	_	15	nsubj	_	start_char=77|end_char=80
+14	2:ne	2:n	ADJ	JJ	_	15	amod	_	start_char=81|end_char=85
+15	Compagnien	compagni	NOUN	NN	_	16	nsubj	_	start_char=86|end_char=96
+16	her	he	VERB	VB|AN	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	case	_	start_char=97|end_char=100
+17	uthj	uthj	NOUN	NN|AN	Abbr=Yes	19	nsubj	_	start_char=101|end_char=105
+18	stadhen	stadhe	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	nmod	_	start_char=106|end_char=113
+19	Räfvel	Räfvel	PROPN	PM|NOM	Case=Nom	20	conj	_	start_char=114|end_char=120
+20	ener	en	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	_	start_char=121|end_char=125
+21	vij	vij	PROPN	PM|NOM	Case=Nom	25	nsubj	_	start_char=126|end_char=129
+22	kåmmo	kåmmo	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	25	obj	_	start_char=130|end_char=135
+23	hit	hit	ADV	AB	_	25	advmod	_	start_char=136|end_char=139
+24	och	och	CCONJ	KN	_	25	cc	_	start_char=140|end_char=143
+25	gick	gå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	start_char=144|end_char=148
+26	her	her	ADV	PL	_	25	compound:prt	_	start_char=149|end_char=152
+27	ifrån	ifrån	ADP	PP	_	29	case	_	start_char=153|end_char=158
+28	andre	annan	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	29	amod	_	start_char=159|end_char=164
+29	dagen	dag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	25	obl	_	start_char=165|end_char=170
+30	effter	effter	ADP	PP	_	31	case	_	start_char=171|end_char=177
+31	tillika	tillika	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	nmod	_	start_char=178|end_char=185
+32	medh	medh	NOUN	UO	Foreign=Yes	34	punct	_	start_char=186|end_char=190
+33	dhe	dhe	NOUN	UO	_	36	case	_	start_char=191|end_char=194
+34	andhre	andhre	NOUN	NN	_	31	conj	_	start_char=195|end_char=201
+35	3:ne	3:ne	NUM	RG|NOM	Case=Nom|NumType=Card	36	case	_	start_char=202|end_char=206
+36	Compagnien	compagni	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	conj	_	start_char=207|end_char=217
+37	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	38	nmod:poss	_	start_char=218|end_char=221
+38	mars	mars	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	nmod	_	start_char=222|end_char=226
+39	ända	ända	ADV	AB	_	40	advmod	_	start_char=227|end_char=231
+40	ått	ått	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	38	nmod	_	SpaceAfter=No|start_char=232|end_char=235
+

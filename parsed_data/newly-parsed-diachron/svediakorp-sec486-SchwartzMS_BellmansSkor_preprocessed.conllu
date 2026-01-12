@@ -1,0 +1,137 @@
+# text = Karl Michael
+# sent_id = 0
+1	Karl	Karl	PROPN	PM|NOM	Case=Nom	0	root	_	start_char=0|end_char=4
+2	Michael	Michael	PROPN	PM|NOM	Case=Nom	1	obl	_	start_char=5|end_char=12
+
+# text = Bellman var en ibland dem, om hvilka han hade mycket att förtälja, emedan han varit personligen bekant med den store skalden.
+# sent_id = 1
+1	Bellman	Bellman	PROPN	PM|NOM	Case=Nom	3	nsubj	_	start_char=13|end_char=20
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	start_char=21|end_char=24
+3	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	5	nmod	_	start_char=25|end_char=27
+4	ibland	ibland	ADV	AB	_	5	advmod	_	start_char=28|end_char=34
+5	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	0	root	_	SpaceAfter=No|start_char=35|end_char=38
+6	,	,	PUNCT	MID	_	10	punct	_	start_char=38|end_char=39
+7	om	om	ADP	PP	_	10	case	_	start_char=40|end_char=42
+8	hvilka	hvilk	PRON	HP|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Rel	10	obl	_	start_char=43|end_char=49
+9	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	start_char=50|end_char=53
+10	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	start_char=54|end_char=58
+11	mycket	mycket	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	obj	_	start_char=59|end_char=65
+12	att	att	PART	IE	_	13	mark	_	start_char=66|end_char=69
+13	förtälja	förtälja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	conj	_	SpaceAfter=No|start_char=70|end_char=78
+14	,	,	PUNCT	MID	_	13	punct	_	start_char=78|end_char=79
+15	emedan	emedan	SCONJ	SN	_	19	mark	_	start_char=80|end_char=86
+16	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	19	nsubj	_	start_char=87|end_char=90
+17	varit	vara	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	19	cop	_	start_char=91|end_char=96
+18	personligen	personligen	ADV	AB	_	19	advmod	_	start_char=97|end_char=108
+19	bekant	bekant	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	13	conj	_	start_char=109|end_char=115
+20	med	med	ADP	PP	_	23	case	_	start_char=116|end_char=119
+21	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	23	det	_	start_char=120|end_char=123
+22	store	stor	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	23	amod	_	start_char=124|end_char=129
+23	skalden	skald	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	19	obl	_	SpaceAfter=No|start_char=130|end_char=137
+24	.	.	PUNCT	MAD	_	19	punct	_	SpaceAfter=No|start_char=137|end_char=138
+
+# text = Ibland de berättelser, som fäste sig i mitt minne, ehuru jag då var endast ett barn om tio år, var en som handlade om ett par gamla skor, tillhörande poeten.
+# sent_id = 2
+1	Ibland	ibland	ADV	AB	_	6	advmod	_	start_char=0|end_char=6
+2	de	de	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Art	3	det	_	start_char=7|end_char=9
+3	berättelser	berättelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	6	nsubj	_	SpaceAfter=No|start_char=10|end_char=21
+4	,	,	PUNCT	MID	_	6	punct	_	start_char=21|end_char=22
+5	som	som	PRON	HP|-|-|-	PronType=Rel	6	nsubj	_	start_char=23|end_char=26
+6	fäste	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=27|end_char=32
+7	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	6	obj	_	start_char=33|end_char=36
+8	i	i	ADP	PP	_	10	case	_	start_char=37|end_char=38
+9	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=39|end_char=43
+10	minne	minne	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|start_char=44|end_char=49
+11	,	,	PUNCT	MID	_	6	punct	_	start_char=49|end_char=50
+12	ehuru	ehuru	SCONJ	HA	_	18	mark	_	start_char=51|end_char=56
+13	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	start_char=57|end_char=60
+14	då	då	ADV	AB	_	18	advmod	_	start_char=61|end_char=63
+15	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	start_char=64|end_char=67
+16	endast	endast	ADV	AB	_	18	advmod	_	start_char=68|end_char=74
+17	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	18	det	_	start_char=75|end_char=78
+18	barn	barn	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	21	nmod	_	start_char=79|end_char=83
+19	om	om	ADP	PP	_	21	case	_	start_char=84|end_char=86
+20	tio	tio	NUM	RG|NOM	Case=Nom|NumType=Card	21	nmod:poss	_	start_char=87|end_char=90
+21	år	år	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	26	obl	_	SpaceAfter=No|start_char=91|end_char=93
+22	,	,	PUNCT	MID	_	26	punct	_	start_char=93|end_char=94
+23	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	26	cop	_	start_char=95|end_char=98
+24	en	man	PRON	PN|UTR|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Com|Number=Sing|PronType=Prs	26	nsubj	_	start_char=99|end_char=101
+25	som	som	PRON	HP|-|-|-	PronType=Rel	26	nsubj	_	start_char=102|end_char=105
+26	handlade	handla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	start_char=106|end_char=114
+27	om	om	ADP	PP	_	29	case	_	start_char=115|end_char=117
+28	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	29	det	_	start_char=118|end_char=121
+29	par	par	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	26	obl	_	start_char=122|end_char=125
+30	gamla	gammal	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	31	amod	_	start_char=126|end_char=131
+31	skor	sko	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	26	obl	_	SpaceAfter=No|start_char=132|end_char=136
+32	,	,	PUNCT	MID	_	26	punct	_	start_char=136|end_char=137
+33	tillhörande	tillhörande	ADP	PP	_	34	case	_	start_char=138|end_char=149
+34	poeten	poet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	31	nmod	_	SpaceAfter=No|start_char=150|end_char=156
+35	.	.	PUNCT	MAD	_	26	punct	_	SpaceAfter=No|start_char=156|end_char=157
+
+# text = Bellman var, såsom enhvar vet, i en långtifrån ekonomiskt oberoende ställning.
+# sent_id = 3
+1	Bellman	Bellman	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=0|end_char=7
+2	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	SpaceAfter=No|start_char=8|end_char=11
+3	,	,	PUNCT	MID	_	6	punct	_	start_char=11|end_char=12
+4	såsom	såsom	ADV	HA	_	6	advmod	_	start_char=13|end_char=18
+5	enhvar	enhv	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	nsubj	_	start_char=19|end_char=25
+6	vet	veta	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No|start_char=26|end_char=29
+7	,	,	PUNCT	MID	_	6	punct	_	start_char=29|end_char=30
+8	i	i	ADP	PP	_	10	case	_	start_char=31|end_char=32
+9	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	start_char=33|end_char=35
+10	långtifrån	långtifrå	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	obl	_	start_char=36|end_char=46
+11	ekonomiskt	ekonomisk	ADV	AB|POS	Degree=Pos	13	advmod	_	start_char=47|end_char=57
+12	oberoende	oberoende	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	13	amod	_	start_char=58|end_char=67
+13	ställning	ställning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	10	conj	_	SpaceAfter=No|start_char=68|end_char=77
+14	.	.	PUNCT	MAD	_	6	punct	_	SpaceAfter=No|start_char=77|end_char=78
+
+# text = Han hade visserligen, sedan han lämnat Upsala, låtit inskrifva sig så väl i Banken som Tullverket; men han var fullkomligt oduglig till sifferkarl.
+# sent_id = 4
+1	Han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	hade	ha	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=8
+3	visserligen	visserligen	ADV	AB	_	2	advmod	_	SpaceAfter=No|start_char=9|end_char=20
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=20|end_char=21
+5	sedan	sedan	SCONJ	SN	_	2	mark	_	start_char=22|end_char=27
+6	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=28|end_char=31
+7	lämnat	lämna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	xcomp	_	start_char=32|end_char=38
+8	Upsala	Upsala	PROPN	PM|NOM	Case=Nom	7	nsubj	_	SpaceAfter=No|start_char=39|end_char=45
+9	,	,	PUNCT	MID	_	10	punct	_	start_char=45|end_char=46
+10	låtit	låta	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	7	conj	_	start_char=47|end_char=52
+11	inskrifva	inskrifva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	conj	_	start_char=53|end_char=62
+12	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	11	obj	_	start_char=63|end_char=66
+13	så	så	ADV	AB	_	11	advmod	_	start_char=67|end_char=69
+14	väl	väl	ADV	AB|POS	Degree=Pos	16	advmod	_	start_char=70|end_char=73
+15	i	i	ADP	PP	_	16	case	_	start_char=74|end_char=75
+16	Banken	Banken	PROPN	PM|NOM	Case=Nom	11	obl	_	start_char=76|end_char=82
+17	som	som	ADP	KN	_	18	case	_	start_char=83|end_char=86
+18	Tullverket	Tullverket	PROPN	PM|NOM	Case=Nom	16	conj	_	SpaceAfter=No|start_char=87|end_char=97
+19	;	;	PUNCT	MID	_	24	punct	_	start_char=97|end_char=98
+20	men	men	CCONJ	KN	_	24	cc	_	start_char=99|end_char=102
+21	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	nsubj	_	start_char=103|end_char=106
+22	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	24	cop	_	start_char=107|end_char=110
+23	fullkomligt	fullkomlig	ADV	AB|POS	Degree=Pos	24	advmod	_	start_char=111|end_char=122
+24	oduglig	oduglig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	acl:relcl	_	start_char=123|end_char=130
+25	till	till	ADP	PP	_	26	case	_	start_char=131|end_char=135
+26	sifferkarl	sifferkarl	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	24	obl	_	SpaceAfter=No|start_char=136|end_char=146
+27	.	.	PUNCT	MAD	_	24	punct	_	SpaceAfter=No|start_char=146|end_char=147
+
+# text = I hans själ arbetade andra krafter än de, hvaraf bildas en ordentlig och nitisk tjänsteman.
+# sent_id = 5
+1	I	i	ADP	PP	_	3	case	_	start_char=0|end_char=1
+2	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	3	nmod:poss	_	start_char=2|end_char=6
+3	själ	själ	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	start_char=7|end_char=11
+4	arbetade	arbeta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=12|end_char=20
+5	andra	annan	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	start_char=21|end_char=26
+6	krafter	kraft	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	obl	_	start_char=27|end_char=34
+7	än	än	SCONJ	KN	_	4	mark	_	start_char=35|end_char=37
+8	de	de	PRON	PN|UTR/NEU|PLU|DEF|SUB	Case=Nom|Definite=Def|Number=Plur|PronType=Prs	11	nsubj	_	SpaceAfter=No|start_char=38|end_char=40
+9	,	,	PUNCT	MID	_	11	punct	_	start_char=40|end_char=41
+10	hvaraf	hvaraf	ADV	AB	_	11	advmod	_	start_char=42|end_char=48
+11	bildas	bilda	VERB	VB|PRS|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	start_char=49|end_char=55
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	start_char=56|end_char=58
+13	ordentlig	ordentlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	11	advmod	_	start_char=59|end_char=68
+14	och	och	CCONJ	KN	_	16	cc	_	start_char=69|end_char=72
+15	nitisk	nitisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	start_char=73|end_char=79
+16	tjänsteman	tjänsteman	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	SpaceAfter=No|start_char=80|end_char=90
+17	.	.	PUNCT	MAD	_	11	punct	_	SpaceAfter=No|start_char=90|end_char=91
+

@@ -1,0 +1,93 @@
+# text = Glädjen hos denna lilla
+# sent_id = 0
+1	Glädjen	glädje	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=7
+2	hos	hos	ADP	PP	_	4	case	_	start_char=8|end_char=11
+3	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	4	det	_	start_char=12|end_char=17
+4	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	1	conj	_	start_char=18|end_char=23
+
+# text = Famille war obeskriflig, och deras fällhet tusenfalt större än den Fru von Agio i sitt Palats, med all sin öfwerdådiga yppighet, åtnjöt Julafton 1799.
+# sent_id = 1
+1	Famille	famille	NOUN	NN	_	2	advmod	_	start_char=24|end_char=31
+2	war	wa	VERB	VB	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	start_char=32|end_char=35
+3	obeskriflig	obeskriflig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	obj	_	SpaceAfter=No|start_char=36|end_char=47
+4	,	,	PUNCT	MID	_	2	punct	_	start_char=47|end_char=48
+5	och	och	CCONJ	KN	_	7	cc	_	start_char=49|end_char=52
+6	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	start_char=53|end_char=58
+7	fällhet	fällhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	start_char=59|end_char=66
+8	tusenfalt	tusenfal	ADV	AB	_	9	advmod	_	start_char=67|end_char=76
+9	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	2	conj	_	start_char=77|end_char=83
+10	än	än	ADP	KN	_	12	case	_	start_char=84|end_char=86
+11	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	12	det	_	start_char=87|end_char=90
+12	Fru	Fru	PROPN	PM|NOM	Case=Nom	9	obl	_	start_char=91|end_char=94
+13	von	von	PROPN	PM|NOM	Case=Nom	9	obj	_	start_char=95|end_char=98
+14	Agio	Agio	PROPN	PM|NOM	Case=Nom	12	nmod	_	start_char=99|end_char=103
+15	i	i	ADP	PP	_	17	case	_	start_char=104|end_char=105
+16	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	17	nmod:poss	_	start_char=106|end_char=110
+17	Palats	palats	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	14	nmod	_	SpaceAfter=No|start_char=111|end_char=117
+18	,	,	PUNCT	MID	_	25	punct	_	start_char=117|end_char=118
+19	med	med	ADP	PP	_	23	case	_	start_char=119|end_char=122
+20	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	23	det	_	start_char=123|end_char=126
+21	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	23	nmod:poss	_	start_char=127|end_char=130
+22	öfwerdådiga	öfwerdådig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	23	amod	_	start_char=131|end_char=142
+23	yppighet	yppighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	SpaceAfter=No|start_char=143|end_char=151
+24	,	,	PUNCT	MID	_	25	punct	_	start_char=151|end_char=152
+25	åtnjöt	åtnjöta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	start_char=153|end_char=159
+26	Julafton	Julafton	PROPN	PM|NOM	Case=Nom	25	obj	_	start_char=160|end_char=168
+27	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	25	obl	_	SpaceAfter=No|start_char=169|end_char=173
+28	.	.	PUNCT	MAD	_	25	punct	_	SpaceAfter=No|start_char=173|end_char=174
+
+# text = Fru von Agio hade nyss upstigit från sit kräsliga middagsbord, och Clara fick tilstånd at komma in i hennes yttersta förmak.
+# sent_id = 2
+1	Fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	start_char=0|end_char=3
+2	von	von	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=4|end_char=7
+3	Agio	Agio	PROPN	PM|NOM	Case=Nom	6	nsubj	_	start_char=8|end_char=12
+4	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	start_char=13|end_char=17
+5	nyss	nyss	ADV	AB	_	6	advmod	_	start_char=18|end_char=22
+6	upstigit	upstiga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	1	conj	_	start_char=23|end_char=31
+7	från	från	ADP	PP	_	10	case	_	start_char=32|end_char=36
+8	sit	sit	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	start_char=37|end_char=40
+9	kräsliga	kräslig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	10	amod	_	start_char=41|end_char=49
+10	middagsbord	middagsbord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	SpaceAfter=No|start_char=50|end_char=61
+11	,	,	PUNCT	MID	_	17	punct	_	start_char=61|end_char=62
+12	och	och	CCONJ	KN	_	13	cc	_	start_char=63|end_char=66
+13	Clara	Clara	PROPN	PM|NOM	Case=Nom	10	nmod	_	start_char=67|end_char=72
+14	fick	få	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	aux	_	start_char=73|end_char=77
+15	tilstånd	tilstånd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	13	nmod	_	start_char=78|end_char=86
+16	at	at	PART	IE	_	17	mark	_	start_char=87|end_char=89
+17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	15	acl:relcl	_	start_char=90|end_char=95
+18	in	in	ADV	PL	_	17	compound:prt	_	start_char=96|end_char=98
+19	i	i	ADP	PP	_	22	case	_	start_char=99|end_char=100
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	_	start_char=101|end_char=107
+21	yttersta	yttersta	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	22	amod	_	start_char=108|end_char=116
+22	förmak	förmak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	SpaceAfter=No|start_char=117|end_char=123
+23	.	.	PUNCT	MAD	_	17	punct	_	SpaceAfter=No|start_char=123|end_char=124
+
+# text = Hon såg i fönstret lilla Calle, som flåsat isen ifrån en ruta och med längtade ögon och klappande händer gladde sig öfwer hennes ankomst.
+# sent_id = 3
+1	Hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	start_char=0|end_char=3
+2	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	start_char=4|end_char=7
+3	i	i	ADP	PP	_	6	case	_	start_char=8|end_char=9
+4	fönstret	fönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	start_char=10|end_char=18
+5	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	start_char=19|end_char=24
+6	Calle	Calle	PROPN	PM|NOM	Case=Nom	2	obl	_	SpaceAfter=No|start_char=25|end_char=30
+7	,	,	PUNCT	MID	_	2	punct	_	start_char=30|end_char=31
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	start_char=32|end_char=35
+9	flåsat	flåsa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	xcomp	_	start_char=36|end_char=42
+10	isen	is	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obj	_	start_char=43|end_char=47
+11	ifrån	ifrån	ADP	PP	_	13	case	_	start_char=48|end_char=53
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	start_char=54|end_char=56
+13	ruta	ruta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	start_char=57|end_char=61
+14	och	och	CCONJ	KN	_	17	cc	_	start_char=62|end_char=65
+15	med	med	ADP	PP	_	17	case	_	start_char=66|end_char=69
+16	längtade	längtad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	17	amod	_	start_char=70|end_char=78
+17	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	13	nmod	_	start_char=79|end_char=83
+18	och	och	CCONJ	KN	_	20	cc	_	start_char=84|end_char=87
+19	klappande	klappande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	20	amod	_	start_char=88|end_char=97
+20	händer	hand	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	nmod	_	start_char=98|end_char=104
+21	gladde	gla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	start_char=105|end_char=111
+22	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	21	obj	_	start_char=112|end_char=115
+23	öfwer	öfwer	ADP	PP	_	25	case	_	start_char=116|end_char=121
+24	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	start_char=122|end_char=128
+25	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	SpaceAfter=No|start_char=129|end_char=136
+26	.	.	PUNCT	MAD	_	21	punct	_	SpaceAfter=No|start_char=136|end_char=137
+
