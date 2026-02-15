@@ -101,6 +101,9 @@ import io
 import sys
 import unicodedata
 import unittest
+from collections import defaultdict
+
+CONFUSIONS = defaultdict(lambda: defaultdict(int)) #ADDED
 
 # CoNLL-U column names
 ID, FORM, LEMMA, UPOS, XPOS, FEATS, HEAD, DEPREL, DEPS, MISC = range(10)
@@ -301,7 +304,7 @@ def load_conllu(file, ignore_invalid_format=False):
     return ud
 
 # Evaluate the gold and system treebanks (loaded using load_conllu).
-def evaluate(gold_ud, system_ud, detailed=False):
+def evaluate(gold_ud, system_ud, detailed=False, cm=False):  #ADDED cm=False
     class Score:
         def __init__(self, gold_total, system_total, correct, aligned_total=None):
             self.correct = correct
@@ -340,7 +343,7 @@ def evaluate(gold_ud, system_ud, detailed=False):
 
         return Score(len(gold_spans), len(system_spans), correct)
 
-    def alignment_score(alignment, key_fn=None, filter_fn=None):
+    def alignment_score(alignment, key_fn=None, filter_fn=None, name=None): # added "name" flag for confusion matrix
         if filter_fn is not None:
             gold = sum(1 for gold in alignment.gold_words if filter_fn(gold))
             system = sum(1 for system in alignment.system_words if filter_fn(system))
@@ -363,8 +366,13 @@ def evaluate(gold_ud, system_ud, detailed=False):
         correct = 0
         for words in alignment.matched_words:
             if filter_fn is None or filter_fn(words.gold_word):
+                gold_label = key_fn(words.gold_word, gold_aligned_gold)    # ADDED
+                system_label = key_fn(words.system_word, gold_aligned_system)  # ADDED
                 if key_fn(words.gold_word, gold_aligned_gold) == key_fn(words.system_word, gold_aligned_system):
                     correct += 1
+
+                if name is not None:
+                    CONFUSIONS[name][(gold_label, system_label)] += 1
 
         return Score(gold, system, correct, aligned)
 
@@ -498,7 +506,18 @@ def evaluate(gold_ud, system_ud, detailed=False):
     
     # Added to compute detailed UPOS scores:
 
-
+    ## ADDED
+    def dump_confusion(confusion, filename):
+        labels = sorted(set(g for g, s in confusion) | set(s for g, s in confusion))
+        with open(filename, "w", encoding="utf-8") as f:
+            f.write("gold\\system\t" + "\t".join(map(str, labels)) + "\n")
+            for g in labels:
+                row = [str(confusion.get((g, s), 0)) for s in labels]
+                f.write(str(g) + "\t" + "\t".join(row) + "\n")
+        
+    #for name, matrix in CONFUSIONS.items():
+       # dump_confusion(matrix, f"{name}_confusion.tsv")
+    ## ADDED
 
 
     # Align words
@@ -509,6 +528,15 @@ def evaluate(gold_ud, system_ud, detailed=False):
         upos_scores = detailed_score(alignment, UPOS_TAGS, UPOS)
         deprel_scores = detailed_score(alignment, CONTENT_DEPRELS, DEPREL)
         return upos_scores, deprel_scores
+    
+    # For Confusion matrix
+    if cm:
+        sc = {
+            "UPOS": alignment_score(alignment,lambda w, _: w.columns[UPOS], name = "UPOS"),
+            "DEPREL": alignment_score(alignment, lambda w, _: w.columns[DEPREL], name ="DEPREL"),
+        }
+        return CONFUSIONS
+    
 
     return {
         "Tokens": spans_score(gold_ud.tokens, system_ud.tokens),

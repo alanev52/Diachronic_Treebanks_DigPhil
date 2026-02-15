@@ -1,4 +1,4 @@
-from conll18_ud_eval import load_conllu, evaluate
+from mod_conll18_ud_eval import load_conllu, evaluate
 from collections import defaultdict
 import pyconll
 import sys
@@ -88,8 +88,11 @@ with open("scores.txt", "w") as outfile:
     # Loop through each of the vaidated samples
     for sample in os.listdir(gold_dir):
         sample_name = sample.split("/")[-1].replace(".conllu", "")
-        period = sample_period.get(sample_name) # int 0-4
+   
+        print("DEBUG sample_name:", sample_name)
 
+        period = sample_period.get(sample_name) # int 0-4
+        print("DEBUG period value:", period)
         # Check that gold trees are valid
         gold_file_path = os.path.join(gold_dir, sample)
         e = check_valid_gold(gold_file_path) 
@@ -101,11 +104,12 @@ with open("scores.txt", "w") as outfile:
         # Check if preprocessed predicted file exists, if not create it
         try:
             predicted_file_path = os.path.join(predicted_dir, sample).replace(".conllu", "_preprocessed.conllu")
+            #print("Before assert", predicted_file_path)
             assert os.path.exists(predicted_file_path)
         except AssertionError:
             unprocessed_predicted_file_path = os.path.join(predicted_dir, sample)
             predicted_file_path = preprocess_system_file(unprocessed_predicted_file_path, gold_file_path)
-        
+        #print("before execute", predicted_file_path)
         # Score base tree (parser output) against validated tree (gold standard)
         results = execute_evaluation(gold_file_path, predicted_file_path)
 
@@ -115,6 +119,8 @@ with open("scores.txt", "w") as outfile:
         else:
             # Save number of sentences in lookup dict
             sample_nsents[sample_name] = len(pyconll.load_from_file(gold_file_path))
+            print("DEBUG period value:", period)
+            print("DEBUG time_periods:", time_periods)
 
             outfile.write(f"Sample: {sample_name}, time period: {time_periods[period]}\n")
             outfile.write("Metric\tPrecision\tRecall\tF1\tAligned Accuracy\n")
@@ -153,4 +159,4 @@ with open("scores.txt", "w") as outfile:
             f1_avg = period_scores[2][metric_n] / n_sents_per_period
             aligned_acc_avg = period_scores[3][metric_n] / n_sents_per_period
             outfile.write(f"{metric}\t{precision_avg:.4f}\t{recall_avg:.4f}\t{f1_avg:.4f}\t{aligned_acc_avg:.4f}\n")
-        outfile.write("\n")
+        outfile.write("\n Reparesed data")

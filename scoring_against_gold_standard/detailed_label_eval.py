@@ -55,12 +55,21 @@ def execute_evaluation(gold_file_path, predicted_file_path):
         return None
     # Evaluate the predictions against the gold standard
     try: #evaluate method is calling the extended version with atribute True 
-        results = evaluate(gold_data, predicted_data, True) # Detailed = True, by default = False
+        results = evaluate(gold_data, predicted_data, detailed=True, cm=False) # Detailed is a mode for UPOS and DEPREL detailed eval; cm - confusion matrix
     
     except Exception as e:
         print(f"Error during evaluation between {gold_file_path} and {predicted_file_path}: {e}")
         raise e
     return results
+    
+
+def dump_confusion(confusion, filename):
+    labels = sorted(set(g for g, s in confusion) | set(s for g, s in confusion))
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write("gold\\system\t" + "\t".join(map(str, labels)) + "\n")
+        for g in labels:
+            row = [str(confusion.get((g, s), 0)) for s in labels]
+            f.write(str(g) + "\t" + "\t".join(row) + "\n")
 
 time_periods = ["1700-1750", "1750-1800", "1800-1850", "1850-1900", "1900-1950"]
 
@@ -74,6 +83,7 @@ sample_period = {"svediakorp-letter141673-Stalhammar": 0, "svediakorp-sec25-Runi
            "svediakorp-sec208-Anonym_DetGrasligaMordet": 3, "svediakorp-sec1063-spf220": 3,
            "svediakorp-sec631-HasselskogN_HallaHallaGronkoping": 4, "svediakorp-sec1033-spf190": 4, "svediakorp-sec397-AngeredStrandbergH_UnderSodernsSol": 4,
            "svediakorp-sec613-EngstromA_StrindbergOchJag": 4, "svediakorp-sec639-HeidenstamV_Proletarfilosofiens": 4}
+
 
 gold_dir = sys.argv[1] # validated dir
 predicted_dir = sys.argv[2] # base dir
@@ -90,9 +100,9 @@ u_score_arrays = [np.zeros((3, 18)) for _ in range(5)]
 d_score_arrays = [np.zeros((3, 38)) for _ in range(5)]
 
 arrays = [u_score_arrays, d_score_arrays]
-
-with open("u_scores.txt", "w") as u_outfile:
-    with open("d_scores.txt", "w") as d_outfile:
+period_metric_keys = [dict() for _ in range(len(arrays))]
+with open("u_scores_3.txt", "w") as u_outfile:
+    with open("d_scores_3.txt", "w") as d_outfile:
         # Loop through each of the vaidated samples
         for sample in os.listdir(gold_dir):
             sample_name = sample.split("/")[-1].replace(".conllu", "")
@@ -117,13 +127,23 @@ with open("u_scores.txt", "w") as u_outfile:
             # Score base tree (parser output) against validated tree (gold standard)
             results = execute_evaluation(gold_file_path, predicted_file_path)
             
-           
+            sample_nsents[sample_name] = len(pyconll.load_from_file(gold_file_path))
             if not results: # skip invalid files
                 skipped_samples.append(sample_name)
+                continue
+            
+            if isinstance(results, dict):
+                #print("NOW!!!:", period)
+                for name in (["UPOS", "DEPREL"]):
+                    dump_confusion(results[name], f'{period}_{name}_confusion_3.tsv')
+                    #print(results[name])
+                    
+
+
             # Write results to 2 different files: u_scores.txt (UPOS), d_scores.txt (DEPREL) and save to time period arrays
             else:
                 # Save number of sentences in lookup dict
-                sample_nsents[sample_name] = len(pyconll.load_from_file(gold_file_path))
+                #sample_nsents[sample_name] = len(pyconll.load_from_file(gold_file_path))
                 for i, f in enumerate([u_outfile, d_outfile]):
                     score_dict = results[i] # extraxt dict with scores for corresponding LABELS
                     f.write(f"Sample: {sample_name}, time period: {time_periods[period]}\n")
@@ -149,10 +169,15 @@ with open("u_scores.txt", "w") as u_outfile:
             # After all sample scores are written, compute average scores for each time period
             for period, period_scores in enumerate(array): 
                 # Get number of samples and sentences for the period
+                
                 samples_per_period = [sample_name for sample_name in sample_period.keys() 
                                     if sample_period[sample_name] == period and sample_name not in skipped_samples
                                     ]
-                n_sents_per_period = sum([sample_nsents[sample_name] for sample_name in samples_per_period])
+
+                
+                n_sents_per_period = sum([sample_nsents.get(sample_name, 0) for sample_name in samples_per_period]) #ADDED
+
+                #n_sents_per_period = sum([sample_nsents[sample_name] for sample_name in samples_per_period])
                 # Write 2 output files with average scores for each time period
                 f.write(
                     f"Average scores for time period {time_periods[period]}"
