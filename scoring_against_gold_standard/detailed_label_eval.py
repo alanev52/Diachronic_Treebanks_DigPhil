@@ -55,7 +55,7 @@ def execute_evaluation(gold_file_path, predicted_file_path):
         return None
     # Evaluate the predictions against the gold standard
     try: #evaluate method is calling the extended version with atribute True 
-        results = evaluate(gold_data, predicted_data, detailed=True, cm=False) # Detailed is a mode for UPOS and DEPREL detailed eval; cm - confusion matrix
+        results = evaluate(gold_data, predicted_data, detailed=False, cm=True) # Detailed is a mode for UPOS and DEPREL detailed eval; cm - confusion matrix
     
     except Exception as e:
         print(f"Error during evaluation between {gold_file_path} and {predicted_file_path}: {e}")

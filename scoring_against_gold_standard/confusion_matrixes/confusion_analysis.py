@@ -50,7 +50,7 @@ if __name__ == "__main__":
         print(f"Error: {folder} is not a valid directory")
         
     scores = {}
-    folder = "./dep_rel/reparsed_stanza"
+    folder = "./dep_rel/silver_stanza"
     for i,filename in enumerate(os.listdir(folder)):
         if filename.endswith(".tsv"):
             path = os.path.join(folder, filename)
