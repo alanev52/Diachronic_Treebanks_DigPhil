@@ -1,0 +1,90 @@
+# sent_id = 21
+# text = Glädjen hos denna lilla Famille war obeskriflig, och deras fällhet tusenfalt större än den Fru von Agio i sitt Palats, med all sin öfwerdådiga yppighet, åtnjöt Julafton 1799.
+1	glädjen	glädje	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	7	nsubj	_	Glädjen
+2	hos	hos	ADP	PP	_	5	case	_	hos
+3	denna	denna	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Dem	5	det	_	denna
+4	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Number=Sing	5	amod	_	lilla
+5	famille	famille	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	nmod	_	Famille
+6	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	war
+7	obeskrivlig	obeskrivlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	0	root	_	obeskriflig
+8	,	,	PUNCT	MID	_	13	punct	_	,
+9	och	och	CCONJ	KN	_	13	cc	_	och
+10	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	_	deras
+11	fullhet	fullhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	fällhet
+12	tusenfalt	tusenfal	ADV	AB	_	13	advmod	_	tusenfalt
+13	större	stor	ADJ	JJ|KOM|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Cmp	7	conj	_	större
+14	än	än	ADP	KN	_	18	case	_	än
+15	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	16	det	_	den
+16	fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	nmod	_	Fru
+17	von	von	PROPN	PM|GEN	Case=Gen	18	nmod	_	von
+18	agi	agi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	13	nsubj	_	Agio
+19	i	i	ADP	PP	_	21	case	_	i
+20	sitt	sig	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	21	nmod:poss	_	sitt
+21	palats	palats	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	nmod	_	Palats
+22	,	,	PUNCT	MID	_	29	punct	_	,
+23	med	med	ADP	PP	_	27	case	_	med
+24	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	27	det	_	all
+25	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	27	nmod:poss	_	sin
+26	överdådiga	överdådig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	27	amod	_	öfwerdådiga
+27	yppighet	yppighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	nmod	_	yppighet
+28	,	,	PUNCT	MID	_	29	punct	_	,
+29	åtnjöt	åtnjöta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	åtnjöt
+30	julafton	julafton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	29	obj	_	Julafton
+31	1799	1799	NUM	RG|NOM	Case=Nom|NumType=Card	29	obl	_	1799
+32	.	.	PUNCT	MAD	_	7	punct	_	.
+
+# sent_id = 22
+# text = Fru von Agio hade nyss upstigit från sit kräsliga middagsbord, och Clara fick tilstånd at komma in i hennes yttersta förmak.
+1	fru	fru	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	nmod	_	Fru
+2	von	von	PROPN	PM|NOM	Case=Nom	6	nsubj	_	von
+3	agi	agi	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	flat:name	_	Agio
+4	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	hade
+5	nyss	nyss	ADV	AB	_	6	advmod	_	nyss
+6	bestigit	bestiga	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	upstigit
+7	från	från	ADP	PP	_	10	case	_	från
+8	sit	sit	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	10	nmod:poss	_	sit
+9	kräslig	kräslig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	kräsliga
+10	middagsbord	middagsbord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	obl	_	middagsbord
+11	,	,	PUNCT	MID	_	15	punct	_	,
+12	och	och	CCONJ	KN	_	15	cc	_	och
+13	clara	clara	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	15	nsubj	_	Clara
+14	fick	få	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	fick
+15	välstånd	välstånd	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	6	conj	_	tilstånd
+16	at	at	PART	IE	_	17	mark	_	at
+17	komma	komma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	6	conj	_	komma
+18	in	in	ADV	PL	_	17	compound:prt	_	in
+19	i	i	ADP	PP	_	22	case	_	i
+20	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	22	nmod:poss	_	hennes
+21	yttersta	yttersta	ADJ	JJ|SUV|UTR/NEU|SIN/PLU|DEF|NOM	Case=Nom|Definite=Def|Degree=Sup	22	amod	_	yttersta
+22	förmak	förmak	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	17	obl	_	förmak
+23	.	.	PUNCT	MAD	_	6	punct	_	.
+
+# sent_id = 24
+# text = Hon såg i fönstret lilla Calle, som flåsat isen ifrån en ruta och med längtade ögon och klappande händer gladde sig öfwer hennes ankomst.
+1	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	Hon
+2	såg	se	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	såg
+3	i	i	ADP	PP	_	4	case	_	i
+4	fönstret	fönster	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	2	obl	_	fönstret
+5	lilla	liten	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	6	amod	_	lilla
+6	calle	calle	PROPN	PM|NOM	Case=Nom	2	obj	_	Calle
+7	,	,	PUNCT	MID	_	9	punct	_	,
+8	som	som	PRON	HP|-|-|-	PronType=Rel	9	nsubj	_	som
+9	flåsat	flåsa	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	6	acl:relcl	_	flåsat
+10	isen	is	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	9	obj	_	isen
+11	ifrån	ifrån	ADP	PP	_	13	case	_	ifrån
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	en
+13	ruta	ruta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	9	obl	_	ruta
+14	och	och	CCONJ	KN	_	21	cc	_	och
+15	med	med	ADP	PP	_	17	case	_	med
+16	längtade	längtad	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	17	amod	_	längtade
+17	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	9	obl	_	ögon
+18	och	och	CCONJ	KN	_	20	cc	_	och
+19	klappande	klappande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	20	amod	_	klappande
+20	händer	hand	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	17	conj	_	händer
+21	gladde	gla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	gladde
+22	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	21	obj	_	sig
+23	över	över	ADP	PP	_	25	case	_	öfwer
+24	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	25	nmod:poss	_	hennes
+25	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	ankomst
+26	.	.	PUNCT	MAD	_	2	punct	_	.
+

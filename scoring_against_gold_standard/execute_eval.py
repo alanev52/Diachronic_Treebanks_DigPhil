@@ -86,7 +86,7 @@ sample_nsents = defaultdict()
 
 with open("scores.txt", "w") as outfile:
     # Loop through each of the vaidated samples
-    for sample in os.listdir(gold_dir):
+    for sample in sorted(os.listdir(gold_dir)): # Anastasiia MODIFIED: sort samples alphabetically for consistent order
         sample_name = sample.split("/")[-1].replace(".conllu", "")
    
         print("DEBUG sample_name:", sample_name)
@@ -109,10 +109,13 @@ with open("scores.txt", "w") as outfile:
         except AssertionError:
             unprocessed_predicted_file_path = os.path.join(predicted_dir, sample)
             predicted_file_path = preprocess_system_file(unprocessed_predicted_file_path, gold_file_path)
-        #print("before execute", predicted_file_path)
+            created_temp_files = True # Anastasiia ADDED: flag to track if we created temp files that need to be deleted later
         # Score base tree (parser output) against validated tree (gold standard)
         results = execute_evaluation(gold_file_path, predicted_file_path)
 
+        if created_temp_files: # Anastasiia ADDED: clean up temp files if we created them
+            os.remove(predicted_file_path)
+        
         if not results: # skip invalid files
             skipped_samples.append(sample_name)
         # Write results to scores.txt and save to time period arrays

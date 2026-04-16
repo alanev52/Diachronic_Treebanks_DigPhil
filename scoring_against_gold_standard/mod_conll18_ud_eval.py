@@ -199,11 +199,23 @@ def load_conllu(file, ignore_invalid_format=False):
         if sentence_start is None:
             # Skip comments
             if line.startswith("#"):
+                if "sent_id" in line:  #Anastasiia MODIFIED: capture sent_id
+                    current_sent_id = line.strip()  #Anastasiia MODIFIED: capture sent_id
+                continue
+            # Anastasiia ADDED: skip blank lines between sentences (handles double blank lines)
+            if not line:
                 continue
             # Start a new sentence
             ud.sentences.append(UDSpan(index, 0))
             sentence_start = len(ud.words)
         if not line:
+            # Anastasiia MODIFIED: handle empty sentences (caused by double blank lines)
+            if sentence_start == len(ud.words):
+                print(f"Warning: Skipping empty sentence (0 tokens) after '{current_sent_id}'.")
+                ud.sentences.pop()
+                sentence_start = None
+                current_sent_id = None
+                continue
             # Add parent and children UDWord links and check there are no cycles
             def process_word(word):
                 if word.parent == "remapping":
@@ -213,6 +225,7 @@ def load_conllu(file, ignore_invalid_format=False):
                     try:
                         head = int(word.columns[HEAD])
                     except ValueError:
+                        print(_encode(word.columns[HEAD]))
                         head = 0 # Astrid: handle headless nodes as roots
                     if head < 0 or head > len(ud.words) - sentence_start:
                         if not ignore_invalid_format:
@@ -230,16 +243,37 @@ def load_conllu(file, ignore_invalid_format=False):
             for word in ud.words[sentence_start:]:
                 if word.parent and word.is_functional_deprel:
                     word.parent.functional_children.append(word)
-
+            
+            # Anastasiia MODIFIED: handle 0 or multiple roots gracefully
+            roots = [word for word in ud.words[sentence_start:] if word.parent is None]
+            num_roots = len(roots)
+            if num_roots == 0:
+                print(f"Warning: 0 roots in '{current_sent_id}'. Assigning first word as root.")
+                if ignore_invalid_format:
+                    ud.words[sentence_start].parent = None  # already None, just leave it
+                else:
+                    raise UDError("There are multiple roots in a sentence")
+            elif num_roots > 1:
+                print(f"Warning: {num_roots} roots in '{current_sent_id}': "
+                      f"tokens {[w.columns[ID] for w in roots]}. "
+                      f"Re-attaching extra roots to first root.")
+                if ignore_invalid_format:
+                    first_root = roots[0]
+                    for word in roots[1:]:
+                        word.parent = first_root
+                else:
+                    raise UDError("There are multiple roots in a sentence")
+            
             # Check there is a single root node
             if len([word for word in ud.words[sentence_start:] if word.parent is None]) != 1:
-                #print(f"Warning: There are {len([word for word in ud.words[sentence_start:] if word.parent is None])} roots in a sentence.")
+                print(f"Warning: There are {len([word for word in ud.words[sentence_start:] if word.parent is None])} roots in a sentence.")
                 if not ignore_invalid_format:
                     raise UDError("There are multiple roots in a sentence")
 
             # End the sentence
             ud.sentences[-1].end = index
             sentence_start = None
+            current_sent_id = None  # Anastasiia MODIFIED: reset 
             continue
 
         # Read next token/word
@@ -300,7 +334,9 @@ def load_conllu(file, ignore_invalid_format=False):
 
     if sentence_start is not None:
         raise UDError("The CoNLL-U file does not end with empty line")
-
+    
+    
+    print(f"Loaded: {len(ud.sentences)} sentences, {len(ud.words)} words, {len(ud.characters)} chars") # Anastasiia ADDED: print loaded counts
     return ud
 
 # Evaluate the gold and system treebanks (loaded using load_conllu).

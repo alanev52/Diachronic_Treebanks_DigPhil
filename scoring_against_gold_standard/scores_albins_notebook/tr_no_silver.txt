@@ -1,0 +1,158 @@
+Sample: svediakorp-sec452-NyblomH_FantasierFyra, time period: 1850-1900
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9626	0.9626	0.9626	0.9626
+UAS	0.8128	0.8128	0.8128	0.8128
+LAS	0.7807	0.7807	0.7807	0.7807
+
+Sample: svediakorp-sec486-SchwartzMS_BellmansSkor, time period: 1850-1900
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9832	0.9832	0.9832	0.9832
+UAS	0.8067	0.8067	0.8067	0.8067
+LAS	0.7059	0.7059	0.7059	0.7059
+
+Sample: svediakorp-sec277-EnbomPU_MedborgeligtSkalde, time period: 1750-1800
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9072	0.9072	0.9072	0.9072
+UAS	0.7426	0.7426	0.7426	0.7426
+LAS	0.6962	0.6962	0.6962	0.6962
+
+Sample: svediakorp-sec991-spf148, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9368	0.9368	0.9368	0.9368
+UAS	0.8024	0.8024	0.8024	0.8024
+LAS	0.7708	0.7708	0.7708	0.7708
+
+Sample: svediakorp-sec631-HasselskogN_HallaHallaGronkoping, time period: 1900-1950
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9565	0.9565	0.9565	0.9565
+UAS	0.8174	0.8174	0.8174	0.8174
+LAS	0.7478	0.7478	0.7478	0.7478
+
+Sample: svediakorp-sec252-BremerF_Teckningar1, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	1.0000	1.0000	1.0000	1.0000
+UAS	0.8704	0.8704	0.8704	0.8704
+LAS	0.8519	0.8519	0.8519	0.8519
+
+Sample: svediakorp-sec1102-spf259, time period: 1850-1900
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9574	0.9574	0.9574	0.9574
+UAS	0.7819	0.7819	0.7819	0.7819
+LAS	0.7287	0.7287	0.7287	0.7287
+
+Sample: svediakorp-letter141673-Stalhammar, time period: 1700-1750
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.6011	0.6011	0.6011	0.6011
+UAS	0.4775	0.4775	0.4775	0.4775
+LAS	0.3146	0.3146	0.3146	0.3146
+
+Sample: svediakorp-sec208-Anonym_DetGrasligaMordet, time period: 1850-1900
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9896	0.9896	0.9896	0.9896
+UAS	0.8229	0.8229	0.8229	0.8229
+LAS	0.7812	0.7812	0.7812	0.7812
+
+Sample: svediakorp-sec613-EngstromA_StrindbergOchJag, time period: 1900-1950
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9927	0.9927	0.9927	0.9927
+UAS	0.8978	0.8978	0.8978	0.8978
+LAS	0.8613	0.8613	0.8613	0.8613
+
+Sample: svediakorp-sec324-GranbergPA_Enslighetsalskaren, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9424	0.9424	0.9424	0.9424
+UAS	0.8921	0.8921	0.8921	0.8921
+LAS	0.8201	0.8201	0.8201	0.8201
+
+Sample: svediakorp-sec1033-spf190, time period: 1900-1950
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9528	0.9528	0.9528	0.9528
+UAS	0.8031	0.8031	0.8031	0.8031
+LAS	0.7165	0.7165	0.7165	0.7165
+
+Sample: svediakorp-sec25-Runius, time period: 1700-1750
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.8776	0.8776	0.8776	0.8776
+UAS	0.7143	0.7143	0.7143	0.7143
+LAS	0.6327	0.6327	0.6327	0.6327
+
+Sample: svediakorp-sec254-CederborghF_BerattelseOmJohnHall, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9751	0.9751	0.9751	0.9751
+UAS	0.6017	0.6017	0.6017	0.6017
+LAS	0.5228	0.5228	0.5228	0.5228
+
+Sample: svediakorp-sec397-AngeredStrandbergH_UnderSodernsSol, time period: 1900-1950
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9731	0.9731	0.9731	0.9731
+UAS	0.7742	0.7742	0.7742	0.7742
+LAS	0.7634	0.7634	0.7634	0.7634
+
+Sample: svediakorp-sec330-GyllenborgC_SwenskaSpratthoken, time period: 1700-1750
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.8644	0.8644	0.8644	0.8644
+UAS	0.6893	0.6893	0.6893	0.6893
+LAS	0.5763	0.5763	0.5763	0.5763
+
+Sample: svediakorp-sec639-HeidenstamV_Proletarfilosofiens, time period: 1900-1950
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9930	0.9930	0.9930	0.9930
+UAS	0.9507	0.9507	0.9507	0.9507
+LAS	0.9225	0.9225	0.9225	0.9225
+
+Sample: svediakorp-sec268-DulciU_VitterhetsNojen3, time period: 1750-1800
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9445	0.9445	0.9445	0.9445
+UAS	0.8162	0.8162	0.8162	0.8162
+LAS	0.7528	0.7528	0.7528	0.7528
+
+Sample: svediakorp-sec987-spf144, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9877	0.9877	0.9877	0.9877
+UAS	0.7901	0.7901	0.7901	0.7901
+LAS	0.7654	0.7654	0.7654	0.7654
+
+Sample: svediakorp-sec988-spf145, time period: 1800-1850
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9277	0.9277	0.9277	0.9277
+UAS	0.8855	0.8855	0.8855	0.8855
+LAS	0.8133	0.8133	0.8133	0.8133
+
+Sample: svediakorp-sec1063-spf220, time period: 1850-1900
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9660	0.9660	0.9660	0.9660
+UAS	0.9116	0.9116	0.9116	0.9116
+LAS	0.8503	0.8503	0.8503	0.8503
+
+----------------------------------------------------------------------
+Average scores for time period 1700-1750 (3 samples with a total of 15 sentences):
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.7810	0.7810	0.7810	0.7810
+UAS	0.6270	0.6270	0.6270	0.6270
+LAS	0.5078	0.5078	0.5078	0.5078
+
+ Reparesed dataAverage scores for time period 1750-1800 (2 samples with a total of 17 sentences):
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9270	0.9270	0.9270	0.9270
+UAS	0.7816	0.7816	0.7816	0.7816
+LAS	0.7262	0.7262	0.7262	0.7262
+
+ Reparesed dataAverage scores for time period 1800-1850 (6 samples with a total of 28 sentences):
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9530	0.9530	0.9530	0.9530
+UAS	0.8009	0.8009	0.8009	0.8009
+LAS	0.7481	0.7481	0.7481	0.7481
+
+ Reparesed dataAverage scores for time period 1850-1900 (5 samples with a total of 24 sentences):
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9700	0.9700	0.9700	0.9700
+UAS	0.8311	0.8311	0.8311	0.8311
+LAS	0.7718	0.7718	0.7718	0.7718
+
+ Reparesed dataAverage scores for time period 1900-1950 (5 samples with a total of 25 sentences):
+Metric	Precision	Recall	F1	Aligned Accuracy
+UPOS	0.9736	0.9736	0.9736	0.9736
+UAS	0.8486	0.8486	0.8486	0.8486
+LAS	0.8023	0.8023	0.8023	0.8023
+
+ Reparesed data
