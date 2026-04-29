@@ -1,0 +1,34 @@
+# sent_id = 224
+# text = Man that is afham ’ d to weep.
+1	man	man	PRON	PN|UTR|SIN|IND|SUB	Case=Nom|Definite=Ind|Gender=Com|Number=Sing|PronType=Ind	2	nsubj	_	Man
+2	tat	ta	VERB	VB|PRS|AKT	Mood=Ind|VerbForm=Fin|Voice=Act	0	root	_	that
+3	is	is	ADP	UO	Foreign=Yes	4	case	_	is
+4	adam	adam	NOUN	UO	Foreign=Yes	2	obj	_	afham
+5	’	'	PUNCT	PAD	_	6	punct	_	’
+6	d	dentiter	NOUN	UO	Foreign=Yes	2	obj	_	d
+7	to	to	NOUN	UO	Foreign=Yes	8	nmod	_	to
+8	vep	vep	NOUN	UO	Foreign=Yes	2	obj	_	weep
+9	.	.	PUNCT	MAD	_	2	punct	_	.
+
+# sent_id = 225
+# text = Jag betraktade med vördnad dessa föremål, och likasom frugtade att oroa den heliga tystnad hvilken omgaf mig.
+1	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	Jag
+2	betraktade	betrakta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	betraktade
+3	med	med	ADP	PP	_	4	case	_	med
+4	vördnad	vördnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	obl	_	vördnad
+5	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	6	det	_	dessa
+6	föremål	föremål	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	2	obl	_	föremål
+7	,	,	PUNCT	MID	_	10	punct	_	,
+8	och	och	CCONJ	KN	_	10	cc	_	och
+9	likasom	likasom	ADV	AB	_	10	advmod	_	likasom
+10	fruktade	frukta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	frugtade
+11	att	att	PART	IE	_	12	mark	_	att
+12	oroa	oro	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	xcomp	_	oroa
+13	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	15	det	_	den
+14	heliga	helig	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	15	amod	_	heliga
+15	tystnad	tystnad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	12	obj	_	tystnad
+16	vilken	vilken	PRON	HP|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Rel	17	nsubj	_	hvilken
+17	omgav	omge	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	15	acl:relcl	_	omgaf
+18	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	17	obj	_	mig
+19	.	.	PUNCT	MAD	_	2	punct	_	.
+

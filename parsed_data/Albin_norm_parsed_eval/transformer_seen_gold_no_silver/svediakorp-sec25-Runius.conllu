@@ -1,0 +1,157 @@
+# sent_id = 50
+# text = Dessa påminnelser om „döden göra dess ankomst mindre bitter; „jag kan obekymrad föreställa mig den för„ flutne tiden, och vissheten om en oup„ hörlig sällhet utplånar äfven den förtroll„ ning hvarmed kärleken öfverhöljde jor„ den.
+1	dessa	denna	DET	DT|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|PronType=Dem	2	det	_	Dessa
+2	påminnelser	påminnelse	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	5	nsubj	_	påminnelser
+3	om	om	ADP	PP	_	4	case	_	om
+4	döden	död	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	nmod	_	„döden
+5	göra	göra	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	göra
+6	dess	den	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	7	nmod:poss	_	dess
+7	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	ankomst
+8	mindre	lite	ADV	AB|KOM	Degree=Cmp	9	advmod	_	mindre
+9	bitter	bitter	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	5	xcomp	_	bitter
+10	;	;	PUNCT	MID	_	14	punct	_	;
+11	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	„jag
+12	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	kan
+13	obekymrad	obekymrad	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	14	advmod	_	obekymrad
+14	föreställa	föreställa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	5	conj	_	föreställa
+15	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	iobj	_	mig
+16	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	obj	_	den
+17	för	för	ADP	PP	_	18	case	_	för„
+18	lutet	lute	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	19	nmod	_	flutne
+19	tiden	tid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obl	_	tiden
+20	,	,	PUNCT	MID	_	28	punct	_	,
+21	och	och	CCONJ	KN	_	28	cc	_	och
+22	vissheten	visshet	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	nsubj	_	vissheten
+23	om	om	ADP	PP	_	27	case	_	om
+24	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	27	det	_	en
+25	loup	loup	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	amod	_	oup„
+26	härlig	härlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	amod	_	hörlig
+27	sällhet	sällhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nmod	_	sällhet
+28	utplånar	utplåna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	utplånar
+29	även	även	ADV	AB	_	28	advmod	_	äfven
+30	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	32	det	_	den
+31	förtrolla	förtrolla	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	32	amod	_	förtroll„
+32	ning	ning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	28	obj	_	ning
+33	varmed	varmed	ADV	HA	_	35	advmod	_	hvarmed
+34	kärleken	kärlek	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	35	nsubj	_	kärleken
+35	översköljde	översköljd	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	32	acl:relcl	_	öfverhöljde
+36	jord	jord	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	35	obj	_	jor„
+37	den	den	PRON	PN|UTR|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	obj	_	den
+38	.	.	PUNCT	MAD	_	5	punct	_	.
+
+# sent_id = 51
+# text = Oräkneliga gångor har genomläst hennes bref, och likaså ofta uprepat det för mig sjelf; där gifves intet ord som jag glömt, ingen tanke som jag förlorat; likväl vågar jag icke tro mitt minne, likväl granskar jag hvarje rad under det jag afskrifver det åt dig.
+1	oräkneliga	oräknelig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	2	amod	_	Oräkneliga
+2	ångor	ånga	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	nsubj	_	gångor
+3	har	ha	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	har
+4	genomläst	genomlå	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	0	root	_	genomläst
+5	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	6	nmod:poss	_	hennes
+6	brev	brev	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	4	obj	_	bref
+7	,	,	PUNCT	MID	_	11	punct	_	,
+8	och	och	CCONJ	KN	_	11	cc	_	och
+9	likaså	likaså	ADV	AB	_	11	advmod	_	likaså
+10	ofta	ofta	ADV	AB|POS	Degree=Pos	11	advmod	_	ofta
+11	upprepa	upprepa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	_	uprepat
+12	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	11	obj	_	det
+13	för	för	ADP	PP	_	14	case	_	för
+14	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	obl	_	mig
+15	sjelf	sjelf	ADV	AB	_	11	advmod	_	sjelf
+16	;	;	PUNCT	MID	_	18	punct	_	;
+17	där	där	ADV	AB	_	18	advmod	_	där
+18	gives	ge	VERB	VB|PRT|SFO	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	gifves
+19	intet	inten	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	20	det	_	intet
+20	ord	ord	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	obj	_	ord
+21	som	som	PRON	HP|-|-|-	PronType=Rel	23	obj	_	som
+22	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	jag
+23	glömt	glömma	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	20	acl:relcl	_	glömt
+24	,	,	PUNCT	MID	_	26	punct	_	,
+25	ingen	ingen	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Neg	26	det	_	ingen
+26	tanke	tanke	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	20	conj	_	tanke
+27	som	som	PRON	HP|-|-|-	PronType=Rel	29	obj	_	som
+28	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj	_	jag
+29	förlorat	förlorad	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	26	acl:relcl	_	förlorat
+30	;	;	PUNCT	MID	_	35	punct	_	;
+31	likväl	likväl	ADV	AB	_	35	advmod	_	likväl
+32	vågar	våga	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	aux	_	vågar
+33	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	35	nsubj	_	jag
+34	icke	icke	PART	AB	Polarity=Neg	35	advmod	_	icke
+35	tro	tro	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	conj	_	tro
+36	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	37	nmod:poss	_	mitt
+37	minne	minne	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	35	obj	_	minne
+38	,	,	PUNCT	MID	_	40	punct	_	,
+39	likväl	likväl	ADV	AB	_	40	advmod	_	likväl
+40	granskar	granska	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	conj	_	granskar
+41	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	40	nsubj	_	jag
+42	varje	varje	DET	DT|UTR/NEU|SIN|IND	Definite=Ind|Number=Sing|PronType=Tot	43	det	_	hvarje
+43	rad	rad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	40	obj	_	rad
+44	under	under	ADP	PP	_	47	mark	_	under
+45	det	den	SCONJ	SN	_	47	mark	_	det
+46	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	47	nsubj	_	jag
+47	avskriver	avskriva	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl	_	afskrifver
+48	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	47	obj	_	det
+49	åt	åt	ADP	PP	_	50	case	_	åt
+50	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	47	obl	_	dig
+51	.	.	PUNCT	MAD	_	4	punct	_	.
+
+# sent_id = 52
+# text = Hvilka nejder! – Min Vän!
+1	vilka	vilken	DET	HD|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Int	2	det	_	Hvilka
+2	nejder	nejd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	0	root	_	nejder
+3	!	!	PUNCT	MAD	_	2	punct	_	!
+4	–	(	PUNCT	MID	_	2	punct	_	–
+5	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	6	nmod:poss	_	Min
+6	vän	vän	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	2	appos	_	Vän
+7	!	!	PUNCT	MAD	_	2	punct	_	!
+
+# sent_id = 53
+# text = Jag trodde att, vid min ankomst till Ystad, finna bref före mig ifrån Lotta och hennes far, emedan jag icke fick något under mitt vistande i Pommern; möjligtvis kan det likväl vara ditkommit efter min afresa.
+1	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	nsubj	_	Jag
+2	trodde	tro	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	trodde
+3	att	att	SCONJ	SN	_	11	mark	_	att
+4	,	,	PUNCT	MID	_	7	punct	_	,
+5	vid	vid	ADP	PP	_	7	case	_	vid
+6	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	7	nmod:poss	_	min
+7	ankomst	ankomst	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	ankomst
+8	till	till	ADP	PP	_	9	case	_	till
+9	ystad	ystad	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	nmod	_	Ystad
+10	,	,	PUNCT	MID	_	7	punct	_	,
+11	finna	finna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	ccomp	_	finna
+12	brev	brev	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	11	obj	_	bref
+13	före	före	ADP	PP	_	14	case	_	före
+14	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	11	obl	_	mig
+15	ifrån	ifrån	ADP	PP	_	16	case	_	ifrån
+16	lotta	lotta	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obl	_	Lotta
+17	och	och	CCONJ	KN	_	19	cc	_	och
+18	hennes	hon	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	19	nmod:poss	_	hennes
+19	far	far	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	conj	_	far
+20	,	,	PUNCT	MID	_	11	punct	_	,
+21	emedan	emedan	SCONJ	SN	_	24	mark	_	emedan
+22	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	24	nsubj	_	jag
+23	icke	icke	PART	AB	Polarity=Neg	24	advmod	_	icke
+24	fick	få	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	fick
+25	något	någon	PRON	PN|NEU|SIN|IND|SUB/OBJ	Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	24	obj	_	något
+26	under	under	ADP	PP	_	28	case	_	under
+27	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	28	nmod:poss	_	mitt
+28	vistande	vistande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	24	obl	_	vistande
+29	i	i	ADP	PP	_	30	case	_	i
+30	pommern	pommer	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	24	obl	_	Pommern
+31	;	;	PUNCT	MID	_	37	punct	_	;
+32	möjligtvis	möjligtvis	ADV	AB	_	37	advmod	_	möjligtvis
+33	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	37	aux	_	kan
+34	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	37	nsubj	_	det
+35	likväl	likväl	ADV	AB	_	37	advmod	_	likväl
+36	vara	vara	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	37	cop	_	vara
+37	utkommit	utkomma	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	2	parataxis	_	ditkommit
+38	efter	efter	ADP	PP	_	40	case	_	efter
+39	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	40	nmod:poss	_	min
+40	avresa	avresa	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	37	obl	_	afresa
+41	.	.	PUNCT	MAD	_	2	punct	_	.
+
+# sent_id = 54
+# text = Mig gör det lycklig!
+1	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	2	obj	_	Mig
+2	gör	göra	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	gör
+3	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	2	obj	_	det
+4	lycklig	lycklig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	xcomp	_	lycklig
+5	!	!	PUNCT	MAD	_	2	punct	_	!
+

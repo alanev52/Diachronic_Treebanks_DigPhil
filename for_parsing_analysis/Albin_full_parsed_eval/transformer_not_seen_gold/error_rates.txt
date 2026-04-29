@@ -1,0 +1,231 @@
+=== ERROR RATES ===
+Parsing-system: for_parsing_analysis/Albin_full_parsed_eval/transformer_not_seen_gold/cm/
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1700-1749-DEPREL_cm.tsv
+====================================================
+  Labels              : 36
+  Total tokens        : 3,404
+  Correct tokens      : 2,643
+  Error tokens        : 761
+  Mean error rate     : 0.255003046
+----------------------------------------------------
+  Error rate          : 0.223560517
+  Confusion pairs     : 204
+  Pairs rate          : 0.157407407
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 761 / 3,404
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 204 / 36² = 204 / 1296
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1700-1749-UPOS_cm.tsv
+====================================================
+  Labels              : 16
+  Total tokens        : 3,404
+  Correct tokens      : 3,020
+  Error tokens        : 384
+  Mean error rate     : 0.041648923
+----------------------------------------------------
+  Error rate          : 0.112808461
+  Confusion pairs     : 72
+  Pairs rate          : 0.281250000
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 384 / 3,404
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 72 / 16² = 72 / 256
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1750-1799-DEPREL_cm.tsv
+====================================================
+  Labels              : 36
+  Total tokens        : 3,659
+  Correct tokens      : 2,941
+  Error tokens        : 718
+  Mean error rate     : 0.303705101
+----------------------------------------------------
+  Error rate          : 0.196228478
+  Confusion pairs     : 169
+  Pairs rate          : 0.130401235
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 718 / 3,659
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 169 / 36² = 169 / 1296
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1750-1799-UPOS_cm.tsv
+====================================================
+  Labels              : 16
+  Total tokens        : 3,659
+  Correct tokens      : 3,361
+  Error tokens        : 298
+  Mean error rate     : 0.042225604
+----------------------------------------------------
+  Error rate          : 0.081443017
+  Confusion pairs     : 61
+  Pairs rate          : 0.238281250
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 298 / 3,659
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 61 / 16² = 61 / 256
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1800-1849-DEPREL_cm.tsv
+====================================================
+  Labels              : 36
+  Total tokens        : 15,505
+  Correct tokens      : 12,606
+  Error tokens        : 2,899
+  Mean error rate     : 0.219958871
+----------------------------------------------------
+  Error rate          : 0.186971945
+  Confusion pairs     : 243
+  Pairs rate          : 0.187500000
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 2,899 / 15,505
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 243 / 36² = 243 / 1296
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1800-1849-UPOS_cm.tsv
+====================================================
+  Labels              : 16
+  Total tokens        : 15,505
+  Correct tokens      : 14,353
+  Error tokens        : 1,152
+  Mean error rate     : 0.047173367
+----------------------------------------------------
+  Error rate          : 0.074298613
+  Confusion pairs     : 76
+  Pairs rate          : 0.296875000
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 1,152 / 15,505
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 76 / 16² = 76 / 256
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1850-1899-DEPREL_cm.tsv
+====================================================
+  Labels              : 36
+  Total tokens        : 7,575
+  Correct tokens      : 6,026
+  Error tokens        : 1,549
+  Mean error rate     : 0.247903857
+----------------------------------------------------
+  Error rate          : 0.204488449
+  Confusion pairs     : 216
+  Pairs rate          : 0.166666667
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 1,549 / 7,575
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 216 / 36² = 216 / 1296
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1850-1899-UPOS_cm.tsv
+====================================================
+  Labels              : 16
+  Total tokens        : 7,575
+  Correct tokens      : 6,854
+  Error tokens        : 721
+  Mean error rate     : 0.043511818
+----------------------------------------------------
+  Error rate          : 0.095181518
+  Confusion pairs     : 73
+  Pairs rate          : 0.285156250
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 721 / 7,575
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 73 / 16² = 73 / 256
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1900-1950-DEPREL_cm.tsv
+====================================================
+  Labels              : 36
+  Total tokens        : 12,974
+  Correct tokens      : 10,478
+  Error tokens        : 2,496
+  Mean error rate     : 0.232322431
+----------------------------------------------------
+  Error rate          : 0.192384770
+  Confusion pairs     : 230
+  Pairs rate          : 0.177469136
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 2,496 / 12,974
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 230 / 36² = 230 / 1296
+
+
+====================================================
+  Confusion Matrix Metrics
+  Source : file: 1900-1950-UPOS_cm.tsv
+====================================================
+  Labels              : 16
+  Total tokens        : 12,974
+  Correct tokens      : 11,952
+  Error tokens        : 1,022
+  Mean error rate     : 0.043879444
+----------------------------------------------------
+  Error rate          : 0.078772930
+  Confusion pairs     : 76
+  Pairs rate          : 0.296875000
+====================================================
+
+  Formulas:
+    error_rate     = errors / total
+                   = 1,022 / 12,974
+    confusion_pairs= non-zero off-diagonal cells (i≠j, count>0)
+    pairs_rate     = confusion_pairs / n²
+                   = 76 / 16² = 76 / 256

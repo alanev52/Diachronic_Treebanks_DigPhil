@@ -1,0 +1,166 @@
+# sent_id = 7
+# text = ” Palatsets elfenbensdörrar, widöppna och hängande på hakar af fint guld, wisade en thron af diamanter, omgifwen af femtio nationers Höfdingar, och med Ambassadörer i åtskilliga drägter och af olika utseende.
+1	”	(	PUNCT	MID	_	14	punct	_	”
+2	palatsets	palats	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	Palatsets
+3	elfenbenskusten	elfenbenskust	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	nsubj	_	elfenbensdörrar
+4	,	,	PUNCT	MID	_	5	punct	_	,
+5	vidöppna	vidöppen	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur|Tense=Past|VerbForm=Part	3	acl	_	widöppna
+6	och	och	CCONJ	KN	_	7	cc	_	och
+7	hängande	hängande	ADJ	PC|PRS|UTR/NEU|SIN/PLU|IND/DEF|NOM	Case=Nom|Degree=Pos|Tense=Pres|VerbForm=Part	5	conj	_	hängande
+8	på	på	ADP	PP	_	9	case	_	på
+9	hakar	hake	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	hakar
+10	av	av	ADP	PP	_	12	case	_	af
+11	fint	find	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	fint
+12	guld	guld	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	9	nmod	_	guld
+13	,	,	PUNCT	MID	_	14	punct	_	,
+14	visade	visa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	wisade
+15	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det	_	en
+16	tron	tron	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	14	obj	_	thron
+17	av	av	ADP	PP	_	18	case	_	af
+18	diamanter	diamant	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	16	nmod	_	diamanter
+19	,	,	PUNCT	MID	_	18	punct	_	,
+20	omgiven	omgiven	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	omgifwen
+21	av	av	ADP	PP	_	24	case	_	af
+22	femtio	femtio	NUM	RG|NOM	Case=Nom|NumType=Card	23	nummod	_	femtio
+23	nationers	nation	NOUN	NN|UTR|PLU|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Plur	24	nmod:poss	_	nationers
+24	hövdingar	hövding	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	20	obl:agent	_	Höfdingar
+25	,	,	PUNCT	MID	_	28	punct	_	,
+26	och	och	CCONJ	KN	_	28	cc	_	och
+27	med	med	ADP	PP	_	28	case	_	med
+28	ambassadörer	ambassadör	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	18	conj	_	Ambassadörer
+29	i	i	ADP	PP	_	31	case	_	i
+30	åtskilliga	åtskillig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	31	amod	_	åtskilliga
+31	dräkter	dräkt	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	28	nmod	_	drägter
+32	och	och	CCONJ	KN	_	35	cc	_	och
+33	av	av	ADP	PP	_	35	case	_	af
+34	olika	olik	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Degree=Pos	35	amod	_	olika
+35	utseende	utseende	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	31	conj	_	utseende
+36	.	.	PUNCT	MAD	_	14	punct	_	.
+
+# sent_id = 8
+# text = Palatset, som nyligen wisade sig i all Österländsk prakt, förwandlades nu hastigt i ett fängelse, der hans son låg utsträckt på bara golfwet med kafle i munnen, och bunden samt med utstungna ögon.
+1	palatset	palats	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	12	nsubj:pass	_	Palatset
+2	,	,	PUNCT	MID	_	1	punct	_	,
+3	som	som	PRON	HP|-|-|-	PronType=Rel	5	nsubj	_	som
+4	nyligen	nyligen	ADV	AB	_	5	advmod	_	nyligen
+5	visade	visa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	wisade
+6	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	5	obj	_	sig
+7	i	i	ADP	PP	_	10	case	_	i
+8	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	10	det	_	all
+9	österländsk	österländsk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	Österländsk
+10	prakt	prakt	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obl	_	prakt
+11	,	,	PUNCT	MID	_	1	punct	_	,
+12	förvandlades	förvandla	VERB	VB|PRT|SFO	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	förwandlades
+13	nu	nu	ADV	AB	_	12	advmod	_	nu
+14	hastigt	hastig	ADV	AB|POS	Degree=Pos	12	advmod	_	hastigt
+15	i	i	ADP	PP	_	17	case	_	i
+16	ett	en	DET	DT|NEU|SIN|IND	Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	17	det	_	ett
+17	fängelse	fängelse	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	fängelse
+18	,	,	PUNCT	MID	_	12	punct	_	,
+19	der	den	ADV	HA	_	22	advmod	_	der
+20	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	21	nmod:poss	_	hans
+21	son	son	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nsubj	_	son
+22	låg	ligga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	12	parataxis	_	låg
+23	utsträckt	utsträckt	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing|Tense=Past|VerbForm=Part	22	xcomp	_	utsträckt
+24	på	på	ADP	PP	_	26	case	_	på
+25	bara	bara	ADV	AB	_	26	advmod	_	bara
+26	golvet	golv	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	22	obl	_	golfwet
+27	med	med	ADP	PP	_	28	case	_	med
+28	kave	kave	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	obl	_	kafle
+29	i	i	ADP	PP	_	30	case	_	i
+30	munnen	mun	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	28	obl	_	munnen
+31	,	,	PUNCT	MID	_	33	punct	_	,
+32	och	och	CCONJ	KN	_	33	cc	_	och
+33	bunden	bunden	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	22	conj	_	bunden
+34	samt	samt	CCONJ	KN	_	37	cc	_	samt
+35	med	med	ADP	PP	_	37	case	_	med
+36	utstuckna	utstucken	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	37	amod	_	utstungna
+37	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	33	conj	_	ögon
+38	.	.	PUNCT	MAD	_	12	punct	_	.
+
+# sent_id = 12
+# text = sade Engeln, och betrakta hwad du ser! ” Hans fel war girighet, hwarigenom han blef icke allenast wederstygglig utan ock olycklig; han föreställde sig rikdom såsom medförande en mäktig tjusningskraft, som, lika med Abdiels staf, kunde förnöja allas önskan och förekomma all fara.
+1	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	sade
+2	engel	engel	PROPN	PM|NOM	Case=Nom	1	nsubj	_	Engeln
+3	,	,	PUNCT	MID	_	1	punct	_	,
+4	och	och	CCONJ	KN	_	5	cc	_	och
+5	betrakta	betrakta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	1	conj	_	betrakta
+6	hwad	hwad	SCONJ	HA	_	8	mark	_	hwad
+7	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	8	nsubj	_	du
+8	ser	se	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	ser
+9	!	!	PUNCT	MAD	_	1	punct	_	!
+10	”	(	PUNCT	MID	_	8	punct	_	”
+11	nyköping	nyköping	PROPN	PM|NOM	Case=Nom	16	conj	_	Nyköping
+12	,	,	PUNCT	MID	_	16	punct	_	,
+13	hans	han	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	14	nmod:poss	_	Hans
+14	fel	fel	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	nsubj	_	fel
+15	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	war
+16	girighet	girighet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	parataxis	_	girighet
+17	,	,	PUNCT	MID	_	23	punct	_	,
+18	härigenom	härigenom	ADV	AB	_	23	advmod	_	hwarigenom
+19	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	23	nsubj	_	han
+20	blev	bli	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	23	cop	_	blef
+21	icke	icke	PART	AB	Polarity=Neg	23	advmod	_	icke
+22	allenast	allenast	ADV	AB	_	23	advmod	_	allenast
+23	ovedersäglig	ovedersäglig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	conj	_	wederstygglig
+24	utan	utan	CCONJ	KN	_	26	cc	_	utan
+25	ock	ock	ADV	AB	_	26	advmod	_	ock
+26	olycklig	olycklig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	23	conj	_	olycklig
+27	;	;	PUNCT	MID	_	1	punct	_	;
+28	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	29	nsubj	_	han
+29	föreställde	föreställa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	1	parataxis	_	föreställde
+30	sig	sig	PRON	PN|UTR/NEU|SIN/PLU|DEF|OBJ	Case=Acc|Definite=Def|PronType=Prs	29	iobj	_	sig
+31	inkom	inkomma	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	29	conj	_	rikdom
+32	såsom	såsom	ADV	HA	_	33	mark	_	såsom
+33	medförande	medförande	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	31	nsubj	_	medförande
+34	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	36	det	_	en
+35	mäktig	mäktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	36	amod	_	mäktig
+36	dragningskraft	dragningskraft	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	31	obj	_	tjusningskraft
+37	,	,	PUNCT	MID	_	36	punct	_	,
+38	som	som	PRON	HP|-|-|-	PronType=Rel	46	nsubj	_	som
+39	,	,	PUNCT	MID	_	40	punct	_	,
+40	lika	lika	ADV	AB	_	38	advmod	_	lika
+41	med	med	ADP	PP	_	43	case	_	med
+42	djävlas	djävl	ADJ	JJ|POS|UTR|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Sing	43	amod	_	Abdiels
+43	staff	staff	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	40	obl	_	staf
+44	,	,	PUNCT	MID	_	46	punct	_	,
+45	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	46	aux	_	kunde
+46	förnöja	förnöja	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	36	acl:relcl	_	förnöja
+47	allas	all	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	48	nmod:poss	_	allas
+48	önskan	önskan	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	46	obj	_	önskan
+49	och	och	CCONJ	KN	_	50	cc	_	och
+50	förekomma	förekomma	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	46	conj	_	förekomma
+51	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	52	det	_	all
+52	fara	fara	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	50	obj	_	fara
+53	.	.	PUNCT	MAD	_	1	punct	_	.
+
+# sent_id = 20
+# text = Moralisk Historia.
+1	moralisk	moralisk	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	2	amod	_	Moralisk
+2	historia	historia	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	0	root	_	Historia
+3	.	.	PUNCT	MAD	_	2	punct	_	.
+
+# sent_id = 21
+# text = ” Kasta bort dolken, sade det himmelska Sändebudet, som du höll på att störta i ditt eget hjerta.
+1	”	(	PUNCT	MID	_	2	punct	_	”
+2	kasta	kasta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	Kasta
+3	bort	bort	ADV	PL	_	2	compound:prt	_	bort
+4	dolken	dolk	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	2	obj	_	dolken
+5	,	,	PUNCT	MID	_	6	punct	_	,
+6	sade	säga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	2	parataxis	_	sade
+7	det	den	DET	DT|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|PronType=Art	9	det	_	det
+8	himmelska	himmelsk	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	9	amod	_	himmelska
+9	sändebudet	sändebud	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	6	nsubj	_	Sändebudet
+10	,	,	PUNCT	MID	_	9	punct	_	,
+11	som	som	PRON	HP|-|-|-	PronType=Rel	13	obj	_	som
+12	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	13	nsubj	_	du
+13	höll	hålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	höll
+14	på	på	ADP	PL	_	13	compound:prt	_	på
+15	att	att	PART	IE	_	16	mark	_	att
+16	störta	störta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	13	advcl	_	störta
+17	i	i	ADP	PP	_	20	case	_	i
+18	ditt	du	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	20	nmod:poss	_	ditt
+19	eget	egen	ADJ	JJ|POS|NEU|SIN|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	eget
+20	hjerta	hjerta	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	16	obl	_	hjerta
+21	.	.	PUNCT	MAD	_	2	punct	_	.
+

@@ -336,7 +336,7 @@ def load_conllu(file, ignore_invalid_format=False):
         raise UDError("The CoNLL-U file does not end with empty line")
     
     
-    print(f"Loaded: {len(ud.sentences)} sentences, {len(ud.words)} words, {len(ud.characters)} chars") # Anastasiia ADDED: print loaded counts
+    #print(f"Loaded: {len(ud.sentences)} sentences, {len(ud.words)} words, {len(ud.characters)} chars") # Anastasiia ADDED: print loaded counts
     return ud
 
 # Evaluate the gold and system treebanks (loaded using load_conllu).

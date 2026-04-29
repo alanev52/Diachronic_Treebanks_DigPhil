@@ -1,0 +1,80 @@
+# sent_id = 149
+# text = ” Vanliga samtals ämnen, och några frågor angående min familj som var känd på en fördelagtig sida af min Värd, uptogo sedan en fjerdedels timma, hvarefter han föreslog mig att gå ut i trädgården under det vi väntade på aftonmåltiden.
+1	”	(	PUNCT	MID	_	4	punct	_	”
+2	vanliga	vanlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	3	amod	_	Vanliga
+3	samtal	samtal	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	nmod	_	samtals
+4	ämnen	ämne	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	0	root	_	ämnen
+5	,	,	PUNCT	MID	_	8	punct	_	,
+6	och	och	CCONJ	KN	_	8	cc	_	och
+7	några	någon	DET	DT|UTR/NEU|PLU|IND	Definite=Ind|Number=Plur|PronType=Ind	8	det	_	några
+8	frågor	fråga	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	4	conj	_	frågor
+9	angående	angående	ADP	PP	_	11	case	_	angående
+10	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	11	nmod:poss	_	min
+11	familj	familj	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	8	nmod	_	familj
+12	som	som	PRON	HP|-|-|-	PronType=Rel	14	nsubj	_	som
+13	var	vara	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	var
+14	känd	känd	ADJ	PC|PRF|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	känd
+15	på	på	ADP	PP	_	18	case	_	på
+16	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det	_	en
+17	fördelaktig	fördelaktig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	18	amod	_	fördelagtig
+18	sida	sida	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	sida
+19	av	av	ADP	PP	_	21	case	_	af
+20	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	21	nmod:poss	_	min
+21	värd	värd	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	nmod	_	Värd
+22	,	,	PUNCT	MID	_	23	punct	_	,
+23	upton	upton	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	appos	_	uptogo
+24	sedan	sedan	ADP	PP	_	27	case	_	sedan
+25	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	27	det	_	en
+26	fjärdedels	fjärdedels	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	27	amod	_	fjerdedels
+27	timma	timma	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	23	nmod	_	timma
+28	,	,	PUNCT	MID	_	31	punct	_	,
+29	varefter	varefter	ADV	HA	_	31	advmod	_	hvarefter
+30	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	nsubj	_	han
+31	föreslog	föreslå	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	föreslog
+32	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	31	obj	_	mig
+33	att	att	PART	IE	_	34	mark	_	att
+34	gå	gå	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	31	advcl	_	gå
+35	ut	ut	ADV	AB	_	34	advmod	_	ut
+36	i	i	ADP	PP	_	37	case	_	i
+37	trädgården	trädgård	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	35	obl	_	trädgården
+38	under	under	ADP	PP	_	41	mark	_	under
+39	det	den	SCONJ	SN	_	41	mark	_	det
+40	vi	vi	PRON	PN|UTR|PLU|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Plur|PronType=Prs	41	nsubj	_	vi
+41	väntade	vänta	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	34	advcl	_	väntade
+42	på	på	ADP	PP	_	43	case	_	på
+43	påskmåltiden	påskmåltid	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	41	obl	_	aftonmåltiden
+44	.	.	PUNCT	MAD	_	4	punct	_	.
+
+# sent_id = 150
+# text = Ännu en gång öpnar jag mina ögon för dagen, ännu en gång samlar jag mina sinnen för att känna vidden af mitt elände.
+1	ännu	ännu	ADV	AB	_	3	advmod	_	Ännu
+2	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	3	det	_	en
+3	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	4	obl	_	gång
+4	öppnar	öppna	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	öpnar
+5	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	nsubj	_	jag
+6	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	7	nmod:poss	_	mina
+7	ögon	ögon	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	4	obj	_	ögon
+8	för	för	ADP	PP	_	9	case	_	för
+9	dagen	dag	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	obl	_	dagen
+10	,	,	PUNCT	MID	_	4	punct	_	,
+11	ännu	ännu	ADV	AB	_	13	advmod	_	ännu
+12	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	13	det	_	en
+13	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	14	obl	_	gång
+14	samlar	samla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	samlar
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	14	nsubj	_	jag
+16	mina	jag	PRON	PS|UTR/NEU|PLU|DEF	Definite=Def|Number=Plur|Poss=Yes|PronType=Prs	17	nmod:poss	_	mina
+17	sinnen	sinne	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	14	obj	_	sinnen
+18	för	för	ADP	PP	_	20	mark	_	för
+19	att	att	PART	IE	_	20	mark	_	att
+20	känna	känna	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	14	advcl	_	känna
+21	vidden	vidd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	20	obj	_	vidden
+22	av	av	ADP	PP	_	24	case	_	af
+23	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	24	nmod:poss	_	mitt
+24	elände	elände	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	20	obl	_	elände
+25	.	.	PUNCT	MAD	_	4	punct	_	.
+
+# sent_id = 151
+# text = Ack!
+1	ack	ack	INTJ	IN	_	0	root	_	Ack
+2	!	!	PUNCT	MAD	_	1	punct	_	!
+

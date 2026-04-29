@@ -1,0 +1,145 @@
+# sent_id = 30_31
+# text = Wid 1800-talets början, då salige gamle Herrn aflidit och lemnat sin son en enorm förmögenhet, fortfor han att wara lika oböjlig emot all slags snygghet i former och bruk, som dittills emot sjöresor och twagning – Mahomedan war han således ingalunda.
+# tags = ASAP
+1	Wid	Wid	ADP	PP	_	3	case	_	_
+2	1800-talets	1800-tal	NOUN	NN|NEU|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Neut|Number=Sing	3	nmod:poss	_	_
+3	början	början	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	18	obl	_	_
+4	,	,	PUNCT	MID	_	9	punct	_	_
+5	då	då	ADV	HA	_	9	advmod	_	_
+6	salige	salige	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+7	gamle	gammal	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	8	amod	_	_
+8	Herrn	Herrn	PROPN	PM|NOM	Case=Nom	9	nsubj	_	_
+9	aflidit	aflida	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	3	acl:relcl	_	_
+10	och	och	CCONJ	KN	_	11	cc	_	_
+11	lemnat	lemna	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	conj	_	_
+12	sin	sig	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	son	son	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	_
+14	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	16	det	_	_
+15	enorm	enorm	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	16	amod	_	_
+16	förmögenhet	förmögenhet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	11	obj	_	_
+17	,	,	PUNCT	MID	_	18	punct	_	_
+18	fortfor	fortfora	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	18	nsubj	_	_
+20	att	att	PART	IE	_	21	mark	_	_
+21	wara	wara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	18	xcomp	_	_
+22	lika	lika	ADV	AB	_	23	advmod	_	_
+23	oböjlig	oböjlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	21	xcomp	_	_
+24	emot	emot	ADP	PL	_	27	case	_	_
+25	all	all	DET	DT|UTR|SIN|IND/DEF	Gender=Com|Number=Sing|PronType=Tot	26	det	_	_
+26	slags	slag	NOUN	NN|NEU|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Neut|Number=Sing	27	nmod:poss	_	_
+27	snygghet	snygghet	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	21	obl	_	_
+28	i	i	ADP	PP	_	29	case	_	_
+29	former	form	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	27	nmod	_	_
+30	och	och	CCONJ	KN	_	31	cc	_	_
+31	bruk	bruk	NOUN	NN|NEU|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur	29	conj	_	_
+32	,	,	PUNCT	MID	_	41	punct	_	_
+33	som	som	PRON	HP|-|-|-	PronType=Rel	34	obj	_	_
+34	dittills	dittills	ADV	AB	_	36	advmod	_	_
+35	emot	emot	ADP	PL	_	36	case	_	_
+36	sjöresor	sjöresa	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	41	obl	_	_
+37	och	och	CCONJ	KN	_	38	cc	_	_
+38	twagning	twagning	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	36	conj	_	_
+39	–	(	PUNCT	MID	_	41	punct	_	_
+40	Mahomedan	Mahomedan	PROPN	PM|NOM	Case=Nom	41	nsubj	_	_
+41	war	wa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+42	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	41	nsubj	_	_
+43	således	således	ADV	AB	_	41	advmod	_	_
+44	ingalunda	ingalunda	ADV	AB	Polarity=Neg	41	advmod	_	_
+45	.	.	PUNCT	MAD	_	41	punct	_	_
+
+# sent_id = 32
+# text = det är min son, ropade Fursten, o låt mig få trycka honom till mitt bröst! ” – ”
+1	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	4	nsubj	_	det
+2	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	är
+3	min	jag	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	4	nmod:poss	_	min
+4	son	son	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	6	ccomp	_	son
+5	,	,	PUNCT	MID	_	4	punct	_	,
+6	ropade	ropa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ropade
+7	fursten	furst	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	6	nsubj	_	Fursten
+8	,	,	PUNCT	MID	_	6	punct	_	,
+9	olåt	oli	VERB	VB|PRS|AKT	Mood=Ind|VerbForm=Fin|Voice=Act	6	parataxis	_	o låt
+10	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	9	obj	_	mig
+11	få	få	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	aux	_	få
+12	trycka	trycka	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	9	xcomp	_	trycka
+13	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	12	obj	_	honom
+14	till	till	ADP	PP	_	16	case	_	till
+15	mitt	jag	PRON	PS|NEU|SIN|DEF	Definite=Def|Gender=Neut|Number=Sing|Poss=Yes|PronType=Prs	16	nmod:poss	_	mitt
+16	bröst	bröst	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	12	obl	_	bröst
+17	!	!	PUNCT	MAD	_	9	punct	_	!
+18	” –	”å_kallad	PUNCT	MID	_	6	punct	_	” –
+19	”	(	PUNCT	MAD	_	6	punct	_	”
+
+# sent_id = 33
+# text = Du kan icke med dödliga händer omfatta en andelig warelse, swarade Engelen: jag håller nu på att wisa dig, hurudant din sons öde hade blifwit, om han fått längre lefwa på jorden.
+1	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	7	nsubj	_	Du
+2	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	kan
+3	icke	icke	PART	AB	Polarity=Neg	7	advmod	_	icke
+4	med	med	ADP	PP	_	6	case	_	med
+5	dödliga	dödlig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	amod	_	dödliga
+6	händer	hand	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	7	obl	_	händer
+7	omfatta	omfatta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	0	root	_	omfatta
+8	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	10	det	_	en
+9	andlig	andlig	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	10	amod	_	andelig
+10	varelse	varelse	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	7	obj	_	warelse
+11	,	,	PUNCT	MID	_	7	punct	_	,
+12	svarade	svara	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	swarade
+13	ängelen	ängel	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	nsubj	_	Engelen
+14	:	:	PUNCT	MID	_	12	punct	_	:
+15	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	jag
+16	håller	hålla	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	håller
+17	nu	nu	ADV	AB	_	16	advmod	_	nu
+18	på	på	ADP	PL	_	20	compound:prt	_	på
+19	att	att	PART	IE	_	20	mark	_	att
+20	visa	visa	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	16	xcomp	_	wisa
+21	dig	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	20	obj	_	dig
+22	,	,	PUNCT	MID	_	20	punct	_	,
+23	hurudant	hurudan	ADV	AB	Degree=Pos	20	xcomp	_	hurudant
+24	din	du	PRON	PS|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|Poss=Yes|PronType=Prs	25	nmod:poss	_	din
+25	sons	son	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	26	nmod:poss	_	sons
+26	öde	öde	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	28	nsubj	_	öde
+27	hade	ha	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	28	aux	_	hade
+28	blivit	bli	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	16	ccomp	_	blifwit
+29	,	,	PUNCT	MID	_	28	punct	_	,
+30	om	om	SCONJ	SN	_	34	mark	_	om
+31	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	34	nsubj	_	han
+32	fått	få	AUX	VB|SUP|AKT	VerbForm=Sup|Voice=Act	34	aux	_	fått
+33	längre	länge	ADV	AB|KOM	Degree=Cmp	34	advmod	_	längre
+34	leva	leva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	28	advcl	_	lefwa
+35	på	på	ADP	PP	_	36	case	_	på
+36	jorden	jord	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	34	obl	_	jorden
+37	.	.	PUNCT	MAD	_	12	punct	_	.
+
+# sent_id = 34
+# text = ” – ” Och hwarföre inwände Fursten, fick han ej fortfara att blifwa här?
+1	” – ”	”å_kallad	PUNCT	MID	_	4	punct	_	” – ”
+2	och	och	CCONJ	KN	_	4	cc	_	Och
+3	hwarför	hwarför	ADV	AB	_	4	advmod	_	hwarföre
+4	invände	invända	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	inwände
+5	fursten	furst	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	4	nsubj	_	Fursten
+6	,	,	PUNCT	MID	_	10	punct	_	,
+7	fick	få	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	10	aux	_	fick
+8	han	han	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	han
+9	ej	ej	PART	AB	Polarity=Neg	10	advmod	_	ej
+10	fortfara	fortfara	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	4	parataxis	_	fortfara
+11	att	att	PART	IE	_	12	mark	_	att
+12	bliva	bliva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	10	xcomp	_	blifwa
+13	här	här	ADV	AB	_	12	advmod	_	här
+14	?	?	PUNCT	MAD	_	10	punct	_	?
+
+# sent_id = 35
+# text = ” Det är nog, ropade Bozaldab; jag tillbeder Allwetenhetens outransakeliga wägar!
+1	”	(	PUNCT	MID	_	6	punct	_	”
+2	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	6	expl	_	Det
+3	är	vara	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	är
+4	nog	nog	ADV	AB	_	6	advmod	_	nog
+5	,	,	PUNCT	MID	_	6	punct	_	,
+6	ropade	ropa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	ropade
+7	oskadda	oskadd	ADJ	PC|PRF|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	6	nsubj	_	Bozaldab
+8	;	;	PUNCT	MID	_	10	punct	_	;
+9	jag	jag	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	10	nsubj	_	jag
+10	tillbeder	tillbeda	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	tillbeder
+11	kristenhetens	kristenhet	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	13	nmod:poss	_	Allwetenhetens
+12	outrannsakliga	outrannsaklig	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	13	amod	_	outransakeliga
+13	vägar	väg	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	10	obj	_	wägar
+14	!	!	PUNCT	MAD	_	6	punct	_	!
+
