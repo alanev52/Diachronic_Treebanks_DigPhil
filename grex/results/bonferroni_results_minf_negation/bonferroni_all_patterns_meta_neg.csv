@@ -1,0 +1,110 @@
+Pattern,Period_pred,p_occs,p_q_occs,Precision_%,phi,Effect_size,p_raw,p_bonf_threshold,Bonf_sig,Raw_sig_only,Decision,Verdict
+node:X:prev:upos=INTJ,No,3,2,66.7,1.869,strong,0.0010,0.000459,no,YES,yes,LOW N
+node:X:prev:upos=SCONJ,No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:X:prev:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:X:prev:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:X:prev:upos=SCONJ,node:X:child:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:prev:upos=PRON,node:X:child:upos=SCONJ",No,19,8,42.1,1.292,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:Y:own:has_child=No,node:X:prev:upos=PRON,node:X:child:upos=PRON",No,33,13,39.4,1.224,strong,< .0001,0.000459,YES,,yes,STRONG
+"node:X:prev:upos=PRON,node:X:child:upos=PRON",No,33,13,39.4,1.224,strong,< .0001,0.000459,YES,,yes,STRONG
+node:X:prev:upos=PRON,No,34,13,38.2,1.195,strong,< .0001,0.000459,YES,,yes,STRONG
+"node:Y:own:has_child=No,node:X:prev:upos=PRON",No,34,13,38.2,1.195,strong,< .0001,0.000459,YES,,yes,STRONG
+"node:X:child:rel_shallow=advcl,node:CLH:prev:upos=PRON,node:X:child:upos=ADJ",No,8,3,37.5,1.176,strong,0.0010,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=obj,node:Y:next:upos=NOUN,node:X:child:upos=NOUN",No,15,4,26.7,0.884,strong,0.0010,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=obj,node:CLH:prev:upos=ADV,node:X:prev:upos=NOUN",No,8,2,25.0,0.836,strong,0.0180,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=conj,node:CLH:parent:upos=VERB,node:X:prev:upos=ADV",No,8,2,25.0,0.836,strong,0.0180,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=advmod,node:CLH:parent:upos=ADJ,sentence:meta:period=1850_1899",Yes,8,2,25.0,0.836,strong,0.0180,0.000459,no,YES,yes,LOW N
+node:Y:next:upos=PRON,No,21,5,23.8,0.801,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:Y:own:has_child=No,node:Y:next:upos=PRON",No,21,5,23.8,0.801,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=obj,node:Y:next:upos=NOUN",No,17,4,23.5,0.793,strong,0.0010,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=obj,node:Y:own:has_child=No,node:Y:next:upos=NOUN",No,17,4,23.5,0.793,strong,0.0010,0.000459,no,YES,yes,LOW N
+"sentence:meta:period=1850_1899,node:X:child:upos=ADV,node:CLH:next:upos=SCONJ",Yes,21,3,14.3,0.496,moderate,0.0230,0.000459,no,YES,yes,LOW N
+"node:Y:next:upos=ADV,node:CLH:next:upos=SCONJ,node:CLH:parent:position=before",No,21,3,14.3,0.496,moderate,0.0230,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=xcomp,node:CLH:prev:upos=PRON,node:X:child:upos=VERB",No,22,3,13.6,0.473,moderate,0.0260,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=aux,node:Y:next:upos=ADV,node:X:child:upos=PRON",No,31,4,12.9,0.447,moderate,0.0130,0.000459,no,YES,yes,LOW N
+"node:Y:own:has_child=No,node:Y:next:upos=ADV,sentence:meta:period=1800_1849",Yes,31,3,9.7,0.324,moderate,0.0710,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:X:prev:upos=ADV,node:X:child:upos=VERB",No,35,3,8.6,0.279,weak,0.0990,0.000459,no,,yes,LOW N
+"sentence:meta:period=1850_1899,node:X:child:upos=NOUN,node:CLH:next:upos=SCONJ",Yes,50,4,8.0,0.255,weak,0.0710,0.000459,no,,yes,LOW N
+"node:Y:next:upos=AUX,node:X:child:upos=AUX",No,289,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:Y:own:has_child=No,node:Y:next:upos=AUX,node:X:child:upos=AUX",No,289,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,node:Y:prev:upos=PRON",No,231,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,231,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:X:child:rel_shallow=obj,node:X:child:upos=AUX",No,201,0,100.0,0.240,weak,0.0010,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:Y:own:has_child=No,node:X:child:upos=AUX",No,200,0,100.0,0.240,weak,0.0010,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:CLH:prev:upos=NOUN",No,150,0,100.0,0.240,weak,0.0030,0.000459,no,YES,no,LOW N
+"node:X:next:upos=DET,node:Y:own:has_child=No",No,129,0,100.0,0.240,weak,0.0060,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:X:child:upos=PART",No,127,0,100.0,0.240,weak,0.0070,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:X:child:upos=PART",No,126,0,100.0,0.240,weak,0.0070,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,sentence:meta:period=1850_1899,node:X:child:upos=SCONJ",Yes,105,0,100.0,0.240,weak,0.0140,0.000459,no,YES,no,LOW N
+"sentence:meta:period=1750_1799,node:X:child:upos=PRON,node:CLH:parent:position=before",Yes,83,0,100.0,0.240,weak,0.0290,0.000459,no,YES,no,LOW N
+"sentence:meta:period=1850_1899,node:CLH:next:upos=PRON",Yes,76,0,100.0,0.240,weak,0.0360,0.000459,no,YES,no,LOW N
+node:Y:prev:upos=SCONJ,No,61,0,100.0,0.240,weak,0.0610,0.000459,no,,no,LOW N
+"node:Y:own:has_child=No,node:Y:prev:upos=SCONJ",No,61,0,100.0,0.240,weak,0.0610,0.000459,no,,no,LOW N
+"node:X:child:rel_shallow=advmod,node:Y:next:upos=ADV,node:X:child:upos=NOUN",No,81,6,7.4,0.230,weak,0.0390,0.000459,no,YES,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:child:upos=ADP,node:CLH:next:upos=ADP",No,27,2,7.4,0.230,weak,0.2330,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:child:upos=AUX",No,344,1,99.7,0.196,weak,< .0001,0.000459,YES,,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No,node:X:child:upos=AUX",No,343,1,99.7,0.196,weak,< .0001,0.000459,YES,,no,LOW N
+node:Y:next:upos=ADV,No,151,10,6.6,0.195,weak,0.0170,0.000459,no,YES,yes,NOT SIGNIFICANT
+"node:Y:own:has_child=No,node:Y:next:upos=ADV",No,151,10,6.6,0.195,weak,0.0170,0.000459,no,YES,yes,NOT SIGNIFICANT
+"node:X:child:rel_shallow=obj,node:CLH:prev:upos=ADV,node:X:child:upos=NOUN",No,77,5,6.5,0.189,weak,0.0980,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:CLH:next:upos=PRON",No,236,1,99.6,0.181,weak,0.0050,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:CLH:next:upos=PRON",No,236,1,99.6,0.181,weak,0.0050,0.000459,no,YES,no,LOW N
+node:Y:prev:upos=NOUN,No,212,1,99.5,0.176,weak,0.0100,0.000459,no,YES,no,LOW N
+"node:Y:own:has_child=No,node:Y:prev:upos=NOUN",No,211,1,99.5,0.176,weak,0.0110,0.000459,no,YES,no,LOW N
+node:X:next:upos=ADP,No,175,1,99.4,0.166,weak,0.0280,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:CLH:prev:upos=PRON,node:X:child:upos=SCONJ",No,168,1,99.4,0.164,weak,0.0340,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:X:child:upos=VERB",No,160,1,99.4,0.161,weak,0.0420,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:Y:own:has_child=No,node:X:child:upos=VERB",No,159,1,99.4,0.161,weak,0.0430,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:next:upos=PRON,node:Y:prev:upos=PRON",No,138,8,5.8,0.156,weak,0.0670,0.000459,no,,yes,LOW N
+"node:X:next:upos=PRON,node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,138,8,5.8,0.156,weak,0.0670,0.000459,no,,yes,LOW N
+"node:X:next:upos=PRON,node:X:child:upos=PRON,node:Y:prev:upos=PRON",No,138,8,5.8,0.156,weak,0.0670,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:child:upos=PRON,node:CLH:parent:position=before",No,409,3,99.3,0.151,weak,0.0020,0.000459,no,YES,no,LOW N
+"node:CLH:prev:upos=AUX,node:Y:own:has_child=No",No,161,9,5.6,0.146,weak,0.0630,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:CLH:parent:position=before",No,502,4,99.2,0.145,weak,0.0010,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No,node:CLH:parent:position=before",No,501,4,99.2,0.145,weak,0.0010,0.000459,no,YES,no,LOW N
+"node:X:child:upos=NOUN,node:CLH:next:upos=SCONJ",No,216,12,5.6,0.145,weak,0.0340,0.000459,no,YES,yes,NOT SIGNIFICANT
+"node:Y:own:has_child=No,node:X:child:upos=NOUN,node:CLH:next:upos=SCONJ",No,216,12,5.6,0.145,weak,0.0340,0.000459,no,YES,yes,NOT SIGNIFICANT
+"node:X:child:rel_shallow=advmod,node:Y:own:has_child=No,node:X:child:upos=VERB",No,128,7,5.5,0.140,weak,0.1120,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:CLH:prev:upos=PRON,node:Y:own:has_child=No",No,220,2,99.1,0.135,weak,0.0440,0.000459,no,YES,no,LOW N
+node:Y:prev:upos=ADV,No,109,1,99.1,0.135,weak,0.1590,0.000459,no,,no,LOW N
+"node:Y:own:has_child=No,node:Y:prev:upos=ADV",No,109,1,99.1,0.135,weak,0.1590,0.000459,no,,no,LOW N
+"node:X:child:upos=ADV,node:Y:prev:upos=ADV",No,109,1,99.1,0.135,weak,0.1590,0.000459,no,,no,LOW N
+"node:Y:own:has_child=No,node:X:child:upos=ADV,node:Y:prev:upos=ADV",No,109,1,99.1,0.135,weak,0.1590,0.000459,no,,no,LOW N
+node:X:child:upos=AUX,No,426,4,99.1,0.133,weak,0.0060,0.000459,no,YES,no,LOW N
+"node:Y:own:has_child=No,node:X:child:upos=AUX",No,425,4,99.1,0.133,weak,0.0060,0.000459,no,YES,no,LOW N
+"node:CLH:parent:upos=VERB,node:X:child:upos=PRON,node:CLH:parent:position=before",No,315,3,99.0,0.132,weak,0.0190,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=aux,node:Y:own:has_child=No",No,407,4,99.0,0.129,weak,0.0090,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:Y:prev:upos=PRON",No,501,5,99.0,0.128,weak,0.0040,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,501,5,99.0,0.128,weak,0.0040,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:X:child:upos=PRON,node:Y:prev:upos=PRON",No,499,5,99.0,0.128,weak,0.0040,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:CLH:parent:position=before",No,593,6,99.0,0.127,weak,0.0020,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:CLH:parent:position=before",No,592,6,99.0,0.127,weak,0.0020,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:Y:prev:upos=PRON",No,290,3,99.0,0.125,weak,0.0330,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,290,3,99.0,0.125,weak,0.0330,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obj,node:X:child:upos=PRON,node:Y:prev:upos=PRON",No,289,3,99.0,0.125,weak,0.0340,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:CLH:next:upos=ADP",No,101,5,5.0,0.115,weak,0.2480,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No,node:CLH:next:upos=ADP",No,101,5,5.0,0.115,weak,0.2480,0.000459,no,,yes,LOW N
+"node:X:prev:upos=ADV,node:Y:next:upos=ADV",No,86,1,98.8,0.115,weak,0.2880,0.000459,no,,no,LOW N
+"node:Y:own:has_child=No,node:X:prev:upos=ADV,node:Y:next:upos=ADV",No,86,1,98.8,0.115,weak,0.2880,0.000459,no,,no,LOW N
+"node:X:prev:upos=ADV,node:Y:next:upos=ADV,node:X:child:upos=ADV",No,86,1,98.8,0.115,weak,0.2880,0.000459,no,,no,LOW N
+node:CLH:parent:position=before,No,663,8,98.8,0.111,weak,0.0040,0.000459,no,YES,no,LOW N
+"node:Y:own:has_child=No,node:CLH:parent:position=before",No,662,8,98.8,0.111,weak,0.0040,0.000459,no,YES,no,LOW N
+"node:CLH:prev:upos=PRON,sentence:meta:period=1800_1849",Yes,62,3,4.8,0.109,weak,0.3900,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=obj,node:X:next:upos=PRON",No,231,3,98.7,0.104,weak,0.1140,0.000459,no,,no,LOW N
+"node:X:child:rel_shallow=obj,node:X:next:upos=PRON,node:Y:own:has_child=No",No,230,3,98.7,0.103,weak,0.1170,0.000459,no,,no,LOW N
+node:Y:prev:upos=PRON,No,568,8,98.6,0.096,negligible,0.0230,0.000459,no,YES,no,LOW N
+"node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,568,8,98.6,0.096,negligible,0.0230,0.000459,no,YES,no,LOW N
+"node:X:child:rel_shallow=obl,node:X:child:upos=PRON",No,268,4,98.5,0.089,negligible,0.1440,0.000459,no,,no,LOW N
+"node:X:child:rel_shallow=obl,node:Y:own:has_child=No,node:X:child:upos=PRON",No,267,4,98.5,0.089,negligible,0.1460,0.000459,no,,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:child:upos=SCONJ",No,746,12,98.4,0.081,negligible,0.0270,0.000459,no,YES,no,NOT SIGNIFICANT
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No,node:X:child:upos=SCONJ",No,746,12,98.4,0.081,negligible,0.0270,0.000459,no,YES,no,NOT SIGNIFICANT
+node:CLH:next:upos=SCONJ,No,332,14,4.2,0.077,negligible,0.1600,0.000459,no,,yes,NOT SIGNIFICANT
+"node:Y:own:has_child=No,node:CLH:next:upos=SCONJ",No,332,14,4.2,0.077,negligible,0.1600,0.000459,no,,yes,NOT SIGNIFICANT
+"node:X:child:rel_shallow=obj,sentence:meta:period=1900_1950,node:X:child:upos=NOUN",Yes,96,4,4.2,0.074,negligible,0.4660,0.000459,no,,yes,LOW N
+"node:X:child:rel_shallow=obj,sentence:meta:period=1900_1950",Yes,122,5,4.1,0.071,negligible,0.4340,0.000459,no,,yes,LOW N
+"node:Y:own:has_child=No,node:CLH:next:upos=ADV",No,124,5,4.0,0.067,negligible,0.4540,0.000459,no,,yes,LOW N
+node:X:child:rel_shallow=mark,No,996,19,98.1,0.060,negligible,0.0590,0.000459,no,,no,NOT SIGNIFICANT
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No",No,995,19,98.1,0.060,negligible,0.0590,0.000459,no,,no,NOT SIGNIFICANT
+node:X:child:rel_shallow=nsubj:pass,No,80,3,3.8,0.052,negligible,0.6420,0.000459,no,,yes,LOW N
+node:X:child:rel_shallow=nsubj,No,893,19,97.9,0.045,negligible,0.1780,0.000459,no,,no,NOT SIGNIFICANT
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No",No,892,19,97.9,0.045,negligible,0.1790,0.000459,no,,no,NOT SIGNIFICANT

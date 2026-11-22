@@ -1,0 +1,33 @@
+Pattern,Period_pred,p_occs,p_q_occs,Precision_%,phi,Effect_size,p_raw,p_bonf_threshold,Bonf_sig,Raw_sig_only,Decision,Verdict
+"node:X:prev:upos=ADP,node:X:own:rel_shallow=obl",No,107,3,97.2,2.295,strong,< .0001,0.000862,YES,,no,LOW N
+node:X:prev:upos=ADP,No,127,16,87.4,2.054,strong,< .0001,0.000862,YES,,no,STRONG
+"node:V:own:Tense=Past,node:X:own:rel_shallow=obj,node:X:next:upos=PRON",No,154,128,16.9,0.388,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:X:prev:upos=NOUN,node:CLH:own:Case=Nom",No,108,91,15.7,0.353,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:X:own:rel_shallow=obj,node:V:prev:upos=ADV,node:CLH:own:Case=Nom",No,115,97,15.7,0.350,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:X:next:upos=ADP,sentence:meta:period=1850_1899",Yes,122,103,15.6,0.348,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:V:own:Tense=Past,node:CLH:own:Case=Nom,sentence:meta:period=1750_1799",Yes,220,186,15.5,0.344,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:X:own:has_child=No,node:X:next:upos=ADP,sentence:meta:period=1850_1899",Yes,121,103,14.9,0.326,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:V:own:Tense=Past,node:X:own:rel_shallow=obj,node:CLH:own:Case=Nom",No,210,179,14.8,0.322,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:V:own:Tense=Past,sentence:meta:period=1750_1799",Yes,249,214,14.1,0.300,moderate,< .0001,0.000862,YES,,no,MODERATE
+"node:X:own:has_child=No,node:V:own:Tense=Pres,sentence:meta:period=1750_1799",Yes,470,467,99.4,0.281,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:X:own:has_child=No,node:CLH:own:PronType=Prs",No,651,646,99.2,0.270,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:V:own:Tense=Pres,node:CLH:own:Case=Nom,sentence:meta:period=1750_1799",Yes,412,407,98.8,0.238,weak,< .0001,0.000862,YES,,yes,WEAK
+sentence:meta:period=1700_1749,Yes,994,980,98.6,0.225,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:X:own:has_child=No,node:V:prev:upos=NOUN,sentence:meta:period=1750_1799",Yes,304,299,98.4,0.210,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:X:own:rel_shallow=nsubj,sentence:meta:period=1800_1849",Yes,806,790,98.0,0.190,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:CLH:own:Definite=Ind,node:CLH:own:Case=Nom,sentence:meta:period=1900_1950",Yes,622,555,10.8,0.189,weak,< .0001,0.000862,YES,,no,WEAK
+"node:V:own:Voice=Act,node:CLH:own:Definite=Def,node:X:own:rel_shallow=nsubj",No,1105,1082,97.9,0.184,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:CLH:own:Gender=Com,node:V:own:Mood=Ind,sentence:meta:period=1850_1899",Yes,604,541,10.4,0.177,weak,< .0001,0.000862,YES,,no,WEAK
+"node:X:own:has_child=No,node:V:own:Tense=Pres",No,1815,1771,97.6,0.164,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:X:own:has_child=No,node:V:own:Tense=Pres,node:V:own:Mood=Ind",No,1811,1767,97.6,0.164,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:CLH:own:Case=Nom,sentence:meta:period=1850_1899",Yes,1203,1083,10.0,0.161,weak,< .0001,0.000862,YES,,no,WEAK
+"node:X:own:has_child=No,node:V:own:Mood=Ind,node:V:next:upos=PRON",No,663,646,97.4,0.157,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:X:own:has_child=No,node:X:own:rel_shallow=nsubj,node:V:own:VerbForm=Inf",No,880,857,97.4,0.154,weak,< .0001,0.000862,YES,,yes,WEAK
+sentence:meta:period=1850_1899,Yes,1418,1285,9.4,0.139,weak,< .0001,0.000862,YES,,no,WEAK
+"node:X:own:has_child=No,node:X:own:rel_shallow=nsubj",No,3983,3856,96.8,0.124,weak,< .0001,0.000862,YES,,yes,WEAK
+"node:V:own:Tense=Past,node:CLH:own:Case=Nom",No,1527,1401,8.3,0.097,negligible,< .0001,0.000862,YES,,no,SIG / tiny effect
+"node:V:own:Tense=Past,node:V:own:Mood=Ind,node:CLH:own:Case=Nom",No,1497,1374,8.2,0.095,negligible,< .0001,0.000862,YES,,no,SIG / tiny effect
+"node:V:own:Tense=Past,node:V:own:VerbForm=Fin,node:CLH:own:Case=Nom",No,1502,1379,8.2,0.094,negligible,< .0001,0.000862,YES,,no,SIG / tiny effect
+"node:V:own:Voice=Act,node:X:own:has_child=No",No,5140,4941,96.1,0.089,negligible,< .0001,0.000862,YES,,yes,SIG / tiny effect
+"node:X:own:has_child=No,node:V:own:Mood=Ind",No,3443,3307,96.0,0.086,negligible,< .0001,0.000862,YES,,yes,SIG / tiny effect
+node:X:own:has_child=No,No,5790,5555,95.9,0.080,negligible,< .0001,0.000862,YES,,yes,SIG / tiny effect

@@ -1,62 +1,91 @@
-# Diachronic_Treebanks_DigPhil
-Diachronic dataset for the project's experiments. Part of the group research project Diachronic Treebanks of DigPhil.
+# Automatic Rule Extraction for Diachronic Language Change Detection in Late Modern Swedish
 
-## Dataset Description
+Data and code for the paper *Automatic Rule Extraction for Diachronic Language Change
+Detection in Late Modern Swedish* (under review).
 
-The data is compiled from Swedish Diachnoric Corpus:
+We parse Late Modern Swedish texts (1700–1950) with an off-the-shelf parser (Stanza,
+trained on UD Swedish-Talbanken), evaluate the parses on a small manually corrected
+gold standard, and apply the Grex rule-extraction method (Herrera et al., 2025) to
+four syntactic structures in order to test whether diachronic change can be detected
+in automatically parsed historical data.
 
-Eva Pettersson and Lars Borin (2022)
-Swedish Diachronic Corpus
-In Darja Fišer & Andreas Witt (eds.), CLARIN. The Infrastructure for Languag\ e Resources. Berlin: deGruyter. https://degruyter.com/document\ /doi/10.1515/9783110767377-022/html
+## Repository structure
 
+```
+data/
+  raw/                 selected texts from the Swedish Diachronic Corpus, one folder per 50-year period
+  gold/                gold standard: 109 manually corrected sentences (CoNLL-U), consensus version
+  annotators/          the annotators' independent corrections (Arborator exports), used for agreement
+parsing/
+  stanza_original/     Stanza output on the original text of the gold-standard texts
+  stanza_normalized/   Stanza output on spelling-normalized text, FORM restored to the original spelling
+  normalization/       normalizer (rules + Flex lexicon) and the 11 texts that were normalized
+  evaluation/          evaluation scripts (CoNLL 2018 evaluation, extended)
+grex/
+  input/               the parsed corpus used for rule extraction (51,584 sentences)
+  patterns/            Grex scope/conclusion patterns and feature configurations (YAML)
+  results/             extracted rules, Bonferroni-corrected rule lists, and the figure
+  run_all.sh           reruns rule extraction for all patterns reported in the paper
+scripts/               agreement, counting and figure scripts
+archive/               earlier experiments not reported in the paper (kept for reference)
+```
 
-The dataset consists of literary texts from different periods of Modern Swedish. The texts are grouped into 50-year intervals. In the later periods, the collections primarily contain prose fiction, while the earlier periods also include private correspondence and drama, reflecting the relative scarcity of prose literature from those times.
+## From the paper to the files
 
-| Period    | Number of Sentences |
-|-----------|----------------------|
-| 1700–1749 | 7,305               |
-| 1750–1799 | 18,855              |
-| 1800–1849 | 10,305              |
-| 1850–1899 | 10,160              |
-| 1900–1950 | 11,768              |
+| In the paper | Files | How to reproduce |
+|---|---|---|
+| Table: dataset overview | `grex/input/` | `python3 scripts/check_normalized.py grex/input/sv_preprocessed_cor_nf.conllu` |
+| Table: inter-annotator agreement | `data/annotators/` | `scripts/inter_annotator_agreement.ipynb` (per annotator pair and text, averaged per period) |
+| Table: LAS on original and normalized text | `data/gold/`, `parsing/stanza_original/`, `parsing/stanza_normalized/` | `python3 parsing/evaluation/execute_eval.py data/gold parsing/stanza_original` (and `parsing/stanza_normalized`) |
+| Figure: share of scope matches per period | `grex/results/Ratio_occurences_scope.pdf` | `python3 scripts/make_figure.py` |
+| Appendix: counts table | `grex/input/` | `python3 scripts/count_patterns.py grex/input/sv_preprocessed_cor_nf.conllu`; objects: `python3 scripts/count_obj_aux.py grex/input/sv_preprocessed_cor_nf.conllu` |
+| Results: extracted rules | `grex/patterns/`, `grex/results/` | `GREX_DIR=/path/to/grex bash grex/run_all.sh` |
+| Appendix: GREW patterns | `grex/patterns/*.yaml` | — |
 
-The data was parsed using Stanza (reference) and a small amount of Stanza's output has been corrected by human experts (participants in the group project). The "parsed_data/validated" directory contains consensus forms by two or more annotators.
+## Notes
 
-## Scoring
+- **Inter-annotator agreement** is computed at the token level on the annotators'
+  independent corrections before consensus: UPOS tags, heads (UAS) and head–relation
+  pairs (LAS). Tokens that two annotators split or merged differently count as
+  disagreement. Raw agreement and Cohen's κ (scikit-learn) are computed per annotator
+  pair and text, then averaged per period without weighting by text length. The
+  notebook was written for Colab; set `zip_path` to
+  `data/annotators/dump_DigPhil_Diachronic_Treebanks_clean 3.zip`.
+- **Normalization.** Spelling normalization (`parsing/normalization/`) was applied to the
+  11 texts with the most variable spelling. `rules_based_norm.py` applies hand-crafted
+  substitution rules; `v2_normalization.py` then matches the result against the Flex
+  frequency lexicon and replaces the token with the best candidate. Unzip
+  `flex.csv.zip` next to the scripts and run
+  `python3 v2_normalization.py INPUT_FOLDER OUTPUT_FOLDER`.
+  The original form is stored in MISC and was swapped back into FORM after parsing, so
+  all trees in `grex/input/` contain the original spelling.
+  Two rules (7 and 27) do not behave exactly as their comments describe; they are kept
+  unchanged so that the published results can be reproduced.
+- **LAS on normalized text** is computed on aligned tokens (aligned accuracy in the
+  evaluation output), since normalization can merge or split tokens.
+- **Counts in the figure.** `make_figure.py` contains the counts as lists at the top of
+  the script; `count_patterns.py` and `count_obj_aux.py` print the exact lines to paste.
+- **Object between auxiliary and verb** (`grex/patterns/object_aux_verb.yaml`) is not
+  part of `run_all.sh`: the conclusion is too rare (22 matches) for rule extraction, so
+  the paper reports counts and a manual check of all matches instead.
+- **Negation** (`grex/patterns/negation.yaml`) is kept exactly as run. Some
+  position-based features partly encode the conclusion; the resulting trivial rules are
+  not interpreted in the paper.
+- **Bonferroni output.** `scripts/bonferroni_patterns.py` reports precision, coverage and
+  *p*-values, which are used in the paper. Its φ column is not reliable (values above 1
+  occur) and is not reported.
+- **Grex** itself is not included. Install it from its own repository and point
+  `GREX_DIR` to it; Grew must be installed as well.
 
-# Inter-annotator agreement
-Add text here
+## Data sources
 
-# Parser output
-With the validated gold standard UD trees, we are able to score automatic parsing results. Presented below are the scores for Stanza, normalized by the number of sentences for each time period.
+The texts are taken from the Swedish Diachronic Corpus (Pettersson and Borin, 2022).
+Please refer to the corpus for licensing of the original texts.
 
-1700-1750 (3 samples with a total of 15 sentences):
-Metric	Precision	Recall	F1	Aligned Accuracy
-UPOS	0.7713	0.7782	0.7747	0.7854
-UAS	0.5813	0.5869	0.5841	0.5927
-LAS	0.4882	0.4933	0.4907	0.4985
+The normalizer uses the Flex frequency lexicon (CC BY 4.0):
+Zechner, Niklas (2025). *Flex – frequency lexicon* (updated 2025-12-06). Data set,
+enriched and distributed by Språkbanken. https://doi.org/10.23695/7kq9-6n10
 
-1750-1800 (2 samples with a total of 17 sentences):
-Metric	Precision	Recall	F1	Aligned Accuracy
-UPOS	0.6568	0.6568	0.6568	0.9323
-UAS	0.5182	0.5182	0.5182	0.7586
-LAS	0.4767	0.4767	0.4767	0.7030
+## Citation
 
-1800-1850 (6 samples with a total of 28 sentences):
-Metric	Precision	Recall	F1	Aligned Accuracy
-UPOS	0.9360	0.9348	0.9354	0.9515
-UAS	0.7752	0.7741	0.7746	0.7870
-LAS	0.7275	0.7266	0.7270	0.7391
-
-1850-1900 (5 samples with a total of 24 sentences):
-Metric	Precision	Recall	F1	Aligned Accuracy
-UPOS	0.9704	0.9704	0.9704	0.9704
-UAS	0.8008	0.8008	0.8008	0.8008
-LAS	0.7545	0.7545	0.7545	0.7545
-
-1900-1950 (5 samples with a total of 25 sentences):
-Metric	Precision	Recall	F1	Aligned Accuracy
-UPOS	0.9736	0.9736	0.9736	0.9736
-UAS	0.8552	0.8552	0.8552	0.8552
-LAS	0.8148	0.8148	0.8148	0.8148
-
+To be added after review.

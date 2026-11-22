@@ -1407,7 +1407,7 @@
 17	henne	hon	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	iobj	_	_
 18	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	16	obj	_	_
 19	hon	hon	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	16	nsubj	_	_
-20	inte	inte	PART	AB	Polarity=Neg	16	advmod	_	_
+20	inte	inte	PART	AB	Polarity=Neg	21	advmod	_	16
 21	än	än	SCONJ	KN	_	22	mark	_	_
 22	wet/	wet/	NOUN	NN|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing	18	acl	_	_
 23	men	men	CCONJ	KN	_	31	cc	_	_
@@ -16601,7 +16601,7 @@
 45	att	att	SCONJ	SN	_	47	mark	_	_
 46	det	den	PRON	PN|NEU|SIN|DEF|SUB/OBJ	Definite=Def|Gender=Neut|Number=Sing|PronType=Prs	47	nsubj	_	_
 47	war	wa	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	37	advcl	_	_
-48	inte	inte	PART	AB	Polarity=Neg	47	advmod	_	_
+48	inte	inte	PART	AB	Polarity=Neg	49	advmod	_	47
 49	honom	han	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	47	obj	_	_
 50	utan	utan	CCONJ	KN	_	53	cc	_	_
 51	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	53	det	_	_
@@ -20056,7 +20056,7 @@
 29	af	af	PROPN	PM|NOM	Case=Nom	31	nsubj	_	_
 30	kan	kunna	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	31	aux	_	_
 31	hända	hända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	26	ccomp	_	_
-32	inte	inte	PART	AB	Polarity=Neg	31	advmod	_	_
+32	inte	inte	PART	AB	Polarity=Neg	33	advmod	_	31
 33	war	wa	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	35	cop	_	_
 34	den	den	DET	DT|UTR|SIN|DEF	Definite=Def|Gender=Com|Number=Sing|PronType=Art	35	det	_	_
 35	okiända	okiänd	ADJ	JJ|POS|UTR/NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos	31	xcomp	_	_
@@ -20743,7 +20743,7 @@
 34	war	wa	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	32	acl:relcl	_	_
 35	uti/	uti/	ADV	AB	_	34	advmod	_	_
 36	om	om	ADP	PP	_	34	case	_	_
-37	icke	icke	PART	AB	Polarity=Neg	30	advmod	_	_
+37	icke	icke	PART	AB	Polarity=Neg	34	advmod	_	30
 
 # sent_id = 1700_1749_480_sec25
 # text = Peppa som strax tyckte att denna Riddarens Conterfey eller beskrifning mycke liknade hennes okiända/ blef så förstörd/ då hon fick höra
@@ -79691,7 +79691,7 @@
 # sent_id = 1700_1749_2680_letter141673
 # text = Förgiett icke digh sielf och iagh i dödhen förblif:
 # period = 1700_1749
-1	Förgiett	förseda	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	advcl	_	försett
+1	Förgiett	förseda	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	9	conj	_	försett
 2	icke	icke	PART	AB	Polarity=Neg	1	advmod	_	icke
 3	digh	du	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	1	obj	_	dig
 4	sielf	själf	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	1	xcomp	_	själf
@@ -132895,7 +132895,7 @@
 36	som	som	ADV	HA	_	38	mark	_	som
 37	siepssfålket	skissblock	NOUN	NN|NEU|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Neut|Number=Sing	38	nsubj	_	skissblocket
 38	berätta	berätta	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	30	advcl	_	berätta
-39	icke	icke	PART	AB	Polarity=Neg	38	advmod	_	icke
+39	icke	icke	PART	AB	Polarity=Neg	40	advmod	_	38_icke
 40	länger	länga	AUX	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	42	aux	_	länger
 41	ha	ha	AUX	VB|INF|AKT	VerbForm=Inf|Voice=Act	42	aux	_	ha
 42	vahrit	vara	VERB	VB|SUP|AKT	VerbForm=Sup|Voice=Act	38	ccomp	_	varit
@@ -193372,7 +193372,7 @@
 3	du	du	PRON	PN|UTR|SIN|DEF|SUB	Case=Nom|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	5	nsubj	_	_
 4	stackars	stack	NOUN	NN|UTR|SIN|IND|GEN	Case=Gen|Definite=Ind|Gender=Com|Number=Sing	5	nsubj	_	_
 5	ök	öka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
-6	ej	ej	PART	AB	Polarity=Neg	5	advmod	_	_
+6	ej	ej	PART	AB	Polarity=Neg	7	advmod	_	5
 7	mångas	mången	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Ind	8	nmod:poss	_	_
 8	undran	undran	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	5	obj	_	_
 9	har	ha	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -206782,7 +206782,7 @@
 # sent_id = 1750_1799_190_sec277
 # text = Skall ej en gång Europa och hela denne jordrymd, från Siams palmrika stränder til Perus målnkrönta berg, hylla Frihetens Guddom?
 # period = 1750_1799
-1	Skall	skola	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+1	Skall	skola	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	advcl
 2	ej	ej	PART	AB	Polarity=Neg	1	advmod	_	_
 3	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	4	det	_	_
 4	gång	gång	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	1	obl	_	_
@@ -300691,7 +300691,7 @@
 26	kunde	kunna	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	27	aux	_	kunde
 27	blifwa	bliva	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	2	advcl	_	bliva
 28	tiilräckeligit	otillräcklig	ADV	AB|POS	Degree=Pos	27	advmod	_	otillräckligt
-29	icke	icke	PART	AB	Polarity=Neg	27	advmod	_	icke
+29	icke	icke	PART	AB	Polarity=Neg	32	advmod	_	27_icke
 30	allenast	allenast	ADV	AB|SUV	_	27	advmod	_	allenast
 31	för	för	ADP	PP	_	32	case	_	för
 32	Swerige	sverige	PROPN	PM|NOM	Case=Nom	27	obl	_	sverige
@@ -302089,7 +302089,7 @@
 21	borde	böra	AUX	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	22	aux	_	borde
 22	anställas	anställa	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	16	csubj	_	anställas
 23	derest	deres	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	22	nsubj:pass	_	deres
-24	icke	icke	PART	AB	Polarity=Neg	22	advmod	_	icke
+24	icke	icke	PART	AB	Polarity=Neg	22	orphan	_	advmod_icke
 
 # sent_id = 1750_1799_3555_letter141677
 # text = Examina pr selectionum.
@@ -307012,7 +307012,7 @@
 13	utsända	utsända	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	11	ccomp	_	utsända
 14	sine	sine	NOUN	NN|UTR|SIN|DEF|GEN	Case=Gen|Definite=Def|Gender=Com|Number=Sing	15	nmod:poss	_	sine
 15	ämneswänner	manshånd	NOUN	NN|UTR|PLU|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Plur	13	obj	_	manshänder
-16	icke	icke	PART	AB	Polarity=Neg	13	advmod	_	icke
+16	icke	icke	PART	AB	Polarity=Neg	18	advmod	_	13_icke
 17	allenast	allenast	ADV	AB	_	13	advmod	_	allenast
 18	in	in	ADV	PL	_	13	compound:prt	_	in
 19	utan	utan	CCONJ	KN	_	20	cc	_	utan
@@ -342891,7 +342891,7 @@
 6	att	att	SCONJ	SN	_	8	mark	_	att
 7	Hasselqvist	helvetisk	ADJ	JJ|POS|NEU|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj	_	helvetiskt
 8	erhöll	erhålla	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	erhöll
-9	ej	ej	PART	AB	Polarity=Neg	8	advmod	_	ej
+9	ej	ej	PART	AB	Polarity=Neg	12	advmod	_	8_ej
 10	endast	endast	ADV	AB	_	8	advmod	_	endast
 11	tvenne	tvenne	ADV	AB	_	12	advmod	_	tvenne
 12	medicinska	medicinsk	ADJ	JJ|POS|UTR/NEU|PLU|IND/DEF|NOM	Case=Nom|Definite=Ind|Degree=Pos|Number=Plur	8	obj	_	medicinska
@@ -348630,8 +348630,8 @@
 # sent_id = 1750_1799_1935_letter141677
 # text = Ac. ej afslår mig en sådan sak som länder till usum publicum och ej privatum.
 # period = 1750_1799
-1	Ac.	ack	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	4	advcl	_	ack
-2	ej	ej	PART	AB	Polarity=Neg	1	advmod	_	ej
+1	Ac.	ack	VERB	VB|IMP|AKT	Mood=Imp|VerbForm=Fin|Voice=Act	4	nsubj	_	ack
+2	ej	ej	PART	AB	Polarity=Neg	1	fixed	_	ej
 3	126	126	NUM	RG|NOM	Case=Nom|NumType=Card	1	nummod	_	126
 4	afslår	avslå	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	avslår
 5	mig	jag	PRON	PN|UTR|SIN|DEF|OBJ	Case=Acc|Definite=Def|Gender=Com|Number=Sing|PronType=Prs	4	iobj	_	mig
@@ -384547,7 +384547,7 @@
 16	lemnas	lämna	VERB	VB|INF|SFO	VerbForm=Inf|Voice=Pass	10	advcl	_	lämnas
 17	en	en	DET	DT|UTR|SIN|IND	Definite=Ind|Gender=Com|Number=Sing|PronType=Art	18	det	_	en
 18	nationalbelöning	nationalisering	NOUN	NN|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Gender=Com|Number=Sing	16	nsubj:pass	_	nationalisering
-19	ej	ej	PART	AB	Polarity=Neg	16	advmod	_	ej
+19	ej	ej	PART	AB	Polarity=Neg	22	advmod	_	16_ej
 20	blott	blott	ADV	AB|POS	Degree=Pos	16	advmod	_	blott
 21	för	för	ADP	PP	_	22	case	_	för
 22	»pärleympningen	lägerledning	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	16	obl	_	lägerledningen
@@ -385035,7 +385035,7 @@
 26	i	i	ADP	PP	_	27	case	_	i
 27	ny	ny	ADJ	JJ|POS|UTR|SIN|IND|NOM	Case=Nom|Definite=Ind|Degree=Pos|Gender=Com|Number=Sing	25	obl	_	ny
 28	men	men	CCONJ	KN	_	29	cc	_	men
-29	icke	icke	PART	AB	Polarity=Neg	25	advmod	_	icke
+29	icke	icke	PART	AB	Polarity=Neg	29	advmod	_	25_icke
 30	i	i	ADP	PP	_	31	case	_	i
 31	nedan»	nedan	ADV	AB	_	29	fixed	_	nedan
 
@@ -504398,7 +504398,7 @@
 9	länge	länge	ADV	AB|POS	Degree=Pos	12	advmod	_	länge
 10	deras	de	PRON	PS|UTR/NEU|SIN/PLU|DEF	Definite=Def|Poss=Yes|PronType=Prs	11	nmod:poss	_	deras
 11	egne	ena	ADJ	JJ|POS|MAS|SIN|DEF|NOM	Case=Nom|Definite=Def|Degree=Pos|Gender=Com|Number=Sing	12	nsubj	_	ene
-12	suckar	sucka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	suckar
+12	suckar	sucka	VERB	VB|PRS|AKT	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	nsubj	_	advcl–suckar
 13	icke	icke	PART	AB	Polarity=Neg	12	advmod	_	icke
 14	genljudat	genljuda	VERB	VB|INF|AKT	VerbForm=Inf|Voice=Act	12	xcomp	_	genljuda
 15	dem	de	PRON	PN|UTR/NEU|PLU|DEF|OBJ	Case=Acc|Definite=Def|Number=Plur|PronType=Prs	14	obj	_	dem
@@ -742380,7 +742380,7 @@
 10	«hennes	«hennes	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	11	nmod	_	_
 11	Carl	Carl	PROPN	PM|NOM	Case=Nom	12	nsubj	_	_
 12	frågade	fråga	VERB	VB|PRT|AKT	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Act	8	ccomp	_	_
-13	icke	icke	PART	AB	Polarity=Neg	12	advmod	_	_
+13	icke	icke	PART	AB	Polarity=Neg	17	advmod	_	12
 14	som	som	SCONJ	KN	_	15	mark	_	_
 15	mängden	mängd	NOUN	NN|UTR|SIN|DEF|NOM	Case=Nom|Definite=Def|Gender=Com|Number=Sing	12	xcomp	_	_
 16	efter	efter	ADP	PP	_	17	case	_	_

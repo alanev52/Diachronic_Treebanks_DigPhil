@@ -1,0 +1,39 @@
+# Auxiliary omission in supine subordinate clauses
+# Scope: a supine verb heading a subordinate clause.
+# Conclusion: the supine has an auxiliary (aux) dependent.
+# Scope matches without the conclusion are cases of aux-omission.
+# Features of the auxiliary itself (Y) are deliberately not used,
+# since they exist only when the conclusion holds.
+
+scope: pattern { CLH-[csubj|ccomp|advcl|acl]->X; X[VerbForm=Sup] }
+conclusion: X-[aux]->Y
+
+templates:
+    base:
+        child:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "VerbForm", "Typo", "Correct.*", "xpos", "upos", "rel.*", "Voice", "Tense", "Mood", "__RAW_MISC__"]
+        next:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "VerbForm", "Typo", "Correct.*", "xpos", "upos", "rel.*", "Voice", "Tense", "Mood", "__RAW_MISC__"]
+
+features:
+    X: base
+    CLH:
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "rel.*", "upos", "__RAW_MISC__"]
+        parent:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        prev:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo", "__RAW_MISC__"]
+        next:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo", "__RAW_MISC__"]
+            lemma_top_k: 0
+    sentence:
+        meta:
+            method: include
+            regexp: ["period"]

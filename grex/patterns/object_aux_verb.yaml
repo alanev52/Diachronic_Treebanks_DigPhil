@@ -1,0 +1,56 @@
+# Object between auxiliary and infinitive
+# Scope: an auxiliary, a noun, proper noun or pronoun, and an infinitive,
+#        adjacent in this order (A X V), with A an aux dependent of V.
+# Conclusion: X is an object, indirect object or oblique of V.
+
+
+scope:  pattern { V [upos=VERB]; A [upos=AUX]; V-[aux]->A; X [upos=NOUN|PROPN|PRON]; V [VerbForm=Inf];  V > X; X > A} # A << X; X << V} 
+conclusion: V-[obj|iobj|obl]-> X
+
+templates:
+    base:
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "upos", "VerbForm","rel.*", "__RAW_MISC__"]
+        child:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "__RAW_MISC__"]
+        prev:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+        next:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+features:
+    V: base
+
+    A: 
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "upos", "rel.*", "__RAW_MISC__"]
+        prev:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+        next:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+    X: 
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "rel.*", "__RAW_MISC__"]
+        prev:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+        next:
+            method: exclude
+            regexp: ["lemma", "textform", "form", "wordform", "SpaceAfter", "xpos", "Typo",  "__RAW_MISC__"]
+            lemma_top_k: 0
+    sentence:
+        meta:
+            method: include
+            regexp: ["period"] 

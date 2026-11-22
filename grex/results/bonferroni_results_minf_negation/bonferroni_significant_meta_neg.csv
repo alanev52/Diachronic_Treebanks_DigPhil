@@ -1,0 +1,18 @@
+Pattern,Period_pred,p_occs,p_q_occs,Precision_%,phi,Effect_size,p_raw,p_bonf_threshold,Bonf_sig,Raw_sig_only,Decision,Verdict
+node:X:prev:upos=SCONJ,No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:Y:own:has_child=No,node:X:prev:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:X:prev:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=mark,node:X:prev:upos=SCONJ,node:X:child:upos=SCONJ",No,5,3,60.0,1.717,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:prev:upos=PRON,node:X:child:upos=SCONJ",No,19,8,42.1,1.292,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:Y:own:has_child=No,node:X:prev:upos=PRON,node:X:child:upos=PRON",No,33,13,39.4,1.224,strong,< .0001,0.000459,YES,,yes,STRONG
+"node:X:prev:upos=PRON,node:X:child:upos=PRON",No,33,13,39.4,1.224,strong,< .0001,0.000459,YES,,yes,STRONG
+node:X:prev:upos=PRON,No,34,13,38.2,1.195,strong,< .0001,0.000459,YES,,yes,STRONG
+"node:Y:own:has_child=No,node:X:prev:upos=PRON",No,34,13,38.2,1.195,strong,< .0001,0.000459,YES,,yes,STRONG
+node:Y:next:upos=PRON,No,21,5,23.8,0.801,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:Y:own:has_child=No,node:Y:next:upos=PRON",No,21,5,23.8,0.801,strong,< .0001,0.000459,YES,,yes,LOW N
+"node:Y:next:upos=AUX,node:X:child:upos=AUX",No,289,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:Y:own:has_child=No,node:Y:next:upos=AUX,node:X:child:upos=AUX",No,289,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,node:Y:prev:upos=PRON",No,231,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,node:Y:own:has_child=No,node:Y:prev:upos=PRON",No,231,0,100.0,0.240,weak,< .0001,0.000459,YES,,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:X:child:upos=AUX",No,344,1,99.7,0.196,weak,< .0001,0.000459,YES,,no,LOW N
+"node:X:child:rel_shallow=nsubj,node:Y:own:has_child=No,node:X:child:upos=AUX",No,343,1,99.7,0.196,weak,< .0001,0.000459,YES,,no,LOW N

@@ -1,0 +1,18 @@
+Pattern,Period_pred,p_occs,p_q_occs,Precision_%,phi,Effect_size,p_raw,p_bonf_threshold,Bonf_sig,Raw_sig_only,Decision,Verdict
+"node:CLH:own:Definite=Ind,node:CLH:own:Case=Nom,node:V:next:upos=ADJ",No,133,115,13.5,0.283,weak,0.0010,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:CLH:own:Gender=Neut,node:V:prev:upos=ADV,node:CLH:own:Case=Nom",No,170,149,12.4,0.243,weak,0.0020,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:CLH:own:Gender=Com,node:CLH:own:Definite=Ind,node:V:next:upos=DET",No,169,149,11.8,0.226,weak,0.0030,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:V:own:VerbForm=Sup,node:X:next:upos=ADP",No,107,95,11.2,0.205,weak,0.0340,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:X:own:has_child=No,node:V:own:VerbForm=Sup,node:X:next:upos=ADP",No,107,95,11.2,0.205,weak,0.0340,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:V:own:Voice=Act,node:X:own:has_child=No,node:X:next:upos=NOUN",No,267,262,98.1,0.196,weak,0.0010,0.000862,no,YES,yes,NOT SIGNIFICANT
+"node:CLH:own:Definite=Ind,node:X:own:has_child=No,node:X:own:rel_shallow=obl",No,249,243,97.6,0.165,weak,0.0090,0.000862,no,YES,yes,NOT SIGNIFICANT
+"node:CLH:own:Gender=Com,node:V:own:VerbForm=Inf,node:V:prev:upos=AUX",No,436,393,9.9,0.157,weak,0.0010,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:CLH:own:Gender=Com,node:X:own:rel_shallow=obj,node:X:next:upos=PRON",No,392,354,9.7,0.151,weak,0.0030,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:V:own:VerbForm=Inf,node:V:prev:upos=AUX,node:CLH:own:Case=Nom",No,588,534,9.2,0.132,weak,0.0010,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:V:prev:upos=ADV,node:CLH:own:Case=Nom",No,741,679,8.4,0.101,weak,0.0060,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:CLH:own:Definite=Ind,node:V:own:VerbForm=Sup",No,645,591,8.4,0.101,weak,0.0100,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:X:own:has_child=No,node:X:own:rel_shallow=obj,node:X:next:upos=PRON",No,595,546,8.2,0.096,negligible,0.0190,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:X:own:has_child=No,node:V:prev:upos=NOUN,node:CLH:own:Case=Nom",No,767,737,96.1,0.088,negligible,0.0150,0.000862,no,YES,yes,NOT SIGNIFICANT
+"node:X:own:has_child=No,node:X:own:rel_shallow=obj,node:CLH:own:Case=Nom",No,846,781,7.7,0.075,negligible,0.0300,0.000862,no,YES,no,NOT SIGNIFICANT
+"node:CLH:own:Definite=Ind,node:X:own:has_child=No,node:V:own:VerbForm=Fin",No,2230,2134,95.7,0.069,negligible,0.0010,0.000862,no,YES,yes,NOT SIGNIFICANT
+"node:CLH:own:Definite=Ind,node:CLH:own:Case=Nom",No,3604,3348,7.1,0.052,negligible,0.0020,0.000862,no,YES,no,NOT SIGNIFICANT

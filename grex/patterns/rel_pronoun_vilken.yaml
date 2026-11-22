@@ -1,0 +1,44 @@
+# Relative pronouns: vilken and similar
+# Scope: a relative pronoun (PronType=Rel) dependent on the verb of a
+#        relative clause (acl:relcl).
+# Conclusion: the pronoun has one of the lemmas below (vilken, its historical spellings,
+# and other relative pronouns).
+# For the pronoun X only its relation and position are used as features;
+# its morphology is not. Gender and case rules therefore concern the
+# antecedent (CLH), not the pronoun.
+
+scope: pattern { X[upos=PRON, PronType=Rel]; V[upos=VERB]; CLH-[acl:relcl]->V; V->X }
+conclusion: X[lemma="vilken"|"hvilken"|"hvilk"|"hwilke"|"hwilk"|"hvad"|"en"|"hvarmed"|"varom"|"vem"]
+
+templates:
+    base:
+        own:
+            method: include
+            regexp: ["rel.*", "position"]
+        prev:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        next:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+
+features:
+    X: base
+    V:
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Correct.*", "xpos", "upos", "rel.*", "__RAW_MISC__"]
+        prev:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        next:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+    CLH:
+        own:
+            method: exclude
+            regexp: ["form", "textform", "wordform", "lemma", "SpaceAfter", "Typo", "Number", "upos", "Correct.*", "xpos", "rel.*", "__RAW_MISC__"]
+    sentence:
+        meta:
+            method: include
+            regexp: ["period"]

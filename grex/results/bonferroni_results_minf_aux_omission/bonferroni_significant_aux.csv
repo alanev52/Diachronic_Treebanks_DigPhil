@@ -1,0 +1,80 @@
+Pattern,Period_pred,p_occs,p_q_occs,Precision_%,phi,Effect_size,p_raw,p_bonf_threshold,Bonf_sig,Raw_sig_only,Decision,Verdict
+"node:X:child:Number=Sing,node:X:child:Foreign=Yes",No,5,5,100.0,1.758,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:X:child:Definite=Ind,node:X:child:Number=Sing,node:X:child:Foreign=Yes",No,5,5,100.0,1.758,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:X:child:Number=Sing,node:X:child:Foreign=Yes,node:X:child:Gender=Com",No,5,5,100.0,1.758,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:X:child:Number=Sing,node:X:child:Foreign=Yes,node:X:child:Case=Nom",No,5,5,100.0,1.758,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:X:child:Definite=Ind,node:CLH:own:Definite=Ind,node:CLH:next:upos=PRON",No,7,6,85.7,1.378,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:X:child:Definite=Ind,sentence:meta:period=1700_1749,node:CLH:next:upos=ADP",Yes,25,19,76.0,1.167,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Def,node:CLH:next:Case=Nom,node:CLH:prev:Polarity=Neg",No,12,9,75.0,1.146,strong,< .0001,0.000079,YES,,yes,LOW N
+"node:CLH:prev:upos=PRON,node:X:child:Degree=Pos,node:CLH:next:Number=Sing",No,18,13,72.2,1.088,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:next:Case=Nom,node:CLH:prev:Polarity=Neg",No,14,10,71.4,1.072,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:CLH:prev:Case=Nom,node:CLH:own:Tense=Past",Yes,43,29,67.4,0.990,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:CLH:own:VerbForm=Fin,node:CLH:own:Tense=Past",Yes,76,49,64.5,0.929,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:X:next:Gender=Com,node:X:next:Case=Nom",Yes,39,25,64.1,0.921,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:next:Definite=Ind,sentence:meta:period=1700_1749,node:X:next:Case=Nom",Yes,39,25,64.1,0.921,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:CLH:own:Tense=Past",Yes,81,51,63.0,0.898,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:prev:Definite=Def,node:X:child:Degree=Pos,node:CLH:next:Number=Sing",No,27,17,63.0,0.898,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:parent:upos=VERB,sentence:meta:period=1700_1749,node:CLH:prev:Gender=Com",Yes,39,24,61.5,0.869,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Ind,node:X:next:Definite=Ind,sentence:meta:period=1700_1749",Yes,59,35,59.3,0.823,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Ind,sentence:meta:period=1700_1749,node:CLH:prev:Definite=Def",Yes,63,37,58.7,0.811,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:next:Definite=Def,sentence:meta:period=1700_1749,node:CLH:own:VerbForm=Fin",Yes,54,31,57.4,0.784,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:CLH:parent:position=before,node:CLH:prev:upos=NOUN",Yes,28,16,57.1,0.779,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Def,sentence:meta:period=1700_1749,node:CLH:next:upos=SCONJ",Yes,69,39,56.5,0.766,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:X:next:Number=Sing,node:CLH:prev:Case=Nom",Yes,56,31,55.4,0.742,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:next:Definite=Ind,node:X:child:Gender=Neut,node:CLH:next:upos=ADP",No,24,13,54.2,0.718,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1900_1950,node:CLH:parent:position=before,node:CLH:own:Tense=Pres",Yes,26,14,53.8,0.711,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:prev:Degree=Pos,node:X:child:Number=Sing,node:CLH:next:upos=SCONJ",No,37,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:parent:position=before,node:CLH:next:upos=CCONJ",No,30,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:parent:upos=NOUN,node:X:child:Definite=Def,sentence:meta:period=1850_1899",Yes,26,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:prev:Tense=Pres,sentence:meta:period=1800_1849,node:CLH:prev:VerbForm=Fin",Yes,27,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:prev:Tense=Pres,sentence:meta:period=1800_1849,node:CLH:prev:Mood=Ind",Yes,27,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"sentence:meta:period=1750_1799,node:CLH:prev:Number=Sing,node:CLH:own:Case=Nom",Yes,31,0,100.0,0.692,strong,< .0001,0.000079,YES,,no,LOW N
+"sentence:meta:period=1700_1749,node:CLH:prev:upos=NOUN",Yes,54,28,51.9,0.670,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:parent:upos=VERB,node:X:child:Definite=Ind,sentence:meta:period=1700_1749",Yes,95,48,50.5,0.643,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:next:Definite=Def,sentence:meta:period=1700_1749",Yes,119,59,49.6,0.623,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Def,sentence:meta:period=1700_1749,node:X:child:PronType=Prs",Yes,266,130,48.9,0.609,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:own:Voice=Act,node:CLH:parent:upos=VERB,sentence:meta:period=1800_1849",Yes,74,1,98.6,0.609,strong,< .0001,0.000079,YES,,no,LOW N
+"node:X:child:Definite=Ind,sentence:meta:period=1700_1749",Yes,246,120,48.8,0.607,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Def,sentence:meta:period=1700_1749",Yes,302,147,48.7,0.605,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:next:Definite=Ind,sentence:meta:period=1700_1749",Yes,44,21,47.7,0.585,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1750_1799,node:CLH:prev:Number=Sing,node:CLH:own:Tense=Past",Yes,51,1,98.0,0.581,strong,< .0001,0.000079,YES,,no,LOW N
+"node:X:child:Definite=Ind,sentence:meta:period=1700_1749,node:CLH:parent:position=before",Yes,146,69,47.3,0.575,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:X:child:Definite=Def,sentence:meta:period=1700_1749,node:CLH:prev:Number=Sing",Yes,100,47,47.0,0.570,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:prev:Definite=Def,node:CLH:own:Mood=Ind,node:X:next:Case=Nom",No,49,23,46.9,0.568,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:own:Voice=Act,sentence:meta:period=1800_1849,node:CLH:parent:position=before",Yes,85,2,97.6,0.564,strong,< .0001,0.000079,YES,,no,LOW N
+"sentence:meta:period=1700_1749,node:X:child:Gender=Com",Yes,318,148,46.5,0.560,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:CLH:prev:Number=Sing,node:X:child:PronType=Prs",Yes,89,41,46.1,0.550,strong,< .0001,0.000079,YES,,yes,STRONG
+"sentence:meta:period=1700_1749,node:X:child:Case=Nom",Yes,367,167,45.5,0.538,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:parent:upos=VERB,sentence:meta:period=1800_1849,node:X:child:Case=Nom",Yes,96,3,96.9,0.532,strong,< .0001,0.000079,YES,,no,LOW N
+sentence:meta:period=1700_1749,Yes,401,181,45.1,0.531,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:prev:upos=PRON,node:X:child:Degree=Pos,node:X:child:PronType=Prs",No,52,23,44.2,0.512,strong,< .0001,0.000079,YES,,yes,STRONG
+"node:CLH:own:Voice=Act,node:CLH:next:Definite=Ind,sentence:meta:period=1750_1799",Yes,50,2,96.0,0.498,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,sentence:meta:period=1800_1849,node:X:child:Number=Sing",Yes,95,4,95.8,0.490,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:X:child:Definite=Ind,sentence:meta:period=1700_1749,node:X:child:Case=Acc",Yes,63,27,42.9,0.483,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:CLH:prev:Definite=Def,node:X:child:Degree=Pos,node:CLH:prev:Gender=Com",No,66,28,42.4,0.474,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:X:next:Definite=Ind,node:CLH:own:Mood=Ind,node:X:next:Case=Nom",No,71,30,42.3,0.470,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:CLH:own:Voice=Act,node:CLH:own:Tense=Past,node:X:next:Case=Nom",No,86,36,41.9,0.462,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"sentence:meta:period=1900_1950,node:CLH:own:Definite=Ind,node:X:child:Case=Nom",Yes,59,3,94.9,0.458,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:X:child:Definite=Def,node:CLH:own:Tense=Past,node:X:next:Case=Nom",No,80,33,41.2,0.449,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:X:child:Number=Sing,node:CLH:own:Tense=Past,node:X:next:Case=Nom",No,91,37,40.7,0.436,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:X:child:Definite=Ind,sentence:meta:period=1850_1899,node:CLH:next:upos=SCONJ",Yes,87,5,94.3,0.435,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:parent:upos=VERB,node:CLH:own:Degree=Pos,node:X:child:Case=Nom",No,84,5,94.0,0.428,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:X:child:Gender=Com,node:CLH:own:Mood=Ind,node:X:next:Case=Nom",No,129,51,39.5,0.412,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"sentence:meta:period=1700_1749,node:CLH:own:VerbForm=Fin,node:CLH:parent:position=before",Yes,90,35,38.9,0.399,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"sentence:meta:period=1700_1749,node:CLH:parent:position=before,node:CLH:own:Mood=Ind",Yes,83,32,38.6,0.391,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"sentence:meta:period=1750_1799,node:CLH:next:upos=ADV",Yes,84,6,92.9,0.389,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:own:Number=Sing,sentence:meta:period=1750_1799",Yes,83,6,92.8,0.386,moderate,< .0001,0.000079,YES,,no,LOW N
+"sentence:meta:period=1800_1849,node:CLH:prev:Number=Sing",Yes,104,8,92.3,0.371,moderate,< .0001,0.000079,YES,,no,LOW N
+"node:CLH:own:Voice=Act,sentence:meta:period=1750_1799,node:CLH:own:Mood=Ind",Yes,181,14,92.3,0.370,moderate,< .0001,0.000079,YES,,no,MODERATE
+"node:X:next:Definite=Def,node:CLH:prev:Number=Sing,node:CLH:own:Tense=Past",No,91,34,37.4,0.366,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:CLH:own:Voice=Act,sentence:meta:period=1750_1799,node:CLH:own:VerbForm=Fin",Yes,189,15,92.1,0.364,moderate,< .0001,0.000079,YES,,no,MODERATE
+"sentence:meta:period=1850_1899,node:X:child:Gender=Com,node:CLH:next:upos=SCONJ",Yes,129,11,91.5,0.345,moderate,< .0001,0.000079,YES,,no,MODERATE
+"node:CLH:own:Voice=Act,sentence:meta:period=1800_1849,node:X:child:Number=Sing",Yes,183,16,91.3,0.339,moderate,< .0001,0.000079,YES,,no,MODERATE
+"sentence:meta:period=1800_1849,node:X:child:Gender=Com,node:X:child:Case=Nom",Yes,239,21,91.2,0.337,moderate,< .0001,0.000079,YES,,no,MODERATE
+"sentence:meta:period=1800_1849,node:X:child:Number=Sing,node:X:child:Case=Nom",Yes,239,22,90.8,0.325,moderate,< .0001,0.000079,YES,,no,MODERATE
+"sentence:meta:period=1850_1899,node:CLH:next:upos=SCONJ",Yes,140,13,90.7,0.322,moderate,< .0001,0.000079,YES,,no,MODERATE
+"node:CLH:next:Definite=Def,node:CLH:next:Gender=Com,node:X:child:Gender=Neut",No,136,48,35.3,0.321,moderate,< .0001,0.000079,YES,,yes,MODERATE
+"node:CLH:own:Voice=Act,sentence:meta:period=1750_1799",Yes,374,38,89.8,0.296,weak,< .0001,0.000079,YES,,no,WEAK
+"node:CLH:next:Gender=Com,node:X:child:Number=Sing,node:X:child:Gender=Neut",No,167,56,33.5,0.282,weak,< .0001,0.000079,YES,,yes,WEAK
+sentence:meta:period=1750_1799,Yes,525,57,89.1,0.276,weak,< .0001,0.000079,YES,,no,WEAK
+"node:CLH:own:Voice=Act,node:X:child:Gender=Com,node:X:next:Case=Nom",No,235,73,31.1,0.227,weak,< .0001,0.000079,YES,,yes,WEAK

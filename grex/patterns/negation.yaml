@@ -1,0 +1,42 @@
+# Placement of negation in subordinate clauses
+# Scope: a verb or auxiliary heading a subordinate clause, with a negation
+#        (Polarity=Neg) as its advmod dependent.
+# Conclusion: the verb precedes the negation (V << NEG).
+# Note: Y (the negation) is in the scope, so its features are allowed, but
+#       position-based features of X's children and of Y's neighbours can
+#       partly encode the conclusion. Rules built on them are trivial and are
+#       not interpreted in the paper. This file is kept as run, so that the
+#       reported results can be reproduced.
+
+scope: pattern { CLH-[csubj|ccomp|advcl|acl]->X; X[upos=VERB|AUX]; Y[upos=PART|ADV, Polarity=Neg]; X-[advmod]->Y }
+conclusion: X << Y
+
+templates:
+    base:
+        child:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        prev:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        next:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+
+features:
+    X: base
+    Y: base
+    CLH:
+        parent:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        prev:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+        next:
+            method: include
+            regexp: ["upos", "rel.*", "position"]
+    sentence:
+        meta:
+            method: include
+            regexp: ["period"]
