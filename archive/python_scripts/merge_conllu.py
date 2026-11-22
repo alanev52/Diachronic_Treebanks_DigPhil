@@ -20,18 +20,22 @@ import sys
 from pathlib import Path
 
 SENT_ID_RE = re.compile(r'^(#\s*sent_id\s*=\s*)(.+)$')
-
+THRESHOLD = 8000
 
 def merge(input_paths: list[Path], output_path: Path) -> None:
     total_sentences = 0
-
+    sent_threshold = THRESHOLD // len(input_paths)
     with output_path.open("w", encoding="utf-8") as out:
         for path in input_paths:
-            stem = path.stem          # e.g. "1700_1749"
+    
+            #stem = path.stem          # e.g. "1700_1749"
+            stem = '-'.join(path.stem.split("-")[1:3])
             file_sentences = 0
 
             with path.open("r", encoding="utf-8") as f:
                 for line in f:
+                    if file_sentences >= sent_threshold:
+                        break
                     m = SENT_ID_RE.match(line.rstrip("\n"))
                     if m:
                         # Rewrite sent_id line
@@ -46,7 +50,7 @@ def merge(input_paths: list[Path], output_path: Path) -> None:
             total_sentences += file_sentences
 
     print(f"\nDone. {total_sentences} sentences written to: {output_path.resolve()}")
-
+    
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
